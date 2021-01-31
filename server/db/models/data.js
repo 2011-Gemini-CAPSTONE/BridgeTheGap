@@ -2,15 +2,37 @@ const Sequelize = require('sequelize')
 const db = require('../db')
 
 const Data = db.define('data', {
-  title: {
+  'job title': {
+    type: Sequelize.STRING,
+    allowNull: false
+  },
+  team: {
     type: Sequelize.STRING,
     allowNull: false
   },
   salary: {
-    type: Sequelize.INTEGER,
+    type: Sequelize.STRING,
     allowNull: false
   },
-  location: {
+  city: {
+    type: Sequelize.STRING,
+    allowNull: false
+  },
+  state: {
+    type: Sequelize.STRING,
+    allowNull: false
+  },
+  experience: {
+    type: Sequelize.STRING,
+    allowNull: false
+  },
+  gender: {
+    type: Sequelize.ENUM({
+      values: ['Male', 'Female', 'Non-Binary']
+    }),
+    allowNull: false
+  },
+  education: {
     type: Sequelize.STRING,
     allowNull: false
   }
