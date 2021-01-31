@@ -2,14 +2,20 @@
 
 const db = require('../server/db')
 const {User, Data} = require('../server/db/models')
+const dummyData = require('../dataInfo/femaleTech')
 
 async function seed() {
   await db.sync({force: true})
   console.log('db synced!')
 
-  const data = await Promise.all([
-    Data.create({title: 'testing', salary: 123, location: 'tbd'})
-  ])
+  // const data = await Promise.all([
+  //   Data.create({title: 'testing', salary: 123, location: 'tbd'})
+  // ])
+  const data = await Promise.all(
+    dummyData.map(dum => {
+      return Data.create(dum)
+    })
+  )
 
   console.log(`seeded ${data.length} data`)
   console.log(`seeded successfully`)
