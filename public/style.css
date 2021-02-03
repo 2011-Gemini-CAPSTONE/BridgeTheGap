@@ -19,3 +19,45 @@ form div {
   margin: 1em;
   display: inline-block;
 }
+
+.footerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.githubimage {
+  height: 15px;
+  width: 15px;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+.linkedinimage {
+  height: 15px;
+  width: 15px;
+  padding-right: 5px;
+}
+
+.linktext {
+  text-decoration: none;
+  color: black;
+  font-size: 10;
+}
+
+.footerText {
+  margin-bottom: 13px;
+  color: #5e2cba;
+}
+
+.footerLogo {
+  height: 50px;
+  width: 50px;
+  align-self: flex-end;
+  margin-bottom: -25px;
+}
