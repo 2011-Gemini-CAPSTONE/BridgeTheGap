@@ -3,11 +3,11 @@ import axios from 'axios'
 export const GET_DATA = 'GET_DATA'
 
 export const _getData = data => ({
-  type: type,
+  type: GET_DATA,
   data
 })
 
-export const getData = dispatch => {
+export const getData = () => {
   return async dispatch => {
     try {
       console.log('inside getData thunk')
