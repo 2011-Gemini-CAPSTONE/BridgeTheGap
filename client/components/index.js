@@ -5,4 +5,5 @@
  */
 export {default as Navbar} from './Navbar'
 export {default as UserHome} from './UserHome'
+export {default as Data} from './Data'
 export {Login, Signup} from './AuthForm'
