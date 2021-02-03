@@ -26,6 +26,39 @@ const User = db.define('user', {
   },
   googleId: {
     type: Sequelize.STRING
+  },
+  firstName: {
+    type: Sequelize.STRING,
+    allowNull: false
+  },
+  lastName: {
+    type: Sequelize.STRING,
+    allowNull: false
+  },
+  username: {
+    type: Sequelize.STRING,
+    allowNull: false
+  },
+  age: {
+    type: Sequelize.INTEGER,
+    allowNull: false
+  },
+  race: {
+    type: Sequelize.ENUM({
+      values: [
+        'American Indian or Alaskan Native',
+        'Asian',
+        'Black or African American',
+        'Hispanic or Latino',
+        'Native Hawaiian or Other Pacific Islander',
+        'White'
+      ]
+    }),
+    allowNull: false
+  },
+  isAdmin: {
+    type: Sequelize.BOOLEAN,
+    defaultValue: false
   }
 })
 
