@@ -10,8 +10,7 @@ export const _getData = data => ({
 export const getData = () => {
   return async dispatch => {
     try {
-      console.log('inside getData thunk')
-      const res = await axios.get('api/data')
+      const res = await axios.get('/api/data')
       dispatch(_getData(res.data))
     } catch (err) {
       console.log(err)
