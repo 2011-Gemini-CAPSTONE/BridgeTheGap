@@ -5,6 +5,7 @@
  */
 export {default as Navbar} from './Navbar'
 export {default as UserHome} from './UserHome'
+export {default as Data} from './Data'
 export {default as Footer} from './Footer.js'
 export {Login, Signup} from './AuthForm'
 export {default as GuestHome} from './GuestHome'
