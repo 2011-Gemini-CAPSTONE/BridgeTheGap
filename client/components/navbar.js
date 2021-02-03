@@ -10,10 +10,12 @@ const Navbar = ({handleClick, isLoggedIn}) => (
       {isLoggedIn ? (
         <div className="navbar-user">
           {/* The navbar will show these links after you log in */}
-          <Link to="/home">BridgeTheGap</Link>
+          <Link to="/home">
+            <img src="https://svgshare.com/i/Thp.svg" />
+          </Link>
           <Link to="/data">See The Data</Link>
-          <Link to="/home">Tools</Link>
-          <Link to="/home">About</Link>
+          <Link to="/tools">Tools</Link>
+          <Link to="/about">About</Link>
           <a href="#" onClick={handleClick}>
             Logout
           </a>
@@ -21,10 +23,12 @@ const Navbar = ({handleClick, isLoggedIn}) => (
       ) : (
         <div className="navbar-guest">
           {/* The navbar will show these links before you log in */}
-          <Link to="/home">BridgeTheGap</Link>
+          <Link to="/home">
+            <img src="https://svgshare.com/i/Thp.svg" />
+          </Link>
           <Link to="/data">See The Data</Link>
-          <Link to="/home">Tools</Link>
-          <Link to="/home">About</Link>
+          <Link to="/tools">Tools</Link>
+          <Link to="/about">About</Link>
           <Link to="/login">Login</Link>
           <Link to="/signup">Sign Up</Link>
         </div>
