@@ -5,4 +5,5 @@
  */
 export {default as Navbar} from './Navbar'
 export {default as UserHome} from './UserHome'
+export {default as Footer} from './Footer.js'
 export {Login, Signup} from './AuthForm'

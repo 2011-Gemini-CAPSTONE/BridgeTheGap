@@ -19,3 +19,47 @@ form div {
   margin: 1em;
   display: inline-block;
 }
+
+.footerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.githubimage {
+  height: 15px;
+  width: 15px;
+  padding-top: 5px;
+}
+
+.linkedinimage {
+  height: 15px;
+  width: 15px;
+}
+
+.linktext {
+  text-decoration: none;
+  color: black;
+  font-size: 10;
+}
+
+.linkedin {
+  align-items: baseline;
+}
+
+.github {
+  align-content: flex-end;
+}
+
+.footerText {
+  margin-bottom: 5px;
+}
+
+.footerLogo {
+  bottom: 0;
+}
