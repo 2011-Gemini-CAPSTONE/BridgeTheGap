@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="footerContainer">
       <div>
-        <h4 className="footerText">Qui Van</h4>
+        <p className="footerText">Qui Van</p>
         <div className="linkedin">
           <img
             src="https://cdn.iconscout.com/icon/free/png-256/linkedin-191-739516.png"
@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <h4 className="footerText">James Yon</h4>
+        <p className="footerText">James Yon</p>
         <div className="linkedin">
           <img
             src="https://cdn.iconscout.com/icon/free/png-256/linkedin-191-739516.png"
@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <h4 className="footerText">Dan Chong</h4>
+        <p className="footerText">Dan Chong</p>
         <div className="linkedin">
           <img
             src="https://cdn.iconscout.com/icon/free/png-256/linkedin-191-739516.png"
@@ -67,7 +67,7 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <h4 className="footerText">Christopher Linares</h4>
+        <p className="footerText">Christopher Linares</p>
         <div className="linkedin">
           <img
             src="https://cdn.iconscout.com/icon/free/png-256/linkedin-191-739516.png"

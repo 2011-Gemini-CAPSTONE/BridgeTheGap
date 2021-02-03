@@ -35,11 +35,13 @@ form div {
   height: 15px;
   width: 15px;
   padding-top: 5px;
+  padding-right: 5px;
 }
 
 .linkedinimage {
   height: 15px;
   width: 15px;
+  padding-right: 5px;
 }
 
 .linktext {
@@ -48,18 +50,14 @@ form div {
   font-size: 10;
 }
 
-.linkedin {
-  align-items: baseline;
-}
-
-.github {
-  align-content: flex-end;
-}
-
 .footerText {
-  margin-bottom: 5px;
+  margin-bottom: 13px;
+  color: #5e2cba;
 }
 
 .footerLogo {
-  bottom: 0;
+  height: 50px;
+  width: 50px;
+  align-self: flex-end;
+  margin-bottom: -25px;
 }
