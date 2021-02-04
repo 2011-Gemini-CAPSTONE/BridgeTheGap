@@ -6,11 +6,12 @@
   padding-right: 50px;
 }
 .article-card {
-  border-radius: 2px;
-  border: solid black;
+  overflow: hidden;
+  border-radius: 8px;
   width: 350px;
   height: 350px;
   margin-bottom: 20px;
+  box-shadow: 2px 5px 5px grey;
 }
 
 .article-body {
