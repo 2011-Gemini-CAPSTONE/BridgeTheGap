@@ -1,9 +1,18 @@
 .article-container {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
   padding-right: 50px;
 }
 .article-card {
   border-radius: 2px;
   border: solid black;
-  width: 300px;
+  width: 350px;
+  height: 350px;
+  margin-bottom: 20px;
+}
+
+.article-body {
+  padding-left: 10px;
 }
