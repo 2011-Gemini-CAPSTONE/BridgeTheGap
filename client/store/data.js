@@ -10,7 +10,7 @@ export const _getData = data => ({
 export const getData = () => {
   return async dispatch => {
     try {
-      const res = await axios.get()
+      const res = await axios.get('/api/data')
       dispatch(_getData(res.data))
     } catch (err) {
       console.log(err)
@@ -18,7 +18,7 @@ export const getData = () => {
   }
 }
 
-const dataReducer = (state = {}, action) => {
+const dataReducer = (state = [], action) => {
   switch (action.type) {
     case GET_DATA:
       return action.data
