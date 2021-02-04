@@ -1,4 +1,6 @@
 import React from 'react'
+import articles from '../../secrets'
+
 import {
   Card,
   CardImg,
@@ -14,7 +16,7 @@ export class Tools extends React.Component {
   render() {
     return (
       <div>
-        <h1>Tools Page</h1>
+        <h1>{articles[0].title}</h1>
         <div className="article-container">
           <Card className="article-card">
             <CardImg
