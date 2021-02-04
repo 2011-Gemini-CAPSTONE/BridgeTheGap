@@ -167,7 +167,7 @@ const articles = [
     description:
       'Understand the who, what, where and why behind the largely debated gender pay gap with 30+ stat...',
     url:
-      'builtin.com/sites/default/files/2020-01/gender-pay-gap-statistics-00.jpg'
+      'https://builtin.com/sites/default/files/2020-01/gender-pay-gap-statistics-00.jpg'
   },
   {
     id: 19,
