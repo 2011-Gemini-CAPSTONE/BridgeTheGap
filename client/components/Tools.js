@@ -1,19 +1,17 @@
 import React from 'react'
 import articles from '../../secrets'
-
 import {
   Card,
   CardImg,
   CardBody,
   CardTitle,
-  CardSubtitle,
   CardText,
-  Button
 } from 'reactstrap'
 import '../../public/css/tools.css'
 
 export class Tools extends React.Component {
   render() {
+
     const shuffle = o => {
       for (
         var j, x, i = o.length;
@@ -54,7 +52,7 @@ export class Tools extends React.Component {
               )
             }
           })}
-        </div>
+  </div>
       </div>
     )
   }
