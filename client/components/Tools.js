@@ -1,17 +1,10 @@
 import React from 'react'
 import articles from '../../secrets'
-import {
-  Card,
-  CardImg,
-  CardBody,
-  CardTitle,
-  CardText,
-} from 'reactstrap'
+import {Card, CardImg, CardBody, CardTitle, CardText} from 'reactstrap'
 import '../../public/css/tools.css'
 
 export class Tools extends React.Component {
   render() {
-
     const shuffle = o => {
       for (
         var j, x, i = o.length;
@@ -37,22 +30,24 @@ export class Tools extends React.Component {
                   >
                     <CardImg
                       top
-                      width="100%"
-                      height="50%"
+                      width="360px"
+                      height="160px"
                       src={article.url}
                       alt="Card image cap"
                     />
                     <CardBody className="article-body">
-                      <CardTitle tag="h3">{article.title}</CardTitle>
+                      <CardTitle tag="h4">{article.title}</CardTitle>
 
-                      <CardText>{article.description}</CardText>
+                      <CardText className="ToolsText">
+                        {article.description}
+                      </CardText>
                     </CardBody>
                   </a>
                 </Card>
               )
             }
           })}
-  </div>
+        </div>
       </div>
     )
   }
