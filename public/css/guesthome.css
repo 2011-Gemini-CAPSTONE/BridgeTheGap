@@ -1,0 +1,47 @@
+.jumbo1-img {
+  background: url('https://images.unsplash.com/photo-1573497161079-f3fd25cc6b90?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjB8fHdvbWVuJTIwdGVjaHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60')
+    no-repeat center center;
+  background-size: 70%;
+  min-height: 60vh;
+  background-position: right;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.jumbo1 {
+  background-color: white;
+  background-size: 100%;
+  padding: 0;
+  position: relative;
+}
+
+.welcome-box {
+  width: 400px;
+  margin-left: 11%;
+  background-color: white;
+  padding: 15px;
+}
+
+.jumbo1-lead {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.jumbo1-btn {
+  width: 300px;
+}
+
+.btn-warning {
+  color: #5e2cba;
+}
+
+@media (max-width: 800px) {
+  .jumbo1-img {
+    background-size: cover;
+    justify-content: center;
+  }
+  .welcome-box {
+    margin-left: 0;
+  }
+}

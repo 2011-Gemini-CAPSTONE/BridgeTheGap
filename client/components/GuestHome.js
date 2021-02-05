@@ -1,35 +1,26 @@
 import React from 'react'
-import {Jumbotron, Container, Button} from 'reactstrap'
+import {Jumbotron, Button} from 'reactstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import '../../public/css/guesthome.css'
 
 const GuestHome = () => {
   return (
-    <div>
-      <Jumbotron fluid className="jumbo1">
-        <Container fluid>
-          <div
-            style={{
-              marginTop: 5,
-              marginBottom: 80
-            }}
-          />
-          <div className="overlay">
-            <h1 style={{marginBottom: 20, letterSpacing: '8px'}}>
-              Bridge the Gap
-            </h1>
-            <p
-              style={{marginLeft: 50, marginRight: 50, fontFamily: 'helvetica'}}
-            >
-              Bridge the Gap
-            </p>
-
-            {/* <p><Button color="primary">Learn More</Button></p> */}
-            <div id="jumbo1-image">
-              <img src="https://images.unsplash.com/photo-1573497161079-f3fd25cc6b90?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjB8fHdvbWVuJTIwdGVjaHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" />
-            </div>
-          </div>
-        </Container>
-      </Jumbotron>
-    </div>
+    <Jumbotron className="jumbo1">
+      <div className="jumbo1-img">
+        <div className="welcome-box">
+          <h1 className="jumbo1-h1">Contribute!</h1>
+          <p className="jumbo1-lead">
+            When it comes to effectively combatting bias and closing earning
+            gaps, studies have shown that transparency wins the day.
+          </p>
+          <p className="jumbo1-btn">
+            <Button color="warning" size="md" block>
+              + Add Your Salary
+            </Button>
+          </p>
+        </div>
+      </div>
+    </Jumbotron>
   )
 }
 
