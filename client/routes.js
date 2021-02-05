@@ -9,8 +9,10 @@ import {
   GuestHome,
   Tools,
   Data,
-  About
+  About,
+  StateMap
 } from './components'
+
 import {me} from './store'
 
 /**
@@ -33,6 +35,7 @@ class Routes extends Component {
         <Route path="/data" component={Data} />
         <Route path="/tools" component={Tools} />
         <Route path="/about" component={About} />
+        <Route path="/map" component={StateMap} />
 
         {isLoggedIn && (
           <Switch>
