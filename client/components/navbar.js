@@ -10,7 +10,7 @@ const Navbar = ({handleClick, isLoggedIn}) => (
       {isLoggedIn ? (
         <div className="navbar-user">
           {/* The navbar will show these links after you log in */}
-          <Link to="/home">
+          <Link to="/">
             <img src="https://svgshare.com/i/Thp.svg" />
           </Link>
           <Link to="/data">See The Data</Link>
@@ -23,7 +23,7 @@ const Navbar = ({handleClick, isLoggedIn}) => (
       ) : (
         <div className="navbar-guest">
           {/* The navbar will show these links before you log in */}
-          <Link to="/home">
+          <Link to="/">
             <img src="https://svgshare.com/i/Thp.svg" />
           </Link>
           <Link to="/data">See The Data</Link>
