@@ -1,7 +1,7 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import {getData} from '../store/data'
-import StateMap from './charts/StateMap'
+import NewMap from './charts/NewMap'
 
 class Data extends React.Component {
   componentDidMount() {
@@ -9,7 +9,7 @@ class Data extends React.Component {
   }
   render() {
     console.log('inside render', this.props.data)
-    return <StateMap data={this.props.data} />
+    return <NewMap data={this.props.data} />
   }
 }
 

@@ -3,7 +3,8 @@ import {ComposableMap, Geographies, Geography} from 'react-simple-maps'
 import {scaleQuantize, schemeBlues} from 'd3-scale'
 import d3 from 'd3'
 
-const geoUrl = 'https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json'
+const geoUrl =
+  'https://raw.githubusercontent.com/coviz/coviz/main/client/components/Assets/usData.json'
 
 const colorScale = scaleQuantize()
   .domain([1, 75])
