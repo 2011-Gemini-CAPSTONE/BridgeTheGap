@@ -3,7 +3,7 @@ import {ComposableMap, Geographies, Geography} from 'react-simple-maps'
 
 const geoUrl = 'https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json'
 
-export const StateMap = () => {
+const StateMap = () => {
   const [data, setData] = useState([])
 
   return (
@@ -21,3 +21,5 @@ export const StateMap = () => {
     </>
   )
 }
+
+export default StateMap
