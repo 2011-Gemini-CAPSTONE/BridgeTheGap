@@ -47,6 +47,7 @@
     "connect-session-sequelize": "^6.0.0",
     "css-loader": "^5.0.1",
     "d3": "^6.5.0",
+    "d3-scale": "^3.2.3",
     "express": "^4.16.4",
     "express-session": "^1.15.1",
     "history": "^4.9.0",
