@@ -9,7 +9,7 @@ class Data extends React.Component {
   }
   render() {
     console.log('inside render', this.props.data)
-    return <StateMap />
+    return <StateMap data={this.props.data} />
   }
 }
 

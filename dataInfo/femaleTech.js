@@ -1622,7 +1622,7 @@ const data = [
     'job level': '1',
     salary: '45000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '3',
     gender: 'Male',
     education: 'Professional Certifications'
@@ -1675,7 +1675,7 @@ const data = [
     'job level': '1',
     salary: '45000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '16',
     gender: 'Male',
     education: 'High School'
@@ -2025,7 +2025,7 @@ const data = [
     'job level': '1',
     salary: '47000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '11',
     gender: 'Male',
     education: 'Professional Certifications'
@@ -3588,7 +3588,7 @@ const data = [
     'job level': '1',
     salary: '53000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '3',
     gender: 'Female',
     education: 'Undergraduate Degree'
@@ -4233,7 +4233,7 @@ const data = [
     'job level': '1',
     salary: '55000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '3',
     gender: 'Male',
     education: 'Professional Certifications'
@@ -4451,7 +4451,7 @@ const data = [
     'job level': '1',
     salary: '55000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '12',
     gender: 'Male',
     education: 'Undergraduate Degree'
@@ -7084,7 +7084,7 @@ const data = [
     team: 'Product Management',
     salary: '65000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '1',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -8731,7 +8731,7 @@ const data = [
     'job level': '2',
     salary: '70000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '2',
     gender: 'Male',
     education: 'Graduate Degree'
@@ -9057,7 +9057,7 @@ const data = [
     team: 'Recruiting',
     salary: '70000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '14',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -9188,7 +9188,7 @@ const data = [
     'job level': '2',
     salary: '70000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '16',
     gender: 'Female',
     education: 'Graduate Degree'
@@ -9266,7 +9266,7 @@ const data = [
     team: 'Product Design',
     salary: '70000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '4',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -9699,7 +9699,7 @@ const data = [
     team: 'Product Management',
     salary: '71000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '5',
     gender: 'Female',
     education: 'Undergraduate Degree'
@@ -10908,7 +10908,7 @@ const data = [
     team: 'Operations',
     salary: '75000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '4',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -10998,7 +10998,7 @@ const data = [
     team: 'Marketing',
     salary: '75000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '5',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -11051,7 +11051,7 @@ const data = [
     'job level': '2',
     salary: '75000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '3',
     gender: 'Non-Binary',
     education: 'Professional Certifications'
@@ -11380,7 +11380,7 @@ const data = [
     team: 'Sales',
     salary: '75000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '7',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -12229,7 +12229,7 @@ const data = [
     'job level': '1',
     salary: '77000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '13',
     gender: 'Male',
     education: 'Undergraduate Degree'
@@ -12314,7 +12314,7 @@ const data = [
     team: 'Network, Security & IT',
     salary: '77500',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '13',
     gender: 'Male',
     education: 'Professional Certifications'
@@ -12464,7 +12464,7 @@ const data = [
     'job level': '1',
     salary: '78000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '2',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -12754,7 +12754,7 @@ const data = [
     team: 'Data Science',
     salary: '79000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '3',
     gender: 'Male',
     education: 'Undergraduate Degree'
@@ -13515,7 +13515,7 @@ const data = [
     'job level': '2',
     salary: '80000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '4',
     gender: 'Male',
     education: 'Undergraduate Degree'
@@ -13732,7 +13732,7 @@ const data = [
     'job level': '2',
     salary: '80000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '9',
     gender: 'Male',
     education: 'Undergraduate Degree'
@@ -13742,7 +13742,7 @@ const data = [
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '15',
     gender: 'Male',
     education: 'Undergraduate Degree'
@@ -13919,7 +13919,7 @@ const data = [
     'job level': '3',
     salary: '80000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '3',
     gender: 'Male',
     education: 'Trade School'
@@ -14486,7 +14486,7 @@ const data = [
     'job level': '3',
     salary: '82000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '5',
     gender: 'Male',
     education: 'Undergraduate Degree'
@@ -14636,7 +14636,7 @@ const data = [
     team: 'Creative',
     salary: '82800',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '11',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -14893,7 +14893,7 @@ const data = [
     team: 'Business Analytics',
     salary: '84000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '2',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -15010,7 +15010,7 @@ const data = [
     team: 'Creative',
     salary: '84000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '12',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -15226,7 +15226,7 @@ const data = [
     'job level': '2',
     salary: '85000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '3',
     gender: 'Male',
     education: 'Undergraduate Degree'
@@ -16448,7 +16448,7 @@ const data = [
     'job level': '1',
     salary: '87000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '0',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -16780,7 +16780,7 @@ const data = [
     team: 'Product Management',
     salary: '88000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '1',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -16898,7 +16898,7 @@ const data = [
     team: 'Software Engineering',
     salary: '88400',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '4',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -16972,7 +16972,7 @@ const data = [
     team: 'Product Management',
     salary: '89000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '1',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -17567,7 +17567,7 @@ const data = [
     team: 'Software Engineering',
     salary: '90000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '5',
     gender: 'Male',
     education: 'Undergraduate Degree'
@@ -17896,7 +17896,7 @@ const data = [
     team: 'Network, Security & IT',
     salary: '90000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '5',
     gender: 'Male',
     education: 'Undergraduate Degree'
@@ -18235,7 +18235,7 @@ const data = [
     team: 'Business Analytics',
     salary: '91750',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '2',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -18440,7 +18440,7 @@ const data = [
     team: 'Software Engineering',
     salary: '92000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '15',
     gender: 'Male',
     education: 'Undergraduate Degree'
@@ -18626,7 +18626,7 @@ const data = [
     'job level': '2',
     salary: '92500',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '3',
     gender: 'Male',
     education: 'Undergraduate Degree'
@@ -18866,7 +18866,7 @@ const data = [
     team: 'Network, Security & IT',
     salary: '93000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '8',
     gender: 'Male',
     education: 'Undergraduate Degree'
@@ -19048,7 +19048,7 @@ const data = [
     team: 'Software Engineering',
     salary: '94000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '4',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -19188,7 +19188,7 @@ const data = [
     team: 'Software Engineering',
     salary: '95000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '99',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -19526,7 +19526,7 @@ const data = [
     team: 'Software Engineering',
     salary: '95000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '2',
     gender: 'Male',
     education: 'Undergraduate Degree'
@@ -19707,7 +19707,7 @@ const data = [
     'job level': '2',
     salary: '95000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '5',
     gender: 'Male',
     education: 'High School'
@@ -20723,7 +20723,7 @@ const data = [
     'job level': '5',
     salary: '99970',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '2',
     gender: 'Male',
     education: 'Undergraduate Degree'
@@ -21518,7 +21518,7 @@ const data = [
     team: 'Product Design',
     salary: '100000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '1',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -21959,7 +21959,7 @@ const data = [
     team: 'Data Science',
     salary: '102000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '1',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -21991,7 +21991,7 @@ const data = [
     team: 'Misc',
     salary: '102000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '7',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -22101,7 +22101,7 @@ const data = [
     team: 'Product Design',
     salary: '102000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '6',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -22379,7 +22379,7 @@ const data = [
     team: 'Network, Security & IT',
     salary: '103000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '13',
     gender: 'Male',
     education: 'High School'
@@ -22605,7 +22605,7 @@ const data = [
     team: 'Sales',
     salary: '105000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '5',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -23807,7 +23807,7 @@ const data = [
     team: 'Data Science',
     salary: '109000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '10',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -23818,7 +23818,7 @@ const data = [
     team: 'Agile',
     salary: '109000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '8',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -24001,7 +24001,7 @@ const data = [
     team: 'Sales',
     salary: '110000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '15',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -24065,7 +24065,7 @@ const data = [
     team: 'Software Engineering Management',
     salary: '110000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '4',
     gender: 'Male',
     education: 'Undergraduate Degree'
@@ -24137,7 +24137,7 @@ const data = [
     team: 'Network, Security & IT',
     salary: '110000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '4',
     gender: 'Male',
     education: 'High School'
@@ -24768,7 +24768,7 @@ const data = [
     team: 'Product Design',
     salary: '110000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '3',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -25180,7 +25180,7 @@ const data = [
     team: 'Marketing Ops',
     salary: '113000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '9',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -25387,7 +25387,7 @@ const data = [
     'job level': '3',
     salary: '114000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '11',
     gender: 'Male',
     education: 'Graduate Degree'
@@ -25450,7 +25450,7 @@ const data = [
     team: 'Network, Security & IT',
     salary: '115000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '3',
     gender: 'Male',
     education: 'High School'
@@ -25822,7 +25822,7 @@ const data = [
     team: 'Software Engineering',
     salary: '115000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '6',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -26414,7 +26414,7 @@ const data = [
     team: 'Product Management',
     salary: '118000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '1',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -26865,7 +26865,7 @@ const data = [
     team: 'Network, Security & IT',
     salary: '120000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '10',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -27340,7 +27340,7 @@ const data = [
     team: 'Software Engineering',
     salary: '120000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '15',
     gender: 'Male',
     education: 'Undergraduate Degree'
@@ -27572,7 +27572,7 @@ const data = [
     team: 'Product Management',
     salary: '120000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '13',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -27680,7 +27680,7 @@ const data = [
     team: 'Network, Security & IT',
     salary: '120000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '5',
     gender: 'Male',
     education: 'Professional Certifications'
@@ -27773,7 +27773,7 @@ const data = [
     team: 'Product Design',
     salary: '120000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '4',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -27924,7 +27924,7 @@ const data = [
     team: 'Software Engineering',
     salary: '122000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '25',
     gender: 'Male',
     education: 'Undergraduate Degree'
@@ -29022,7 +29022,7 @@ const data = [
     team: 'Network, Security & IT',
     salary: '125000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '11',
     gender: 'Male',
     education: 'Undergraduate Degree'
@@ -30299,7 +30299,7 @@ const data = [
     team: 'Network, Security & IT',
     salary: '130000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '24',
     gender: 'Male',
     education: 'Professional Certifications'
@@ -33051,7 +33051,7 @@ const data = [
     team: 'Operations',
     salary: '140000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '20',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -34342,7 +34342,7 @@ const data = [
     'job level': '5',
     salary: '150000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '20',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -34833,7 +34833,7 @@ const data = [
     team: 'Network, Security & IT',
     salary: '150000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '8',
     gender: 'Male',
     education: 'Graduate Degree'
@@ -34855,7 +34855,7 @@ const data = [
     team: 'Network, Security & IT',
     salary: '150000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '99',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -36004,7 +36004,7 @@ const data = [
     team: 'Creative',
     salary: '156100',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '10',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -36850,7 +36850,7 @@ const data = [
     'job level': '5',
     salary: '162000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '15',
     gender: 'Male',
     education: 'Undergraduate Degree'
@@ -37489,7 +37489,7 @@ const data = [
     team: 'Software Engineering Management',
     salary: '167500',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '10',
     gender: 'Male',
     education: 'High School'
@@ -38352,7 +38352,7 @@ const data = [
     team: 'Software Engineering',
     salary: '175000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '7',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -38417,7 +38417,7 @@ const data = [
     team: 'Network, Security & IT',
     salary: '175000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '16',
     gender: 'Male',
     education: 'Undergraduate Degree'
@@ -40057,7 +40057,7 @@ const data = [
     team: 'Human Resources',
     salary: '200000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '12',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -40576,7 +40576,7 @@ const data = [
     team: 'Software Engineering',
     salary: '218000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '5',
     gender: 'Male',
     education: 'Undergraduate Degree'
@@ -40631,7 +40631,7 @@ const data = [
     team: 'Network, Security & IT',
     salary: '220000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '20',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -41236,7 +41236,7 @@ const data = [
     team: 'Sales',
     salary: '265000',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '12',
     gender: 'Female',
     education: 'Not Disclosed'
@@ -41770,7 +41770,7 @@ const data = [
     team: 'Product Management',
     salary: '128600',
     city: 'Washington',
-    state: 'DC',
+    state: 'District of Columbia',
     experience: '8',
     gender: 'Female',
     education: 'Not Disclosed'
