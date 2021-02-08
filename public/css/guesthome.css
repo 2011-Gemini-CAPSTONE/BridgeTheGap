@@ -36,6 +36,39 @@
   color: #5e2cba;
 }
 
+.card1 {
+  width: 300px;
+  height: auto;
+}
+
+.jumbo2 jumbotron {
+  display: flex;
+  width: 100vh;
+  position: relative;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem;
+  flex-wrap: nowrap;
+}
+
+.jumbo2-text {
+  flex-grow: 1;
+  height: auto;
+  margin: 0rem;
+}
+
+.jumbo2-p {
+  width: 300px;
+  overflow-wrap: break-word;
+}
+
+.guest-home-video {
+  width: 50%;
+  height: auto;
+  flex-grow: 1;
+}
+
 @media (max-width: 800px) {
   .jumbo1-img {
     background-size: cover;
