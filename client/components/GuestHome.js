@@ -17,7 +17,7 @@ const GuestHome = () => {
       <Jumbotron className="jumbo1">
         <div className="jumbo1-img">
           <div className="welcome-box">
-            <h2 className="jumbo1-h1">Contribute!</h2>
+            <h2 className="jumbo1-h1">Gender Minorities Unite!</h2>
             <p className="jumbo1-lead">
               When it comes to effectively combatting bias and closing earning
               gaps, studies have shown that transparency wins the day.
@@ -95,6 +95,19 @@ const GuestHome = () => {
             </p>
           </div>
         </div>
+      </section>
+      <section className="home-quotes">
+        <h3>________</h3>
+        <div className="home-column">
+          <h5 className="quote">
+            the issue of pay inequality is really important because experts say
+            it will take fourty years for that gap to close. We don't have 40
+            years to wait...
+          </h5>
+          <h1 className="quote-marks">"</h1>
+          <p>Patricia Arquette</p>
+        </div>
+        <h3>________</h3>
       </section>
     </>
   )
