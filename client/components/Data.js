@@ -8,7 +8,6 @@ class Data extends React.Component {
     this.props.getData()
   }
   render() {
-    console.log('inside render', this.props.data)
     return <NewMap data={this.props.data} />
   }
 }
