@@ -9,7 +9,8 @@ import {
   GuestHome,
   Tools,
   Data,
-  About
+  About,
+  NewMap
 } from './components'
 
 import {me} from './store'
