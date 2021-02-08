@@ -11,7 +11,11 @@ const Footer = () => {
             src="https://cdn.iconscout.com/icon/free/png-256/linkedin-191-739516.png"
             className="linkedinimage"
           />
-          <a href="https://www.linkedin.com/in/qui-van/" className="linktext">
+          <a
+            href="https://www.linkedin.com/in/qui-van/"
+            target="_blank"
+            className="linktext"
+          >
             LinkedIn
           </a>
         </div>
@@ -20,7 +24,11 @@ const Footer = () => {
             src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
             className="githubimage"
           />
-          <a href="https://github.com/van3396" className="linktext">
+          <a
+            href="https://github.com/van3396"
+            target="_blank"
+            className="linktext"
+          >
             Github
           </a>
         </div>
@@ -32,7 +40,11 @@ const Footer = () => {
             src="https://cdn.iconscout.com/icon/free/png-256/linkedin-191-739516.png"
             className="linkedinimage"
           />
-          <a href="https://www.linkedin.com/in/jamesjyon/" className="linktext">
+          <a
+            href="https://www.linkedin.com/in/jamesjyon/"
+            target="_blank"
+            className="linktext"
+          >
             LinkedIn
           </a>
         </div>
@@ -41,7 +53,11 @@ const Footer = () => {
             src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
             className="githubimage"
           />
-          <a href="https://github.com/jamesyon" className="linktext">
+          <a
+            href="https://github.com/jamesyon"
+            target="_blank"
+            className="linktext"
+          >
             Github
           </a>
         </div>
@@ -53,7 +69,11 @@ const Footer = () => {
             src="https://cdn.iconscout.com/icon/free/png-256/linkedin-191-739516.png"
             className="linkedinimage"
           />
-          <a href="https://www.linkedin.com/in/sungkyoon/" className="linktext">
+          <a
+            href="https://www.linkedin.com/in/sungkyoon/"
+            target="_blank"
+            className="linktext"
+          >
             LinkedIn
           </a>
         </div>
@@ -62,7 +82,11 @@ const Footer = () => {
             src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
             className="githubimage"
           />
-          <a href="https://github.com/Sungkyoon" className="linktext">
+          <a
+            href="https://github.com/Sungkyoon"
+            target="_blank"
+            className="linktext"
+          >
             Github
           </a>
         </div>
@@ -74,7 +98,11 @@ const Footer = () => {
             src="https://cdn.iconscout.com/icon/free/png-256/linkedin-191-739516.png"
             className="linkedinimage"
           />
-          <a href="https://www.linkedin.com/in/cbluiux/" className="linktext">
+          <a
+            href="https://www.linkedin.com/in/cbluiux/"
+            target="_blank"
+            className="linktext"
+          >
             LinkedIn
           </a>
         </div>
@@ -83,7 +111,11 @@ const Footer = () => {
             src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
             className="githubimage"
           />
-          <a href="https://github.com/CubanBeardedLady" className="linktext">
+          <a
+            href="https://github.com/CubanBeardedLady"
+            target="_blank"
+            className="linktext"
+          >
             Github
           </a>
         </div>
