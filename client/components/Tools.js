@@ -16,7 +16,7 @@ export class Tools extends React.Component {
     let count = 0
     return (
       <div>
-        <h1>Tools</h1>
+        <h1 className="articleHeader">Articles:</h1>
         <div className="article-container">
           {shuffle(articles).map(article => {
             while (count < 6) {
