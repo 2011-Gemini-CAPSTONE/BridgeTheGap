@@ -41,32 +41,26 @@
   height: auto;
 }
 
-.jumbo2 jumbotron {
-  display: flex;
-  width: 100vh;
-  position: relative;
+.home-about {
+  margin-top: 4%;
   background-color: white;
-  justify-content: center;
+  display: flex;
+  justify-content: flex-start;
   align-items: center;
-  margin: 0rem;
-  flex-wrap: nowrap;
-}
-
-.jumbo2-text {
-  flex-grow: 1;
-  height: auto;
-  margin: 0rem;
-}
-
-.jumbo2-p {
-  width: 300px;
-  overflow-wrap: break-word;
 }
 
 .guest-home-video {
-  width: 50%;
-  height: auto;
-  flex-grow: 1;
+  margin-left: 11%;
+  margin-right: 45px;
+}
+
+.about-p {
+  overflow-wrap: break-word;
+  width: 420px;
+}
+
+.about-link {
+  color: #5e2cba;
 }
 
 @media (max-width: 800px) {

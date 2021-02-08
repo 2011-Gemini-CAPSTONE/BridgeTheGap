@@ -30,24 +30,23 @@ const GuestHome = () => {
           </div>
         </div>
       </Jumbotron>
-      <Jumbotron className="jumbo2">
+      <section className="home-about">
         <ReactPlayer
           className="guest-home-video"
           controls
           url="https://player.vimeo.com/external/348728072.sd.mp4?s=383c48b89915561b7dd476dd07c966e9a68bc587&profile_id=139&oauth2_token_id=57447761"
         />
-        <div className="jumbo2-text">
-          <h1 className="jumbo2-h1">About section lorem ipsum</h1>
-          <p className="jumbo2-p">
-            Lorem ipsumLoremipsumdolorsitamet,consecteturadipiscingelit,seddo
-            eiusmodtempor. Lorem ipsum dolors
-            itamet,consecteturadipiscingelit,sed doeiusmod.
-            Loremipsumdolorsitamet,consecteturadipiscingelit,sed
-            doeiusmodtemporincididuntutlaboreetdoloremagnaaliqua.Utenimadminimveniam,quisnostrudexercitationullamco
-            laborisnisiutaliquipexeacommodo consequat
+        <div className="about-text">
+          <h1 className="about-h1">About Bridge the Gap</h1>
+          <p className="about-p">
+            About Bridge the Gap. About Bridge the Gap. About Bridge the Gap.
+            About Bridge the Gap. About Bridge the Gap. About Bridge the Gap.
+            About Bridge the Gap. About Bridge the Gap. About Bridge the Gap.
+            About Bridge the Gap.
           </p>
+          <a className="about-link">Learn More →</a>
         </div>
-      </Jumbotron>
+      </section>
     </>
   )
 }
