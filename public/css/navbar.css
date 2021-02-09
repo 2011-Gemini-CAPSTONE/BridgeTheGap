@@ -1,0 +1,24 @@
+.navbar-guest {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: sticky;
+  padding: 0px 128px 0px 128px;
+}
+
+.navbar-links a {
+  color: black;
+  margin: 8px;
+}
+
+.navbar-links a:hover {
+  color: #5e2cba;
+  text-decoration: underline #ffd35a 4px;
+  text-underline-position: under;
+}
+
+.links-about {
+  border-right: 2px solid black;
+  padding-right: 16px;
+}

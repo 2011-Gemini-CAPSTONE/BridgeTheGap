@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import {connect} from 'react-redux'
 import {Link} from 'react-router-dom'
 import {logout} from '../store'
+import '../../public/css/navbar.css'
+import {BsPerson} from 'react-icons/bs'
 
 const Navbar = ({handleClick, isLoggedIn}) => (
   <div>
@@ -10,27 +12,39 @@ const Navbar = ({handleClick, isLoggedIn}) => (
       {isLoggedIn ? (
         <div className="navbar-user">
           {/* The navbar will show these links after you log in */}
-          <Link to="/">
-            <img src="https://svgshare.com/i/Thp.svg" />
-          </Link>
-          <Link to="/data">See The Data</Link>
-          <Link to="/tools">Tools</Link>
-          <Link to="/about">About</Link>
-          <a href="#" onClick={handleClick}>
-            Logout
-          </a>
+          <div className="navbar-logo">
+            <Link to="/">
+              <img src="https://svgshare.com/i/Thp.svg" />
+            </Link>
+          </div>
+          <div className="navbar-links">
+            <Link to="/data">See The Data</Link>
+            <Link to="/tools">Tools</Link>
+            <Link to="/about">About</Link>
+            <a href="#" onClick={handleClick}>
+              Logout
+            </a>
+          </div>
         </div>
       ) : (
         <div className="navbar-guest">
           {/* The navbar will show these links before you log in */}
-          <Link to="/">
-            <img src="https://svgshare.com/i/Thp.svg" />
-          </Link>
-          <Link to="/data">See The Data</Link>
-          <Link to="/tools">Tools</Link>
-          <Link to="/about">About</Link>
-          <Link to="/login">Login</Link>
-          <Link to="/signup">Sign Up</Link>
+          <div className="navbar-logo">
+            <Link to="/">
+              <img src="https://svgshare.com/i/Thp.svg" />
+            </Link>
+          </div>
+          <div className="navbar-links">
+            <Link to="/data"> See The Data </Link>
+            <Link to="/tools"> Tools </Link>
+            <Link className="links-about" to="/about">
+              {' '}
+              About{' '}
+            </Link>
+            <Link to="/signup"> Sign Up </Link>
+            <Link to="/login"> Log in </Link>
+            <BsPerson />
+          </div>
         </div>
       )}
     </nav>
