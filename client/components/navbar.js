@@ -24,6 +24,7 @@ const Navbar = ({handleClick, isLoggedIn}) => (
             <a href="#" onClick={handleClick}>
               Logout
             </a>
+          </div>
         </div>
       ) : (
         <div className="navbar-guest">
@@ -33,6 +34,7 @@ const Navbar = ({handleClick, isLoggedIn}) => (
               <img src="https://svgshare.com/i/Thp.svg" />
             </Link>
           </div>
+
           <div className="navbar-links">
             <Link to="/data"> See The Data </Link>
             <Link to="/tools"> Tools </Link>
@@ -44,6 +46,7 @@ const Navbar = ({handleClick, isLoggedIn}) => (
             <Link to="/login"> Log in </Link>
             <BsPerson />
           </div>
+        </div>
       )}
     </nav>
   </div>
