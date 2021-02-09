@@ -19,7 +19,7 @@ const Navbar = ({handleClick, isLoggedIn}) => (
           </div>
           <div className="navbar-links">
             <Link to="/data">See The Data</Link>
-            <Link to="/tools">Tools</Link>
+            <Link to="/tools">Resource</Link>
             <Link to="/about">About</Link>
             <a href="#" onClick={handleClick}>
               Logout
@@ -37,7 +37,7 @@ const Navbar = ({handleClick, isLoggedIn}) => (
 
           <div className="navbar-links">
             <Link to="/data"> See The Data </Link>
-            <Link to="/tools"> Tools </Link>
+            <Link to="/tools">Resources</Link>
             <Link className="links-about" to="/about">
               {' '}
               About{' '}
