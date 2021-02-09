@@ -1,3 +1,16 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
 .jumbo1-img {
   background: url('https://images.unsplash.com/photo-1573497161079-f3fd25cc6b90?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjB8fHdvbWVuJTIwdGVjaHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60')
     no-repeat center center;
@@ -20,7 +33,7 @@
   width: 400px;
   margin-left: 11%;
   background-color: white;
-  padding: 15px;
+  padding: 12px;
 }
 
 .jumbo1-lead {
@@ -55,6 +68,7 @@
 }
 
 .about-p {
+  padding-top: 12px;
   overflow-wrap: break-word;
   width: 420px;
 }
@@ -82,6 +96,8 @@
 }
 
 .benefit {
+  display: flex;
+  flex-direction: column;
   overflow-wrap: break-word;
   margin-bottom: 2%;
   width: 32%;
@@ -89,12 +105,19 @@
   position: relative;
   text-align: center;
   justify-content: center;
+  align-items: center;
 }
 
 .benefit-p {
   text-align: center;
   padding-left: 20%;
   padding-right: 20%;
+}
+
+.benefit-image {
+  width: 22%;
+  height: auto;
+  padding-bottom: 4%;
 }
 
 .home-quotes {
@@ -111,17 +134,17 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  padding: 0% 15%;
+  padding: 0% 11%;
   text-align: center;
 }
 
 .quote {
   font-style: italic;
+  padding-bottom: 3%;
 }
 
-.quote-marks {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.quote-line {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 @media (max-width: 800px) {

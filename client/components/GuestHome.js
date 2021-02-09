@@ -1,4 +1,10 @@
 import React from 'react'
+import handshake from '../../public/images/handshake.svg'
+import briefcase from '../../public/images/briefcase.svg'
+import creativity from '../../public/images/creativity.svg'
+import megaphone from '../../public/images/megaphone.svg'
+import team from '../../public/images/team.svg'
+import companies from '../../public/images/companies.svg'
 import {
   Jumbotron,
   Button,
@@ -37,7 +43,7 @@ const GuestHome = () => {
           url="https://player.vimeo.com/external/348728072.sd.mp4?s=383c48b89915561b7dd476dd07c966e9a68bc587&profile_id=139&oauth2_token_id=57447761"
         />
         <div className="about-text">
-          <h2 className="about-h1">About Bridge the Gap</h2>
+          <h2 className="about-h1">Bridging the Gap</h2>
           <p className="about-p">
             About Bridge the Gap. About Bridge the Gap. About Bridge the Gap.
             About Bridge the Gap. About Bridge the Gap. About Bridge the Gap.
@@ -49,10 +55,11 @@ const GuestHome = () => {
       </section>
       <section className="home-benefits">
         <div>
-          <h2>Who Benefits?</h2>
+          <h2>Who Should Use Bridge the Gap?</h2>
         </div>
         <div className="benefit-cards">
           <div className="benefit">
+            <img className="benefit-image" src={handshake} />
             <h4>Entrepeneurs</h4>
             <p className="benefit-p">
               Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
@@ -60,6 +67,7 @@ const GuestHome = () => {
             </p>
           </div>
           <div className="benefit">
+            <img className="benefit-image" src={briefcase} />
             <h4>Aspiring Professionals</h4>
             <p className="benefit-p">
               Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
@@ -67,6 +75,7 @@ const GuestHome = () => {
             </p>
           </div>
           <div className="benefit">
+            <img className="benefit-image" src={megaphone} />
             <h4>Marketers</h4>
             <p className="benefit-p">
               Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
@@ -74,6 +83,7 @@ const GuestHome = () => {
             </p>
           </div>
           <div className="benefit">
+            <img className="benefit-image" src={companies} />
             <h4>Business Leaders</h4>
             <p className="benefit-p">
               Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
@@ -81,6 +91,7 @@ const GuestHome = () => {
             </p>
           </div>
           <div className="benefit">
+            <img className="benefit-image" src={creativity} />
             <h4>Creative Thinkers</h4>
             <p className="benefit-p">
               Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
@@ -88,6 +99,7 @@ const GuestHome = () => {
             </p>
           </div>
           <div className="benefit">
+            <img className="benefit-image" src={team} />
             <h4>Companies</h4>
             <p className="benefit-p">
               Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
@@ -97,17 +109,17 @@ const GuestHome = () => {
         </div>
       </section>
       <section className="home-quotes">
-        <h3>________</h3>
+        <h3 className="quote-line">______</h3>
         <div className="home-column">
           <h5 className="quote">
             the issue of pay inequality is really important because experts say
-            it will take fourty years for that gap to close. We don't have 40
-            years to wait...
+            it will take fourty years for that gap to close. We don't have
+            fourty years to wait...
           </h5>
           <h1 className="quote-marks">"</h1>
           <p>Patricia Arquette</p>
         </div>
-        <h3>________</h3>
+        <h3 className="quote-line">______</h3>
       </section>
     </>
   )
