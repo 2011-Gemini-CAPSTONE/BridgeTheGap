@@ -17,7 +17,7 @@ const GuestHome = () => {
       <Jumbotron className="jumbo1">
         <div className="jumbo1-img">
           <div className="welcome-box">
-            <h1 className="jumbo1-h1">Contribute!</h1>
+            <h2 className="jumbo1-h1">Gender Minorities Unite!</h2>
             <p className="jumbo1-lead">
               When it comes to effectively combatting bias and closing earning
               gaps, studies have shown that transparency wins the day.
@@ -30,24 +30,85 @@ const GuestHome = () => {
           </div>
         </div>
       </Jumbotron>
-      <Jumbotron className="jumbo2">
+      <section className="home-about">
         <ReactPlayer
           className="guest-home-video"
           controls
           url="https://player.vimeo.com/external/348728072.sd.mp4?s=383c48b89915561b7dd476dd07c966e9a68bc587&profile_id=139&oauth2_token_id=57447761"
         />
-        <div className="jumbo2-text">
-          <h1 className="jumbo2-h1">About section lorem ipsum</h1>
-          <p className="jumbo2-p">
-            Lorem ipsumLoremipsumdolorsitamet,consecteturadipiscingelit,seddo
-            eiusmodtempor. Lorem ipsum dolors
-            itamet,consecteturadipiscingelit,sed doeiusmod.
-            Loremipsumdolorsitamet,consecteturadipiscingelit,sed
-            doeiusmodtemporincididuntutlaboreetdoloremagnaaliqua.Utenimadminimveniam,quisnostrudexercitationullamco
-            laborisnisiutaliquipexeacommodo consequat
+        <div className="about-text">
+          <h2 className="about-h1">About Bridge the Gap</h2>
+          <p className="about-p">
+            About Bridge the Gap. About Bridge the Gap. About Bridge the Gap.
+            About Bridge the Gap. About Bridge the Gap. About Bridge the Gap.
+            About Bridge the Gap. About Bridge the Gap. About Bridge the Gap.
+            About Bridge the Gap.
           </p>
+          <a className="about-link">Learn More →</a>
         </div>
-      </Jumbotron>
+      </section>
+      <section className="home-benefits">
+        <div>
+          <h2>Who Benefits?</h2>
+        </div>
+        <div className="benefit-cards">
+          <div className="benefit">
+            <h4>Entrepeneurs</h4>
+            <p className="benefit-p">
+              Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
+              ipsum dolor sit amet, consectetur adipscing elit.
+            </p>
+          </div>
+          <div className="benefit">
+            <h4>Aspiring Professionals</h4>
+            <p className="benefit-p">
+              Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
+              ipsum dolor sit amet, consectetur adipscing elit.
+            </p>
+          </div>
+          <div className="benefit">
+            <h4>Marketers</h4>
+            <p className="benefit-p">
+              Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
+              ipsum dolor sit amet, consectetur adipscing elit.
+            </p>
+          </div>
+          <div className="benefit">
+            <h4>Business Leaders</h4>
+            <p className="benefit-p">
+              Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
+              ipsum dolor sit amet, consectetur adipscing elit.
+            </p>
+          </div>
+          <div className="benefit">
+            <h4>Creative Thinkers</h4>
+            <p className="benefit-p">
+              Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
+              ipsum dolor sit amet, consectetur adipscing elit.
+            </p>
+          </div>
+          <div className="benefit">
+            <h4>Companies</h4>
+            <p className="benefit-p">
+              Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
+              ipsum dolor sit amet, consectetur adipscing elit.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="home-quotes">
+        <h3>________</h3>
+        <div className="home-column">
+          <h5 className="quote">
+            the issue of pay inequality is really important because experts say
+            it will take fourty years for that gap to close. We don't have 40
+            years to wait...
+          </h5>
+          <h1 className="quote-marks">"</h1>
+          <p>Patricia Arquette</p>
+        </div>
+        <h3>________</h3>
+      </section>
     </>
   )
 }
