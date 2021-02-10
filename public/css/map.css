@@ -4,10 +4,12 @@
   border-radius: 10px;
   border: solid 2px;
   margin-left: 60%;
-  margin-right: 10%;
   height: 100px;
   align-items: center;
   overflow-wrap: break-word;
+  position: absolute;
+  top: 250px;
+  left: 200px;
 }
 
 .maleData {
