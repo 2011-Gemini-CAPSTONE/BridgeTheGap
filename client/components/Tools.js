@@ -1,5 +1,5 @@
 import React from 'react'
-import articles from '../../secrets'
+import articles from '../../articles'
 import {Card, CardImg, CardBody, CardTitle, CardText} from 'reactstrap'
 import '../../public/css/tools.css'
 
