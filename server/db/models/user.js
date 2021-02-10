@@ -27,40 +27,45 @@ const User = db.define('user', {
   googleId: {
     type: Sequelize.STRING
   },
+  imgUrl: {
+    type: Sequelize.TEXT,
+    allowNull: true
+  },
   firstName: {
     type: Sequelize.STRING,
-    allowNull: false
+    allowNull: true
   },
   lastName: {
     type: Sequelize.STRING,
-    allowNull: false
+    allowNull: true
   },
-  username: {
+  fullName: {
     type: Sequelize.STRING,
-    allowNull: false
-  },
-  age: {
-    type: Sequelize.INTEGER,
-    allowNull: false
-  },
-  race: {
-    type: Sequelize.ENUM({
-      values: [
-        'American Indian or Alaskan Native',
-        'Asian',
-        'Black or African American',
-        'Hispanic or Latino',
-        'Native Hawaiian or Other Pacific Islander',
-        'White'
-      ]
-    }),
-    allowNull: false
-  },
-  isAdmin: {
-    type: Sequelize.BOOLEAN,
-    defaultValue: false
+    allowNull: true
   }
 })
+
+// age: {
+//   type: Sequelize.INTEGER,
+//   allowNull: false
+// },
+// race: {
+//   type: Sequelize.ENUM({
+//     values: [
+//       'American Indian or Alaskan Native',
+//       'Asian',
+//       'Black or African American',
+//       'Hispanic or Latino',
+//       'Native Hawaiian or Other Pacific Islander',
+//       'White'
+//     ]
+//   }),
+//   allowNull: false
+// },
+// isAdmin: {
+//   type: Sequelize.BOOLEAN,
+//   defaultValue: false
+// }
 
 module.exports = User
 
