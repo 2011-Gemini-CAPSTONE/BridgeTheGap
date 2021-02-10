@@ -4,12 +4,15 @@
   border-radius: 10px;
   border: solid 2px;
   margin-left: 60%;
-  height: 100px;
+  height: 15%;
+  width: 20%;
   align-items: center;
   overflow-wrap: break-word;
   position: absolute;
   top: 60%;
   left: 15%;
+  background-color: #add0e7;
+  color: white;
 }
 
 .maleData {
@@ -32,11 +35,24 @@
   position: relative;
 }
 
+.stateText {
+  margin-top: 5%;
+  justify-content: center;
+}
+
+.legendHeader {
+  width: 80%;
+  margin-left: 60%;
+  left: 15%;
+  top: 55%;
+  position: absolute;
+  color: #083e80;
+  font-weight: bold;
+}
+
 #disclaimer {
-  font-size: 7px;
-  max-width: 50%;
-  overflow-wrap: break-word;
-  padding-bottom: 5%;
+  font-size: 12px;
+  margin-left: 10px;
 }
 
 #disclaimerData {
@@ -45,9 +61,6 @@
 }
 
 @media screen and (max-width: 676px) {
-  #disclaimer {
-    font-size: 5px;
-  }
   .femaleText {
     font-size: 10px;
   }
