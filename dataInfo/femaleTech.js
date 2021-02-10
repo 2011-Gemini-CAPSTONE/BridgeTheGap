@@ -1,6 +1,6 @@
 const data = [
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '28500',
     city: 'Somerset',
@@ -10,7 +10,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '30000',
     city: 'Cincinnati',
@@ -20,7 +20,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     salary: '30000',
     city: 'Richmond',
@@ -30,7 +30,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '32000',
     city: 'Biloxi',
@@ -40,7 +40,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '32000',
     city: 'Denver',
@@ -50,7 +50,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Desktop Support',
+    jobTitle: 'Desktop Support',
     team: 'Misc',
     'job level': '1',
     salary: '32500',
@@ -61,7 +61,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '33280',
@@ -72,7 +72,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '34000',
     city: 'Gainesville',
@@ -82,7 +82,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '34000',
@@ -94,7 +94,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2020 12:18:42',
-    'job title': 'Communications Coordinator',
+    jobTitle: 'Communications Coordinator',
     team: 'Misc',
     salary: '34600',
     city: 'Omaha',
@@ -104,7 +104,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Help Desk',
+    jobTitle: 'Help Desk',
     team: 'Misc',
     'job level': '1',
     salary: '34800',
@@ -115,7 +115,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '35000',
     city: 'Boston',
@@ -125,7 +125,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Network Admin',
+    jobTitle: 'Network Admin',
     team: 'Network, Security & IT',
     salary: '35000',
     city: 'Santa Clarita',
@@ -135,7 +135,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '35000',
@@ -146,7 +146,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '35000',
@@ -157,7 +157,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '35000',
@@ -168,7 +168,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '35000',
@@ -179,7 +179,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '35000',
@@ -190,7 +190,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '35000',
     city: 'Salt Lake City',
@@ -200,7 +200,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '35320',
     city: 'Orlando',
@@ -210,7 +210,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '35360',
     city: 'New York City',
@@ -220,7 +220,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '36000',
     city: 'Pasadena',
@@ -230,7 +230,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '36000',
     city: 'Las Vegas',
@@ -240,7 +240,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '36000',
@@ -251,7 +251,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '36000',
@@ -262,7 +262,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '36060',
     city: 'Arlington',
@@ -272,7 +272,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '36150',
     city: 'Lansing',
@@ -282,7 +282,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '36400',
     city: 'Chattanooga',
@@ -292,7 +292,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '36500',
     city: 'Erie',
@@ -302,7 +302,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '36500',
@@ -313,7 +313,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '36500',
@@ -324,7 +324,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '37000',
     city: 'Salt Lake City',
@@ -334,7 +334,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '37000',
     city: 'Houston',
@@ -344,7 +344,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '37300',
     city: 'Tallahassee',
@@ -354,7 +354,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '37440',
     city: 'Kansas City',
@@ -364,7 +364,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '38000',
@@ -375,7 +375,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '38000',
     city: 'Gainesville',
@@ -385,7 +385,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '38000',
     city: 'Columbus',
@@ -395,7 +395,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '38000',
@@ -406,7 +406,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '38000',
     city: 'Boise',
@@ -416,7 +416,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '38000',
     city: 'Las Vegas',
@@ -426,7 +426,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '38000',
     city: 'Cleveland',
@@ -436,7 +436,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '38000',
@@ -447,7 +447,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '38000',
     city: 'Spokane ',
@@ -457,7 +457,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     salary: '38000',
     city: 'St. Petersburg',
@@ -468,7 +468,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 14:14:33',
-    'job title': 'Director of User Research',
+    jobTitle: 'Director of User Research',
     team: 'Product Design',
     salary: '38400',
     city: 'San Francisco Bay Area',
@@ -479,7 +479,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 23:14:17',
-    'job title': 'Special Events Administrator',
+    jobTitle: 'Special Events Administrator',
     team: 'Misc',
     salary: '38500',
     city: 'Denver',
@@ -490,7 +490,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 23:14:21',
-    'job title': 'Special Events Administrator',
+    jobTitle: 'Special Events Administrator',
     team: 'Misc',
     salary: '38500',
     city: 'Denver',
@@ -500,7 +500,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '39000',
     city: 'Lexington',
@@ -510,7 +510,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '39000',
     city: 'Philadelphia',
@@ -520,7 +520,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '39000',
     city: 'Dallas',
@@ -530,7 +530,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '39000',
@@ -541,7 +541,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '39000',
     city: 'Toledo',
@@ -551,7 +551,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '39000',
     city: 'Austin',
@@ -561,7 +561,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '39000',
@@ -572,7 +572,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '39500',
     city: 'Elkhart',
@@ -582,7 +582,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '39520',
     city: 'Minneapolis',
@@ -593,7 +593,7 @@ const data = [
   },
   {
     Timestamp: '3/12/2020 16:24:30',
-    'job title': 'Manager of Accounting and Compliance ',
+    jobTitle: 'Manager of Accounting and Compliance ',
     team: 'Accounting',
     salary: '39600',
     city: 'Los Angeles',
@@ -603,7 +603,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '39800',
@@ -615,7 +615,7 @@ const data = [
   },
   {
     Timestamp: '3/5/2020 13:13:42',
-    'job title': 'Digital Marketing Specialist',
+    jobTitle: 'Digital Marketing Specialist',
     team: 'Marketing',
     salary: '40000',
     city: 'Los Angeles',
@@ -626,7 +626,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:02:52',
-    'job title': 'Electronic Distribution Coordinator',
+    jobTitle: 'Electronic Distribution Coordinator',
     team: 'Misc',
     salary: '40000',
     city: 'Milwaukee',
@@ -637,7 +637,7 @@ const data = [
   },
   {
     Timestamp: '2/14/2020 15:18:45',
-    'job title': 'Graphic Designer',
+    jobTitle: 'Graphic Designer',
     team: 'Product Design',
     salary: '40000',
     city: 'Iowa City',
@@ -647,7 +647,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '40000',
@@ -658,7 +658,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '40000',
     city: "Coeur d'Alene",
@@ -668,7 +668,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '40000',
     city: 'Bellevue',
@@ -679,7 +679,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 18:32:35',
-    'job title': 'Office Manager',
+    jobTitle: 'Office Manager',
     team: 'Misc',
     salary: '40000',
     city: 'Seattle',
@@ -690,7 +690,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 10:55:35',
-    'job title': 'Product Owner',
+    jobTitle: 'Product Owner',
     team: 'Agile',
     salary: '40000',
     city: 'Richmond',
@@ -701,7 +701,7 @@ const data = [
   },
   {
     Timestamp: '10/9/2020 11:32:55',
-    'job title': 'Sr. QA Engineer',
+    jobTitle: 'Sr. QA Engineer',
     team: 'Software Engineering Management',
     salary: '40000',
     city: 'Boston',
@@ -711,7 +711,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '40000',
     city: 'Los Angeles',
@@ -721,7 +721,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '40000',
     city: 'Tampa',
@@ -731,7 +731,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '40000',
@@ -742,7 +742,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '40000',
@@ -753,7 +753,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '40000',
     city: 'Myrtle Beach',
@@ -763,7 +763,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '40000',
@@ -774,7 +774,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '40000',
     city: 'San Antonio',
@@ -785,7 +785,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 2:23:50',
-    'job title': 'Technical Director',
+    jobTitle: 'Technical Director',
     team: 'Misc',
     salary: '40000',
     city: 'Portland',
@@ -795,7 +795,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '40000',
@@ -806,7 +806,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '40000',
     city: 'Boston',
@@ -816,7 +816,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '40000',
@@ -827,7 +827,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '40000',
     city: 'Asheville',
@@ -837,7 +837,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '40000',
     city: 'Ontario',
@@ -847,7 +847,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '40000',
     city: 'Cleveland',
@@ -857,7 +857,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '40000',
@@ -868,7 +868,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'UX',
+    jobTitle: 'UX',
     team: 'Product Design',
     salary: '40000',
     city: 'New York City',
@@ -878,7 +878,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Technical Program Management',
     salary: '41000',
     city: 'Dallas',
@@ -888,7 +888,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '41000',
@@ -899,7 +899,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '41000',
@@ -910,7 +910,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '41000',
@@ -921,7 +921,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '41000',
     city: 'Kansas City',
@@ -931,7 +931,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '41000',
@@ -942,7 +942,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '41600',
     city: 'Omaha',
@@ -952,7 +952,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '41600',
     city: 'Phoenix',
@@ -962,7 +962,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '41600',
@@ -973,7 +973,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '41600',
     city: 'Asheville',
@@ -983,7 +983,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '41600',
@@ -995,7 +995,7 @@ const data = [
   },
   {
     Timestamp: '1/17/2020 8:45:33',
-    'job title': 'Helpdesk Support Specialist',
+    jobTitle: 'Helpdesk Support Specialist',
     team: 'Network, Security & IT',
     salary: '41650',
     city: 'Rockville',
@@ -1005,7 +1005,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'UX',
+    jobTitle: 'UX',
     team: 'Product Design',
     'job level': '2',
     salary: '41860',
@@ -1017,7 +1017,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 16:45:35',
-    'job title': 'Front End Developer',
+    jobTitle: 'Front End Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '42000',
@@ -1028,7 +1028,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Help Desk',
+    jobTitle: 'Help Desk',
     team: 'Misc',
     'job level': '1',
     salary: '42000',
@@ -1039,7 +1039,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '42000',
@@ -1050,7 +1050,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Network Security Analyst',
+    jobTitle: 'Network Security Analyst',
     team: 'Network, Security & IT',
     salary: '42000',
     city: 'Los Angeles',
@@ -1060,7 +1060,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '42000',
     city: 'Tucson',
@@ -1070,7 +1070,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '42000',
     city: 'Springfield',
@@ -1080,7 +1080,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '42000',
@@ -1091,7 +1091,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '42000',
     city: 'Springfield',
@@ -1101,7 +1101,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '42000',
     city: 'Asheville',
@@ -1111,7 +1111,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '42000',
     city: 'Los Angeles',
@@ -1121,7 +1121,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '42000',
@@ -1132,7 +1132,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '42000',
     city: 'Detroit',
@@ -1142,7 +1142,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '42000',
     city: 'Ithaca',
@@ -1152,7 +1152,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '42000',
@@ -1163,7 +1163,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '42000',
@@ -1174,7 +1174,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '42100',
@@ -1185,7 +1185,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '42141',
@@ -1196,7 +1196,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Desktop Support',
+    jobTitle: 'Desktop Support',
     team: 'Misc',
     'job level': '2',
     salary: '42250',
@@ -1207,7 +1207,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '42500',
     city: 'San Diego',
@@ -1217,7 +1217,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '42500',
     city: 'Atlanta',
@@ -1227,7 +1227,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '42500',
     city: 'Eau Claire',
@@ -1237,7 +1237,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '42500',
@@ -1248,7 +1248,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '42640',
@@ -1259,7 +1259,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '42650',
     city: 'Denver',
@@ -1269,7 +1269,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '42900',
     city: 'Houston',
@@ -1280,7 +1280,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 12:30:12',
-    'job title': 'Church Director of Communications',
+    jobTitle: 'Church Director of Communications',
     team: 'Operations',
     salary: '43000',
     city: 'Chicago',
@@ -1290,7 +1290,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Javascript Engineer',
+    jobTitle: 'Javascript Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '43000',
@@ -1301,7 +1301,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Network Support',
+    jobTitle: 'Network Support',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '43000',
@@ -1312,7 +1312,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '43000',
     city: 'Fort Wayne',
@@ -1323,7 +1323,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:08:29',
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Product Management',
     salary: '43000',
     city: 'Daytona Beach',
@@ -1333,7 +1333,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '43000',
     city: 'Kalamazoo',
@@ -1343,7 +1343,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '43000',
@@ -1354,7 +1354,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '43000',
     city: 'Bethesda',
@@ -1364,7 +1364,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '43500',
@@ -1375,7 +1375,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '43680',
@@ -1386,7 +1386,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '43680',
     city: 'Reading',
@@ -1396,7 +1396,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '43680',
     city: 'Atlanta',
@@ -1406,7 +1406,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical support specialist',
+    jobTitle: 'Technical support specialist',
     team: 'Network, Security & IT',
     salary: '43680',
     city: 'Des Moines',
@@ -1417,7 +1417,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:07:56',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     salary: '44000',
     city: 'Minneapolis',
@@ -1427,7 +1427,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '44000',
     city: 'Conway',
@@ -1437,7 +1437,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '44000',
@@ -1448,7 +1448,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '44000',
     city: 'Hartville',
@@ -1458,7 +1458,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '44000',
@@ -1469,7 +1469,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '44500',
     city: 'Harrisburg',
@@ -1479,7 +1479,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Database Administrator',
+    jobTitle: 'Database Administrator',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '44585',
@@ -1490,7 +1490,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '44886',
@@ -1502,7 +1502,7 @@ const data = [
   },
   {
     Timestamp: '2/15/2020 12:16:34',
-    'job title': 'Digital Media and Graphic Design ',
+    jobTitle: 'Digital Media and Graphic Design ',
     team: 'Product Design',
     salary: '45000',
     city: 'New York City',
@@ -1512,7 +1512,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Help Desk',
+    jobTitle: 'Help Desk',
     team: 'Misc',
     salary: '45000',
     city: 'Pittsburgh',
@@ -1522,7 +1522,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'IT Manager',
+    jobTitle: 'IT Manager',
     team: 'Network, Security & IT',
     salary: '45000',
     city: 'Greenville',
@@ -1533,7 +1533,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 16:21:38',
-    'job title': 'Marketing Operations ',
+    jobTitle: 'Marketing Operations ',
     team: 'Marketing',
     salary: '45000',
     city: 'Chicago',
@@ -1544,7 +1544,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 11:05:57',
-    'job title': 'Marketing Technologist',
+    jobTitle: 'Marketing Technologist',
     team: 'Marketing',
     salary: '45000',
     city: 'Austin',
@@ -1554,7 +1554,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '45000',
@@ -1565,7 +1565,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '45000',
@@ -1576,7 +1576,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '45000',
     city: 'Houston',
@@ -1586,7 +1586,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'QA Engineer',
+    jobTitle: 'QA Engineer',
     team: 'Software Engineering',
     salary: '45000',
     city: 'Minneapolis',
@@ -1596,7 +1596,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '45000',
@@ -1607,7 +1607,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '45000',
     city: 'Denver',
@@ -1617,7 +1617,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '45000',
@@ -1628,7 +1628,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '45000',
@@ -1639,7 +1639,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '45000',
     city: 'Portland',
@@ -1649,7 +1649,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '45000',
     city: 'Los Angeles',
@@ -1659,7 +1659,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '45000',
@@ -1670,7 +1670,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '45000',
@@ -1681,7 +1681,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '45000',
@@ -1692,7 +1692,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '45000',
@@ -1703,7 +1703,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '45000',
     city: 'Boston',
@@ -1713,7 +1713,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '45000',
@@ -1724,7 +1724,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '45000',
     city: 'Ossining',
@@ -1734,7 +1734,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '45000',
@@ -1745,7 +1745,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '45000',
@@ -1756,7 +1756,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '45000',
     city: 'Spokane',
@@ -1767,7 +1767,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:41:26',
-    'job title': 'Web Services Marketing & Communications Specialist',
+    jobTitle: 'Web Services Marketing & Communications Specialist',
     team: 'Marketing',
     salary: '45000',
     city: 'Gainesville',
@@ -1777,7 +1777,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '45600',
@@ -1788,7 +1788,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '45600',
     city: 'Buffalo',
@@ -1798,7 +1798,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '45670',
@@ -1809,7 +1809,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Help Desk',
+    jobTitle: 'Help Desk',
     team: 'Misc',
     'job level': '1',
     salary: '45700',
@@ -1820,7 +1820,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Graphic Designer',
+    jobTitle: 'Graphic Designer',
     team: 'Product Design',
     'job level': '1',
     salary: '45760',
@@ -1831,7 +1831,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '45760',
     city: 'St. Petersburg',
@@ -1841,7 +1841,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '45760',
@@ -1852,7 +1852,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '45760',
@@ -1864,7 +1864,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:15:09',
-    'job title': 'Customer Advocate',
+    jobTitle: 'Customer Advocate',
     team: 'Sales',
     salary: '46000',
     city: 'Albuquerque',
@@ -1874,7 +1874,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'IT Technician',
+    jobTitle: 'IT Technician',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '46000',
@@ -1885,7 +1885,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '46000',
     city: 'Boston',
@@ -1895,7 +1895,7 @@ const data = [
     education: 'Pursuing Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '46000',
@@ -1906,7 +1906,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '46000',
     city: 'Raleigh',
@@ -1916,7 +1916,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '46000',
     city: 'Lancaster',
@@ -1926,7 +1926,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '46000',
     city: 'Naples',
@@ -1936,7 +1936,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '46000',
     city: 'Chicago',
@@ -1946,7 +1946,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '46000',
@@ -1957,7 +1957,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '46000',
@@ -1968,7 +1968,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '46365',
@@ -1979,7 +1979,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '46405',
     city: 'Fayetteville',
@@ -1989,7 +1989,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '46500',
@@ -2000,7 +2000,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '46500',
     city: 'Dayton',
@@ -2010,7 +2010,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '46800',
     city: 'Pittsburgh',
@@ -2020,7 +2020,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '47000',
@@ -2031,7 +2031,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '47000',
@@ -2042,7 +2042,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '47000',
@@ -2053,7 +2053,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'IT Asset Management',
+    jobTitle: 'IT Asset Management',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '47500',
@@ -2064,7 +2064,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '47500',
@@ -2075,7 +2075,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '47500',
     city: 'Greenville',
@@ -2085,7 +2085,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '47500',
     city: 'Ogden',
@@ -2095,7 +2095,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '47750',
@@ -2107,7 +2107,7 @@ const data = [
   },
   {
     Timestamp: '3/8/2020 19:37:56',
-    'job title': 'Customer Success Manager',
+    jobTitle: 'Customer Success Manager',
     team: 'Sales',
     salary: '48000',
     city: 'Columbia',
@@ -2117,7 +2117,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '48000',
@@ -2128,7 +2128,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '48000',
     city: 'Farmington Hills',
@@ -2138,7 +2138,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '48000',
     city: 'Philadelphia',
@@ -2149,7 +2149,7 @@ const data = [
   },
   {
     Timestamp: '2/25/2020 14:14:57',
-    'job title': 'Social Media & Partnerships Strategist',
+    jobTitle: 'Social Media & Partnerships Strategist',
     team: 'Marketing',
     salary: '48000',
     city: 'Austin',
@@ -2159,7 +2159,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '48000',
     city: 'Frankfort',
@@ -2169,7 +2169,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '48000',
@@ -2180,7 +2180,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '48000',
     city: 'Dallas',
@@ -2190,7 +2190,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '48000',
@@ -2201,7 +2201,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '48000',
     city: 'Buffalo',
@@ -2211,7 +2211,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '48000',
     city: 'Columbia',
@@ -2222,7 +2222,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 20:54:05',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '48000',
     city: 'New York City',
@@ -2233,7 +2233,7 @@ const data = [
   },
   {
     Timestamp: '6/8/2020 19:24:40',
-    'job title': 'Sr. Full-Stack Developer',
+    jobTitle: 'Sr. Full-Stack Developer',
     team: 'Software Engineering',
     salary: '48500',
     city: 'Fresno',
@@ -2243,7 +2243,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '48500',
@@ -2255,7 +2255,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 2:03:16',
-    'job title': 'Marketing Operations Coordinator',
+    jobTitle: 'Marketing Operations Coordinator',
     team: 'Marketing',
     salary: '49000',
     city: 'New York City',
@@ -2265,7 +2265,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '49000',
@@ -2276,7 +2276,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '49000',
     city: 'Savannah',
@@ -2286,7 +2286,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '49000',
@@ -2297,7 +2297,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '49000',
     city: 'Cincinnati',
@@ -2307,7 +2307,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '49000',
     city: 'Columbus',
@@ -2317,7 +2317,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '49000',
@@ -2328,7 +2328,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '49000',
     city: 'Rochester',
@@ -2338,7 +2338,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '49150',
     city: 'Jersey City',
@@ -2349,7 +2349,7 @@ const data = [
   },
   {
     Timestamp: '2/28/2020 10:25:48',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     salary: '49500',
     city: 'New York City',
@@ -2359,7 +2359,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '49700',
     city: 'Mt. Pleasant',
@@ -2369,7 +2369,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '49800',
@@ -2380,7 +2380,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '49920',
     city: 'Houston',
@@ -2391,7 +2391,7 @@ const data = [
   },
   {
     Timestamp: '1/23/2020 15:51:16',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '49920',
     city: 'Salt Lake City',
@@ -2402,7 +2402,7 @@ const data = [
   },
   {
     Timestamp: '1/16/2020 15:41:16',
-    'job title': 'Content and Marketing Specialist',
+    jobTitle: 'Content and Marketing Specialist',
     team: 'Marketing',
     salary: '50000',
     city: 'San Antonio',
@@ -2413,7 +2413,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 17:05:51',
-    'job title': 'Creative Director ',
+    jobTitle: 'Creative Director ',
     team: 'Product Design',
     salary: '50000',
     city: 'East Lansing',
@@ -2424,7 +2424,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 16:21:25',
-    'job title': 'Customer Success Manager',
+    jobTitle: 'Customer Success Manager',
     team: 'Sales',
     salary: '50000',
     city: 'Austin',
@@ -2435,7 +2435,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 22:15:55',
-    'job title': 'Customer Success Team Manager',
+    jobTitle: 'Customer Success Team Manager',
     team: 'Sales',
     salary: '50000',
     city: 'Atlanta',
@@ -2445,7 +2445,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     'job level': '2',
     salary: '50000',
@@ -2456,7 +2456,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '50000',
     city: 'Port Arthur',
@@ -2466,7 +2466,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '50000',
     city: 'Blacksburg',
@@ -2477,7 +2477,7 @@ const data = [
   },
   {
     Timestamp: '3/10/2020 11:29:33',
-    'job title': 'Director of Business Development',
+    jobTitle: 'Director of Business Development',
     team: 'Operations',
     salary: '50000',
     city: 'Manchester',
@@ -2487,7 +2487,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Hardware Engineer',
+    jobTitle: 'Hardware Engineer',
     team: 'Hardware Engineering',
     'job level': '1',
     salary: '50000',
@@ -2499,7 +2499,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 16:39:21',
-    'job title': 'Instructional Designer',
+    jobTitle: 'Instructional Designer',
     team: 'Product Design',
     salary: '50000',
     city: 'Tampa',
@@ -2509,7 +2509,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '50000',
     city: 'Panama City',
@@ -2519,7 +2519,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '50000',
     city: 'Orlando',
@@ -2529,7 +2529,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '50000',
     city: 'Flint',
@@ -2539,7 +2539,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '50000',
     city: 'Norfolk',
@@ -2549,7 +2549,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '50000',
@@ -2560,7 +2560,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '50000',
@@ -2572,7 +2572,7 @@ const data = [
   },
   {
     Timestamp: '1/16/2020 9:45:09',
-    'job title': 'Project Manager/Client Specialist',
+    jobTitle: 'Project Manager/Client Specialist',
     team: 'Product Management',
     salary: '50000',
     city: 'Austin',
@@ -2583,7 +2583,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:32:06',
-    'job title': 'Scrum Master',
+    jobTitle: 'Scrum Master',
     team: 'Agile',
     salary: '50000',
     city: 'Austin',
@@ -2593,7 +2593,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '50000',
@@ -2604,7 +2604,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '50000',
@@ -2615,7 +2615,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '50000',
@@ -2627,7 +2627,7 @@ const data = [
   },
   {
     Timestamp: '2/10/2020 10:52:40',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '50000',
@@ -2638,7 +2638,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '50000',
@@ -2649,7 +2649,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '50000',
     city: 'Phoenix',
@@ -2659,7 +2659,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '50000',
     city: 'Denver',
@@ -2669,7 +2669,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '50000',
@@ -2680,7 +2680,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '50000',
     city: 'Orlando',
@@ -2690,7 +2690,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '50000',
@@ -2701,7 +2701,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '50000',
@@ -2712,7 +2712,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '50000',
     city: 'South Bend',
@@ -2722,7 +2722,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '50000',
@@ -2733,7 +2733,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '50000',
@@ -2744,7 +2744,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '50000',
     city: 'Buffalo',
@@ -2754,7 +2754,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '50000',
     city: 'Asheville',
@@ -2764,7 +2764,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '50000',
@@ -2775,7 +2775,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '50000',
@@ -2786,7 +2786,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '50000',
@@ -2797,7 +2797,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '50000',
     city: 'Salt Lake City',
@@ -2807,7 +2807,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '50000',
     city: 'Salt Lake City',
@@ -2817,7 +2817,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '50000',
     city: 'Tacoma',
@@ -2827,7 +2827,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '50000',
     city: 'Green Bay',
@@ -2837,7 +2837,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '50000',
@@ -2848,7 +2848,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '50000',
     city: 'Orange',
@@ -2858,7 +2858,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '50000',
@@ -2869,7 +2869,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '50000',
@@ -2880,7 +2880,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '50000',
@@ -2891,7 +2891,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '50000',
     city: 'Dublin',
@@ -2901,7 +2901,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '50000',
     city: 'Allentown',
@@ -2911,7 +2911,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '50000',
     city: 'Austin',
@@ -2921,7 +2921,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '50000',
@@ -2932,7 +2932,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '50000',
@@ -2943,7 +2943,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '50000',
@@ -2954,7 +2954,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '50000',
     city: 'Richmond',
@@ -2964,7 +2964,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '50000',
     city: 'Spokane',
@@ -2974,7 +2974,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '50000',
     city: 'Redmond',
@@ -2985,7 +2985,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 14:49:56',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '50000',
     city: 'Philadelphia',
@@ -2996,7 +2996,7 @@ const data = [
   },
   {
     Timestamp: '2/23/2020 20:39:03',
-    'job title': 'UX/UI Designer',
+    jobTitle: 'UX/UI Designer',
     team: 'Product Design',
     salary: '50000',
     city: 'Boca Raton',
@@ -3006,7 +3006,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '50000',
@@ -3017,7 +3017,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '50000',
@@ -3029,7 +3029,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 9:20:48',
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '50000',
@@ -3041,7 +3041,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 17:59:26',
-    'job title': 'Application Development Analyst',
+    jobTitle: 'Application Development Analyst',
     team: 'Data Science',
     salary: '50500',
     city: 'Austin',
@@ -3051,7 +3051,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '51000',
     city: 'Fargo',
@@ -3062,7 +3062,7 @@ const data = [
   },
   {
     Timestamp: '2/23/2020 5:44:16',
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '51000',
     city: 'Levittown',
@@ -3073,7 +3073,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 8:38:40',
-    'job title': 'UX/UI Designer',
+    jobTitle: 'UX/UI Designer',
     team: 'Product Design',
     salary: '51000',
     city: 'Grand Rapids',
@@ -3083,7 +3083,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '51250',
     city: 'Baltimore',
@@ -3093,7 +3093,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '51500',
@@ -3104,7 +3104,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '51500',
@@ -3115,7 +3115,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '51720',
@@ -3127,7 +3127,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 15:15:59',
-    'job title': 'Brand Manager',
+    jobTitle: 'Brand Manager',
     team: 'Product Management',
     salary: '52000',
     city: 'Philadelphia',
@@ -3138,7 +3138,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 17:29:04',
-    'job title': 'Customer Onboarding  Manager',
+    jobTitle: 'Customer Onboarding  Manager',
     team: 'Sales',
     salary: '52000',
     city: 'New York City',
@@ -3148,7 +3148,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '52000',
     city: 'Sunnyvale',
@@ -3158,7 +3158,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '52000',
     city: 'Malvern',
@@ -3168,7 +3168,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '52000',
     city: 'Memphis',
@@ -3178,7 +3178,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     'job level': '2',
     salary: '52000',
@@ -3189,7 +3189,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '52000',
@@ -3200,7 +3200,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '52000',
@@ -3211,7 +3211,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'QA Engineer',
+    jobTitle: 'QA Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '52000',
@@ -3223,7 +3223,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 12:47:18',
-    'job title': 'Researcher',
+    jobTitle: 'Researcher',
     team: 'Misc',
     salary: '52000',
     city: 'New York City',
@@ -3234,7 +3234,7 @@ const data = [
   },
   {
     Timestamp: '2/8/2020 14:05:20',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '52000',
@@ -3245,7 +3245,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '52000',
     city: 'Wilton',
@@ -3255,7 +3255,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '52000',
     city: 'Boca Raton',
@@ -3265,7 +3265,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '52000',
     city: 'Peoria',
@@ -3275,7 +3275,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '52000',
@@ -3286,7 +3286,7 @@ const data = [
     education: 'Doctorate or Post-doctorate'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '52000',
     city: 'Detroit',
@@ -3296,7 +3296,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '52000',
     city: 'West Fargo',
@@ -3306,7 +3306,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '52000',
     city: 'Memphis',
@@ -3316,7 +3316,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '52000',
     city: 'Round Rock',
@@ -3326,7 +3326,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '52000',
     city: 'Milwaukee',
@@ -3336,7 +3336,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '52000',
@@ -3347,7 +3347,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '52000',
@@ -3358,7 +3358,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '52000',
     city: 'Kansas City',
@@ -3368,7 +3368,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '52000',
     city: 'New York City',
@@ -3378,7 +3378,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '52000',
     city: 'Dallas',
@@ -3388,7 +3388,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '52000',
@@ -3400,7 +3400,7 @@ const data = [
   },
   {
     Timestamp: '9/4/2020 15:07:48',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '52000',
     city: 'Los Angeles',
@@ -3411,7 +3411,7 @@ const data = [
   },
   {
     Timestamp: '1/17/2020 15:18:18',
-    'job title': 'UX/UI Designer',
+    jobTitle: 'UX/UI Designer',
     team: 'Product Design',
     salary: '52000',
     city: 'Orlando',
@@ -3422,7 +3422,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:21:23',
-    'job title': 'Web Designer',
+    jobTitle: 'Web Designer',
     team: 'Product Design',
     salary: '52000',
     city: 'Huntsville',
@@ -3433,7 +3433,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:31:00',
-    'job title': 'Web Designer',
+    jobTitle: 'Web Designer',
     team: 'Product Design',
     salary: '52000',
     city: 'Huntsville',
@@ -3444,7 +3444,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 10:36:11',
-    'job title': 'Web Designer',
+    jobTitle: 'Web Designer',
     team: 'Product Design',
     salary: '52000',
     city: 'Chicago',
@@ -3454,7 +3454,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '52064',
     city: 'Phillipsburg',
@@ -3464,7 +3464,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '52092',
@@ -3475,7 +3475,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '52427',
@@ -3487,7 +3487,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 17:39:35',
-    'job title': 'Marketing Coordinator',
+    jobTitle: 'Marketing Coordinator',
     team: 'Marketing',
     salary: '52500',
     city: 'Salt Lake City',
@@ -3497,7 +3497,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '52500',
     city: 'South Bend',
@@ -3507,7 +3507,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '52500',
     city: 'Salem',
@@ -3517,7 +3517,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '52500',
@@ -3528,7 +3528,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '52500',
     city: 'Boston',
@@ -3539,7 +3539,7 @@ const data = [
   },
   {
     Timestamp: '1/29/2020 12:41:17',
-    'job title': 'Digital Advertising Operations Specialist',
+    jobTitle: 'Digital Advertising Operations Specialist',
     team: 'Marketing',
     salary: '53000',
     city: 'Chicago',
@@ -3550,7 +3550,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 14:21:45',
-    'job title': 'Digital Content Strategist',
+    jobTitle: 'Digital Content Strategist',
     team: 'Creative',
     salary: '53000',
     city: 'Gainesville',
@@ -3561,7 +3561,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:19:57',
-    'job title': 'Front End Developer',
+    jobTitle: 'Front End Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '53000',
@@ -3573,7 +3573,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 9:28:41',
-    'job title': 'Head of Customer Care and Helpdesk',
+    jobTitle: 'Head of Customer Care and Helpdesk',
     team: 'Sales',
     salary: '53000',
     city: 'Austin',
@@ -3583,7 +3583,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Help Desk',
+    jobTitle: 'Help Desk',
     team: 'Misc',
     'job level': '1',
     salary: '53000',
@@ -3594,7 +3594,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Help Desk',
+    jobTitle: 'Help Desk',
     team: 'Misc',
     'job level': '1',
     salary: '53000',
@@ -3605,7 +3605,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '53000',
     city: 'New York City',
@@ -3615,7 +3615,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '53000',
@@ -3626,7 +3626,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '53000',
     city: 'Ann Arbor',
@@ -3636,7 +3636,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '53000',
     city: 'Alexandria',
@@ -3646,7 +3646,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '53000',
     city: 'Raleigh',
@@ -3656,7 +3656,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '53000',
@@ -3667,7 +3667,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '53000',
     city: 'Blacksburg',
@@ -3677,7 +3677,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '53000',
@@ -3688,7 +3688,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '53000',
@@ -3699,7 +3699,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '53000',
@@ -3711,7 +3711,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 11:38:39',
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     salary: '53000',
     city: 'Lehi',
@@ -3721,7 +3721,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '53244',
     city: 'Phoenix',
@@ -3732,7 +3732,7 @@ const data = [
   },
   {
     Timestamp: '1/14/2021 21:40:15',
-    'job title': 'Creative Designer',
+    jobTitle: 'Creative Designer',
     team: 'Product Design',
     salary: '53290',
     city: 'Cerritos',
@@ -3742,7 +3742,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '53500',
@@ -3753,7 +3753,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '53500',
@@ -3764,7 +3764,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '53580',
     city: 'Durham',
@@ -3774,7 +3774,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '53800',
@@ -3785,7 +3785,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Help Desk Manager',
+    jobTitle: 'Help Desk Manager',
     team: 'Misc',
     salary: '53880',
     city: 'Lincoln',
@@ -3796,7 +3796,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 13:58:34',
-    'job title': 'Cybersecurity Engineer',
+    jobTitle: 'Cybersecurity Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '54000',
@@ -3807,7 +3807,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '54000',
@@ -3819,7 +3819,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2020 11:00:23',
-    'job title': 'IT Analyst',
+    jobTitle: 'IT Analyst',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '54000',
@@ -3830,7 +3830,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '54000',
@@ -3841,7 +3841,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '54000',
@@ -3852,7 +3852,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '54000',
@@ -3863,7 +3863,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '54000',
     city: 'Philadelphia',
@@ -3873,7 +3873,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '54000',
@@ -3884,7 +3884,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '54000',
     city: 'Salt Lake City',
@@ -3894,7 +3894,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '54000',
     city: 'Seattle',
@@ -3904,7 +3904,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '54000',
@@ -3915,7 +3915,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     'job level': '1',
     salary: '54100',
@@ -3926,7 +3926,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '54500',
@@ -3937,7 +3937,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '54600',
@@ -3949,7 +3949,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 3:44:05',
-    'job title': 'Customer Success Manager',
+    jobTitle: 'Customer Success Manager',
     team: 'Sales',
     salary: '55000',
     city: 'San Francisco Bay Area',
@@ -3960,7 +3960,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 16:35:16',
-    'job title': 'Customer Success Manager',
+    jobTitle: 'Customer Success Manager',
     team: 'Sales',
     salary: '55000',
     city: 'Raleigh',
@@ -3970,7 +3970,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Customer Success Manager',
+    jobTitle: 'Customer Success Manager',
     team: 'Sales',
     salary: '55000',
     city: 'Richmond',
@@ -3981,7 +3981,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 14:38:32',
-    'job title': 'Cybersecurity Engineer',
+    jobTitle: 'Cybersecurity Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '55000',
@@ -3992,7 +3992,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Cybersecurity Engineer',
+    jobTitle: 'Cybersecurity Engineer',
     team: 'Network, Security & IT',
     salary: '55000',
     city: 'Kansas City',
@@ -4003,7 +4003,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 15:57:01',
-    'job title': 'Design Researcher',
+    jobTitle: 'Design Researcher',
     team: 'Product Design',
     salary: '55000',
     city: 'Detroit',
@@ -4013,7 +4013,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '55000',
@@ -4025,7 +4025,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 14:59:08',
-    'job title': 'Digital Project Manager',
+    jobTitle: 'Digital Project Manager',
     team: 'Product Management',
     salary: '55000',
     city: 'Philadelphia',
@@ -4035,7 +4035,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Hardware Engineer',
+    jobTitle: 'Hardware Engineer',
     team: 'Hardware Engineering',
     salary: '55000',
     city: 'Frankfort',
@@ -4045,7 +4045,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Help Desk',
+    jobTitle: 'Help Desk',
     team: 'Misc',
     'job level': '1',
     salary: '55000',
@@ -4057,7 +4057,7 @@ const data = [
   },
   {
     Timestamp: '5/22/2020 9:49:28',
-    'job title': 'Helpdesk Specialist',
+    jobTitle: 'Helpdesk Specialist',
     team: 'Network, Security & IT',
     salary: '55000',
     city: 'Baltimore ',
@@ -4068,7 +4068,7 @@ const data = [
   },
   {
     Timestamp: '1/24/2020 12:41:01',
-    'job title': 'Lead UX Designer',
+    jobTitle: 'Lead UX Designer',
     team: 'Product Design',
     salary: '55000',
     city: 'Salt Lake City',
@@ -4079,7 +4079,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 22:59:23',
-    'job title': 'Marketing campaigns specialist',
+    jobTitle: 'Marketing campaigns specialist',
     team: 'Marketing',
     salary: '55000',
     city: 'Colorado Springs',
@@ -4090,7 +4090,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 20:12:12',
-    'job title': 'Marketing Coordinator',
+    jobTitle: 'Marketing Coordinator',
     team: 'Marketing',
     salary: '55000',
     city: 'Atlanta',
@@ -4101,7 +4101,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 15:15:41',
-    'job title': 'Marketing Strategist Analytics',
+    jobTitle: 'Marketing Strategist Analytics',
     team: 'Marketing',
     salary: '55000',
     city: 'Philadelphia',
@@ -4111,7 +4111,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '55000',
@@ -4122,7 +4122,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '55000',
     city: 'Long Island',
@@ -4132,7 +4132,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '55000',
     city: 'Lima',
@@ -4142,7 +4142,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '55000',
     city: 'Pasadena',
@@ -4152,7 +4152,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '55000',
@@ -4164,7 +4164,7 @@ const data = [
   },
   {
     Timestamp: '2/23/2020 0:20:45',
-    'job title': 'Office Manager ',
+    jobTitle: 'Office Manager ',
     team: 'Misc',
     salary: '55000',
     city: 'New York City',
@@ -4175,7 +4175,7 @@ const data = [
   },
   {
     Timestamp: '1/23/2020 16:26:29',
-    'job title': 'Operations Manager',
+    jobTitle: 'Operations Manager',
     team: 'Operations',
     salary: '55000',
     city: 'Los Angeles',
@@ -4186,7 +4186,7 @@ const data = [
   },
   {
     Timestamp: '1/15/2020 18:36:42',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '55000',
     city: 'Birmingham',
@@ -4197,7 +4197,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:49:58',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     salary: '55000',
     city: 'Richmond',
@@ -4207,7 +4207,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '55000',
     city: 'Meridian',
@@ -4217,7 +4217,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '55000',
@@ -4228,7 +4228,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '55000',
@@ -4239,7 +4239,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '55000',
@@ -4250,7 +4250,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '55000',
@@ -4261,7 +4261,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '55000',
     city: 'Chicago',
@@ -4271,7 +4271,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '55000',
     city: 'Des Moines',
@@ -4281,7 +4281,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '55000',
     city: 'Louisville',
@@ -4291,7 +4291,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '55000',
     city: 'Portland',
@@ -4301,7 +4301,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '55000',
@@ -4312,7 +4312,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '55000',
     city: 'St. Louis',
@@ -4322,7 +4322,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '55000',
     city: 'Kansas City',
@@ -4332,7 +4332,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '55000',
@@ -4343,7 +4343,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '55000',
     city: 'Morrisville',
@@ -4353,7 +4353,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '55000',
     city: 'Durham',
@@ -4363,7 +4363,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '55000',
@@ -4374,7 +4374,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '55000',
@@ -4385,7 +4385,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '55000',
     city: 'Lynchburg',
@@ -4395,7 +4395,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '55000',
     city: 'Salt Lake City',
@@ -4405,7 +4405,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '55000',
     city: 'Seattle',
@@ -4415,7 +4415,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '55000',
     city: 'Milwaukee',
@@ -4425,7 +4425,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '55000',
     city: 'Rice Lake',
@@ -4435,7 +4435,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '55000',
@@ -4446,7 +4446,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '55000',
@@ -4457,7 +4457,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '55000',
@@ -4468,7 +4468,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '55000',
     city: 'Chicago',
@@ -4478,7 +4478,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '55000',
     city: 'Milwaukee',
@@ -4488,7 +4488,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '55420',
     city: 'Rochester',
@@ -4498,7 +4498,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Information Security',
+    jobTitle: 'Information Security',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '55500',
@@ -4509,7 +4509,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '55700',
     city: 'Boston',
@@ -4519,7 +4519,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '55718',
     city: 'Little Rock',
@@ -4529,7 +4529,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '56000',
     city: 'Louisville',
@@ -4539,7 +4539,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '56000',
     city: 'Los Angeles',
@@ -4550,7 +4550,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 15:34:43',
-    'job title': 'Product Owner',
+    jobTitle: 'Product Owner',
     team: 'Agile',
     salary: '56000',
     city: 'Bentonville',
@@ -4560,7 +4560,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'QA Engineer',
+    jobTitle: 'QA Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '56000',
@@ -4571,7 +4571,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '56000',
@@ -4582,7 +4582,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '56000',
     city: 'Chicago',
@@ -4592,7 +4592,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '56000',
     city: 'Springfield',
@@ -4602,7 +4602,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '56000',
     city: 'Oklahoma City',
@@ -4612,7 +4612,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '56000',
     city: 'Charleston',
@@ -4623,7 +4623,7 @@ const data = [
   },
   {
     Timestamp: '1/27/2020 14:52:47',
-    'job title': 'Technical Operations Specialist',
+    jobTitle: 'Technical Operations Specialist',
     team: 'Misc',
     salary: '56000',
     city: 'Cape Coral',
@@ -4633,7 +4633,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '56000',
     city: 'Atlanta',
@@ -4643,7 +4643,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '56000',
@@ -4654,7 +4654,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '56000',
     city: 'Canton',
@@ -4664,7 +4664,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '56000',
     city: 'Cleveland',
@@ -4674,7 +4674,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '56000',
     city: 'Lancaster',
@@ -4685,7 +4685,7 @@ const data = [
   },
   {
     Timestamp: '9/9/2020 15:23:00',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '56160',
     city: 'Salt Lake City',
@@ -4695,7 +4695,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '56500',
@@ -4706,7 +4706,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '56680',
@@ -4717,7 +4717,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '57000',
     city: 'Houston',
@@ -4728,7 +4728,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 13:41:56',
-    'job title': 'IT User Support Specialist',
+    jobTitle: 'IT User Support Specialist',
     team: 'Network, Security & IT',
     salary: '57000',
     city: 'Atlanta',
@@ -4738,7 +4738,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '57000',
@@ -4749,7 +4749,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Technical Program Management',
     'job level': '4',
     salary: '57000',
@@ -4760,7 +4760,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '57000',
     city: 'Montgomery',
@@ -4770,7 +4770,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '57000',
     city: 'Phoenix',
@@ -4780,7 +4780,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '57000',
@@ -4791,7 +4791,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '57000',
     city: 'Columbus',
@@ -4801,7 +4801,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '57000',
     city: 'Port Arthur',
@@ -4811,7 +4811,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '57000',
     city: 'Houston',
@@ -4821,7 +4821,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '57000',
     city: 'Salt Lake City',
@@ -4831,7 +4831,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '57000',
@@ -4842,7 +4842,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '57000',
@@ -4854,7 +4854,7 @@ const data = [
   },
   {
     Timestamp: '2/22/2020 19:12:17',
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '57000',
@@ -4866,7 +4866,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 22:13:19',
-    'job title': 'Project Analyst',
+    jobTitle: 'Project Analyst',
     team: 'Misc',
     salary: '57500',
     city: 'St. Louis',
@@ -4877,7 +4877,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:57:25',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '57500',
     city: 'Salt Lake City',
@@ -4887,7 +4887,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '57800',
     city: 'Lehi',
@@ -4898,7 +4898,7 @@ const data = [
   },
   {
     Timestamp: '2/23/2020 17:10:18',
-    'job title': 'Content Strategist',
+    jobTitle: 'Content Strategist',
     team: 'Creative',
     salary: '58000',
     city: 'Portland',
@@ -4908,7 +4908,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Hardware Engineer',
+    jobTitle: 'Hardware Engineer',
     team: 'Hardware Engineering',
     'job level': '3',
     salary: '58000',
@@ -4919,7 +4919,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     'job level': '2',
     salary: '58000',
@@ -4930,7 +4930,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     'job level': '1',
     salary: '58000',
@@ -4941,7 +4941,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '58000',
@@ -4952,7 +4952,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '58000',
     city: 'Richmond',
@@ -4962,7 +4962,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '58000',
@@ -4973,7 +4973,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '58000',
@@ -4984,7 +4984,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '58000',
     city: 'Denver',
@@ -4994,7 +4994,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '58000',
     city: 'Marietta',
@@ -5004,7 +5004,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '58000',
@@ -5015,7 +5015,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '58000',
@@ -5026,7 +5026,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '58000',
     city: 'Chicago',
@@ -5036,7 +5036,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '58000',
     city: 'Fort Worth',
@@ -5046,7 +5046,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     'job level': '1',
     salary: '58000',
@@ -5058,7 +5058,7 @@ const data = [
   },
   {
     Timestamp: '9/11/2020 11:46:33',
-    'job title': 'Graphic Designer',
+    jobTitle: 'Graphic Designer',
     team: 'Product Design',
     salary: '58200',
     city: 'Atlanta',
@@ -5068,7 +5068,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '58500',
@@ -5079,7 +5079,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '58655',
@@ -5090,7 +5090,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '58700',
     city: 'Memphis',
@@ -5100,7 +5100,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '58788',
     city: 'Canton',
@@ -5111,7 +5111,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 12:34:19',
-    'job title': 'Product Desinger',
+    jobTitle: 'Product Desinger',
     team: 'Product Design',
     salary: '58800',
     city: 'Riverton',
@@ -5122,7 +5122,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 11:02:09',
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '59000',
     city: 'Little Rock',
@@ -5133,7 +5133,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 22:16:29',
-    'job title': 'Lead Aircraft Mechanic',
+    jobTitle: 'Lead Aircraft Mechanic',
     team: 'Misc',
     salary: '59000',
     city: 'Seattle',
@@ -5143,7 +5143,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '59000',
@@ -5154,7 +5154,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '59000',
     city: 'Boulder',
@@ -5164,7 +5164,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '59000',
@@ -5175,7 +5175,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '59000',
@@ -5186,7 +5186,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '59000',
     city: 'Portland',
@@ -5197,7 +5197,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 22:40:05',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '59200',
     city: 'Austin',
@@ -5207,7 +5207,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '59412',
     city: 'Madison',
@@ -5218,7 +5218,7 @@ const data = [
   },
   {
     Timestamp: '1/27/2020 14:56:49',
-    'job title': 'Account Manager',
+    jobTitle: 'Account Manager',
     team: 'Sales',
     salary: '60000',
     city: 'Charlottesville',
@@ -5229,7 +5229,7 @@ const data = [
   },
   {
     Timestamp: '1/15/2020 23:22:01',
-    'job title': 'Business Systems Analyst',
+    jobTitle: 'Business Systems Analyst',
     team: 'Network, Security & IT',
     salary: '60000',
     city: 'Philadelphia',
@@ -5240,7 +5240,7 @@ const data = [
   },
   {
     Timestamp: '1/16/2020 10:24:34',
-    'job title': 'Customer Implementation Manager',
+    jobTitle: 'Customer Implementation Manager',
     team: 'Sales',
     salary: '60000',
     city: 'Cleveland',
@@ -5250,7 +5250,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Cybersecurity Engineer',
+    jobTitle: 'Cybersecurity Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '60000',
@@ -5261,7 +5261,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '60000',
     city: 'Denver',
@@ -5272,7 +5272,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2020 22:11:44',
-    'job title': 'Digital Manager',
+    jobTitle: 'Digital Manager',
     team: 'Misc',
     salary: '60000',
     city: 'Seattle',
@@ -5283,7 +5283,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 13:50:21',
-    'job title': 'Digital Marketing Specialist',
+    jobTitle: 'Digital Marketing Specialist',
     team: 'Marketing',
     salary: '60000',
     city: 'Chicago',
@@ -5293,7 +5293,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Digital Strategist',
+    jobTitle: 'Digital Strategist',
     team: 'Marketing',
     'job level': '2',
     salary: '60000',
@@ -5305,7 +5305,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 9:47:06',
-    'job title': 'Email Marketing Specialist',
+    jobTitle: 'Email Marketing Specialist',
     team: 'Marketing',
     salary: '60000',
     city: 'Boston',
@@ -5316,7 +5316,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 16:38:05',
-    'job title': 'Front End Developer ',
+    jobTitle: 'Front End Developer ',
     team: 'Software Engineering',
     'job level': '1',
     salary: '60000',
@@ -5328,7 +5328,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 11:21:14',
-    'job title': 'Front-End Developer',
+    jobTitle: 'Front-End Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '60000',
@@ -5340,7 +5340,7 @@ const data = [
   },
   {
     Timestamp: '2/25/2020 9:04:17',
-    'job title': 'Installation Project Manager',
+    jobTitle: 'Installation Project Manager',
     team: 'Product Management',
     salary: '60000',
     city: 'Carmel',
@@ -5351,7 +5351,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2020 11:53:06',
-    'job title': 'Loan Processor',
+    jobTitle: 'Loan Processor',
     team: 'Misc',
     salary: '60000',
     city: 'Irvine',
@@ -5361,7 +5361,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '60000',
@@ -5372,7 +5372,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '60000',
@@ -5383,7 +5383,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '60000',
@@ -5394,7 +5394,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '60000',
@@ -5405,7 +5405,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     'job level': '2',
     salary: '60000',
@@ -5417,7 +5417,7 @@ const data = [
   },
   {
     Timestamp: '1/16/2020 16:13:43',
-    'job title': 'Project Manager',
+    jobTitle: 'Project Manager',
     team: 'Product Management',
     salary: '60000',
     city: 'City of Industry',
@@ -5428,7 +5428,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 15:59:56',
-    'job title': 'Project Manager and Language Specialist',
+    jobTitle: 'Project Manager and Language Specialist',
     team: 'Product Management',
     salary: '60000',
     city: 'San Francisco Bay Area',
@@ -5439,7 +5439,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 22:02:01',
-    'job title': 'Social Media Manager',
+    jobTitle: 'Social Media Manager',
     team: 'Marketing',
     salary: '60000',
     city: 'Houston',
@@ -5450,7 +5450,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 9:29:06',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '60000',
@@ -5462,7 +5462,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 21:53:45',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '60000',
@@ -5474,7 +5474,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 15:54:05',
-    'job title': 'Sr. Community Manager ',
+    jobTitle: 'Sr. Community Manager ',
     team: 'Misc',
     salary: '60000',
     city: 'Atlanta',
@@ -5485,7 +5485,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 10:37:27',
-    'job title': 'Sr. Email Developer',
+    jobTitle: 'Sr. Email Developer',
     team: 'Software Engineering',
     salary: '60000',
     city: 'Dallas',
@@ -5495,7 +5495,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '60000',
     city: 'Phoenix',
@@ -5505,7 +5505,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '60000',
@@ -5516,7 +5516,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '60000',
     city: 'Los Angeles',
@@ -5526,7 +5526,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '60000',
     city: 'Anaheim',
@@ -5536,7 +5536,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '60000',
@@ -5547,7 +5547,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '60000',
@@ -5558,7 +5558,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '60000',
     city: 'Orlando',
@@ -5568,7 +5568,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '60000',
@@ -5579,7 +5579,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '60000',
@@ -5590,7 +5590,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '60000',
     city: 'Chicago',
@@ -5600,7 +5600,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '60000',
@@ -5611,7 +5611,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '60000',
@@ -5622,7 +5622,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '60000',
@@ -5633,7 +5633,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '60000',
@@ -5644,7 +5644,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '60000',
     city: 'Cincinnati',
@@ -5654,7 +5654,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '60000',
     city: 'Canton',
@@ -5664,7 +5664,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '60000',
     city: 'Cleveland',
@@ -5674,7 +5674,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '60000',
@@ -5685,7 +5685,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '60000',
@@ -5696,7 +5696,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '60000',
     city: 'Pittsburgh',
@@ -5706,7 +5706,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '60000',
@@ -5717,7 +5717,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '60000',
     city: 'Philadelphia',
@@ -5727,7 +5727,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '60000',
@@ -5738,7 +5738,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '60000',
     city: 'Houston',
@@ -5748,7 +5748,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '60000',
     city: 'Dallas',
@@ -5758,7 +5758,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '60000',
@@ -5769,7 +5769,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '60000',
     city: 'Salt Lake City',
@@ -5779,7 +5779,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '60000',
     city: 'Richmond',
@@ -5789,7 +5789,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '60000',
@@ -5800,7 +5800,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Engineer',
+    jobTitle: 'System Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '60000',
@@ -5812,7 +5812,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 12:30:14',
-    'job title': 'Systems Analyst',
+    jobTitle: 'Systems Analyst',
     team: 'Network, Security & IT',
     salary: '60000',
     city: 'Charleston',
@@ -5823,7 +5823,7 @@ const data = [
   },
   {
     Timestamp: '2/3/2020 16:21:29',
-    'job title': 'Tech Recruiter',
+    jobTitle: 'Tech Recruiter',
     team: 'Recruiting',
     salary: '60000',
     city: 'New York City',
@@ -5833,7 +5833,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '60000',
     city: 'Modesto',
@@ -5843,7 +5843,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '60000',
     city: 'Idaho',
@@ -5853,7 +5853,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '60000',
     city: 'Chicago',
@@ -5863,7 +5863,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '60000',
@@ -5874,7 +5874,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '60000',
     city: 'New York City',
@@ -5884,7 +5884,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '60000',
     city: 'Cleveland',
@@ -5894,7 +5894,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '60000',
@@ -5905,7 +5905,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '60000',
@@ -5917,7 +5917,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2020 16:50:06',
-    'job title': 'User Acquisition Marketing Manager',
+    jobTitle: 'User Acquisition Marketing Manager',
     team: 'Marketing',
     salary: '60000',
     city: 'Los Angeles',
@@ -5927,7 +5927,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'UX',
+    jobTitle: 'UX',
     team: 'Product Design',
     salary: '60000',
     city: 'Detroit',
@@ -5937,7 +5937,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     salary: '60000',
     city: 'Grand Rapids',
@@ -5947,7 +5947,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Director of Operations',
+    jobTitle: 'Director of Operations',
     team: 'Operations',
     'job level': '6',
     salary: '60400',
@@ -5958,7 +5958,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '60400',
     city: 'Salt Lake City',
@@ -5968,7 +5968,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '60450',
     city: 'Austin',
@@ -5979,7 +5979,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 9:01:04',
-    'job title': 'SEO Manager',
+    jobTitle: 'SEO Manager',
     team: 'Misc',
     salary: '60500',
     city: 'Baltimore ',
@@ -5990,7 +5990,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 15:10:29',
-    'job title': 'Front End Developer',
+    jobTitle: 'Front End Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '61000',
@@ -6001,7 +6001,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '61000',
@@ -6012,7 +6012,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '61000',
@@ -6023,7 +6023,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '61000',
     city: 'Peoria',
@@ -6033,7 +6033,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '61089',
@@ -6044,7 +6044,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '61650',
     city: 'Atlanta',
@@ -6054,7 +6054,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '61903',
     city: 'Cedar Rapids Iowa',
@@ -6065,7 +6065,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:48:27',
-    'job title': 'Client Analyst',
+    jobTitle: 'Client Analyst',
     team: 'Data Science',
     salary: '62000',
     city: 'New York City',
@@ -6075,7 +6075,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Help Desk',
+    jobTitle: 'Help Desk',
     team: 'Misc',
     'job level': '1',
     salary: '62000',
@@ -6086,7 +6086,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '62000',
@@ -6097,7 +6097,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '62000',
     city: 'Eau Claire',
@@ -6108,7 +6108,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 18:45:16',
-    'job title': 'Paid Media Campaign Manager',
+    jobTitle: 'Paid Media Campaign Manager',
     team: 'Misc',
     salary: '62000',
     city: 'Ventura',
@@ -6119,7 +6119,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 23:11:07',
-    'job title': 'Process Development  I',
+    jobTitle: 'Process Development  I',
     team: 'Misc',
     salary: '62000',
     city: 'Seattle',
@@ -6130,7 +6130,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 10:51:16',
-    'job title': 'Product Development Specialist',
+    jobTitle: 'Product Development Specialist',
     team: 'Misc',
     salary: '62000',
     city: 'Kansas City',
@@ -6141,7 +6141,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 17:06:05',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '62000',
     city: 'New York City',
@@ -6151,7 +6151,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'QA Engineer',
+    jobTitle: 'QA Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '62000',
@@ -6162,7 +6162,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Security Admin',
+    jobTitle: 'Security Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '62000',
@@ -6173,7 +6173,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '62000',
@@ -6184,7 +6184,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '62000',
     city: 'Los Angeles',
@@ -6194,7 +6194,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '62000',
@@ -6205,7 +6205,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '62000',
     city: 'South Bend',
@@ -6215,7 +6215,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '7',
     salary: '62000',
@@ -6226,7 +6226,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '62000',
     city: 'Flint',
@@ -6236,7 +6236,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '62000',
     city: 'Greensboro',
@@ -6246,7 +6246,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '62000',
     city: 'Cleveland',
@@ -6256,7 +6256,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '62000',
     city: 'Harrisburg',
@@ -6266,7 +6266,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '62000',
     city: 'Dallas',
@@ -6276,7 +6276,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '62000',
     city: 'Milwaukee',
@@ -6286,7 +6286,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '62000',
     city: 'San Diego',
@@ -6296,7 +6296,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '62000',
@@ -6307,7 +6307,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '62000',
     city: 'Philadelphia',
@@ -6317,7 +6317,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '62000',
     city: 'Richmond',
@@ -6327,7 +6327,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '62000',
@@ -6338,7 +6338,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '62392',
@@ -6349,7 +6349,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '62400',
     city: 'Dayton',
@@ -6360,7 +6360,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 8:27:43',
-    'job title': 'Scrum Master',
+    jobTitle: 'Scrum Master',
     team: 'Agile',
     salary: '62500',
     city: 'Baltimore ',
@@ -6370,7 +6370,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '62500',
     city: 'Buffalo',
@@ -6380,7 +6380,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '62500',
@@ -6392,7 +6392,7 @@ const data = [
   },
   {
     Timestamp: '1/23/2020 6:56:59',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '62697',
@@ -6403,7 +6403,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     'job level': '1',
     salary: '63000',
@@ -6414,7 +6414,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     'job level': '2',
     salary: '63000',
@@ -6426,7 +6426,7 @@ const data = [
   },
   {
     Timestamp: '1/27/2020 14:57:45',
-    'job title': 'Designer',
+    jobTitle: 'Designer',
     team: 'Product Design',
     salary: '63000',
     city: 'Atlanta',
@@ -6437,7 +6437,7 @@ const data = [
   },
   {
     Timestamp: '1/24/2021 17:49:30',
-    'job title': 'Enterprise Customer Success Manager',
+    jobTitle: 'Enterprise Customer Success Manager',
     team: 'Sales',
     salary: '63000',
     city: 'Nashville',
@@ -6448,7 +6448,7 @@ const data = [
   },
   {
     Timestamp: '6/16/2020 10:26:54',
-    'job title': 'IT Service Delivery Manager',
+    jobTitle: 'IT Service Delivery Manager',
     team: 'Network, Security & IT',
     salary: '63000',
     city: 'Atlanta',
@@ -6459,7 +6459,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 19:32:48',
-    'job title': 'Knowledge Manager',
+    jobTitle: 'Knowledge Manager',
     team: 'Misc',
     salary: '63000',
     city: 'Dallas',
@@ -6469,7 +6469,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '63000',
     city: 'Orlando',
@@ -6479,7 +6479,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '63000',
@@ -6491,7 +6491,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 18:08:42',
-    'job title': 'Sales Development Representative',
+    jobTitle: 'Sales Development Representative',
     team: 'Sales',
     salary: '63000',
     city: 'San Francisco Bay Area',
@@ -6502,7 +6502,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 22:26:28',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '63000',
@@ -6513,7 +6513,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '63000',
     city: 'Cincinnati',
@@ -6524,7 +6524,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 14:35:12',
-    'job title': 'Solutions Engineer',
+    jobTitle: 'Solutions Engineer',
     team: 'Sales',
     salary: '63000',
     city: 'Seattle',
@@ -6534,7 +6534,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '63000',
     city: 'Tallahassee',
@@ -6544,7 +6544,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '63000',
     city: 'Lafayette',
@@ -6554,7 +6554,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '63000',
     city: 'Cincinnati',
@@ -6564,7 +6564,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '63000',
@@ -6575,7 +6575,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '63000',
@@ -6586,7 +6586,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '63000',
     city: 'Fresno',
@@ -6597,7 +6597,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 10:43:08',
-    'job title': 'UX Research Lead',
+    jobTitle: 'UX Research Lead',
     team: 'Product Design',
     salary: '63000',
     city: 'New York City',
@@ -6607,7 +6607,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '63084',
     city: 'Milwaukee',
@@ -6617,7 +6617,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '63180',
@@ -6629,7 +6629,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 11:48:40',
-    'job title': 'Graphic Designer',
+    jobTitle: 'Graphic Designer',
     team: 'Product Design',
     salary: '63500',
     city: 'Chicago',
@@ -6639,7 +6639,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '63500',
     city: 'Buffalo',
@@ -6650,7 +6650,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 13:19:26',
-    'job title': 'Customer Success Manager',
+    jobTitle: 'Customer Success Manager',
     team: 'Sales',
     salary: '64000',
     city: 'New York City',
@@ -6661,7 +6661,7 @@ const data = [
   },
   {
     Timestamp: '2/26/2020 10:46:59',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '64000',
     city: 'Portland',
@@ -6672,7 +6672,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 10:03:26',
-    'job title': 'Project Coordinator',
+    jobTitle: 'Project Coordinator',
     team: 'Misc',
     salary: '64000',
     city: 'Boston',
@@ -6683,7 +6683,7 @@ const data = [
   },
   {
     Timestamp: '3/11/2020 13:57:34',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '64000',
@@ -6694,7 +6694,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '64000',
@@ -6706,7 +6706,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 18:50:22',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '64000',
@@ -6718,7 +6718,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:39:13',
-    'job title': 'Sr. Administrative Assistant',
+    jobTitle: 'Sr. Administrative Assistant',
     team: 'Misc',
     salary: '64000',
     city: 'San Francisco Bay Area',
@@ -6729,7 +6729,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 12:32:04',
-    'job title': 'Sr. Solutions Sales Specialist',
+    jobTitle: 'Sr. Solutions Sales Specialist',
     team: 'Sales',
     salary: '64000',
     city: 'Buffalo',
@@ -6739,7 +6739,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '64000',
     city: 'Chicago',
@@ -6749,7 +6749,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '64000',
     city: 'Ann Arbor',
@@ -6759,7 +6759,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '64000',
     city: 'Morristown',
@@ -6769,7 +6769,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '64000',
     city: 'Portland',
@@ -6779,7 +6779,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '64000',
@@ -6790,7 +6790,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '64900',
@@ -6802,7 +6802,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 14:06:43',
-    'job title': 'Content Strategist',
+    jobTitle: 'Content Strategist',
     team: 'Creative',
     salary: '65000',
     city: 'Chicago',
@@ -6813,7 +6813,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 15:37:10',
-    'job title': 'Customer Success Manager',
+    jobTitle: 'Customer Success Manager',
     team: 'Sales',
     salary: '65000',
     city: 'Seattle',
@@ -6823,7 +6823,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     'job level': '1',
     salary: '65000',
@@ -6835,7 +6835,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 10:26:27',
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '65000',
     city: 'Boston',
@@ -6846,7 +6846,7 @@ const data = [
   },
   {
     Timestamp: '2/23/2020 8:17:03',
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '65000',
     city: 'New York City',
@@ -6856,7 +6856,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Phoenix',
@@ -6866,7 +6866,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '65000',
@@ -6877,7 +6877,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'New York City',
@@ -6887,7 +6887,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '65000',
@@ -6899,7 +6899,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 14:59:33',
-    'job title': 'Digital Project Manager',
+    jobTitle: 'Digital Project Manager',
     team: 'Product Management',
     salary: '65000',
     city: 'Philadelphia',
@@ -6910,7 +6910,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 11:54:05',
-    'job title': 'Enterprise Support Engineer',
+    jobTitle: 'Enterprise Support Engineer',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Los Angeles',
@@ -6921,7 +6921,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 15:14:19',
-    'job title': 'Front End Engineer',
+    jobTitle: 'Front End Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '65000',
@@ -6933,7 +6933,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 14:24:18',
-    'job title': 'Graphic Designer',
+    jobTitle: 'Graphic Designer',
     team: 'Product Design',
     salary: '65000',
     city: 'Chicago',
@@ -6944,7 +6944,7 @@ const data = [
   },
   {
     Timestamp: '6/10/2020 22:06:27',
-    'job title': 'Growth Marketing Lead',
+    jobTitle: 'Growth Marketing Lead',
     team: 'Marketing',
     salary: '65000',
     city: 'Charlotte',
@@ -6954,7 +6954,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Head of IT',
+    jobTitle: 'Head of IT',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'New Orleans',
@@ -6965,7 +6965,7 @@ const data = [
   },
   {
     Timestamp: '3/2/2020 14:51:32',
-    'job title': 'Implementation Analyst',
+    jobTitle: 'Implementation Analyst',
     team: 'Misc',
     salary: '65000',
     city: 'Pittsburgh',
@@ -6975,7 +6975,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     'job level': '1',
     salary: '65000',
@@ -6986,7 +6986,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '65000',
     city: 'Chicago',
@@ -6996,7 +6996,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     'job level': '6',
     salary: '65000',
@@ -7007,7 +7007,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Santa Fe',
@@ -7017,7 +7017,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '65000',
@@ -7028,7 +7028,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Columbus',
@@ -7038,7 +7038,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Columbus',
@@ -7048,7 +7048,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Lexington',
@@ -7058,7 +7058,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Lynchburg',
@@ -7069,7 +7069,7 @@ const data = [
   },
   {
     Timestamp: '2/28/2020 11:44:50',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '65000',
     city: 'Birmingham',
@@ -7080,7 +7080,7 @@ const data = [
   },
   {
     Timestamp: '8/17/2020 14:39:47',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '65000',
     city: 'Washington',
@@ -7091,7 +7091,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2020 12:12:07',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '65000',
     city: 'Salt Lake City',
@@ -7101,7 +7101,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Technical Program Management',
     'job level': '2',
     salary: '65000',
@@ -7113,7 +7113,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:13:20',
-    'job title': 'Project Manager',
+    jobTitle: 'Project Manager',
     team: 'Product Management',
     salary: '65000',
     city: 'Charleston',
@@ -7124,7 +7124,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:06:36',
-    'job title': 'Remote Managing Director',
+    jobTitle: 'Remote Managing Director',
     team: 'Misc',
     salary: '65000',
     city: 'Charleston',
@@ -7135,7 +7135,7 @@ const data = [
   },
   {
     Timestamp: '2/14/2020 9:15:21',
-    'job title': 'Researcher',
+    jobTitle: 'Researcher',
     team: 'Misc',
     salary: '65000',
     city: 'Boston',
@@ -7145,7 +7145,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Sales Engineer',
+    jobTitle: 'Sales Engineer',
     team: 'Sales',
     'job level': '1',
     salary: '65000',
@@ -7156,7 +7156,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Security Admin',
+    jobTitle: 'Security Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '65000',
@@ -7167,7 +7167,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Fort Wayne',
@@ -7177,7 +7177,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '65000',
@@ -7188,7 +7188,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '65000',
@@ -7199,7 +7199,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'SOC Analyst',
+    jobTitle: 'SOC Analyst',
     team: 'Misc',
     salary: '65000',
     city: 'Philadelphia',
@@ -7209,7 +7209,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '65000',
@@ -7220,7 +7220,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '65000',
     city: 'Greenville',
@@ -7230,7 +7230,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '65000',
     city: 'Dallas',
@@ -7240,7 +7240,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '65000',
@@ -7252,7 +7252,7 @@ const data = [
   },
   {
     Timestamp: '8/3/2020 21:22:27',
-    'job title': 'Sr. SEO Manager',
+    jobTitle: 'Sr. SEO Manager',
     team: 'Misc',
     salary: '65000',
     city: 'New York City',
@@ -7263,7 +7263,7 @@ const data = [
   },
   {
     Timestamp: '6/5/2020 18:32:24',
-    'job title': 'Sr. Web Specialist',
+    jobTitle: 'Sr. Web Specialist',
     team: 'Misc',
     salary: '65000',
     city: 'St. Louis',
@@ -7273,7 +7273,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '65000',
@@ -7284,7 +7284,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Sacramento',
@@ -7294,7 +7294,7 @@ const data = [
     education: 'Some College'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'San Francisco Bay Area',
@@ -7304,7 +7304,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'San Clemente',
@@ -7314,7 +7314,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Hartford',
@@ -7324,7 +7324,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Tampa',
@@ -7334,7 +7334,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Atlanta',
@@ -7344,7 +7344,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Adams',
@@ -7354,7 +7354,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Rockford',
@@ -7364,7 +7364,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Baltimore',
@@ -7374,7 +7374,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '65000',
@@ -7385,7 +7385,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Ann Arbor',
@@ -7395,7 +7395,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Grand Rapids',
@@ -7405,7 +7405,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Kalamazoo',
@@ -7415,7 +7415,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '65000',
@@ -7426,7 +7426,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '65000',
@@ -7437,7 +7437,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Omaha',
@@ -7447,7 +7447,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Omaha',
@@ -7457,7 +7457,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Red Bank',
@@ -7467,7 +7467,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Buffalo',
@@ -7477,7 +7477,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Buffalo',
@@ -7487,7 +7487,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Raleigh',
@@ -7497,7 +7497,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Cleveland',
@@ -7507,7 +7507,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Cincinnati',
@@ -7517,7 +7517,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '65000',
@@ -7528,7 +7528,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '65000',
@@ -7539,7 +7539,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Knoxville',
@@ -7549,7 +7549,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '65000',
@@ -7560,7 +7560,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Dallas',
@@ -7570,7 +7570,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Dallas',
@@ -7580,7 +7580,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '65000',
@@ -7591,7 +7591,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Tacoma',
@@ -7601,7 +7601,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Spokane',
@@ -7611,7 +7611,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Spokane',
@@ -7622,7 +7622,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 21:36:16',
-    'job title': 'Systems Engineer',
+    jobTitle: 'Systems Engineer',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'San Francisco Bay Area',
@@ -7633,7 +7633,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 10:53:15',
-    'job title': 'Talent Development Coordinator ',
+    jobTitle: 'Talent Development Coordinator ',
     team: 'Misc',
     salary: '65000',
     city: 'San Francisco Bay Area',
@@ -7643,7 +7643,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Irvine',
@@ -7653,7 +7653,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Boston',
@@ -7663,7 +7663,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '65000',
@@ -7674,7 +7674,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Grand Rapids',
@@ -7684,7 +7684,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Grand Rapids',
@@ -7694,7 +7694,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Columbus',
@@ -7704,7 +7704,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '65000',
@@ -7715,7 +7715,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '65000',
     city: 'Houston',
@@ -7726,7 +7726,7 @@ const data = [
   },
   {
     Timestamp: '2/9/2020 11:01:19',
-    'job title': 'UX Strategist',
+    jobTitle: 'UX Strategist',
     team: 'Product Design',
     salary: '65000',
     city: 'Philadelphia',
@@ -7737,7 +7737,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 9:56:35',
-    'job title': 'Web Designer',
+    jobTitle: 'Web Designer',
     team: 'Product Design',
     salary: '65000',
     city: 'Minneapolis',
@@ -7748,7 +7748,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 15:03:08',
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '65000',
@@ -7759,7 +7759,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '65003',
@@ -7770,7 +7770,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '65200',
     city: 'Buffalo',
@@ -7780,7 +7780,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '65500',
@@ -7791,7 +7791,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     'job level': '1',
     salary: '66000',
@@ -7803,7 +7803,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:59:27',
-    'job title': 'Data Scientist',
+    jobTitle: 'Data Scientist',
     team: 'Data Science',
     salary: '66000',
     city: 'Dallas',
@@ -7813,7 +7813,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Database Administrator',
+    jobTitle: 'Database Administrator',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '66000',
@@ -7825,7 +7825,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 22:03:31',
-    'job title': 'IT Auditer',
+    jobTitle: 'IT Auditer',
     team: 'Network, Security & IT',
     salary: '66000',
     city: 'Austin',
@@ -7836,7 +7836,7 @@ const data = [
   },
   {
     Timestamp: '1/9/2021 15:42:21',
-    'job title': 'QA Engineer',
+    jobTitle: 'QA Engineer',
     team: 'Software Engineering',
     salary: '66000',
     city: 'Atlanta',
@@ -7847,7 +7847,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 13:40:19',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     salary: '66000',
     city: 'Kansas City',
@@ -7857,7 +7857,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '66000',
     city: 'San Diego',
@@ -7867,7 +7867,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '66000',
     city: 'Indianapolis',
@@ -7877,7 +7877,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '66000',
     city: 'Rochester',
@@ -7887,7 +7887,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '66000',
     city: 'Dallas',
@@ -7898,7 +7898,7 @@ const data = [
   },
   {
     Timestamp: '1/17/2021 21:35:17',
-    'job title': 'Technical Business Analyst',
+    jobTitle: 'Technical Business Analyst',
     team: 'Business Analytics',
     salary: '66000',
     city: 'Atlanta',
@@ -7908,7 +7908,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '66000',
@@ -7919,7 +7919,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '66000',
@@ -7930,7 +7930,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '66000',
     city: 'Philadelphia',
@@ -7940,7 +7940,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '66750',
@@ -7951,7 +7951,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '66800',
@@ -7963,7 +7963,7 @@ const data = [
   },
   {
     Timestamp: '2/10/2020 10:55:38',
-    'job title': 'Front End Developer',
+    jobTitle: 'Front End Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '66950',
@@ -7974,7 +7974,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Computer Lab Manager',
+    jobTitle: 'Computer Lab Manager',
     team: 'Misc',
     'job level': '8',
     salary: '67000',
@@ -7986,7 +7986,7 @@ const data = [
   },
   {
     Timestamp: '10/8/2020 13:46:21',
-    'job title': 'Digital Designer',
+    jobTitle: 'Digital Designer',
     team: 'Product Design',
     salary: '67000',
     city: 'New York City',
@@ -7997,7 +7997,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2021 9:30:56',
-    'job title': 'Digital Sales',
+    jobTitle: 'Digital Sales',
     team: 'Sales',
     salary: '67000',
     city: 'Chicago',
@@ -8008,7 +8008,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 10:05:21',
-    'job title': 'Front End Developer',
+    jobTitle: 'Front End Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '67000',
@@ -8019,7 +8019,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Hardware Engineer',
+    jobTitle: 'Hardware Engineer',
     team: 'Hardware Engineering',
     'job level': '3',
     salary: '67000',
@@ -8031,7 +8031,7 @@ const data = [
   },
   {
     Timestamp: '10/19/2020 11:28:29',
-    'job title': 'Integrated Marketing Manager',
+    jobTitle: 'Integrated Marketing Manager',
     team: 'Marketing',
     salary: '67000',
     city: 'New York City',
@@ -8041,7 +8041,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '67000',
     city: 'Memphis',
@@ -8051,7 +8051,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '67000',
     city: 'Detroit',
@@ -8061,7 +8061,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '67000',
     city: 'Austin',
@@ -8072,7 +8072,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 20:11:25',
-    'job title': 'Product Analyst',
+    jobTitle: 'Product Analyst',
     team: 'Product Management',
     salary: '67000',
     city: 'New York City',
@@ -8083,7 +8083,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:45:52',
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Product Management',
     salary: '67000',
     city: 'Atlanta',
@@ -8093,7 +8093,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Security Admin',
+    jobTitle: 'Security Admin',
     team: 'Network, Security & IT',
     salary: '67000',
     city: 'Fort Collins',
@@ -8103,7 +8103,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '67000',
     city: 'Denver',
@@ -8113,7 +8113,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '67000',
     city: 'Annapolis',
@@ -8123,7 +8123,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '67000',
     city: 'Waldorf',
@@ -8133,7 +8133,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '67000',
     city: 'Long Island',
@@ -8143,7 +8143,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '67000',
     city: 'Dallas',
@@ -8153,7 +8153,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '67000',
@@ -8165,7 +8165,7 @@ const data = [
   },
   {
     Timestamp: '3/3/2020 9:37:38',
-    'job title': 'UX/UI Designer',
+    jobTitle: 'UX/UI Designer',
     team: 'Product Design',
     salary: '67000',
     city: 'Charlotte',
@@ -8176,7 +8176,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 13:57:14',
-    'job title': 'Visual Designer',
+    jobTitle: 'Visual Designer',
     team: 'Product Design',
     salary: '67000',
     city: 'San Francisco Bay Area',
@@ -8186,7 +8186,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '67000',
@@ -8197,7 +8197,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Engineer',
+    jobTitle: 'System Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '67225',
@@ -8209,7 +8209,7 @@ const data = [
   },
   {
     Timestamp: '3/16/2020 8:11:12',
-    'job title': 'Lead Solutions Engineer',
+    jobTitle: 'Lead Solutions Engineer',
     team: 'Software Engineering Management',
     salary: '67500',
     city: 'Rochester',
@@ -8220,7 +8220,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 10:02:09',
-    'job title': 'Product Owner',
+    jobTitle: 'Product Owner',
     team: 'Agile',
     salary: '67500',
     city: 'Clarksville',
@@ -8230,7 +8230,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '67500',
     city: 'Chicago',
@@ -8240,7 +8240,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '67500',
     city: 'Philadelphia',
@@ -8250,7 +8250,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '67500',
@@ -8261,7 +8261,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '67550',
@@ -8272,7 +8272,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '67565',
     city: 'Austin',
@@ -8283,7 +8283,7 @@ const data = [
   },
   {
     Timestamp: '2/16/2020 19:44:32',
-    'job title': 'Account Executive',
+    jobTitle: 'Account Executive',
     team: 'Sales',
     salary: '68000',
     city: 'San Francisco Bay Area',
@@ -8293,7 +8293,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Associate',
+    jobTitle: 'Associate',
     team: 'Misc',
     'job level': '2',
     salary: '68000',
@@ -8304,7 +8304,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Cybersecurity Engineer',
+    jobTitle: 'Cybersecurity Engineer',
     team: 'Network, Security & IT',
     salary: '68000',
     city: 'Atlanta',
@@ -8314,7 +8314,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '68000',
     city: 'Chicago',
@@ -8325,7 +8325,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 22:53:54',
-    'job title': 'Infrastructure Architect ',
+    jobTitle: 'Infrastructure Architect ',
     team: 'Network, Security & IT',
     salary: '68000',
     city: 'Columbus',
@@ -8336,7 +8336,7 @@ const data = [
   },
   {
     Timestamp: '10/8/2020 11:18:32',
-    'job title': 'IT service analysts ',
+    jobTitle: 'IT service analysts ',
     team: 'Network, Security & IT',
     salary: '68000',
     city: 'Nashville',
@@ -8347,7 +8347,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 18:52:49',
-    'job title': 'Marketing Design Lead',
+    jobTitle: 'Marketing Design Lead',
     team: 'Marketing',
     salary: '68000',
     city: 'Fargo',
@@ -8357,7 +8357,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '68000',
@@ -8368,7 +8368,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '68000',
     city: 'Grand Rapids',
@@ -8378,7 +8378,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '68000',
     city: 'Austin',
@@ -8388,7 +8388,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Technical Program Management',
     salary: '68000',
     city: 'Austin',
@@ -8399,7 +8399,7 @@ const data = [
   },
   {
     Timestamp: '10/1/2020 23:53:24',
-    'job title': 'Sales System Administrator',
+    jobTitle: 'Sales System Administrator',
     team: 'Network, Security & IT',
     salary: '68000',
     city: 'Boston',
@@ -8409,7 +8409,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '68000',
@@ -8421,7 +8421,7 @@ const data = [
   },
   {
     Timestamp: '3/9/2020 16:39:00',
-    'job title': 'Sr. Technical Writer',
+    jobTitle: 'Sr. Technical Writer',
     team: 'Creative',
     salary: '68000',
     city: 'Atlanta',
@@ -8432,7 +8432,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 13:53:02',
-    'job title': 'Sr. Technical Writer',
+    jobTitle: 'Sr. Technical Writer',
     team: 'Creative',
     salary: '68000',
     city: 'Tulsa',
@@ -8442,7 +8442,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '68000',
@@ -8453,7 +8453,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '68000',
     city: 'Los Angeles',
@@ -8463,7 +8463,7 @@ const data = [
     education: 'some college'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '68000',
     city: 'Los Angeles',
@@ -8473,7 +8473,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '68000',
     city: 'Newark',
@@ -8483,7 +8483,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '68000',
@@ -8494,7 +8494,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '68000',
     city: 'College Park',
@@ -8504,7 +8504,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '68000',
     city: 'Columbus',
@@ -8514,7 +8514,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '68000',
     city: 'Tulsa',
@@ -8524,7 +8524,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '68000',
     city: 'Philadelphia',
@@ -8534,7 +8534,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '68000',
     city: 'Austin',
@@ -8544,7 +8544,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '68000',
     city: 'Braintree',
@@ -8554,7 +8554,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '68250',
     city: 'Athens',
@@ -8564,7 +8564,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '68400',
     city: 'Ann Arbor',
@@ -8575,7 +8575,7 @@ const data = [
   },
   {
     Timestamp: '3/16/2020 16:18:02',
-    'job title': 'Brand & Visual Designer',
+    jobTitle: 'Brand & Visual Designer',
     team: 'Product Design',
     salary: '68500',
     city: 'Detroit',
@@ -8585,7 +8585,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '68500',
     city: 'Atlanta',
@@ -8595,7 +8595,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '69000',
@@ -8606,7 +8606,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '69000',
@@ -8618,7 +8618,7 @@ const data = [
   },
   {
     Timestamp: '5/22/2020 21:02:24',
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     salary: '69000',
     city: 'Los Angeles',
@@ -8628,7 +8628,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     salary: '69160',
     city: 'Asheville',
@@ -8639,7 +8639,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 19:36:39',
-    'job title': 'IT Coordinator',
+    jobTitle: 'IT Coordinator',
     team: 'Network, Security & IT',
     salary: '69500',
     city: 'Los Angeles',
@@ -8649,7 +8649,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '69500',
     city: 'Chicago',
@@ -8660,7 +8660,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 21:10:35',
-    'job title': 'Automation Test Engineer',
+    jobTitle: 'Automation Test Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '70000',
@@ -8672,7 +8672,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 14:48:04',
-    'job title': 'Business Intelligence Analyst',
+    jobTitle: 'Business Intelligence Analyst',
     team: 'Data Science',
     salary: '70000',
     city: 'San Diego',
@@ -8683,7 +8683,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 2:53:24',
-    'job title': 'Business Intelligence Analyst',
+    jobTitle: 'Business Intelligence Analyst',
     team: 'Data Science',
     salary: '70000',
     city: 'San Francisco Bay Area',
@@ -8694,7 +8694,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 19:14:02',
-    'job title': 'Client Success Manager',
+    jobTitle: 'Client Success Manager',
     team: 'Sales',
     salary: '70000',
     city: 'San Francisco Bay Area',
@@ -8705,7 +8705,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 18:46:59',
-    'job title': 'Communications Specialist',
+    jobTitle: 'Communications Specialist',
     team: 'Misc',
     salary: '70000',
     city: 'San Francisco Bay Area',
@@ -8716,7 +8716,7 @@ const data = [
   },
   {
     Timestamp: '2/11/2020 21:04:43',
-    'job title': 'Customer Success Manager',
+    jobTitle: 'Customer Success Manager',
     team: 'Sales',
     salary: '70000',
     city: 'Austin',
@@ -8726,7 +8726,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     'job level': '2',
     salary: '70000',
@@ -8737,7 +8737,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '70000',
     city: 'Newark',
@@ -8747,7 +8747,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '70000',
     city: 'Chicago',
@@ -8758,7 +8758,7 @@ const data = [
   },
   {
     Timestamp: '10/8/2020 17:34:39',
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '70000',
     city: 'St. Louis',
@@ -8768,7 +8768,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '70000',
     city: 'Omaha',
@@ -8778,7 +8778,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '70000',
@@ -8789,7 +8789,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Miami',
@@ -8799,7 +8799,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Rochester',
@@ -8809,7 +8809,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Columbus',
@@ -8819,7 +8819,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Nashville',
@@ -8829,7 +8829,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Houston',
@@ -8840,7 +8840,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 10:53:01',
-    'job title': 'Director of SEO',
+    jobTitle: 'Director of SEO',
     team: 'Misc',
     salary: '70000',
     city: 'Philadelphia',
@@ -8851,7 +8851,7 @@ const data = [
   },
   {
     Timestamp: '6/5/2020 16:46:53',
-    'job title': 'Director of Web Development',
+    jobTitle: 'Director of Web Development',
     team: 'Software Engineering Management',
     salary: '70000',
     city: 'San Antonio',
@@ -8862,7 +8862,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 10:58:03',
-    'job title': 'Email Marketing Manager',
+    jobTitle: 'Email Marketing Manager',
     team: 'Marketing',
     salary: '70000',
     city: 'Denver',
@@ -8873,7 +8873,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 20:17:09',
-    'job title': 'Graphic Designer',
+    jobTitle: 'Graphic Designer',
     team: 'Product Design',
     salary: '70000',
     city: 'Chicago',
@@ -8884,7 +8884,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:54:08',
-    'job title': 'Growth Manager',
+    jobTitle: 'Growth Manager',
     team: 'Misc',
     salary: '70000',
     city: 'Chicago',
@@ -8894,7 +8894,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Information Security',
+    jobTitle: 'Information Security',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '70000',
@@ -8905,7 +8905,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '70000',
     city: 'Detroit',
@@ -8915,7 +8915,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     'job level': '3',
     salary: '70000',
@@ -8927,7 +8927,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 11:53:59',
-    'job title': 'Manager of Event Operations',
+    jobTitle: 'Manager of Event Operations',
     team: 'Misc',
     salary: '70000',
     city: 'Chicago',
@@ -8937,7 +8937,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Charleston',
@@ -8947,7 +8947,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Milwaukee',
@@ -8957,7 +8957,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'San Francisco Bay Area',
@@ -8967,7 +8967,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'San Luis Obispo',
@@ -8977,7 +8977,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '70000',
@@ -8988,7 +8988,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '70000',
@@ -8999,7 +8999,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Lamesa',
@@ -9009,7 +9009,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '70000',
     city: 'San Francisco',
@@ -9020,7 +9020,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 19:57:43',
-    'job title': 'Product Operations Manager',
+    jobTitle: 'Product Operations Manager',
     team: 'Product Management',
     salary: '70000',
     city: 'Raleigh',
@@ -9030,7 +9030,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'QA Engineer',
+    jobTitle: 'QA Engineer',
     team: 'Software Engineering',
     salary: '70000',
     city: 'Newport Beach',
@@ -9041,7 +9041,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 12:37:08',
-    'job title': 'QA Engineer',
+    jobTitle: 'QA Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '70000',
@@ -9053,7 +9053,7 @@ const data = [
   },
   {
     Timestamp: '2/26/2020 13:46:19',
-    'job title': 'Regional Director of Recruiting',
+    jobTitle: 'Regional Director of Recruiting',
     team: 'Recruiting',
     salary: '70000',
     city: 'Washington',
@@ -9064,7 +9064,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 18:51:47',
-    'job title': 'Research Data Analyst ',
+    jobTitle: 'Research Data Analyst ',
     team: 'Data Science',
     salary: '70000',
     city: 'Hartford',
@@ -9075,7 +9075,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 22:30:10',
-    'job title': 'Sales Development Manager',
+    jobTitle: 'Sales Development Manager',
     team: 'Sales',
     salary: '70000',
     city: 'Austin',
@@ -9086,7 +9086,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 20:49:56',
-    'job title': 'Sales Development Representative ',
+    jobTitle: 'Sales Development Representative ',
     team: 'Sales',
     salary: '70000',
     city: 'Portland',
@@ -9097,7 +9097,7 @@ const data = [
   },
   {
     Timestamp: '3/2/2020 21:30:40',
-    'job title': 'Sales Systems Analyst',
+    jobTitle: 'Sales Systems Analyst',
     team: 'Sales',
     salary: '70000',
     city: 'San Francisco Bay Area',
@@ -9107,7 +9107,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Security Analyst',
+    jobTitle: 'Security Analyst',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'St. Louis',
@@ -9117,7 +9117,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Security Analyst',
+    jobTitle: 'Security Analyst',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Fairfax',
@@ -9127,7 +9127,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '70000',
@@ -9138,7 +9138,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '70000',
@@ -9150,7 +9150,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 16:36:39',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '70000',
@@ -9161,7 +9161,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '70000',
@@ -9172,7 +9172,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '70000',
@@ -9183,7 +9183,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '70000',
@@ -9194,7 +9194,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '70000',
     city: 'Tallahassee',
@@ -9205,7 +9205,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 19:11:33',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '70000',
@@ -9216,7 +9216,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '4',
     salary: '70000',
@@ -9228,7 +9228,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 7:53:59',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '70000',
@@ -9240,7 +9240,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 12:13:19',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '70000',
@@ -9251,7 +9251,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '70000',
     city: 'Salt Lake City',
@@ -9262,7 +9262,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 15:27:21',
-    'job title': 'Sr. UX Designer',
+    jobTitle: 'Sr. UX Designer',
     team: 'Product Design',
     salary: '70000',
     city: 'Washington',
@@ -9273,7 +9273,7 @@ const data = [
   },
   {
     Timestamp: '3/2/2020 17:07:21',
-    'job title': 'Sr. UX Writer',
+    jobTitle: 'Sr. UX Writer',
     team: 'Product Design',
     salary: '70000',
     city: 'Portland',
@@ -9284,7 +9284,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2020 18:08:58',
-    'job title': 'Sr. Writer',
+    jobTitle: 'Sr. Writer',
     team: 'Creative',
     salary: '70000',
     city: 'San Francisco Bay Area',
@@ -9294,7 +9294,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Birmingham',
@@ -9304,7 +9304,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '70000',
@@ -9315,7 +9315,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Los Angeles',
@@ -9325,7 +9325,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Los Angeles',
@@ -9335,7 +9335,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '70000',
@@ -9346,7 +9346,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Hartford',
@@ -9356,7 +9356,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Melbourne',
@@ -9366,7 +9366,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '70000',
@@ -9377,7 +9377,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Atlanta',
@@ -9387,7 +9387,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '70000',
@@ -9398,7 +9398,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Chicago',
@@ -9408,7 +9408,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '70000',
@@ -9419,7 +9419,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Detroit',
@@ -9429,7 +9429,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Springfield',
@@ -9439,7 +9439,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Manchester',
@@ -9449,7 +9449,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Bronx',
@@ -9459,7 +9459,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '70000',
@@ -9470,7 +9470,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '70000',
@@ -9481,7 +9481,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Portland',
@@ -9491,7 +9491,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Columbia',
@@ -9501,7 +9501,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Nashville',
@@ -9511,7 +9511,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Houston',
@@ -9521,7 +9521,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '70000',
@@ -9532,7 +9532,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'San Antonio',
@@ -9543,7 +9543,7 @@ const data = [
   },
   {
     Timestamp: '3/3/2020 17:48:57',
-    'job title': 'Technical Program Manager',
+    jobTitle: 'Technical Program Manager',
     team: 'Technical Program Management',
     salary: '70000',
     city: 'San Francisco Bay Area',
@@ -9553,7 +9553,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Boise',
@@ -9563,7 +9563,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '70000',
     city: 'Staten Island',
@@ -9573,7 +9573,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '70000',
@@ -9585,7 +9585,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 13:38:21',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '70000',
     city: 'Los Angeles',
@@ -9596,7 +9596,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 15:31:01',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '70000',
     city: 'Atlanta',
@@ -9607,7 +9607,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2020 8:37:01',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '70000',
     city: 'Pittsburgh',
@@ -9618,7 +9618,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 6:36:29',
-    'job title': 'UX/UI Designer',
+    jobTitle: 'UX/UI Designer',
     team: 'Software Engineering',
     salary: '70000',
     city: 'St. Petersburg',
@@ -9629,7 +9629,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 15:01:13',
-    'job title': 'UX/UI Designer',
+    jobTitle: 'UX/UI Designer',
     team: 'Product Design',
     salary: '70000',
     city: 'Philadelphia',
@@ -9639,7 +9639,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '70000',
@@ -9651,7 +9651,7 @@ const data = [
   },
   {
     Timestamp: '11/24/2020 11:06:11',
-    'job title': 'Backend Java Developer',
+    jobTitle: 'Backend Java Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '70470',
@@ -9663,7 +9663,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 15:29:15',
-    'job title': 'Design Manager',
+    jobTitle: 'Design Manager',
     team: 'Product Design',
     salary: '71000',
     city: 'San Francisco Bay Area',
@@ -9674,7 +9674,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 0:18:18',
-    'job title': 'Manager of Support',
+    jobTitle: 'Manager of Support',
     team: 'Misc',
     salary: '71000',
     city: 'San Francisco Bay Area',
@@ -9684,7 +9684,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '71000',
@@ -9695,7 +9695,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '71000',
     city: 'Washington',
@@ -9706,7 +9706,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 12:06:32',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '71000',
@@ -9718,7 +9718,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 16:56:39',
-    'job title': 'Sr. Manager of Marketing and Community',
+    jobTitle: 'Sr. Manager of Marketing and Community',
     team: 'Marketing',
     salary: '71000',
     city: 'Albany',
@@ -9728,7 +9728,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '71000',
@@ -9739,7 +9739,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '71000',
@@ -9750,7 +9750,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '71000',
@@ -9762,7 +9762,7 @@ const data = [
   },
   {
     Timestamp: '9/9/2020 14:26:13',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '71000',
     city: 'Boston',
@@ -9773,7 +9773,7 @@ const data = [
   },
   {
     Timestamp: '2/10/2020 15:45:27',
-    'job title': 'UX Designer ',
+    jobTitle: 'UX Designer ',
     team: 'Product Design',
     salary: '71000',
     city: 'Jersey City',
@@ -9784,7 +9784,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 16:50:17',
-    'job title': 'Visual Designer',
+    jobTitle: 'Visual Designer',
     team: 'Product Design',
     salary: '71000',
     city: 'Atlanta',
@@ -9794,7 +9794,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '71320',
     city: 'New York City',
@@ -9804,7 +9804,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '71400',
     city: 'Indianapolis',
@@ -9814,7 +9814,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '71500',
@@ -9825,7 +9825,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '71500',
     city: 'Dayton',
@@ -9835,7 +9835,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '71500',
     city: 'Raleigh',
@@ -9845,7 +9845,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Cybersecurity Engineer',
+    jobTitle: 'Cybersecurity Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '72000',
@@ -9856,7 +9856,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '72000',
@@ -9868,7 +9868,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 10:48:43',
-    'job title': 'DevOps Engineer',
+    jobTitle: 'DevOps Engineer',
     team: 'Network, Security & IT',
     salary: '72000',
     city: 'Gainesville',
@@ -9878,7 +9878,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '72000',
     city: 'San Antonio',
@@ -9888,7 +9888,7 @@ const data = [
     education: 'Trade school plus certs'
   },
   {
-    'job title': 'Mechanical Engineer',
+    jobTitle: 'Mechanical Engineer',
     team: 'Mechanical Engineering',
     'job level': '2',
     salary: '72000',
@@ -9899,7 +9899,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '72000',
@@ -9910,7 +9910,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '72000',
@@ -9922,7 +9922,7 @@ const data = [
   },
   {
     Timestamp: '2/26/2020 17:09:30',
-    'job title': 'Project Manager',
+    jobTitle: 'Project Manager',
     team: 'Product Management',
     salary: '72000',
     city: 'San Francisco Bay Area',
@@ -9933,7 +9933,7 @@ const data = [
   },
   {
     Timestamp: '2/26/2020 10:52:16',
-    'job title': 'Project Manager',
+    jobTitle: 'Project Manager',
     team: 'Product Management',
     salary: '72000',
     city: 'Portland',
@@ -9944,7 +9944,7 @@ const data = [
   },
   {
     Timestamp: '3/2/2020 13:12:24',
-    'job title': 'QA Engineer',
+    jobTitle: 'QA Engineer',
     team: 'Software Engineering',
     salary: '72000',
     city: 'Burlington',
@@ -9955,7 +9955,7 @@ const data = [
   },
   {
     Timestamp: '2/14/2020 16:16:30',
-    'job title': 'SEO Strategist',
+    jobTitle: 'SEO Strategist',
     team: 'Misc',
     salary: '72000',
     city: 'Denver',
@@ -9965,7 +9965,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '72000',
@@ -9977,7 +9977,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 11:45:47',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '72000',
@@ -9988,7 +9988,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '4',
     salary: '72000',
@@ -10000,7 +10000,7 @@ const data = [
   },
   {
     Timestamp: '2/28/2020 14:53:43',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '72000',
@@ -10012,7 +10012,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 12:40:41',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '72000',
@@ -10024,7 +10024,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 11:57:11',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '72000',
@@ -10036,7 +10036,7 @@ const data = [
   },
   {
     Timestamp: '2/25/2020 9:24:04',
-    'job title': 'Sr. External Affairs Specialist ',
+    jobTitle: 'Sr. External Affairs Specialist ',
     team: 'Misc',
     salary: '72000',
     city: 'Carmel',
@@ -10046,7 +10046,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '72000',
     city: 'Little Rock',
@@ -10056,7 +10056,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '72000',
     city: 'Santa Barbara',
@@ -10066,7 +10066,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '72000',
     city: 'San Diego',
@@ -10076,7 +10076,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '72000',
     city: 'San Diego',
@@ -10086,7 +10086,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '72000',
@@ -10097,7 +10097,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '72000',
@@ -10108,7 +10108,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '72000',
@@ -10119,7 +10119,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '72000',
@@ -10130,7 +10130,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '72000',
@@ -10141,7 +10141,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '72000',
     city: 'Boston',
@@ -10151,7 +10151,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '72000',
     city: 'Buffalo',
@@ -10161,7 +10161,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '72000',
     city: 'Cincinnati',
@@ -10171,7 +10171,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '72000',
     city: 'Austin',
@@ -10181,7 +10181,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '72000',
@@ -10192,7 +10192,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '72000',
     city: 'Dallas',
@@ -10203,7 +10203,7 @@ const data = [
   },
   {
     Timestamp: '5/23/2020 11:51:34',
-    'job title': 'UI Engineer',
+    jobTitle: 'UI Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '72000',
@@ -10215,7 +10215,7 @@ const data = [
   },
   {
     Timestamp: '3/10/2020 0:29:56',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '72000',
     city: 'Portland',
@@ -10226,7 +10226,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 16:48:55',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '72000',
     city: 'Seattle',
@@ -10237,7 +10237,7 @@ const data = [
   },
   {
     Timestamp: '11/5/2020 11:02:34',
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '72000',
@@ -10248,7 +10248,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     salary: '72000',
     city: 'Cincinnati',
@@ -10259,7 +10259,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:44:48',
-    'job title': 'Marketing Director',
+    jobTitle: 'Marketing Director',
     team: 'Marketing',
     salary: '72100',
     city: 'Buffalo',
@@ -10270,7 +10270,7 @@ const data = [
   },
   {
     Timestamp: '3/17/2020 7:57:38',
-    'job title': 'Director of Content',
+    jobTitle: 'Director of Content',
     team: 'Creative',
     salary: '72188',
     city: 'Miami',
@@ -10281,7 +10281,7 @@ const data = [
   },
   {
     Timestamp: '7/21/2020 13:02:53',
-    'job title': 'Customer Success Manager',
+    jobTitle: 'Customer Success Manager',
     team: 'Sales',
     salary: '72500',
     city: 'Jersey City',
@@ -10291,7 +10291,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'PC Analyst',
+    jobTitle: 'PC Analyst',
     team: 'Misc',
     salary: '72500',
     city: 'Louisville',
@@ -10302,7 +10302,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 14:51:52',
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Product Management',
     salary: '72500',
     city: 'San Francisco Bay Area',
@@ -10312,7 +10312,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '72500',
     city: 'Duluth',
@@ -10323,7 +10323,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 14:38:17',
-    'job title': 'Sr. QA Engineer',
+    jobTitle: 'Sr. QA Engineer',
     team: 'Software Engineering Management',
     salary: '72500',
     city: 'Philadelphia',
@@ -10333,7 +10333,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '72500',
@@ -10344,7 +10344,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '72500',
     city: 'Columbus',
@@ -10354,7 +10354,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '72600',
     city: 'Napa ',
@@ -10365,7 +10365,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 12:50:42',
-    'job title': '.NET Developer',
+    jobTitle: '.NET Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '72800',
@@ -10377,7 +10377,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 7:45:23',
-    'job title': 'IT Security Analyst',
+    jobTitle: 'IT Security Analyst',
     team: 'Network, Security & IT',
     salary: '72800',
     city: 'Alexandria',
@@ -10388,7 +10388,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 9:27:00',
-    'job title': 'UX/UI Designer',
+    jobTitle: 'UX/UI Designer',
     team: 'Product Design',
     salary: '72800',
     city: 'St. Louis',
@@ -10399,7 +10399,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 20:26:49',
-    'job title': 'Application Analyst',
+    jobTitle: 'Application Analyst',
     team: 'Data Science',
     salary: '73000',
     city: 'Nashville',
@@ -10410,7 +10410,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 8:07:59',
-    'job title': 'Business Development Director',
+    jobTitle: 'Business Development Director',
     team: 'Sales',
     salary: '73000',
     city: 'Austin',
@@ -10421,7 +10421,7 @@ const data = [
   },
   {
     Timestamp: '10/9/2020 12:33:11',
-    'job title': 'Client Solutions Manager',
+    jobTitle: 'Client Solutions Manager',
     team: 'Sales',
     salary: '73000',
     city: 'Boston',
@@ -10432,7 +10432,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 11:03:59',
-    'job title': 'Creative Team Lead',
+    jobTitle: 'Creative Team Lead',
     team: 'Product Design',
     salary: '73000',
     city: 'Philadelphia',
@@ -10442,7 +10442,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     'job level': '3',
     salary: '73000',
@@ -10454,7 +10454,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:44:31',
-    'job title': 'Front-End Developer',
+    jobTitle: 'Front-End Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '73000',
@@ -10465,7 +10465,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '73000',
@@ -10477,7 +10477,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 19:19:51',
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Product Management',
     salary: '73000',
     city: 'Seattle',
@@ -10487,7 +10487,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Security Admin',
+    jobTitle: 'Security Admin',
     team: 'Network, Security & IT',
     salary: '73000',
     city: 'Syracuse',
@@ -10497,7 +10497,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '73000',
     city: 'Columbus',
@@ -10507,7 +10507,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '73000',
@@ -10519,7 +10519,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:51:02',
-    'job title': 'Sr. Liasion of Professional Learning',
+    jobTitle: 'Sr. Liasion of Professional Learning',
     team: 'Misc',
     salary: '73000',
     city: 'Columbus',
@@ -10529,7 +10529,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '73000',
     city: 'Minneapolis',
@@ -10539,7 +10539,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '73000',
     city: 'Albuquerque',
@@ -10549,7 +10549,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '73000',
@@ -10560,7 +10560,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '73000',
@@ -10571,7 +10571,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '73000',
@@ -10582,7 +10582,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '73200',
@@ -10594,7 +10594,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:47:09',
-    'job title': 'IT Support Manager',
+    jobTitle: 'IT Support Manager',
     team: 'Network, Security & IT',
     salary: '73200',
     city: 'New York City',
@@ -10605,7 +10605,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 20:32:53',
-    'job title': 'Product Owner',
+    jobTitle: 'Product Owner',
     team: 'Agile',
     salary: '73500',
     city: 'Baltimore ',
@@ -10615,7 +10615,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '73500',
     city: 'Charlotte',
@@ -10626,7 +10626,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 14:25:47',
-    'job title': 'Digital Project Manager',
+    jobTitle: 'Digital Project Manager',
     team: 'Product Management',
     salary: '73600',
     city: 'Baltimore ',
@@ -10636,7 +10636,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     'job level': '3',
     salary: '74000',
@@ -10648,7 +10648,7 @@ const data = [
   },
   {
     Timestamp: '5/26/2020 2:25:14',
-    'job title': 'Digital Business Coordinator',
+    jobTitle: 'Digital Business Coordinator',
     team: 'Misc',
     salary: '74000',
     city: 'New York City',
@@ -10658,7 +10658,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '74000',
     city: 'Norfolk',
@@ -10669,7 +10669,7 @@ const data = [
   },
   {
     Timestamp: '9/28/2020 20:48:23',
-    'job title': 'Project Engineer',
+    jobTitle: 'Project Engineer',
     team: 'Software Engineering',
     salary: '74000',
     city: 'Windsor Locks',
@@ -10679,7 +10679,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '74000',
     city: 'Phoenix',
@@ -10689,7 +10689,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '74000',
@@ -10700,7 +10700,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '74000',
     city: 'Albany',
@@ -10710,7 +10710,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '74000',
     city: 'Austin',
@@ -10720,7 +10720,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '74000',
     city: 'Seattle',
@@ -10730,7 +10730,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '74000',
     city: 'Cambridge',
@@ -10741,7 +10741,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:46:22',
-    'job title': 'UX/UI Designer',
+    jobTitle: 'UX/UI Designer',
     team: 'Product Design',
     salary: '74000',
     city: 'Nashville',
@@ -10751,7 +10751,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '74100',
@@ -10762,7 +10762,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '74160',
     city: 'Houston',
@@ -10773,7 +10773,7 @@ const data = [
   },
   {
     Timestamp: '3/10/2020 21:49:28',
-    'job title': 'Cisco Routing Analyst',
+    jobTitle: 'Cisco Routing Analyst',
     team: 'Network, Security & IT',
     salary: '74800',
     city: 'Sacramento',
@@ -10784,7 +10784,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 19:27:30',
-    'job title': 'Account Manager',
+    jobTitle: 'Account Manager',
     team: 'Sales',
     salary: '75000',
     city: 'New York City',
@@ -10794,7 +10794,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Business Analyst',
+    jobTitle: 'Business Analyst',
     team: 'Business Analytics',
     salary: '75000',
     city: 'Philadelphia',
@@ -10805,7 +10805,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 14:22:15',
-    'job title': 'Client Engagement Manager',
+    jobTitle: 'Client Engagement Manager',
     team: 'Sales',
     salary: '75000',
     city: 'New York City',
@@ -10816,7 +10816,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 10:56:18',
-    'job title': 'Customer Success Manager',
+    jobTitle: 'Customer Success Manager',
     team: 'Sales',
     salary: '75000',
     city: 'New York City',
@@ -10827,7 +10827,7 @@ const data = [
   },
   {
     Timestamp: '2/14/2020 12:03:13',
-    'job title': 'Data Scientist',
+    jobTitle: 'Data Scientist',
     team: 'Data Science',
     salary: '75000',
     city: 'Boston',
@@ -10838,7 +10838,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 19:10:05',
-    'job title': 'Designer',
+    jobTitle: 'Designer',
     team: 'Product Design',
     salary: '75000',
     city: 'Kansas City',
@@ -10848,7 +10848,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '75000',
@@ -10859,7 +10859,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '75000',
@@ -10871,7 +10871,7 @@ const data = [
   },
   {
     Timestamp: '2/26/2020 10:42:21',
-    'job title': 'Digital Project Manager',
+    jobTitle: 'Digital Project Manager',
     team: 'Product Management',
     salary: '75000',
     city: 'Chicago',
@@ -10882,7 +10882,7 @@ const data = [
   },
   {
     Timestamp: '1/14/2020 0:34:37',
-    'job title': 'Director of Customer Success',
+    jobTitle: 'Director of Customer Success',
     team: 'Sales',
     salary: '75000',
     city: 'Chicago',
@@ -10893,7 +10893,7 @@ const data = [
   },
   {
     Timestamp: '1/14/2020 0:36:32',
-    'job title': 'Director of Customer Success',
+    jobTitle: 'Director of Customer Success',
     team: 'Sales',
     salary: '75000',
     city: 'Chicago',
@@ -10904,7 +10904,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 23:03:39',
-    'job title': 'Director of Partnerships',
+    jobTitle: 'Director of Partnerships',
     team: 'Operations',
     salary: '75000',
     city: 'Washington',
@@ -10915,7 +10915,7 @@ const data = [
   },
   {
     Timestamp: '3/5/2020 17:46:22',
-    'job title': 'Front End Engineer',
+    jobTitle: 'Front End Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '75000',
@@ -10927,7 +10927,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 15:12:37',
-    'job title': 'Full Stack Engineer',
+    jobTitle: 'Full Stack Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '75000',
@@ -10939,7 +10939,7 @@ const data = [
   },
   {
     Timestamp: '2/11/2020 14:20:45',
-    'job title': 'Functional Consultant',
+    jobTitle: 'Functional Consultant',
     team: 'Misc',
     salary: '75000',
     city: 'New York City',
@@ -10949,7 +10949,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Hardware Engineer',
+    jobTitle: 'Hardware Engineer',
     team: 'Hardware Engineering',
     'job level': '2',
     salary: '75000',
@@ -10960,7 +10960,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     'job level': '2',
     salary: '75000',
@@ -10972,7 +10972,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 10:57:49',
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '75000',
     city: 'Portland',
@@ -10983,7 +10983,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 22:17:37',
-    'job title': 'Managed Services Consultant',
+    jobTitle: 'Managed Services Consultant',
     team: 'Misc',
     salary: '75000',
     city: 'Atlanta',
@@ -10994,7 +10994,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 9:47:35',
-    'job title': 'Marketing and Communications Manager',
+    jobTitle: 'Marketing and Communications Manager',
     team: 'Marketing',
     salary: '75000',
     city: 'Washington',
@@ -11005,7 +11005,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 12:48:03',
-    'job title': 'Marketing Communications Manager of Customer Success',
+    jobTitle: 'Marketing Communications Manager of Customer Success',
     team: 'Marketing',
     salary: '75000',
     city: 'San Diego',
@@ -11016,7 +11016,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 2:02:42',
-    'job title': 'Marketing Manager',
+    jobTitle: 'Marketing Manager',
     team: 'Marketing',
     salary: '75000',
     city: 'San Francisco Bay Area',
@@ -11026,7 +11026,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'St. Louis',
@@ -11036,7 +11036,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'New York City',
@@ -11046,7 +11046,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '75000',
@@ -11057,7 +11057,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'Decatur',
@@ -11067,7 +11067,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '75000',
@@ -11079,7 +11079,7 @@ const data = [
   },
   {
     Timestamp: '10/25/2020 14:50:41',
-    'job title': 'Paralegal',
+    jobTitle: 'Paralegal',
     team: 'Misc',
     salary: '75000',
     city: 'Raleigh',
@@ -11090,7 +11090,7 @@ const data = [
   },
   {
     Timestamp: '1/23/2020 16:03:53',
-    'job title': 'PR & Comms Manager',
+    jobTitle: 'PR & Comms Manager',
     team: 'Misc',
     salary: '75000',
     city: 'Boston',
@@ -11101,7 +11101,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 20:51:50',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     salary: '75000',
     city: 'San Diego',
@@ -11111,7 +11111,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     'job level': '2',
     salary: '75000',
@@ -11123,7 +11123,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 17:10:46',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '75000',
     city: 'Boston',
@@ -11133,7 +11133,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     'job level': '2',
     salary: '75000',
@@ -11145,7 +11145,7 @@ const data = [
   },
   {
     Timestamp: '1/23/2020 11:14:58',
-    'job title': 'Product Marketing Manager',
+    jobTitle: 'Product Marketing Manager',
     team: 'Marketing',
     salary: '75000',
     city: 'Los Angeles',
@@ -11156,7 +11156,7 @@ const data = [
   },
   {
     Timestamp: '3/7/2020 13:46:48',
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Product Management',
     salary: '75000',
     city: 'Boston',
@@ -11167,7 +11167,7 @@ const data = [
   },
   {
     Timestamp: '1/25/2021 22:17:51',
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Product Management',
     salary: '75000',
     city: 'Portland',
@@ -11178,7 +11178,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 15:38:45',
-    'job title': 'Project Manager',
+    jobTitle: 'Project Manager',
     team: 'Product Management',
     salary: '75000',
     city: 'Pittsburgh',
@@ -11189,7 +11189,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 12:19:16',
-    'job title': 'Project Manager II',
+    jobTitle: 'Project Manager II',
     team: 'Product Management',
     salary: '75000',
     city: 'Detroit',
@@ -11200,7 +11200,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 12:43:54',
-    'job title': 'QA Engineer',
+    jobTitle: 'QA Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '75000',
@@ -11212,7 +11212,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 0:00:33',
-    'job title': 'Sales Manager',
+    jobTitle: 'Sales Manager',
     team: 'Sales',
     salary: '75000',
     city: 'San Francisco Bay Area',
@@ -11223,7 +11223,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 14:05:56',
-    'job title': 'Scrum Master',
+    jobTitle: 'Scrum Master',
     team: 'Agile',
     salary: '75000',
     city: 'Philadelphia',
@@ -11233,7 +11233,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Security Admin',
+    jobTitle: 'Security Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '75000',
@@ -11244,7 +11244,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Security Engineer',
+    jobTitle: 'Security Engineer',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'Dallas',
@@ -11254,7 +11254,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '75000',
@@ -11265,7 +11265,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '75000',
@@ -11277,7 +11277,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 19:05:58',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '75000',
@@ -11288,7 +11288,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '75000',
@@ -11299,7 +11299,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '75000',
@@ -11310,7 +11310,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '75000',
     city: 'Chicago',
@@ -11320,7 +11320,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '75000',
@@ -11331,7 +11331,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '75000',
     city: 'Baltimore',
@@ -11342,7 +11342,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 21:10:32',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '75000',
@@ -11353,7 +11353,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '75000',
@@ -11364,7 +11364,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '75000',
@@ -11376,7 +11376,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 15:10:07',
-    'job title': 'Sr. Sales Consultant',
+    jobTitle: 'Sr. Sales Consultant',
     team: 'Sales',
     salary: '75000',
     city: 'Washington',
@@ -11387,7 +11387,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:37:15',
-    'job title': 'Sr. Systems Analyst',
+    jobTitle: 'Sr. Systems Analyst',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'Milwaukee',
@@ -11397,7 +11397,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '75000',
@@ -11408,7 +11408,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '75000',
@@ -11419,7 +11419,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'Denver',
@@ -11429,7 +11429,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'Hartford',
@@ -11439,7 +11439,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'Savannah',
@@ -11449,7 +11449,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'Chicago',
@@ -11459,7 +11459,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'Chicago',
@@ -11469,7 +11469,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'Wichita',
@@ -11479,7 +11479,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '75000',
@@ -11490,7 +11490,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'Wichita',
@@ -11500,7 +11500,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '75000',
@@ -11511,7 +11511,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'Baltimore',
@@ -11521,7 +11521,7 @@ const data = [
     education: 'Some college, no degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '75000',
@@ -11532,7 +11532,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'St. Louis',
@@ -11542,7 +11542,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'Ridgefield',
@@ -11552,7 +11552,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'New York City',
@@ -11562,7 +11562,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'New York City',
@@ -11572,7 +11572,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'Long Island',
@@ -11582,7 +11582,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'Charlotte',
@@ -11592,7 +11592,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'Cincinnati',
@@ -11602,7 +11602,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '75000',
@@ -11613,7 +11613,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '5',
     salary: '75000',
@@ -11624,7 +11624,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'Nashville',
@@ -11634,7 +11634,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'Houston',
@@ -11644,7 +11644,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '75000',
@@ -11655,7 +11655,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'Austin',
@@ -11665,7 +11665,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '75000',
@@ -11676,7 +11676,7 @@ const data = [
     education: 'Some college'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'Redmond',
@@ -11687,7 +11687,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2020 16:38:45',
-    'job title': 'Systems Engineer',
+    jobTitle: 'Systems Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '75000',
@@ -11698,7 +11698,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'Oakland',
@@ -11708,7 +11708,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'Denver',
@@ -11718,7 +11718,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '75000',
@@ -11729,7 +11729,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'New Orleans',
@@ -11739,7 +11739,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'Baltimore',
@@ -11750,7 +11750,7 @@ const data = [
   },
   {
     Timestamp: '2/11/2020 8:17:59',
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '75000',
@@ -11761,7 +11761,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '75000',
@@ -11772,7 +11772,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '75000',
     city: 'Seattle',
@@ -11783,7 +11783,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 6:46:01',
-    'job title': 'User Growth Specialist',
+    jobTitle: 'User Growth Specialist',
     team: 'Marketing',
     salary: '75000',
     city: 'New York City',
@@ -11794,7 +11794,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 14:58:15',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '75000',
     city: 'San Francisco Bay Area',
@@ -11805,7 +11805,7 @@ const data = [
   },
   {
     Timestamp: '1/16/2020 11:36:18',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '75000',
     city: 'New York City',
@@ -11816,7 +11816,7 @@ const data = [
   },
   {
     Timestamp: '1/16/2020 11:55:07',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '75000',
     city: 'Seattle',
@@ -11826,7 +11826,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     'job level': '1',
     salary: '75000',
@@ -11838,7 +11838,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:59:04',
-    'job title': 'UX/UI Designer',
+    jobTitle: 'UX/UI Designer',
     team: 'Product Design',
     salary: '75000',
     city: 'San Francisco Bay Area',
@@ -11849,7 +11849,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 15:41:52',
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '75000',
@@ -11860,7 +11860,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '75000',
@@ -11872,7 +11872,7 @@ const data = [
   },
   {
     Timestamp: '1/15/2020 6:59:03',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '75200',
@@ -11883,7 +11883,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '75408',
@@ -11895,7 +11895,7 @@ const data = [
   },
   {
     Timestamp: '2/22/2020 11:06:19',
-    'job title': 'Database Administrator',
+    jobTitle: 'Database Administrator',
     team: 'Network, Security & IT',
     salary: '76000',
     city: 'New York City',
@@ -11906,7 +11906,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 9:38:02',
-    'job title': 'E-commerce Manager ',
+    jobTitle: 'E-commerce Manager ',
     team: 'Misc',
     salary: '76000',
     city: 'New York City',
@@ -11917,7 +11917,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 18:11:23',
-    'job title': 'Instructional Designer',
+    jobTitle: 'Instructional Designer',
     team: 'Product Design',
     salary: '76000',
     city: 'Seattle',
@@ -11927,7 +11927,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '76000',
     city: 'Fort Wayne',
@@ -11938,7 +11938,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 13:19:51',
-    'job title': 'Lead UI/UX Designer',
+    jobTitle: 'Lead UI/UX Designer',
     team: 'Product Design',
     salary: '76000',
     city: 'Tampa',
@@ -11948,7 +11948,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '76000',
@@ -11959,7 +11959,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '76000',
     city: 'Blacksburg',
@@ -11970,7 +11970,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 22:48:00',
-    'job title': 'Sr. QA Engineer',
+    jobTitle: 'Sr. QA Engineer',
     team: 'Software Engineering Management',
     salary: '76000',
     city: 'Nashville',
@@ -11980,7 +11980,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '76000',
     city: 'Los Angeles',
@@ -11990,7 +11990,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '76000',
@@ -12001,7 +12001,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '76000',
     city: 'Boise',
@@ -12011,7 +12011,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '76000',
     city: 'Syracuse',
@@ -12021,7 +12021,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '76000',
     city: 'Philadelphia',
@@ -12031,7 +12031,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '76000',
@@ -12042,7 +12042,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '76000',
     city: 'Houston',
@@ -12053,7 +12053,7 @@ const data = [
   },
   {
     Timestamp: '2/15/2020 18:30:46',
-    'job title': 'Systems Analyst',
+    jobTitle: 'Systems Analyst',
     team: 'Network, Security & IT',
     salary: '76000',
     city: 'Minneapolis',
@@ -12064,7 +12064,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 9:46:52',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '76000',
     city: 'Raleigh',
@@ -12074,7 +12074,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     salary: '76000',
     city: 'Rockville',
@@ -12084,7 +12084,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '76066',
@@ -12096,7 +12096,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 10:42:46',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '76100',
@@ -12107,7 +12107,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '76100',
     city: 'Baltimore',
@@ -12118,7 +12118,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 10:38:48',
-    'job title': 'Developer',
+    jobTitle: 'Developer',
     team: 'Software Engineering',
     salary: '76125',
     city: 'Dallas',
@@ -12128,7 +12128,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '76125',
@@ -12140,7 +12140,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 13:15:20',
-    'job title': 'Gameplay Programmer',
+    jobTitle: 'Gameplay Programmer',
     team: 'Software Engineering',
     salary: '76500',
     city: 'Los Angeles',
@@ -12150,7 +12150,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '76500',
     city: 'Portland',
@@ -12161,7 +12161,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 10:46:05',
-    'job title': 'Front End Developer',
+    jobTitle: 'Front End Developer',
     team: 'Software Engineering',
     salary: '76600',
     city: 'Charleston',
@@ -12171,7 +12171,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '77000',
     city: 'Los Angeles',
@@ -12181,7 +12181,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '5',
     salary: '77000',
@@ -12192,7 +12192,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '77000',
     city: 'Scottsdale',
@@ -12203,7 +12203,7 @@ const data = [
   },
   {
     Timestamp: '1/15/2020 13:16:16',
-    'job title': 'Production Designer',
+    jobTitle: 'Production Designer',
     team: 'Product Design',
     salary: '77000',
     city: 'San Francisco Bay Area',
@@ -12213,7 +12213,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '77000',
@@ -12224,7 +12224,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '77000',
@@ -12236,7 +12236,7 @@ const data = [
   },
   {
     Timestamp: '3/3/2020 11:09:06',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '77000',
@@ -12247,7 +12247,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '77000',
     city: 'Salt Lake City',
@@ -12257,7 +12257,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '77000',
@@ -12268,7 +12268,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '77200',
@@ -12279,7 +12279,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '77250',
@@ -12290,7 +12290,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'Project Engineer',
+    jobTitle: 'Project Engineer',
     team: 'Software Engineering',
     salary: '77500',
     city: 'Hoboken',
@@ -12300,7 +12300,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Site Administrator ',
+    jobTitle: 'Site Administrator ',
     team: 'Network, Security & IT',
     salary: '77500',
     city: 'Detroit',
@@ -12310,7 +12310,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '77500',
     city: 'Washington',
@@ -12320,7 +12320,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '77500',
@@ -12331,7 +12331,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '77800',
@@ -12343,7 +12343,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 11:43:09',
-    'job title': 'Content Strategist',
+    jobTitle: 'Content Strategist',
     team: 'Creative',
     salary: '78000',
     city: 'Seattle',
@@ -12353,7 +12353,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '78000',
     city: 'Sunnyvale',
@@ -12364,7 +12364,7 @@ const data = [
   },
   {
     Timestamp: '7/30/2020 8:22:15',
-    'job title': 'Digital Engagement Lead',
+    jobTitle: 'Digital Engagement Lead',
     team: 'Marketing',
     salary: '78000',
     city: 'Hartford',
@@ -12375,7 +12375,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 12:13:01',
-    'job title': 'Healthcare ',
+    jobTitle: 'Healthcare ',
     team: 'Misc',
     salary: '78000',
     city: 'San Francisco Bay Area',
@@ -12386,7 +12386,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:49:37',
-    'job title': 'Instructional Designer',
+    jobTitle: 'Instructional Designer',
     team: 'Product Design',
     salary: '78000',
     city: 'Baltimore ',
@@ -12396,7 +12396,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     'job level': '3',
     salary: '78000',
@@ -12407,7 +12407,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '78000',
     city: 'Memphis',
@@ -12417,7 +12417,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '78000',
     city: 'Baltimore',
@@ -12427,7 +12427,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '78000',
     city: 'Seattle',
@@ -12437,7 +12437,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '78000',
     city: 'Birmingham',
@@ -12448,7 +12448,7 @@ const data = [
   },
   {
     Timestamp: '1/15/2020 1:12:48',
-    'job title': 'Product Lead',
+    jobTitle: 'Product Lead',
     team: 'Misc',
     salary: '78000',
     city: 'Los Angeles',
@@ -12459,7 +12459,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 13:24:36',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '78000',
@@ -12470,7 +12470,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '78000',
@@ -12482,7 +12482,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 9:17:56',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '78000',
@@ -12494,7 +12494,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 1:14:20',
-    'job title': 'Support Engineer',
+    jobTitle: 'Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '78000',
@@ -12505,7 +12505,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '6',
     salary: '78000',
@@ -12516,7 +12516,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '78000',
     city: 'Log Angeles',
@@ -12526,7 +12526,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '78000',
     city: 'Atlanta',
@@ -12536,7 +12536,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '78000',
     city: 'Atlanta',
@@ -12546,7 +12546,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '78000',
@@ -12557,7 +12557,7 @@ const data = [
     education: 'Doctorate or Post-doctorate'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '78000',
@@ -12568,7 +12568,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '78000',
     city: 'New York City',
@@ -12578,7 +12578,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '78000',
@@ -12589,7 +12589,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '78000',
     city: 'Greenville',
@@ -12599,7 +12599,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '78000',
@@ -12610,7 +12610,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '78000',
     city: 'Austin',
@@ -12620,7 +12620,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '78000',
     city: 'Salt Lake City',
@@ -12630,7 +12630,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '78000',
     city: 'Burlington',
@@ -12640,7 +12640,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '78000',
@@ -12651,7 +12651,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '78000',
@@ -12663,7 +12663,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 11:10:33',
-    'job title': 'Systems Engineer',
+    jobTitle: 'Systems Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '78000',
@@ -12674,7 +12674,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '78000',
@@ -12685,7 +12685,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '78000',
@@ -12696,7 +12696,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '78000',
@@ -12708,7 +12708,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 8:50:47',
-    'job title': 'Sr. Business Analyst',
+    jobTitle: 'Sr. Business Analyst',
     team: 'Business Analytics',
     salary: '78300',
     city: 'Orlando',
@@ -12719,7 +12719,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 21:02:40',
-    'job title': 'Learning Experience Designer',
+    jobTitle: 'Learning Experience Designer',
     team: 'Product Design',
     salary: '78500',
     city: 'Boston',
@@ -12729,7 +12729,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '78500',
     city: 'Detroit',
@@ -12740,7 +12740,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 15:54:13',
-    'job title': 'Artist',
+    jobTitle: 'Artist',
     team: 'Creative',
     salary: '78900',
     city: 'Orlando',
@@ -12750,7 +12750,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '79000',
     city: 'Washington',
@@ -12761,7 +12761,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 16:20:21',
-    'job title': 'Legal Operations ',
+    jobTitle: 'Legal Operations ',
     team: 'Misc',
     salary: '79000',
     city: 'San Francisco Bay Area',
@@ -12772,7 +12772,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 16:20:31',
-    'job title': 'Legal Operations ',
+    jobTitle: 'Legal Operations ',
     team: 'Misc',
     salary: '79000',
     city: 'San Francisco Bay Area',
@@ -12782,7 +12782,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '79000',
@@ -12793,7 +12793,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '79000',
     city: 'Milwaukee',
@@ -12804,7 +12804,7 @@ const data = [
   },
   {
     Timestamp: '3/9/2020 17:04:04',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '79000',
     city: 'Huntsville',
@@ -12814,7 +12814,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Technical Program Management',
     salary: '79000',
     city: 'Orange',
@@ -12825,7 +12825,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 15:28:58',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '79000',
@@ -12836,7 +12836,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '79000',
@@ -12847,7 +12847,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '79000',
@@ -12858,7 +12858,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '79000',
     city: 'Memphis',
@@ -12868,7 +12868,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '79000',
     city: 'Dallas',
@@ -12879,7 +12879,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:21:59',
-    'job title': 'Systems Engineer',
+    jobTitle: 'Systems Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '79000',
@@ -12890,7 +12890,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '79000',
     city: 'Boston',
@@ -12901,7 +12901,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 11:00:40',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '79000',
     city: 'New York City',
@@ -12912,7 +12912,7 @@ const data = [
   },
   {
     Timestamp: '6/11/2020 14:03:36',
-    'job title': 'Content Marketing Manager',
+    jobTitle: 'Content Marketing Manager',
     team: 'Marketing',
     salary: '79500',
     city: 'New York City',
@@ -12922,7 +12922,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '79500',
     city: 'Trenton',
@@ -12932,7 +12932,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '8',
     salary: '79527',
@@ -12943,7 +12943,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '79560',
     city: 'Oklahoma City',
@@ -12954,7 +12954,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 17:13:14',
-    'job title': 'Sr. Software Engineer ',
+    jobTitle: 'Sr. Software Engineer ',
     team: 'Software Engineering',
     salary: '79700',
     city: 'Kansas City',
@@ -12964,7 +12964,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     'job level': '4',
     salary: '79873',
@@ -12976,7 +12976,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 2:07:46',
-    'job title': 'Business Systems Analyst',
+    jobTitle: 'Business Systems Analyst',
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'Denver',
@@ -12987,7 +12987,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 10:52:43',
-    'job title': 'Content Marketing Manager',
+    jobTitle: 'Content Marketing Manager',
     team: 'Marketing',
     salary: '80000',
     city: 'Austin',
@@ -12998,7 +12998,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 9:19:03',
-    'job title': 'Customer Operations Manager',
+    jobTitle: 'Customer Operations Manager',
     team: 'Sales',
     salary: '80000',
     city: 'Boston',
@@ -13009,7 +13009,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 13:28:19',
-    'job title': 'Customer Success Team Manager',
+    jobTitle: 'Customer Success Team Manager',
     team: 'Sales',
     salary: '80000',
     city: 'Atlanta',
@@ -13019,7 +13019,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Cybersecurity Engineer',
+    jobTitle: 'Cybersecurity Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '80000',
@@ -13030,7 +13030,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     'job level': '1',
     salary: '80000',
@@ -13041,7 +13041,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     'job level': '1',
     salary: '80000',
@@ -13053,7 +13053,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 9:26:51',
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '80000',
     city: 'New York City',
@@ -13063,7 +13063,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '80000',
@@ -13074,7 +13074,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'Detroit',
@@ -13085,7 +13085,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 11:18:03',
-    'job title': 'Director of Digital Marketing',
+    jobTitle: 'Director of Digital Marketing',
     team: 'Marketing',
     salary: '80000',
     city: 'Newark',
@@ -13096,7 +13096,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 16:05:37',
-    'job title': 'Director of Marketing & Communications',
+    jobTitle: 'Director of Marketing & Communications',
     team: 'Marketing Ops',
     salary: '80000',
     city: 'Cleveland',
@@ -13107,7 +13107,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:34:52',
-    'job title': 'Graphic Designer',
+    jobTitle: 'Graphic Designer',
     team: 'Product Design',
     salary: '80000',
     city: 'Milwaukee',
@@ -13118,7 +13118,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 16:45:18',
-    'job title': 'Implementation Project Manager',
+    jobTitle: 'Implementation Project Manager',
     team: 'Product Management',
     salary: '80000',
     city: 'New York City',
@@ -13129,7 +13129,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 16:08:22',
-    'job title': 'iOS Developer ',
+    jobTitle: 'iOS Developer ',
     team: 'Software Engineering',
     'job level': '3',
     salary: '80000',
@@ -13140,7 +13140,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '80000',
     city: 'Tallahassee',
@@ -13150,7 +13150,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     'job level': '8',
     salary: '80000',
@@ -13162,7 +13162,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 0:31:23',
-    'job title': 'Manager of Internal Communication',
+    jobTitle: 'Manager of Internal Communication',
     team: 'Human Resources',
     salary: '80000',
     city: 'Salt Lake City',
@@ -13173,7 +13173,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 0:49:28',
-    'job title': 'Marketing Strategy Analyst ',
+    jobTitle: 'Marketing Strategy Analyst ',
     team: 'Marketing',
     salary: '80000',
     city: 'Chicago',
@@ -13184,7 +13184,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 20:33:26',
-    'job title': 'Mobile Software Engineer ',
+    jobTitle: 'Mobile Software Engineer ',
     team: 'Software Engineering',
     salary: '80000',
     city: 'Chicago',
@@ -13194,7 +13194,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'Little Rock',
@@ -13204,7 +13204,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '80000',
@@ -13215,7 +13215,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'Hartford',
@@ -13225,7 +13225,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '5',
     salary: '80000',
@@ -13236,7 +13236,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '80000',
@@ -13247,7 +13247,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'Edison',
@@ -13257,7 +13257,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '80000',
@@ -13268,7 +13268,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'Dallas',
@@ -13278,7 +13278,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'Dallas',
@@ -13289,7 +13289,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:51:38',
-    'job title': 'Paid Media Strategist',
+    jobTitle: 'Paid Media Strategist',
     team: 'Misc',
     salary: '80000',
     city: 'Los Angeles',
@@ -13300,7 +13300,7 @@ const data = [
   },
   {
     Timestamp: '1/8/2021 19:54:44',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     salary: '80000',
     city: 'Portland',
@@ -13311,7 +13311,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 22:07:35',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '80000',
     city: 'New York City',
@@ -13322,7 +13322,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 12:50:08',
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Product Management',
     salary: '80000',
     city: 'Los Angeles',
@@ -13332,7 +13332,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Technical Program Management',
     'job level': '4',
     salary: '80000',
@@ -13344,7 +13344,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 17:59:57',
-    'job title': 'Project Engineer',
+    jobTitle: 'Project Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '80000',
@@ -13356,7 +13356,7 @@ const data = [
   },
   {
     Timestamp: '1/16/2020 0:03:07',
-    'job title': 'Project Specialist',
+    jobTitle: 'Project Specialist',
     team: 'Product Management',
     salary: '80000',
     city: 'San Francisco Bay Area',
@@ -13366,7 +13366,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'QA Engineer',
+    jobTitle: 'QA Engineer',
     team: 'Software Engineering',
     salary: '80000',
     city: 'Mountain View',
@@ -13377,7 +13377,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 16:03:25',
-    'job title': 'QA Engineer',
+    jobTitle: 'QA Engineer',
     team: 'Software Engineering',
     salary: '80000',
     city: 'Gainesville',
@@ -13388,7 +13388,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 14:18:40',
-    'job title': 'QA Engineer',
+    jobTitle: 'QA Engineer',
     team: 'Software Engineering',
     salary: '80000',
     city: 'Raleigh',
@@ -13399,7 +13399,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 15:57:26',
-    'job title': 'Sales System Administrator',
+    jobTitle: 'Sales System Administrator',
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'Iowa City',
@@ -13410,7 +13410,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 19:27:07',
-    'job title': 'Scrum Master',
+    jobTitle: 'Scrum Master',
     team: 'Agile',
     salary: '80000',
     city: 'Rockville',
@@ -13421,7 +13421,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:19:07',
-    'job title': 'Scrum Master',
+    jobTitle: 'Scrum Master',
     team: 'Agile',
     salary: '80000',
     city: 'Salt Lake City',
@@ -13431,7 +13431,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '80000',
@@ -13443,7 +13443,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 14:55:18',
-    'job title': 'Social Media + Partnerships Manager',
+    jobTitle: 'Social Media + Partnerships Manager',
     team: 'Marketing',
     salary: '80000',
     city: 'San Francisco Bay Area',
@@ -13454,7 +13454,7 @@ const data = [
   },
   {
     Timestamp: '5/22/2020 11:11:48',
-    'job title': 'Software Application Developer',
+    jobTitle: 'Software Application Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '80000',
@@ -13466,7 +13466,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 14:01:08',
-    'job title': 'Software Development Engineer in Test',
+    jobTitle: 'Software Development Engineer in Test',
     team: 'Software Engineering',
     'job level': '1',
     salary: '80000',
@@ -13477,7 +13477,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '80000',
@@ -13488,7 +13488,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '80000',
@@ -13499,7 +13499,7 @@ const data = [
     education: 'Self Taught and Bootcamp '
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '80000',
@@ -13510,7 +13510,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '80000',
@@ -13521,7 +13521,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '80000',
@@ -13533,7 +13533,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:51:22',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '80000',
@@ -13545,7 +13545,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 0:31:56',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '80000',
     city: 'New York City',
@@ -13555,7 +13555,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '80000',
     city: 'Cincinnati',
@@ -13566,7 +13566,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 17:44:46',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '80000',
@@ -13577,7 +13577,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '80000',
@@ -13589,7 +13589,7 @@ const data = [
   },
   {
     Timestamp: '1/15/2020 13:27:16',
-    'job title': 'Solutions Engineer',
+    jobTitle: 'Solutions Engineer',
     team: 'Sales',
     'job level': '1',
     salary: '80000',
@@ -13601,7 +13601,7 @@ const data = [
   },
   {
     Timestamp: '1/27/2020 17:38:26',
-    'job title': 'Sr. Account Manager',
+    jobTitle: 'Sr. Account Manager',
     team: 'Sales',
     salary: '80000',
     city: 'Denver',
@@ -13612,7 +13612,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 15:48:22',
-    'job title': 'Sr. Account Manager',
+    jobTitle: 'Sr. Account Manager',
     team: 'Sales',
     salary: '80000',
     city: 'Baltimore ',
@@ -13623,7 +13623,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 1:24:42',
-    'job title': 'Sr. Computing Analyst',
+    jobTitle: 'Sr. Computing Analyst',
     team: 'Data Science',
     salary: '80000',
     city: 'Kansas City',
@@ -13634,7 +13634,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 22:24:46',
-    'job title': 'Sr. Content Marketing Coordinator',
+    jobTitle: 'Sr. Content Marketing Coordinator',
     team: 'Marketing',
     salary: '80000',
     city: 'Nashville',
@@ -13645,7 +13645,7 @@ const data = [
   },
   {
     Timestamp: '8/17/2020 21:28:21',
-    'job title': 'Staffing Integration Support Consultant',
+    jobTitle: 'Staffing Integration Support Consultant',
     team: 'Misc',
     salary: '80000',
     city: 'Chicago',
@@ -13656,7 +13656,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 8:02:12',
-    'job title': 'Support Engineer',
+    jobTitle: 'Support Engineer',
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'Atlanta',
@@ -13666,7 +13666,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'Juneau',
@@ -13676,7 +13676,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '80000',
@@ -13687,7 +13687,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'San Jose',
@@ -13697,7 +13697,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'Los Angeles',
@@ -13707,7 +13707,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'Denver',
@@ -13717,7 +13717,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'Denver',
@@ -13727,7 +13727,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '80000',
@@ -13738,7 +13738,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'Washington',
@@ -13748,7 +13748,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'Atlanta',
@@ -13758,7 +13758,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'Atlanta',
@@ -13768,7 +13768,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '80000',
@@ -13779,7 +13779,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'Chicago',
@@ -13789,7 +13789,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '80000',
@@ -13800,7 +13800,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '80000',
@@ -13811,7 +13811,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'Kansas City',
@@ -13821,7 +13821,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'Las Vegas',
@@ -13831,7 +13831,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'Raleigh',
@@ -13841,7 +13841,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '80000',
@@ -13852,7 +13852,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'Dallas',
@@ -13862,7 +13862,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'Austin',
@@ -13872,7 +13872,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'Redmond',
@@ -13882,7 +13882,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '80000',
@@ -13893,7 +13893,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '80000',
     city: 'Green Bay',
@@ -13904,7 +13904,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 11:59:27',
-    'job title': 'Technical Implementation Manager',
+    jobTitle: 'Technical Implementation Manager',
     team: 'Misc',
     salary: '80000',
     city: 'New York City',
@@ -13914,7 +13914,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '80000',
@@ -13925,7 +13925,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '80000',
@@ -13936,7 +13936,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '80000',
@@ -13948,7 +13948,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:45:12',
-    'job title': 'UX/UI Designer',
+    jobTitle: 'UX/UI Designer',
     team: 'Product Design',
     salary: '80000',
     city: 'Denver',
@@ -13959,7 +13959,7 @@ const data = [
   },
   {
     Timestamp: '3/4/2020 15:15:44',
-    'job title': 'UX/UI Designer',
+    jobTitle: 'UX/UI Designer',
     team: 'Product Design',
     salary: '80000',
     city: 'Miami',
@@ -13970,7 +13970,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 7:26:56',
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '80000',
@@ -13981,7 +13981,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     salary: '80000',
     city: 'Portland',
@@ -13991,7 +13991,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '80000',
@@ -14003,7 +14003,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 9:32:21',
-    'job title': 'Workplace Experience Manager',
+    jobTitle: 'Workplace Experience Manager',
     team: 'Human Resources',
     salary: '80000',
     city: 'New York City',
@@ -14014,7 +14014,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 14:07:34',
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '80025',
     city: 'Philadelphia',
@@ -14024,7 +14024,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '80050',
     city: 'Charleston',
@@ -14034,7 +14034,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '80080',
@@ -14045,7 +14045,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '80340',
     city: 'Grand Rapids',
@@ -14055,7 +14055,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '80500',
     city: 'Minneapolis',
@@ -14066,7 +14066,7 @@ const data = [
   },
   {
     Timestamp: '5/24/2020 13:45:55',
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '81000',
     city: 'San Francisco Bay Area',
@@ -14076,7 +14076,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '81000',
     city: 'Columbia',
@@ -14086,7 +14086,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Desktop Support',
+    jobTitle: 'Desktop Support',
     team: 'Misc',
     'job level': '2',
     salary: '81000',
@@ -14097,7 +14097,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '81000',
     city: 'Kansas City',
@@ -14107,7 +14107,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Information Security',
+    jobTitle: 'Information Security',
     team: 'Network, Security & IT',
     'job level': '8',
     salary: '81000',
@@ -14118,7 +14118,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '81000',
     city: 'New York City',
@@ -14129,7 +14129,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 18:27:49',
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Product Management',
     salary: '81000',
     city: 'San Francisco Bay Area',
@@ -14139,7 +14139,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '81000',
@@ -14150,7 +14150,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '81000',
     city: 'Denver',
@@ -14160,7 +14160,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '81000',
     city: 'Woburn',
@@ -14170,7 +14170,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '81000',
     city: 'Albuquerque',
@@ -14180,7 +14180,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '81000',
     city: 'Dallas',
@@ -14190,7 +14190,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Engineer',
+    jobTitle: 'System Engineer',
     team: 'Network, Security & IT',
     salary: '81000',
     city: 'Baltimore',
@@ -14200,7 +14200,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '81000',
     city: 'Portland',
@@ -14210,7 +14210,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     salary: '81200',
     city: 'Seattle',
@@ -14220,7 +14220,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '81250',
     city: 'Dallas',
@@ -14231,7 +14231,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 15:28:31',
-    'job title': 'Mobile Software Engineer',
+    jobTitle: 'Mobile Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '81500',
@@ -14242,7 +14242,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '81500',
@@ -14254,7 +14254,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 13:11:46',
-    'job title': 'Data Engineer',
+    jobTitle: 'Data Engineer',
     team: 'Data Science',
     salary: '81800',
     city: 'Chicago',
@@ -14265,7 +14265,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:14:37',
-    'job title': 'Content Marketing Director',
+    jobTitle: 'Content Marketing Director',
     team: 'Marketing',
     salary: '82000',
     city: 'Tampa',
@@ -14276,7 +14276,7 @@ const data = [
   },
   {
     Timestamp: '2/8/2020 11:35:51',
-    'job title': 'Director of Student Entrepreneurship',
+    jobTitle: 'Director of Student Entrepreneurship',
     team: 'Misc',
     salary: '82000',
     city: 'Detroit',
@@ -14287,7 +14287,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 9:24:27',
-    'job title': 'Interaction Engineer',
+    jobTitle: 'Interaction Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '82000',
@@ -14298,7 +14298,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '82000',
     city: 'Houston',
@@ -14308,7 +14308,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Macintosh Client Administration',
+    jobTitle: 'Macintosh Client Administration',
     team: 'Misc',
     'job level': '4',
     salary: '82000',
@@ -14320,7 +14320,7 @@ const data = [
   },
   {
     Timestamp: '1/15/2020 10:53:09',
-    'job title': 'Marketing Specialist',
+    jobTitle: 'Marketing Specialist',
     team: 'Marketing',
     salary: '82000',
     city: 'San Francisco Bay Area',
@@ -14330,7 +14330,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '82000',
@@ -14342,7 +14342,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 18:14:21',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '82000',
     city: 'San Francisco Bay Area',
@@ -14352,7 +14352,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Security Analyst',
+    jobTitle: 'Security Analyst',
     team: 'Network, Security & IT',
     salary: '82000',
     city: 'Kansas City',
@@ -14362,7 +14362,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '5',
     salary: '82000',
@@ -14373,7 +14373,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '82000',
@@ -14385,7 +14385,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 12:25:37',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '82000',
@@ -14397,7 +14397,7 @@ const data = [
   },
   {
     Timestamp: '10/30/2020 18:32:53',
-    'job title': 'Sr. Product Marketing Manager',
+    jobTitle: 'Sr. Product Marketing Manager',
     team: 'Marketing',
     salary: '82000',
     city: 'Houston',
@@ -14408,7 +14408,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 17:06:34',
-    'job title': 'Sr. UI/UX Engineer',
+    jobTitle: 'Sr. UI/UX Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '82000',
@@ -14419,7 +14419,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '82000',
     city: 'Phoenix',
@@ -14429,7 +14429,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '82000',
     city: 'Morgan Hill',
@@ -14439,7 +14439,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '82000',
     city: 'Tallahassee',
@@ -14449,7 +14449,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '82000',
     city: 'Oak Brook',
@@ -14459,7 +14459,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '82000',
@@ -14470,7 +14470,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '82000',
@@ -14481,7 +14481,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '82000',
@@ -14493,7 +14493,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 10:37:28',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '82000',
     city: 'Chicago',
@@ -14503,7 +14503,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '82160',
     city: 'Anaheim',
@@ -14514,7 +14514,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 15:53:32',
-    'job title': 'Analytics Manager ',
+    jobTitle: 'Analytics Manager ',
     team: 'Misc',
     salary: '82300',
     city: 'New York City',
@@ -14524,7 +14524,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '82400',
     city: 'Cambridge',
@@ -14535,7 +14535,7 @@ const data = [
   },
   {
     Timestamp: '1/17/2020 13:23:56',
-    'job title': 'Copywriter',
+    jobTitle: 'Copywriter',
     team: 'Creative',
     salary: '82500',
     city: 'Boston',
@@ -14546,7 +14546,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 9:22:08',
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '82500',
     city: 'Brooklyn',
@@ -14557,7 +14557,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 15:51:31',
-    'job title': 'Project Manager',
+    jobTitle: 'Project Manager',
     team: 'Product Management',
     salary: '82500',
     city: 'Philadelphia',
@@ -14567,7 +14567,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '82500',
@@ -14578,7 +14578,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '82500',
     city: 'Camarillo',
@@ -14588,7 +14588,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '82500',
     city: 'Kansas City',
@@ -14598,7 +14598,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '82500',
     city: 'Reading',
@@ -14609,7 +14609,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 23:24:28',
-    'job title': 'Technical Program Manager',
+    jobTitle: 'Technical Program Manager',
     team: 'Technical Program Management',
     salary: '82500',
     city: 'San Francisco Bay Area',
@@ -14620,7 +14620,7 @@ const data = [
   },
   {
     Timestamp: '2/27/2020 20:32:52',
-    'job title': 'System Design Engineer',
+    jobTitle: 'System Design Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '82700',
@@ -14632,7 +14632,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:06:01',
-    'job title': 'Sr. Manager of Content Strategy',
+    jobTitle: 'Sr. Manager of Content Strategy',
     team: 'Creative',
     salary: '82800',
     city: 'Washington',
@@ -14642,7 +14642,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '83000',
     city: 'Portland',
@@ -14653,7 +14653,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 17:03:55',
-    'job title': 'Front End Developer',
+    jobTitle: 'Front End Developer',
     team: 'Software Engineering',
     salary: '83000',
     city: 'Los Angeles',
@@ -14663,7 +14663,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Hardware Engineer',
+    jobTitle: 'Hardware Engineer',
     team: 'Hardware Engineering',
     salary: '83000',
     city: 'Cincinnati',
@@ -14673,7 +14673,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Information Security',
+    jobTitle: 'Information Security',
     team: 'Network, Security & IT',
     salary: '83000',
     city: 'Cleveland',
@@ -14684,7 +14684,7 @@ const data = [
   },
   {
     Timestamp: '3/3/2020 12:36:56',
-    'job title': 'IT Specialist',
+    jobTitle: 'IT Specialist',
     team: 'Network, Security & IT',
     salary: '83000',
     city: 'San Francisco Bay Area',
@@ -14695,7 +14695,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 15:58:31',
-    'job title': 'Lifecycle Marketing Coordinator',
+    jobTitle: 'Lifecycle Marketing Coordinator',
     team: 'Marketing',
     salary: '83000',
     city: 'San Francisco Bay Area',
@@ -14706,7 +14706,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 16:39:04',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '83000',
@@ -14718,7 +14718,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 15:53:40',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '83000',
     city: 'Boston',
@@ -14729,7 +14729,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:44:07',
-    'job title': 'Sr. Brand Manager',
+    jobTitle: 'Sr. Brand Manager',
     team: 'Product Design',
     salary: '83000',
     city: 'Minneapolis',
@@ -14739,7 +14739,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '83000',
@@ -14750,7 +14750,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '83000',
     city: 'Orlando',
@@ -14760,7 +14760,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '83000',
     city: 'Atlanta',
@@ -14770,7 +14770,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '83000',
     city: 'Amite',
@@ -14780,7 +14780,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '83000',
@@ -14791,7 +14791,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Engineer',
+    jobTitle: 'System Engineer',
     team: 'Network, Security & IT',
     'job level': '5',
     salary: '83000',
@@ -14803,7 +14803,7 @@ const data = [
   },
   {
     Timestamp: '3/7/2020 20:47:24',
-    'job title': 'UX/UI Designer',
+    jobTitle: 'UX/UI Designer',
     team: 'Product Design',
     salary: '83000',
     city: 'Dallas',
@@ -14813,7 +14813,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '83200',
@@ -14824,7 +14824,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '83200',
@@ -14835,7 +14835,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '83200',
     city: 'San Diego',
@@ -14845,7 +14845,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '83442',
     city: 'San Diego',
@@ -14855,7 +14855,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '83500',
@@ -14866,7 +14866,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '83500',
@@ -14878,7 +14878,7 @@ const data = [
   },
   {
     Timestamp: '7/16/2020 22:12:03',
-    'job title': 'Account Manager',
+    jobTitle: 'Account Manager',
     team: 'Sales',
     salary: '84000',
     city: 'New York City',
@@ -14889,7 +14889,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 9:37:48',
-    'job title': 'Business Analyst',
+    jobTitle: 'Business Analyst',
     team: 'Business Analytics',
     salary: '84000',
     city: 'Washington',
@@ -14900,7 +14900,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 13:53:14',
-    'job title': 'Data Scientist',
+    jobTitle: 'Data Scientist',
     team: 'Data Science',
     salary: '84000',
     city: 'Richmond',
@@ -14911,7 +14911,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2020 16:28:13',
-    'job title': 'Data Scientist',
+    jobTitle: 'Data Scientist',
     team: 'Data Science',
     salary: '84000',
     city: 'Charlottesville',
@@ -14921,7 +14921,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '84000',
     city: 'Seattle',
@@ -14932,7 +14932,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 21:14:35',
-    'job title': 'Digital Marketing Manager',
+    jobTitle: 'Digital Marketing Manager',
     team: 'Marketing',
     salary: '84000',
     city: 'Houston',
@@ -14942,7 +14942,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '84000',
     city: 'New York City',
@@ -14952,7 +14952,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '84000',
     city: 'Milwaukee',
@@ -14962,7 +14962,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Technical Program Management',
     'job level': '2',
     salary: '84000',
@@ -14974,7 +14974,7 @@ const data = [
   },
   {
     Timestamp: '1/27/2020 14:08:18',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '84000',
     city: 'Pittsburgh',
@@ -14984,7 +14984,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '84000',
     city: 'Madison',
@@ -14995,7 +14995,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 11:19:23',
-    'job title': 'Solutions Engineer',
+    jobTitle: 'Solutions Engineer',
     team: 'Sales',
     salary: '84000',
     city: 'Chicago',
@@ -15006,7 +15006,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 14:48:06',
-    'job title': 'Sr. Manager of Content Strategy',
+    jobTitle: 'Sr. Manager of Content Strategy',
     team: 'Creative',
     salary: '84000',
     city: 'Washington',
@@ -15016,7 +15016,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '84000',
     city: 'Omaha',
@@ -15026,7 +15026,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '84000',
     city: 'Cleveland',
@@ -15036,7 +15036,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '84000',
@@ -15047,7 +15047,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '84000',
     city: 'Salt Lake City',
@@ -15057,7 +15057,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '84000',
@@ -15069,7 +15069,7 @@ const data = [
   },
   {
     Timestamp: '8/24/2020 12:11:28',
-    'job title': 'Technical Product Manager',
+    jobTitle: 'Technical Product Manager',
     team: 'Product Management',
     'job level': 'II',
     salary: '84000',
@@ -15080,7 +15080,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '84000',
@@ -15092,7 +15092,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 16:01:20',
-    'job title': 'Demand Generation Specialist',
+    jobTitle: 'Demand Generation Specialist',
     team: 'Marketing',
     salary: '84500',
     city: 'Atlanta',
@@ -15102,7 +15102,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '84500',
     city: 'Atlanta',
@@ -15113,7 +15113,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 13:10:05',
-    'job title': 'UX Lead Designer',
+    jobTitle: 'UX Lead Designer',
     team: 'Product Design',
     salary: '84500',
     city: 'Denver',
@@ -15124,7 +15124,7 @@ const data = [
   },
   {
     Timestamp: '3/5/2020 11:35:15',
-    'job title': 'Implementation Consultant',
+    jobTitle: 'Implementation Consultant',
     team: 'Misc',
     salary: '84600',
     city: 'St. Louis',
@@ -15134,7 +15134,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Help Desk',
+    jobTitle: 'Help Desk',
     team: 'Misc',
     salary: '84999',
     city: 'St. Louis',
@@ -15144,7 +15144,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '84999',
     city: 'Dallas',
@@ -15155,7 +15155,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 11:33:50',
-    'job title': 'Account Manager',
+    jobTitle: 'Account Manager',
     team: 'Sales',
     salary: '85000',
     city: 'New York City',
@@ -15166,7 +15166,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 20:11:49',
-    'job title': 'Art Lead',
+    jobTitle: 'Art Lead',
     team: 'Product Design',
     salary: '85000',
     city: 'Los Angeles',
@@ -15177,7 +15177,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:58:35',
-    'job title': 'Asst Brand Mgr',
+    jobTitle: 'Asst Brand Mgr',
     team: 'Misc',
     salary: '85000',
     city: 'Detroit',
@@ -15188,7 +15188,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 2:19:04',
-    'job title': 'Community Operations Manager',
+    jobTitle: 'Community Operations Manager',
     team: 'Operations',
     salary: '85000',
     city: 'San Francisco Bay Area',
@@ -15199,7 +15199,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 17:15:04',
-    'job title': 'Customer Success Manager',
+    jobTitle: 'Customer Success Manager',
     team: 'Sales',
     salary: '85000',
     city: 'San Francisco Bay Area',
@@ -15210,7 +15210,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 17:52:33',
-    'job title': 'Cybersecurity Engineer',
+    jobTitle: 'Cybersecurity Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '85000',
@@ -15221,7 +15221,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Cybersecurity Engineer',
+    jobTitle: 'Cybersecurity Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '85000',
@@ -15232,7 +15232,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '85000',
     city: 'Chicago',
@@ -15243,7 +15243,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 15:27:12',
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '85000',
     city: 'Kansas City',
@@ -15253,7 +15253,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     'job level': '3',
     salary: '85000',
@@ -15264,7 +15264,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Database Administrator',
+    jobTitle: 'Database Administrator',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'Denver',
@@ -15274,7 +15274,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'Boulder',
@@ -15284,7 +15284,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'Orlando',
@@ -15295,7 +15295,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 19:11:30',
-    'job title': 'Digital Experience Manager ',
+    jobTitle: 'Digital Experience Manager ',
     team: 'Product Design',
     salary: '85000',
     city: 'Raleigh',
@@ -15306,7 +15306,7 @@ const data = [
   },
   {
     Timestamp: '1/23/2020 11:43:39',
-    'job title': 'Digital Project Manager',
+    jobTitle: 'Digital Project Manager',
     team: 'Product Management',
     salary: '85000',
     city: 'New York City',
@@ -15317,7 +15317,7 @@ const data = [
   },
   {
     Timestamp: '1/27/2020 15:03:52',
-    'job title': 'Email Marketing Manager',
+    jobTitle: 'Email Marketing Manager',
     team: 'Marketing',
     salary: '85000',
     city: 'New York City',
@@ -15328,7 +15328,7 @@ const data = [
   },
   {
     Timestamp: '1/17/2020 14:40:50',
-    'job title': 'Front End Web Developer',
+    jobTitle: 'Front End Web Developer',
     team: 'Software Engineering',
     salary: '85000',
     city: 'Atlanta',
@@ -15339,7 +15339,7 @@ const data = [
   },
   {
     Timestamp: '2/8/2020 14:45:42',
-    'job title': 'Front-End Developer',
+    jobTitle: 'Front-End Developer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '85000',
@@ -15351,7 +15351,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 19:30:11',
-    'job title': 'Global Communications Coordinator',
+    jobTitle: 'Global Communications Coordinator',
     team: 'Misc',
     salary: '85000',
     city: 'San Francisco Bay Area',
@@ -15361,7 +15361,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Hardware Engineer',
+    jobTitle: 'Hardware Engineer',
     team: 'Hardware Engineering',
     salary: '85000',
     city: 'Los Angeles',
@@ -15372,7 +15372,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 12:06:11',
-    'job title': 'Implementation Specialist',
+    jobTitle: 'Implementation Specialist',
     team: 'Misc',
     salary: '85000',
     city: 'New York City',
@@ -15382,7 +15382,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     'job level': '3',
     salary: '85000',
@@ -15393,7 +15393,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     'job level': '2',
     salary: '85000',
@@ -15405,7 +15405,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 16:36:58',
-    'job title': 'Marketing Manager',
+    jobTitle: 'Marketing Manager',
     team: 'Marketing',
     salary: '85000',
     city: 'San Francisco Bay Area',
@@ -15416,7 +15416,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:41:48',
-    'job title': 'Marketing Manager',
+    jobTitle: 'Marketing Manager',
     team: 'Marketing',
     salary: '85000',
     city: 'New York City',
@@ -15426,7 +15426,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'Indianapolis',
@@ -15436,7 +15436,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '85000',
@@ -15447,7 +15447,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '85000',
@@ -15458,7 +15458,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'Houston',
@@ -15468,7 +15468,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'Fayetteville',
@@ -15478,7 +15478,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'Chicago',
@@ -15488,7 +15488,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '85000',
@@ -15499,7 +15499,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '85000',
@@ -15511,7 +15511,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 14:03:10',
-    'job title': 'Performance Media Supervisor',
+    jobTitle: 'Performance Media Supervisor',
     team: 'Misc',
     salary: '85000',
     city: 'New York City',
@@ -15522,7 +15522,7 @@ const data = [
   },
   {
     Timestamp: '6/25/2020 18:32:32',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     salary: '85000',
     city: 'Los Angeles',
@@ -15533,7 +15533,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:49:10',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     salary: '85000',
     city: 'Chicago',
@@ -15544,7 +15544,7 @@ const data = [
   },
   {
     Timestamp: '3/3/2020 9:57:53',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '85000',
     city: 'New York City',
@@ -15555,7 +15555,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 19:23:49',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '85000',
     city: 'Rochester',
@@ -15565,7 +15565,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'QA Engineer',
+    jobTitle: 'QA Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '85000',
@@ -15577,7 +15577,7 @@ const data = [
   },
   {
     Timestamp: '3/25/2020 21:05:47',
-    'job title': 'QA Engineer',
+    jobTitle: 'QA Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '85000',
@@ -15589,7 +15589,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 23:14:41',
-    'job title': 'QA Engineer',
+    jobTitle: 'QA Engineer',
     team: 'Software Engineering',
     salary: '85000',
     city: 'Richmond',
@@ -15600,7 +15600,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:05:15',
-    'job title': 'Sales Manager',
+    jobTitle: 'Sales Manager',
     team: 'Sales',
     salary: '85000',
     city: 'Chicago',
@@ -15610,7 +15610,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Security Admin',
+    jobTitle: 'Security Admin',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'Irvine',
@@ -15620,7 +15620,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Security Analyst ',
+    jobTitle: 'Security Analyst ',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'Chicago',
@@ -15631,7 +15631,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 13:40:54',
-    'job title': 'SEO Manager',
+    jobTitle: 'SEO Manager',
     team: 'Misc',
     salary: '85000',
     city: 'Boston',
@@ -15641,7 +15641,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'Dallas',
@@ -15652,7 +15652,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 15:21:56',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '85000',
@@ -15663,7 +15663,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '85000',
@@ -15674,7 +15674,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '85000',
@@ -15686,7 +15686,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 18:32:39',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '85000',
@@ -15698,7 +15698,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 13:59:26',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '85000',
@@ -15709,7 +15709,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '85000',
     city: 'Chicago',
@@ -15720,7 +15720,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:49:23',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '85000',
@@ -15732,7 +15732,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:36:47',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '85000',
     city: 'Boston',
@@ -15743,7 +15743,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:00:22',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '85000',
     city: 'New York City',
@@ -15753,7 +15753,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '85000',
@@ -15765,7 +15765,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 13:40:30',
-    'job title': 'Software Engineering Manager',
+    jobTitle: 'Software Engineering Manager',
     team: 'Software Engineering Management',
     salary: '85000',
     city: 'Seattle',
@@ -15776,7 +15776,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 15:21:28',
-    'job title': 'Sr. Content Marketing Coordinator',
+    jobTitle: 'Sr. Content Marketing Coordinator',
     team: 'Marketing',
     salary: '85000',
     city: 'New York City',
@@ -15787,7 +15787,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 8:46:24',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '85000',
     city: 'Omaha',
@@ -15797,7 +15797,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'Los Angeles',
@@ -15807,7 +15807,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'San Diego',
@@ -15817,7 +15817,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '85000',
@@ -15828,7 +15828,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '85000',
@@ -15839,7 +15839,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'Orlando',
@@ -15849,7 +15849,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'Miami',
@@ -15859,7 +15859,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'Atlanta',
@@ -15869,7 +15869,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'Chicago',
@@ -15879,7 +15879,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'Boston',
@@ -15889,7 +15889,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'Farmington Hills',
@@ -15899,7 +15899,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'Holland',
@@ -15909,7 +15909,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '85000',
@@ -15920,7 +15920,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '85000',
@@ -15931,7 +15931,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'Raleigh',
@@ -15941,7 +15941,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'Philadelphia',
@@ -15951,7 +15951,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '85000',
@@ -15962,7 +15962,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'Austin',
@@ -15972,7 +15972,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'Seattle',
@@ -15982,7 +15982,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '85000',
@@ -15993,7 +15993,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'Seattle',
@@ -16003,7 +16003,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'Milwaukee',
@@ -16013,7 +16013,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '85000',
     city: 'Chicago',
@@ -16023,7 +16023,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '7',
     salary: '85000',
@@ -16034,7 +16034,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '85000',
@@ -16045,7 +16045,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '85000',
@@ -16057,7 +16057,7 @@ const data = [
   },
   {
     Timestamp: '3/3/2020 14:11:01',
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     salary: '85000',
     city: 'Philadelphia',
@@ -16068,7 +16068,7 @@ const data = [
   },
   {
     Timestamp: '12/4/2020 21:37:18',
-    'job title': 'UX/UI Designer',
+    jobTitle: 'UX/UI Designer',
     team: 'Product Design',
     salary: '85000',
     city: 'Los Angeles',
@@ -16078,7 +16078,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '85309',
     city: 'Houston',
@@ -16089,7 +16089,7 @@ const data = [
   },
   {
     Timestamp: '9/28/2020 17:56:32',
-    'job title': 'Executive Assistant',
+    jobTitle: 'Executive Assistant',
     team: 'Misc',
     salary: '85500',
     city: 'San Francisco Bay Area',
@@ -16099,7 +16099,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '7',
     salary: '85524',
@@ -16110,7 +16110,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Information Security',
+    jobTitle: 'Information Security',
     team: 'Network, Security & IT',
     salary: '85600',
     city: 'Cheyenne',
@@ -16121,7 +16121,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 12:24:39',
-    'job title': 'Digital Marketing Manager',
+    jobTitle: 'Digital Marketing Manager',
     team: 'Marketing',
     salary: '86000',
     city: 'Denver',
@@ -16131,7 +16131,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Operations Manager',
+    jobTitle: 'Operations Manager',
     team: 'Operations',
     'job level': '3',
     salary: '86000',
@@ -16142,7 +16142,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     salary: '86000',
     city: 'Philadelphia',
@@ -16153,7 +16153,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 13:32:08',
-    'job title': 'Sr. Research Project Manager',
+    jobTitle: 'Sr. Research Project Manager',
     team: 'Misc',
     salary: '86000',
     city: 'San Francisco Bay Area',
@@ -16163,7 +16163,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '86000',
     city: 'Minneapolis',
@@ -16173,7 +16173,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '86000',
     city: 'Dayton',
@@ -16183,7 +16183,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '86000',
@@ -16194,7 +16194,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '86000',
@@ -16205,7 +16205,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '86000',
     city: 'Milwaukee',
@@ -16215,7 +16215,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '86000',
@@ -16226,7 +16226,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '86000',
@@ -16237,7 +16237,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '86000',
     city: 'Plano',
@@ -16248,7 +16248,7 @@ const data = [
   },
   {
     Timestamp: '3/12/2020 22:44:55',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '86000',
     city: 'New York City',
@@ -16259,7 +16259,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 23:19:41',
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '86100',
     city: 'Los Angeles',
@@ -16270,7 +16270,7 @@ const data = [
   },
   {
     Timestamp: '7/16/2020 18:46:24',
-    'job title': 'DT Business Analyst',
+    jobTitle: 'DT Business Analyst',
     team: 'Misc',
     salary: '86500',
     city: 'West Palm Beach',
@@ -16280,7 +16280,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '86700',
     city: 'Vancouver',
@@ -16290,7 +16290,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '86700',
@@ -16301,7 +16301,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '86900',
     city: 'Rockford',
@@ -16312,7 +16312,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 11:26:42',
-    'job title': 'Account Manager',
+    jobTitle: 'Account Manager',
     team: 'Sales',
     salary: '87000',
     city: 'Minneapolis',
@@ -16323,7 +16323,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 10:56:05',
-    'job title': 'Agile Project Manager',
+    jobTitle: 'Agile Project Manager',
     team: 'Agile',
     salary: '87000',
     city: 'New York City',
@@ -16334,7 +16334,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 0:36:26',
-    'job title': 'Copy Manager',
+    jobTitle: 'Copy Manager',
     team: 'Creative',
     salary: '87000',
     city: 'Seattle',
@@ -16345,7 +16345,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 1:54:25',
-    'job title': 'Email Marketing Coordinator',
+    jobTitle: 'Email Marketing Coordinator',
     team: 'Marketing',
     salary: '87000',
     city: 'San Francisco Bay Area',
@@ -16356,7 +16356,7 @@ const data = [
   },
   {
     Timestamp: '6/16/2020 12:24:05',
-    'job title': 'Instructional Designer',
+    jobTitle: 'Instructional Designer',
     team: 'Product Design',
     salary: '87000',
     city: 'Chicago',
@@ -16366,7 +16366,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '87000',
     city: 'Denver',
@@ -16376,7 +16376,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '87000',
     city: 'Jacksonville',
@@ -16386,7 +16386,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '87000',
@@ -16397,7 +16397,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '87000',
@@ -16409,7 +16409,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 17:44:59',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     'job level': '2',
     salary: '87000',
@@ -16420,7 +16420,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Security Admin',
+    jobTitle: 'Security Admin',
     team: 'Network, Security & IT',
     salary: '87000',
     city: 'Kansas City',
@@ -16431,7 +16431,7 @@ const data = [
   },
   {
     Timestamp: '3/10/2020 10:06:30',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '87000',
@@ -16443,7 +16443,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 18:45:41',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '87000',
@@ -16454,7 +16454,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '7',
     salary: '87000',
@@ -16465,7 +16465,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '87000',
     city: 'Cincinnati',
@@ -16475,7 +16475,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '87000',
     city: 'Philadelphia',
@@ -16486,7 +16486,7 @@ const data = [
   },
   {
     Timestamp: '1/28/2021 11:24:13',
-    'job title': 'Software Support Engineer',
+    jobTitle: 'Software Support Engineer',
     team: 'Software Engineering',
     salary: '87000',
     city: 'Pittsburgh',
@@ -16497,7 +16497,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 14:00:35',
-    'job title': 'Sr. Customer Service Manager',
+    jobTitle: 'Sr. Customer Service Manager',
     team: 'Sales',
     salary: '87000',
     city: 'Raleigh',
@@ -16508,7 +16508,7 @@ const data = [
   },
   {
     Timestamp: '10/25/2020 0:31:00',
-    'job title': 'Sr. Financial Analyst',
+    jobTitle: 'Sr. Financial Analyst',
     team: 'Accounting',
     salary: '87000',
     city: 'Chicago',
@@ -16519,7 +16519,7 @@ const data = [
   },
   {
     Timestamp: '3/3/2020 9:56:48',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '87000',
     city: 'Charleston',
@@ -16530,7 +16530,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 22:34:23',
-    'job title': 'Sr. UX Designer',
+    jobTitle: 'Sr. UX Designer',
     team: 'Product Design',
     salary: '87000',
     city: 'St. Louis',
@@ -16540,7 +16540,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '87000',
@@ -16551,7 +16551,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '87000',
     city: 'Philadelphia',
@@ -16561,7 +16561,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '87000',
@@ -16572,7 +16572,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '87000',
     city: 'Austin',
@@ -16582,7 +16582,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '87000',
@@ -16594,7 +16594,7 @@ const data = [
   },
   {
     Timestamp: '3/19/2020 15:15:44',
-    'job title': 'UX/UI Designer',
+    jobTitle: 'UX/UI Designer',
     team: 'Product Design',
     salary: '87000',
     city: 'Denver',
@@ -16604,7 +16604,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '87184',
@@ -16615,7 +16615,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '87421',
     city: 'Prince William County',
@@ -16625,7 +16625,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '87500',
     city: 'San Leandro',
@@ -16635,7 +16635,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '87500',
     city: 'Auburn',
@@ -16645,7 +16645,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '87500',
     city: 'Ithaca',
@@ -16655,7 +16655,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '87500',
@@ -16666,7 +16666,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '87700',
@@ -16678,7 +16678,7 @@ const data = [
   },
   {
     Timestamp: '2/26/2020 11:53:38',
-    'job title': 'Business Intelligence Analyst',
+    jobTitle: 'Business Intelligence Analyst',
     team: 'Data Science',
     salary: '88000',
     city: 'Portland',
@@ -16689,7 +16689,7 @@ const data = [
   },
   {
     Timestamp: '1/26/2021 10:07:07',
-    'job title': 'Data Engineer',
+    jobTitle: 'Data Engineer',
     team: 'Data Science',
     salary: '88000',
     city: 'Denver',
@@ -16700,7 +16700,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 15:05:33',
-    'job title': 'Digital Marketing Manager',
+    jobTitle: 'Digital Marketing Manager',
     team: 'Marketing',
     salary: '88000',
     city: 'Denver',
@@ -16710,7 +16710,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Infrastructure Architect ',
+    jobTitle: 'Infrastructure Architect ',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '88000',
@@ -16722,7 +16722,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 23:56:42',
-    'job title': 'Interactive Art Director',
+    jobTitle: 'Interactive Art Director',
     team: 'Creative',
     salary: '88000',
     city: 'Baltimore ',
@@ -16733,7 +16733,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 16:36:59',
-    'job title': 'IT Engineer',
+    jobTitle: 'IT Engineer',
     team: 'Network, Security & IT',
     salary: '88000',
     city: 'Atlanta',
@@ -16744,7 +16744,7 @@ const data = [
   },
   {
     Timestamp: '3/12/2020 9:34:04',
-    'job title': 'IT Project Manager',
+    jobTitle: 'IT Project Manager',
     team: 'Network, Security & IT',
     salary: '88000',
     city: 'Boston',
@@ -16754,7 +16754,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     'job level': '3',
     salary: '88000',
@@ -16765,7 +16765,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '88000',
     city: 'Phoenix',
@@ -16776,7 +16776,7 @@ const data = [
   },
   {
     Timestamp: '1/25/2021 18:17:20',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '88000',
     city: 'Washington',
@@ -16787,7 +16787,7 @@ const data = [
   },
   {
     Timestamp: '2/10/2020 12:58:57',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '88000',
     city: 'Portland',
@@ -16798,7 +16798,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 14:26:04',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '88000',
     city: 'Portland',
@@ -16809,7 +16809,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 15:51:49',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '88000',
     city: 'Austin',
@@ -16820,7 +16820,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 10:26:59',
-    'job title': 'Project Coordinator',
+    jobTitle: 'Project Coordinator',
     team: 'Misc',
     salary: '88000',
     city: 'Austin',
@@ -16831,7 +16831,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:45:26',
-    'job title': 'Sr. Copywriter',
+    jobTitle: 'Sr. Copywriter',
     team: 'Creative',
     salary: '88000',
     city: 'Denver',
@@ -16841,7 +16841,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '88000',
@@ -16852,7 +16852,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '88000',
     city: 'Indianapolis',
@@ -16862,7 +16862,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '88000',
     city: 'Oklahoma City',
@@ -16873,7 +16873,7 @@ const data = [
   },
   {
     Timestamp: '3/11/2020 0:02:35',
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     salary: '88000',
     city: 'Austin',
@@ -16883,7 +16883,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     salary: '88000',
     city: 'San Diego',
@@ -16894,7 +16894,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 16:04:21',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '88400',
     city: 'Washington',
@@ -16905,7 +16905,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 22:23:47',
-    'job title': 'Director of Research and Instructional Technology ',
+    jobTitle: 'Director of Research and Instructional Technology ',
     team: 'Misc',
     salary: '88500',
     city: 'Boston',
@@ -16915,7 +16915,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '88500',
     city: 'Louisville',
@@ -16925,7 +16925,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '6',
     salary: '88680',
@@ -16937,7 +16937,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 16:57:55',
-    'job title': 'Director of Operations',
+    jobTitle: 'Director of Operations',
     team: 'Operations',
     salary: '89000',
     city: 'Chicago',
@@ -16947,7 +16947,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '89000',
     city: 'Dayton',
@@ -16957,7 +16957,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '89000',
     city: 'Scottsdale',
@@ -16968,7 +16968,7 @@ const data = [
   },
   {
     Timestamp: '1/23/2020 15:28:59',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '89000',
     city: 'Washington',
@@ -16979,7 +16979,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 22:19:56',
-    'job title': 'Project Manager',
+    jobTitle: 'Project Manager',
     team: 'Product Management',
     salary: '89000',
     city: 'San Francisco Bay Area',
@@ -16989,7 +16989,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '89000',
     city: 'Austin',
@@ -16999,7 +16999,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '89000',
@@ -17010,7 +17010,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '89000',
     city: 'Houston',
@@ -17020,7 +17020,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '89000',
@@ -17031,7 +17031,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '89000',
@@ -17042,7 +17042,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '89500',
     city: 'Dallas',
@@ -17053,7 +17053,7 @@ const data = [
   },
   {
     Timestamp: '2/4/2020 14:48:26',
-    'job title': 'Account Executive',
+    jobTitle: 'Account Executive',
     team: 'Sales',
     salary: '90000',
     city: 'New York City',
@@ -17064,7 +17064,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 3:57:19',
-    'job title': 'Account Manager',
+    jobTitle: 'Account Manager',
     team: 'Sales',
     salary: '90000',
     city: 'San Francisco Bay Area',
@@ -17075,7 +17075,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 17:55:56',
-    'job title': 'API Support Engineer',
+    jobTitle: 'API Support Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '90000',
@@ -17087,7 +17087,7 @@ const data = [
   },
   {
     Timestamp: '3/31/2020 12:50:45',
-    'job title': 'Cloud Solutions Architect',
+    jobTitle: 'Cloud Solutions Architect',
     team: 'Data Science',
     salary: '90000',
     city: 'Seattle',
@@ -17098,7 +17098,7 @@ const data = [
   },
   {
     Timestamp: '1/30/2020 13:16:10',
-    'job title': 'Co-Founder, Operations Director',
+    jobTitle: 'Co-Founder, Operations Director',
     team: 'Operations',
     salary: '90000',
     city: 'Boston',
@@ -17109,7 +17109,7 @@ const data = [
   },
   {
     Timestamp: '2/3/2020 17:56:41',
-    'job title': 'Computer Vision Engineer',
+    jobTitle: 'Computer Vision Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '90000',
@@ -17121,7 +17121,7 @@ const data = [
   },
   {
     Timestamp: '2/3/2020 16:27:37',
-    'job title': 'Customer Success Manager',
+    jobTitle: 'Customer Success Manager',
     team: 'Sales',
     salary: '90000',
     city: 'New York City',
@@ -17131,7 +17131,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Cybersecurity Engineer',
+    jobTitle: 'Cybersecurity Engineer',
     team: 'Network, Security & IT',
     salary: '90000',
     city: 'Las Vegas',
@@ -17141,7 +17141,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '90000',
     city: 'Phoenix',
@@ -17151,7 +17151,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '90000',
     city: 'Chicago',
@@ -17161,7 +17161,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Database Administrator',
+    jobTitle: 'Database Administrator',
     team: 'Network, Security & IT',
     salary: '90000',
     city: 'Irvine',
@@ -17172,7 +17172,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 19:36:16',
-    'job title': 'Design Manager - UI/UX Strategy',
+    jobTitle: 'Design Manager - UI/UX Strategy',
     team: 'Product Design',
     salary: '90000',
     city: 'New York City',
@@ -17182,7 +17182,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '90000',
     city: 'San Francisco',
@@ -17193,7 +17193,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 17:36:58',
-    'job title': 'Email Deliverability Consultant',
+    jobTitle: 'Email Deliverability Consultant',
     team: 'Marketing',
     salary: '90000',
     city: 'Portland',
@@ -17204,7 +17204,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 10:32:32',
-    'job title': 'Email Deliverability Lead',
+    jobTitle: 'Email Deliverability Lead',
     team: 'Marketing',
     salary: '90000',
     city: 'Nashville',
@@ -17215,7 +17215,7 @@ const data = [
   },
   {
     Timestamp: '2/10/2020 13:45:12',
-    'job title': 'Events Marketing Manager',
+    jobTitle: 'Events Marketing Manager',
     team: 'Misc',
     salary: '90000',
     city: 'San Francisco Bay Area',
@@ -17225,7 +17225,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Hardware Engineer',
+    jobTitle: 'Hardware Engineer',
     team: 'Hardware Engineering',
     'job level': '2',
     salary: '90000',
@@ -17237,7 +17237,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 18:57:12',
-    'job title': 'HR',
+    jobTitle: 'HR',
     team: 'Human Resources',
     salary: '90000',
     city: 'San Francisco Bay Area',
@@ -17248,7 +17248,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 20:35:28',
-    'job title': 'Implementation Project Manager',
+    jobTitle: 'Implementation Project Manager',
     team: 'Product Management',
     salary: '90000',
     city: 'Austin',
@@ -17258,7 +17258,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Information Security',
+    jobTitle: 'Information Security',
     team: 'Network, Security & IT',
     salary: '90000',
     city: 'Chicago',
@@ -17268,7 +17268,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Infrastructure Architect ',
+    jobTitle: 'Infrastructure Architect ',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '90000',
@@ -17280,7 +17280,7 @@ const data = [
   },
   {
     Timestamp: '2/27/2020 13:04:17',
-    'job title': 'Integrated Marketing Manager',
+    jobTitle: 'Integrated Marketing Manager',
     team: 'Marketing',
     salary: '90000',
     city: 'Boston',
@@ -17291,7 +17291,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 18:21:22',
-    'job title': 'IT Project Manager',
+    jobTitle: 'IT Project Manager',
     team: 'Network, Security & IT',
     salary: '90000',
     city: 'Irvine',
@@ -17302,7 +17302,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 21:18:10',
-    'job title': 'Lead DevOps Engineer',
+    jobTitle: 'Lead DevOps Engineer',
     team: 'Network, Security & IT',
     salary: '90000',
     city: 'Miami',
@@ -17313,7 +17313,7 @@ const data = [
   },
   {
     Timestamp: '1/27/2020 13:59:12',
-    'job title': 'Marketing Director',
+    jobTitle: 'Marketing Director',
     team: 'Marketing',
     salary: '90000',
     city: 'Atlanta',
@@ -17324,7 +17324,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 3:01:13',
-    'job title': 'Marketing Manager',
+    jobTitle: 'Marketing Manager',
     team: 'Marketing',
     salary: '90000',
     city: 'San Francisco Bay Area',
@@ -17335,7 +17335,7 @@ const data = [
   },
   {
     Timestamp: '1/17/2020 14:18:27',
-    'job title': 'Marketing Operations Manager',
+    jobTitle: 'Marketing Operations Manager',
     team: 'Marketing',
     salary: '90000',
     city: 'Los Angeles',
@@ -17345,7 +17345,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '90000',
@@ -17356,7 +17356,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '90000',
@@ -17367,7 +17367,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '90000',
@@ -17378,7 +17378,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '90000',
     city: 'Boulder',
@@ -17388,7 +17388,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '90000',
     city: 'Boston',
@@ -17399,7 +17399,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 2:09:18',
-    'job title': 'Operations Manager',
+    jobTitle: 'Operations Manager',
     team: 'Operations',
     salary: '90000',
     city: 'Seattle',
@@ -17410,7 +17410,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:19:57',
-    'job title': 'Principal Talent Acquisition Specialist',
+    jobTitle: 'Principal Talent Acquisition Specialist',
     team: 'Recruiting',
     salary: '90000',
     city: 'Ann Arbor',
@@ -17421,7 +17421,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:26:20',
-    'job title': 'Process Automation Engineer',
+    jobTitle: 'Process Automation Engineer',
     team: 'Data Science',
     salary: '90000',
     city: 'Miami',
@@ -17432,7 +17432,7 @@ const data = [
   },
   {
     Timestamp: '2/3/2020 17:40:34',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '90000',
     city: 'Los Angeles',
@@ -17443,7 +17443,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 13:02:06',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '90000',
     city: 'Minneapolis',
@@ -17454,7 +17454,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 17:31:02',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '90000',
     city: 'Austin',
@@ -17464,7 +17464,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Professional Services Engineer',
+    jobTitle: 'Professional Services Engineer',
     team: 'Software Engineering',
     salary: '90000',
     city: 'Dallas',
@@ -17474,7 +17474,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Sales Engineer',
+    jobTitle: 'Sales Engineer',
     team: 'Sales',
     'job level': '2',
     salary: '90000',
@@ -17486,7 +17486,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2021 6:52:03',
-    'job title': 'Scrum Master',
+    jobTitle: 'Scrum Master',
     team: 'Agile',
     salary: '90000',
     city: 'Chicago',
@@ -17496,7 +17496,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Security Admin',
+    jobTitle: 'Security Admin',
     team: 'Network, Security & IT',
     salary: '90000',
     city: 'Columbus',
@@ -17506,7 +17506,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Security Engineer',
+    jobTitle: 'Security Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '90000',
@@ -17517,7 +17517,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '90000',
@@ -17528,7 +17528,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '90000',
@@ -17540,7 +17540,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 16:02:15',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '90000',
@@ -17552,7 +17552,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 13:12:06',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '90000',
@@ -17563,7 +17563,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '90000',
     city: 'Washington',
@@ -17574,7 +17574,7 @@ const data = [
   },
   {
     Timestamp: '2/26/2020 17:26:39',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '90000',
     city: 'Ann Arbor',
@@ -17585,7 +17585,7 @@ const data = [
   },
   {
     Timestamp: '2/25/2020 11:19:26',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '90000',
     city: 'Newark',
@@ -17596,7 +17596,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:13:48',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '90000',
@@ -17607,7 +17607,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '90000',
     city: 'Raleigh',
@@ -17617,7 +17617,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '5',
     salary: '90000',
@@ -17628,7 +17628,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '90000',
     city: 'Columbus',
@@ -17639,7 +17639,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 8:37:27',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '90000',
     city: 'Pittsburgh',
@@ -17649,7 +17649,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '90000',
@@ -17660,7 +17660,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '90000',
     city: 'San Antonio',
@@ -17670,7 +17670,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '90000',
@@ -17682,7 +17682,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:42:38',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '90000',
@@ -17694,7 +17694,7 @@ const data = [
   },
   {
     Timestamp: '3/9/2020 20:19:59',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '90000',
@@ -17705,7 +17705,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '90000',
     city: 'Seattle',
@@ -17716,7 +17716,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:36:31',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '90000',
@@ -17728,7 +17728,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 18:15:00',
-    'job title': 'Software Engineering Manager',
+    jobTitle: 'Software Engineering Manager',
     team: 'Software Engineering Management',
     salary: '90000',
     city: 'Newport Beach',
@@ -17739,7 +17739,7 @@ const data = [
   },
   {
     Timestamp: '5/22/2020 20:56:44',
-    'job title': 'Solutions Engineer',
+    jobTitle: 'Solutions Engineer',
     team: 'Sales',
     'job level': '2',
     salary: '90000',
@@ -17750,7 +17750,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Solutions Engineer',
+    jobTitle: 'Solutions Engineer',
     team: 'Sales',
     'job level': '1',
     salary: '90000',
@@ -17762,7 +17762,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 13:49:04',
-    'job title': 'Sr. Business Analyst',
+    jobTitle: 'Sr. Business Analyst',
     team: 'Business Analytics',
     salary: '90000',
     city: 'Orlando',
@@ -17773,7 +17773,7 @@ const data = [
   },
   {
     Timestamp: '8/6/2020 14:12:26',
-    'job title': 'Sr. Business Analyst',
+    jobTitle: 'Sr. Business Analyst',
     team: 'Business Analytics',
     salary: '90000',
     city: 'Dallas',
@@ -17784,7 +17784,7 @@ const data = [
   },
   {
     Timestamp: '1/23/2020 8:57:23',
-    'job title': 'Sr. Controls Engineer',
+    jobTitle: 'Sr. Controls Engineer',
     team: 'Software Engineering',
     salary: '90000',
     city: 'Indianapolis',
@@ -17795,7 +17795,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 15:06:08',
-    'job title': 'Sr. Customer Service Manager',
+    jobTitle: 'Sr. Customer Service Manager',
     team: 'Sales',
     salary: '90000',
     city: 'Denver',
@@ -17806,7 +17806,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 15:09:52',
-    'job title': 'Sr. Customer Service Manager',
+    jobTitle: 'Sr. Customer Service Manager',
     team: 'Sales',
     salary: '90000',
     city: 'Seattle',
@@ -17817,7 +17817,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 18:10:28',
-    'job title': 'Sr. UX Designer',
+    jobTitle: 'Sr. UX Designer',
     team: 'Product Design',
     salary: '90000',
     city: 'Portland',
@@ -17828,7 +17828,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 10:21:26',
-    'job title': 'Sr. UX Designer',
+    jobTitle: 'Sr. UX Designer',
     team: 'Product Design',
     salary: '90000',
     city: 'Salt Lake City',
@@ -17839,7 +17839,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 15:10:54',
-    'job title': 'Sr. UX/UI Designer',
+    jobTitle: 'Sr. UX/UI Designer',
     team: 'Product Design',
     salary: '90000',
     city: 'Asheville',
@@ -17850,7 +17850,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 15:09:33',
-    'job title': 'Sr. Web Developer',
+    jobTitle: 'Sr. Web Developer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '90000',
@@ -17861,7 +17861,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '90000',
@@ -17872,7 +17872,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '90000',
     city: 'San Diego',
@@ -17882,7 +17882,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '90000',
     city: 'San Francisco',
@@ -17892,7 +17892,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '90000',
     city: 'Washington',
@@ -17902,7 +17902,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '90000',
     city: 'Detroit',
@@ -17912,7 +17912,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '90000',
     city: 'Omaha',
@@ -17922,7 +17922,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '90000',
     city: 'Manchester',
@@ -17932,7 +17932,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '90000',
     city: 'Philadelphia',
@@ -17942,7 +17942,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '90000',
     city: 'Nashville',
@@ -17952,7 +17952,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '90000',
     city: 'Dallas',
@@ -17962,7 +17962,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '90000',
     city: 'Seattle',
@@ -17973,7 +17973,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:01:26',
-    'job title': 'Technical Account Manager',
+    jobTitle: 'Technical Account Manager',
     team: 'Marketing',
     salary: '90000',
     city: 'Philadelphia',
@@ -17984,7 +17984,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 0:50:54',
-    'job title': 'Technical Business Analyst',
+    jobTitle: 'Technical Business Analyst',
     team: 'Business Analytics',
     salary: '90000',
     city: 'Austin',
@@ -17995,7 +17995,7 @@ const data = [
   },
   {
     Timestamp: '2/11/2020 20:57:39',
-    'job title': 'Technical Product Manager',
+    jobTitle: 'Technical Product Manager',
     team: 'Product Management',
     salary: '90000',
     city: 'New York City',
@@ -18006,7 +18006,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 2:32:35',
-    'job title': 'Technical Recruiter',
+    jobTitle: 'Technical Recruiter',
     team: 'Recruiting',
     salary: '90000',
     city: 'Honolulu',
@@ -18016,7 +18016,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '90000',
     city: 'Austin',
@@ -18026,7 +18026,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'UX',
+    jobTitle: 'UX',
     team: 'Product Design',
     salary: '90000',
     city: 'Baltimore',
@@ -18037,7 +18037,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:51:43',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '90000',
     city: 'Portland',
@@ -18048,7 +18048,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 14:36:16',
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     salary: '90000',
     city: 'Chicago',
@@ -18059,7 +18059,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 21:19:38',
-    'job title': 'UX/UI Designer',
+    jobTitle: 'UX/UI Designer',
     team: 'Product Design',
     salary: '90000',
     city: 'New York City',
@@ -18069,7 +18069,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     salary: '90000',
     city: 'San Francisco',
@@ -18079,7 +18079,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '90000',
@@ -18090,7 +18090,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '5',
     salary: '90855',
@@ -18102,7 +18102,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 20:31:12',
-    'job title': 'Application  Support',
+    jobTitle: 'Application  Support',
     team: 'Network, Security & IT',
     salary: '91000',
     city: 'Chicago',
@@ -18112,7 +18112,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Founder',
+    jobTitle: 'Founder',
     team: 'Operations',
     salary: '91000',
     city: 'Portland',
@@ -18122,7 +18122,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '91000',
     city: 'Des Moines',
@@ -18132,7 +18132,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     'job level': '3',
     salary: '91000',
@@ -18144,7 +18144,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 12:16:41',
-    'job title': 'Retention Marketing Manager',
+    jobTitle: 'Retention Marketing Manager',
     team: 'Marketing',
     salary: '91000',
     city: 'Chicago',
@@ -18154,7 +18154,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '91000',
@@ -18166,7 +18166,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 15:34:35',
-    'job title': 'Sr. Product analyst ',
+    jobTitle: 'Sr. Product analyst ',
     team: 'Data Science',
     salary: '91000',
     city: 'San Francisco Bay Area',
@@ -18176,7 +18176,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '91000',
     city: 'Irvine',
@@ -18186,7 +18186,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '91000',
     city: 'Chicago',
@@ -18196,7 +18196,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '91000',
@@ -18208,7 +18208,7 @@ const data = [
   },
   {
     Timestamp: '6/10/2020 13:46:03',
-    'job title': 'Systems Admin',
+    jobTitle: 'Systems Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '91000',
@@ -18220,7 +18220,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 12:53:05',
-    'job title': 'Sr. Engineer',
+    jobTitle: 'Sr. Engineer',
     team: 'Software Engineering',
     salary: '91500',
     city: 'Chicago',
@@ -18231,7 +18231,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 9:19:43',
-    'job title': 'Business Analyst',
+    jobTitle: 'Business Analyst',
     team: 'Business Analytics',
     salary: '91750',
     city: 'Washington',
@@ -18241,7 +18241,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '91800',
     city: 'Redmond',
@@ -18252,7 +18252,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 13:40:33',
-    'job title': 'Brand Marketing Manager of Content',
+    jobTitle: 'Brand Marketing Manager of Content',
     team: 'Marketing',
     salary: '92000',
     city: 'Portland',
@@ -18263,7 +18263,7 @@ const data = [
   },
   {
     Timestamp: '5/7/2020 23:46:04',
-    'job title': 'Content Designer',
+    jobTitle: 'Content Designer',
     team: 'Product Design',
     salary: '92000',
     city: 'Dallas',
@@ -18274,7 +18274,7 @@ const data = [
   },
   {
     Timestamp: '2/14/2020 16:56:44',
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '92000',
     city: 'Los Angeles',
@@ -18284,7 +18284,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '92000',
     city: 'Los Angeles',
@@ -18295,7 +18295,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 23:17:07',
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '92000',
     city: 'Seattle',
@@ -18306,7 +18306,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 1:02:27',
-    'job title': 'Director of Marketing',
+    jobTitle: 'Director of Marketing',
     team: 'Marketing Ops',
     salary: '92000',
     city: 'New York City',
@@ -18317,7 +18317,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 8:39:40',
-    'job title': 'Full Stack Engineer',
+    jobTitle: 'Full Stack Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '92000',
@@ -18328,7 +18328,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '92000',
     city: 'Phoenix',
@@ -18338,7 +18338,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '92000',
     city: 'Houston',
@@ -18348,7 +18348,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '92000',
@@ -18360,7 +18360,7 @@ const data = [
   },
   {
     Timestamp: '2/10/2020 6:37:28',
-    'job title': 'Product Engineer',
+    jobTitle: 'Product Engineer',
     team: 'Misc',
     salary: '92000',
     city: 'San Francisco Bay Area',
@@ -18370,7 +18370,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '92000',
     city: 'Cincinnati',
@@ -18380,7 +18380,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     'job level': '3',
     salary: '92000',
@@ -18391,7 +18391,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '92000',
@@ -18403,7 +18403,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 19:23:24',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '92000',
@@ -18415,7 +18415,7 @@ const data = [
   },
   {
     Timestamp: '3/14/2020 13:25:08',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     salary: '92000',
     city: 'Bellevue',
@@ -18425,7 +18425,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '92000',
@@ -18436,7 +18436,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '92000',
     city: 'Washington',
@@ -18447,7 +18447,7 @@ const data = [
   },
   {
     Timestamp: '11/24/2020 10:12:07',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '92000',
@@ -18459,7 +18459,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 19:07:43',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '92000',
@@ -18471,7 +18471,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 17:51:54',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '92000',
@@ -18483,7 +18483,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 19:07:59',
-    'job title': 'Sr. Automation QA Analyst',
+    jobTitle: 'Sr. Automation QA Analyst',
     team: 'Data Science',
     salary: '92000',
     city: 'Los Angeles',
@@ -18494,7 +18494,7 @@ const data = [
   },
   {
     Timestamp: '2/29/2020 9:22:11',
-    'job title': 'Sr. Java Developer',
+    jobTitle: 'Sr. Java Developer',
     team: 'Software Engineering',
     salary: '92000',
     city: 'Louisville',
@@ -18505,7 +18505,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 17:22:04',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '92000',
@@ -18517,7 +18517,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 15:12:19',
-    'job title': 'Sr. UX Designer',
+    jobTitle: 'Sr. UX Designer',
     team: 'Product Design',
     salary: '92000',
     city: 'Philadelphia',
@@ -18527,7 +18527,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '92000',
     city: 'Frederick',
@@ -18537,7 +18537,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '92000',
@@ -18548,7 +18548,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '92000',
     city: 'Oklahoma City',
@@ -18558,7 +18558,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '92000',
     city: 'Providence',
@@ -18568,7 +18568,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '92000',
     city: 'Austin',
@@ -18579,7 +18579,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 12:40:01',
-    'job title': 'Training Manager',
+    jobTitle: 'Training Manager',
     team: 'Human Resources',
     salary: '92000',
     city: 'Raleigh',
@@ -18590,7 +18590,7 @@ const data = [
   },
   {
     Timestamp: '2/27/2020 17:20:24',
-    'job title': 'Data Solutions Engineer',
+    jobTitle: 'Data Solutions Engineer',
     team: 'Data Science',
     salary: '92500',
     city: 'New York City',
@@ -18600,7 +18600,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '92500',
     city: 'Chicago',
@@ -18610,7 +18610,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Platform Engineer',
+    jobTitle: 'Platform Engineer',
     team: 'Network, Security & IT',
     'job level': '6',
     salary: '92500',
@@ -18621,7 +18621,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '92500',
@@ -18632,7 +18632,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '92500',
     city: 'San Antonio',
@@ -18643,7 +18643,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 14:05:17',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '92500',
     city: 'San Francisco Bay Area',
@@ -18653,7 +18653,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Information Security',
+    jobTitle: 'Information Security',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '92888',
@@ -18665,7 +18665,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:50:20',
-    'job title': 'Acquisition Manager',
+    jobTitle: 'Acquisition Manager',
     team: 'Misc',
     salary: '93000',
     city: 'San Francisco Bay Area',
@@ -18675,7 +18675,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '93000',
     city: 'Durham',
@@ -18686,7 +18686,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 17:59:35',
-    'job title': 'Front End Software Engineer',
+    jobTitle: 'Front End Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '93000',
@@ -18698,7 +18698,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:07:36',
-    'job title': 'Full Stack Engineer',
+    jobTitle: 'Full Stack Engineer',
     team: 'Software Engineering',
     salary: '93000',
     city: 'Baton Rouge',
@@ -18709,7 +18709,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 22:30:52',
-    'job title': 'Full Stack Software Engineer ',
+    jobTitle: 'Full Stack Software Engineer ',
     team: 'Software Engineering',
     'job level': '2',
     salary: '93000',
@@ -18721,7 +18721,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:35:50',
-    'job title': 'Head of Content & Engagement',
+    jobTitle: 'Head of Content & Engagement',
     team: 'Creative',
     salary: '93000',
     city: 'New York City',
@@ -18731,7 +18731,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     'job level': '3',
     salary: '93000',
@@ -18742,7 +18742,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '93000',
     city: 'Jacksonville',
@@ -18752,7 +18752,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '93000',
     city: 'Portland',
@@ -18762,7 +18762,7 @@ const data = [
     education: 'some college'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '93000',
@@ -18774,7 +18774,7 @@ const data = [
   },
   {
     Timestamp: '2/11/2020 19:55:33',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '93000',
     city: 'San Diego',
@@ -18785,7 +18785,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 0:25:08',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '93000',
     city: 'Austin',
@@ -18796,7 +18796,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 14:17:21',
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Product Management',
     salary: '93000',
     city: 'Seattle',
@@ -18806,7 +18806,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '93000',
@@ -18818,7 +18818,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 19:43:39',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '93000',
@@ -18830,7 +18830,7 @@ const data = [
   },
   {
     Timestamp: '2/25/2020 13:15:55',
-    'job title': 'Sr. Front End Developer',
+    jobTitle: 'Sr. Front End Developer',
     team: 'Software Engineering',
     salary: '93000',
     city: 'San Francisco Bay Area',
@@ -18841,7 +18841,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 22:12:23',
-    'job title': 'Sr. Science Writer',
+    jobTitle: 'Sr. Science Writer',
     team: 'Misc',
     salary: '93000',
     city: 'Chicago',
@@ -18852,7 +18852,7 @@ const data = [
   },
   {
     Timestamp: '2/29/2020 20:10:35',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '93000',
     city: 'Dallas',
@@ -18862,7 +18862,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '93000',
     city: 'Washington',
@@ -18872,7 +18872,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '93000',
     city: 'Louisville',
@@ -18882,7 +18882,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '93000',
@@ -18894,7 +18894,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 10:18:16',
-    'job title': 'Systems Analyst',
+    jobTitle: 'Systems Analyst',
     team: 'Network, Security & IT',
     salary: '93000',
     city: 'Providence',
@@ -18904,7 +18904,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     salary: '93000',
     city: 'Austin',
@@ -18915,7 +18915,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 13:51:24',
-    'job title': 'Metallurgical engineer ',
+    jobTitle: 'Metallurgical engineer ',
     team: 'Misc',
     salary: '93094',
     city: 'Philadelphia',
@@ -18925,7 +18925,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Information Security',
+    jobTitle: 'Information Security',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '93300',
@@ -18936,7 +18936,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Monitoring Engineer',
+    jobTitle: 'Monitoring Engineer',
     team: 'Network, Security & IT',
     'job level': '6',
     salary: '93500',
@@ -18947,7 +18947,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '93500',
     city: 'Nashville',
@@ -18958,7 +18958,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:34:57',
-    'job title': 'Sr. Data Analyst',
+    jobTitle: 'Sr. Data Analyst',
     team: 'Data Science',
     salary: '93600',
     city: 'Foster City',
@@ -18968,7 +18968,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '93759',
@@ -18979,7 +18979,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Internal Audit ',
+    jobTitle: 'Internal Audit ',
     team: 'Misc',
     salary: '94000',
     city: 'Iselin',
@@ -18990,7 +18990,7 @@ const data = [
   },
   {
     Timestamp: '2/9/2020 14:03:50',
-    'job title': 'Producer',
+    jobTitle: 'Producer',
     team: 'Misc',
     salary: '94000',
     city: 'San Francisco Bay Area',
@@ -19000,7 +19000,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '94000',
     city: 'Chicago',
@@ -19011,7 +19011,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 17:27:11',
-    'job title': 'Product Operations Manager',
+    jobTitle: 'Product Operations Manager',
     team: 'Product Management',
     salary: '94000',
     city: 'San Francisco Bay Area',
@@ -19022,7 +19022,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2021 19:26:36',
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Product Management',
     salary: '94000',
     city: 'San Francisco Bay Area',
@@ -19032,7 +19032,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Security Engineer',
+    jobTitle: 'Security Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '94000',
@@ -19044,7 +19044,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 9:41:07',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '94000',
     city: 'Washington',
@@ -19054,7 +19054,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '94000',
     city: 'Richmond',
@@ -19065,7 +19065,7 @@ const data = [
   },
   {
     Timestamp: '4/27/2020 10:28:03',
-    'job title': 'Sr. Product Designer',
+    jobTitle: 'Sr. Product Designer',
     team: 'Product Design',
     salary: '94000',
     city: 'Salt Lake City',
@@ -19075,7 +19075,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '5',
     salary: '94000',
@@ -19087,7 +19087,7 @@ const data = [
   },
   {
     Timestamp: '1/17/2020 14:49:14',
-    'job title': 'Cybersecurity Engineer',
+    jobTitle: 'Cybersecurity Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '95000',
@@ -19098,7 +19098,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '95000',
     city: 'Charlotte',
@@ -19108,7 +19108,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '95000',
     city: 'Reston',
@@ -19118,7 +19118,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '95000',
     city: 'Seattle',
@@ -19129,7 +19129,7 @@ const data = [
   },
   {
     Timestamp: '1/16/2020 15:04:31',
-    'job title': 'Designer',
+    jobTitle: 'Designer',
     team: 'Product Design',
     salary: '95000',
     city: 'New York City',
@@ -19139,7 +19139,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '95000',
@@ -19151,7 +19151,7 @@ const data = [
   },
   {
     Timestamp: '1/25/2021 17:38:03',
-    'job title': 'Digital Marketing & Social Media Manager',
+    jobTitle: 'Digital Marketing & Social Media Manager',
     team: 'Marketing',
     salary: '95000',
     city: 'Chicago',
@@ -19162,7 +19162,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 14:48:03',
-    'job title': 'Implementation Project Manager',
+    jobTitle: 'Implementation Project Manager',
     team: 'Product Management',
     salary: '95000',
     city: 'New York City',
@@ -19172,7 +19172,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Information Security',
+    jobTitle: 'Information Security',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '95000',
@@ -19184,7 +19184,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 12:11:47',
-    'job title': 'Javascript Engineer',
+    jobTitle: 'Javascript Engineer',
     team: 'Software Engineering',
     salary: '95000',
     city: 'Washington',
@@ -19195,7 +19195,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 21:48:17',
-    'job title': 'Lead Product Data Analyst ',
+    jobTitle: 'Lead Product Data Analyst ',
     team: 'Data Science',
     salary: '95000',
     city: 'Los Angeles',
@@ -19205,7 +19205,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '95000',
     city: 'Elkhart',
@@ -19216,7 +19216,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 21:56:49',
-    'job title': 'Manager of Innovation',
+    jobTitle: 'Manager of Innovation',
     team: 'Misc',
     salary: '95000',
     city: 'Denver',
@@ -19227,7 +19227,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 10:36:44',
-    'job title': 'Marketing Director',
+    jobTitle: 'Marketing Director',
     team: 'Marketing',
     salary: '95000',
     city: 'Chicago',
@@ -19238,7 +19238,7 @@ const data = [
   },
   {
     Timestamp: '1/15/2020 13:19:09',
-    'job title': 'Marketing Team Lead',
+    jobTitle: 'Marketing Team Lead',
     team: 'Marketing',
     salary: '95000',
     city: 'New York City',
@@ -19249,7 +19249,7 @@ const data = [
   },
   {
     Timestamp: '1/27/2020 14:06:35',
-    'job title': 'Media Director',
+    jobTitle: 'Media Director',
     team: 'Misc',
     salary: '95000',
     city: 'Denver',
@@ -19260,7 +19260,7 @@ const data = [
   },
   {
     Timestamp: '6/17/2020 13:35:56',
-    'job title': 'Mid-level Brand Designer ',
+    jobTitle: 'Mid-level Brand Designer ',
     team: 'Product Design',
     salary: '95000',
     city: 'San Francisco Bay Area',
@@ -19270,7 +19270,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '95000',
@@ -19281,7 +19281,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '95000',
@@ -19292,7 +19292,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '95000',
     city: 'Detroit',
@@ -19303,7 +19303,7 @@ const data = [
   },
   {
     Timestamp: '10/30/2020 16:40:06',
-    'job title': 'Operations Manager',
+    jobTitle: 'Operations Manager',
     team: 'Operations',
     salary: '95000',
     city: 'San Francisco Bay Area',
@@ -19314,7 +19314,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2020 15:47:47',
-    'job title': 'Post Production Manager ',
+    jobTitle: 'Post Production Manager ',
     team: 'Misc',
     salary: '95000',
     city: 'New York City',
@@ -19324,7 +19324,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Presales',
+    jobTitle: 'Presales',
     team: 'Sales',
     salary: '95000',
     city: 'Boston',
@@ -19335,7 +19335,7 @@ const data = [
   },
   {
     Timestamp: '10/1/2020 21:29:10',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     'job level': '2',
     salary: '95000',
@@ -19347,7 +19347,7 @@ const data = [
   },
   {
     Timestamp: '12/6/2020 10:28:31',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     salary: '95000',
     city: 'Boston',
@@ -19358,7 +19358,7 @@ const data = [
   },
   {
     Timestamp: '2/14/2020 18:34:37',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '95000',
     city: 'San Francisco Bay Area',
@@ -19369,7 +19369,7 @@ const data = [
   },
   {
     Timestamp: '12/8/2020 19:44:25',
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Product Management',
     salary: '95000',
     city: 'San Francisco Bay Area',
@@ -19380,7 +19380,7 @@ const data = [
   },
   {
     Timestamp: '3/7/2020 21:46:17',
-    'job title': 'Project Manager',
+    jobTitle: 'Project Manager',
     team: 'Product Management',
     salary: '95000',
     city: 'Seattle',
@@ -19391,7 +19391,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 19:09:28',
-    'job title': 'Recruiter',
+    jobTitle: 'Recruiter',
     team: 'Recruiting',
     salary: '95000',
     city: 'San Francisco Bay Area',
@@ -19402,7 +19402,7 @@ const data = [
   },
   {
     Timestamp: '1/16/2020 16:37:35',
-    'job title': 'Sales Manager (Publishing)',
+    jobTitle: 'Sales Manager (Publishing)',
     team: 'Sales',
     salary: '95000',
     city: 'Burbank',
@@ -19412,7 +19412,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Security Engineer',
+    jobTitle: 'Security Engineer',
     team: 'Network, Security & IT',
     salary: '95000',
     city: 'Tampa',
@@ -19422,7 +19422,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '95000',
@@ -19433,7 +19433,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '5',
     salary: '95000',
@@ -19444,7 +19444,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '95000',
@@ -19455,7 +19455,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '95000',
@@ -19467,7 +19467,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 0:54:48',
-    'job title': 'Social Media Manager',
+    jobTitle: 'Social Media Manager',
     team: 'Marketing',
     salary: '95000',
     city: 'Los Angeles',
@@ -19478,7 +19478,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 18:39:40',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '95000',
@@ -19489,7 +19489,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '95000',
@@ -19501,7 +19501,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 18:51:06',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '95000',
@@ -19512,7 +19512,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '95000',
     city: 'San Diego',
@@ -19522,7 +19522,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '95000',
     city: 'Washington',
@@ -19533,7 +19533,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 20:18:06',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '95000',
     city: 'Atlanta',
@@ -19543,7 +19543,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '95000',
@@ -19555,7 +19555,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 14:06:56',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '95000',
@@ -19566,7 +19566,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '95000',
     city: 'Portland',
@@ -19576,7 +19576,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '95000',
@@ -19587,7 +19587,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '95000',
     city: 'Columbus',
@@ -19597,7 +19597,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '95000',
     city: 'Nashville',
@@ -19607,7 +19607,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '95000',
     city: 'Austin',
@@ -19617,7 +19617,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '95000',
     city: 'Seattle',
@@ -19628,7 +19628,7 @@ const data = [
   },
   {
     Timestamp: '2/26/2020 13:08:56',
-    'job title': 'Software Engineer ',
+    jobTitle: 'Software Engineer ',
     team: 'Software Engineering',
     'job level': '2',
     salary: '95000',
@@ -19640,7 +19640,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 13:11:12',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '95000',
     city: 'Chicago',
@@ -19651,7 +19651,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 15:53:27',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '95000',
     city: 'Nashville',
@@ -19662,7 +19662,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 21:17:07',
-    'job title': 'Sr. Systems Administrator ',
+    jobTitle: 'Sr. Systems Administrator ',
     team: 'Network, Security & IT',
     salary: '95000',
     city: 'Boston',
@@ -19672,7 +19672,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '95000',
     city: 'Montgomery',
@@ -19682,7 +19682,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '95000',
     city: 'Scottsdale',
@@ -19692,7 +19692,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '95000',
     city: 'Denver',
@@ -19702,7 +19702,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '95000',
@@ -19713,7 +19713,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '95000',
     city: "Coeur d'Alene",
@@ -19723,7 +19723,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '95000',
     city: 'Chicago',
@@ -19733,7 +19733,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '95000',
     city: 'Louisville',
@@ -19743,7 +19743,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '95000',
     city: 'New York City',
@@ -19753,7 +19753,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '95000',
     city: 'New York City',
@@ -19763,7 +19763,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '95000',
     city: 'New York City',
@@ -19773,7 +19773,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '95000',
     city: 'Portland',
@@ -19783,7 +19783,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '95000',
     city: 'Austin',
@@ -19793,7 +19793,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '95000',
     city: 'Houston',
@@ -19803,7 +19803,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '95000',
     city: 'Austin',
@@ -19813,7 +19813,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '95000',
@@ -19824,7 +19824,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '95000',
@@ -19836,7 +19836,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:32:57',
-    'job title': 'Technical Product Manager',
+    jobTitle: 'Technical Product Manager',
     team: 'Product Management',
     salary: '95000',
     city: 'San Francisco Bay Area',
@@ -19847,7 +19847,7 @@ const data = [
   },
   {
     Timestamp: '2/22/2020 12:59:19',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '95000',
     city: 'New York City',
@@ -19858,7 +19858,7 @@ const data = [
   },
   {
     Timestamp: '2/4/2020 9:26:39',
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     salary: '95000',
     city: 'New York City',
@@ -19868,7 +19868,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '95000',
@@ -19879,7 +19879,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     'job level': '4',
     salary: '95000',
@@ -19891,7 +19891,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 20:32:09',
-    'job title': 'Business Systems Analyst',
+    jobTitle: 'Business Systems Analyst',
     team: 'Network, Security & IT',
     salary: '95500',
     city: 'Los Angeles',
@@ -19902,7 +19902,7 @@ const data = [
   },
   {
     Timestamp: '2/25/2020 10:07:13',
-    'job title': 'Marketing Manager',
+    jobTitle: 'Marketing Manager',
     team: 'Marketing',
     salary: '95500',
     city: 'Raleigh',
@@ -19912,7 +19912,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'QA Engineer',
+    jobTitle: 'QA Engineer',
     team: 'Software Engineering',
     salary: '95500',
     city: 'Columbus',
@@ -19923,7 +19923,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 9:28:54',
-    'job title': 'Scrum Master',
+    jobTitle: 'Scrum Master',
     team: 'Agile',
     salary: '95500',
     city: 'Pittsburgh',
@@ -19933,7 +19933,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '95731',
@@ -19945,7 +19945,7 @@ const data = [
   },
   {
     Timestamp: '2/23/2020 22:38:05',
-    'job title': 'Analytics Manager ',
+    jobTitle: 'Analytics Manager ',
     team: 'Misc',
     salary: '96000',
     city: 'Sacramento',
@@ -19956,7 +19956,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 16:42:42',
-    'job title': 'Content Marketing Strategist',
+    jobTitle: 'Content Marketing Strategist',
     team: 'Marketing',
     salary: '96000',
     city: 'Boston',
@@ -19967,7 +19967,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 23:49:12',
-    'job title': 'Director of Software Engineering',
+    jobTitle: 'Director of Software Engineering',
     team: 'Software Engineering Management',
     salary: '96000',
     city: 'Melbourne',
@@ -19978,7 +19978,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 13:41:50',
-    'job title': 'Full Stack Engineer',
+    jobTitle: 'Full Stack Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '96000',
@@ -19990,7 +19990,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 14:28:24',
-    'job title': 'Lead Product Operations',
+    jobTitle: 'Lead Product Operations',
     team: 'Product Management',
     salary: '96000',
     city: 'San Francisco Bay Area',
@@ -20000,7 +20000,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     'job level': '3',
     salary: '96000',
@@ -20011,7 +20011,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '96000',
@@ -20023,7 +20023,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 15:07:11',
-    'job title': 'Sr. Customer Service Manager',
+    jobTitle: 'Sr. Customer Service Manager',
     team: 'Sales',
     salary: '96000',
     city: 'Seattle',
@@ -20034,7 +20034,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 2:19:46',
-    'job title': 'Sr. Technical Program Manager',
+    jobTitle: 'Sr. Technical Program Manager',
     team: 'Technical Program Management',
     salary: '96000',
     city: 'San Francisco Bay Area',
@@ -20044,7 +20044,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '96000',
     city: 'Anchorage',
@@ -20054,7 +20054,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '96000',
     city: 'Orlando',
@@ -20064,7 +20064,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '96000',
@@ -20076,7 +20076,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:15:26',
-    'job title': 'Sr. Art Director',
+    jobTitle: 'Sr. Art Director',
     team: 'Creative',
     salary: '96500',
     city: 'Philadelphia',
@@ -20086,7 +20086,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '96500',
     city: 'Boca Raton',
@@ -20097,7 +20097,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 15:53:14',
-    'job title': 'Software Development Manager',
+    jobTitle: 'Software Development Manager',
     team: 'Software Engineering Management',
     salary: '96600',
     city: 'Boston',
@@ -20107,7 +20107,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '96740',
     city: 'San Luis Obispo',
@@ -20117,7 +20117,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '96800',
     city: 'San Diego',
@@ -20128,7 +20128,7 @@ const data = [
   },
   {
     Timestamp: '3/2/2020 9:31:24',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '96900',
     city: 'Seattle',
@@ -20138,7 +20138,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '97000',
@@ -20149,7 +20149,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '97000',
@@ -20160,7 +20160,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '97000',
     city: 'Milwaukee',
@@ -20170,7 +20170,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '97000',
@@ -20182,7 +20182,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 14:11:05',
-    'job title': 'Software Development Engineer in Test',
+    jobTitle: 'Software Development Engineer in Test',
     team: 'Software Engineering',
     salary: '97000',
     city: 'Seattle',
@@ -20192,7 +20192,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '4',
     salary: '97000',
@@ -20204,7 +20204,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:48:17',
-    'job title': 'Sr. Account Manager',
+    jobTitle: 'Sr. Account Manager',
     team: 'Sales',
     salary: '97000',
     city: 'San Francisco Bay Area',
@@ -20215,7 +20215,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 0:19:23',
-    'job title': 'Sr. Product Owner',
+    jobTitle: 'Sr. Product Owner',
     team: 'Agile',
     salary: '97000',
     city: 'Chicago',
@@ -20225,7 +20225,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '97000',
     city: 'Orange',
@@ -20235,7 +20235,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '97000',
     city: 'Atlanta',
@@ -20245,7 +20245,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '97000',
     city: 'Omaha',
@@ -20255,7 +20255,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '97000',
@@ -20267,7 +20267,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 13:53:11',
-    'job title': 'Systems Engineer',
+    jobTitle: 'Systems Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '97000',
@@ -20279,7 +20279,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 2:10:37',
-    'job title': 'Instructional Designer',
+    jobTitle: 'Instructional Designer',
     team: 'Product Design',
     salary: '97100',
     city: 'San Francisco Bay Area',
@@ -20290,7 +20290,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 9:37:02',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '97200',
@@ -20302,7 +20302,7 @@ const data = [
   },
   {
     Timestamp: '10/23/2020 14:43:50',
-    'job title': 'Demand Generation Marketing Manager',
+    jobTitle: 'Demand Generation Marketing Manager',
     team: 'Marketing',
     salary: '97500',
     city: 'Atlanta',
@@ -20313,7 +20313,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 0:17:10',
-    'job title': 'Marketing Director',
+    jobTitle: 'Marketing Director',
     team: 'Marketing',
     salary: '97500',
     city: 'San Francisco Bay Area',
@@ -20323,7 +20323,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '97500',
     city: 'Cleveland',
@@ -20334,7 +20334,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 13:29:39',
-    'job title': 'Sr. UX Researcher',
+    jobTitle: 'Sr. UX Researcher',
     team: 'Product Design',
     salary: '97500',
     city: 'Philadelphia',
@@ -20344,7 +20344,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '97700',
     city: 'Minneapolis',
@@ -20354,7 +20354,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '97873',
     city: 'Los Angeles',
@@ -20365,7 +20365,7 @@ const data = [
   },
   {
     Timestamp: '2/26/2020 16:59:55',
-    'job title': 'Digital Project Manager',
+    jobTitle: 'Digital Project Manager',
     team: 'Product Management',
     salary: '98000',
     city: 'San Francisco Bay Area',
@@ -20376,7 +20376,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 16:39:53',
-    'job title': 'Front End Engineer',
+    jobTitle: 'Front End Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '98000',
@@ -20387,7 +20387,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Help Desk',
+    jobTitle: 'Help Desk',
     team: 'Misc',
     salary: '98000',
     city: 'San Francisco',
@@ -20397,7 +20397,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Information Security',
+    jobTitle: 'Information Security',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '98000',
@@ -20409,7 +20409,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 3:31:28',
-    'job title': 'Marketing Manager',
+    jobTitle: 'Marketing Manager',
     team: 'Marketing',
     salary: '98000',
     city: 'San Francisco Bay Area',
@@ -20419,7 +20419,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '98000',
     city: 'Tampa',
@@ -20429,7 +20429,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '8',
     salary: '98000',
@@ -20441,7 +20441,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 13:54:30',
-    'job title': 'Project Manager',
+    jobTitle: 'Project Manager',
     team: 'Product Management',
     salary: '98000',
     city: 'Portland',
@@ -20452,7 +20452,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:47:27',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '98000',
     city: 'San Francisco Bay Area',
@@ -20462,7 +20462,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '98000',
@@ -20474,7 +20474,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 1:45:10',
-    'job title': 'Sr. IT Project Manager',
+    jobTitle: 'Sr. IT Project Manager',
     team: 'Network, Security & IT',
     salary: '98000',
     city: 'Detroit',
@@ -20485,7 +20485,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 16:29:48',
-    'job title': 'Sr. Manager of Career Development',
+    jobTitle: 'Sr. Manager of Career Development',
     team: 'Misc',
     salary: '98000',
     city: 'Denver',
@@ -20496,7 +20496,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 12:16:33',
-    'job title': 'Sr. Sales Analyst',
+    jobTitle: 'Sr. Sales Analyst',
     team: 'Sales',
     salary: '98000',
     city: 'Chicago',
@@ -20506,7 +20506,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '98000',
     city: 'Minneapolis',
@@ -20516,7 +20516,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '98000',
     city: 'New York City',
@@ -20526,7 +20526,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '98000',
@@ -20537,7 +20537,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '98000',
@@ -20548,7 +20548,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '98000',
     city: 'Baltimore',
@@ -20558,7 +20558,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '98500',
     city: 'Phoenix',
@@ -20568,7 +20568,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '98500',
     city: 'Cary',
@@ -20579,7 +20579,7 @@ const data = [
   },
   {
     Timestamp: '7/13/2020 19:47:59',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '98600',
@@ -20590,7 +20590,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '98800',
     city: 'Fairfax',
@@ -20600,7 +20600,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '98840',
     city: 'Quakertown',
@@ -20611,7 +20611,7 @@ const data = [
   },
   {
     Timestamp: '2/26/2020 3:51:46',
-    'job title': 'Account Manager',
+    jobTitle: 'Account Manager',
     team: 'Sales',
     salary: '99000',
     city: 'San Francisco Bay Area',
@@ -20622,7 +20622,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 12:28:49',
-    'job title': 'Customer Success Manager',
+    jobTitle: 'Customer Success Manager',
     team: 'Sales',
     salary: '99000',
     city: 'Denver',
@@ -20632,7 +20632,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Desktop Support',
+    jobTitle: 'Desktop Support',
     team: 'Misc',
     'job level': '2',
     salary: '99000',
@@ -20644,7 +20644,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 12:44:57',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '99000',
@@ -20655,7 +20655,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '99000',
     city: 'Fort Lauderdale',
@@ -20665,7 +20665,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '99000',
@@ -20677,7 +20677,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 12:22:31',
-    'job title': 'Customer Success Manager',
+    jobTitle: 'Customer Success Manager',
     team: 'Sales',
     salary: '99500',
     city: 'San Francisco Bay Area',
@@ -20688,7 +20688,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 20:27:01',
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '99650',
     city: 'New York City',
@@ -20698,7 +20698,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '99750',
     city: 'Kansas City',
@@ -20708,7 +20708,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '99750',
     city: 'Atlanta',
@@ -20718,7 +20718,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '5',
     salary: '99970',
@@ -20730,7 +20730,7 @@ const data = [
   },
   {
     Timestamp: '2/15/2020 20:36:46',
-    'job title': 'Analytics Manager ',
+    jobTitle: 'Analytics Manager ',
     team: 'Misc',
     salary: '100000',
     city: 'Dallas',
@@ -20741,7 +20741,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 9:46:12',
-    'job title': 'Backend engineer',
+    jobTitle: 'Backend engineer',
     team: 'Software Engineering',
     salary: '100000',
     city: 'New York City',
@@ -20752,7 +20752,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 22:22:51',
-    'job title': 'Customer Success Manager',
+    jobTitle: 'Customer Success Manager',
     team: 'Sales',
     salary: '100000',
     city: 'Austin',
@@ -20762,7 +20762,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '100000',
     city: 'Los Angeles',
@@ -20772,7 +20772,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '100000',
@@ -20784,7 +20784,7 @@ const data = [
   },
   {
     Timestamp: '2/23/2020 16:54:03',
-    'job title': 'Digital Marketing Automation Platform Strategist ',
+    jobTitle: 'Digital Marketing Automation Platform Strategist ',
     team: 'Marketing',
     salary: '100000',
     city: 'Atlanta',
@@ -20795,7 +20795,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 10:48:54',
-    'job title': 'Digital Marketing Manager ',
+    jobTitle: 'Digital Marketing Manager ',
     team: 'Marketing',
     salary: '100000',
     city: 'Newark',
@@ -20806,7 +20806,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 18:02:47',
-    'job title': 'Digital Marketing Specialist',
+    jobTitle: 'Digital Marketing Specialist',
     team: 'Marketing',
     salary: '100000',
     city: 'San Francisco Bay Area',
@@ -20817,7 +20817,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 8:51:10',
-    'job title': 'Director of Business Development',
+    jobTitle: 'Director of Business Development',
     team: 'Operations',
     salary: '100000',
     city: 'New York City',
@@ -20828,7 +20828,7 @@ const data = [
   },
   {
     Timestamp: '2/15/2020 16:56:21',
-    'job title': 'Director of Marketing + Partnerships',
+    jobTitle: 'Director of Marketing + Partnerships',
     team: 'Marketing Ops',
     salary: '100000',
     city: 'Los Angeles',
@@ -20839,7 +20839,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 14:41:41',
-    'job title': 'Director of Product Management',
+    jobTitle: 'Director of Product Management',
     team: 'Product Management',
     salary: '100000',
     city: 'Clearwater',
@@ -20850,7 +20850,7 @@ const data = [
   },
   {
     Timestamp: '2/11/2020 13:00:42',
-    'job title': 'Email Marketing and Automation Lead',
+    jobTitle: 'Email Marketing and Automation Lead',
     team: 'Marketing',
     salary: '100000',
     city: 'San Francisco Bay Area',
@@ -20861,7 +20861,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 12:08:48',
-    'job title': 'Human Factors Scientist',
+    jobTitle: 'Human Factors Scientist',
     team: 'Data Science',
     salary: '100000',
     city: 'Miami',
@@ -20872,7 +20872,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:16:37',
-    'job title': 'Human Factors Scientist (PhD)',
+    jobTitle: 'Human Factors Scientist (PhD)',
     team: 'Misc',
     salary: '100000',
     city: 'Miami',
@@ -20882,7 +20882,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Information Security',
+    jobTitle: 'Information Security',
     team: 'Network, Security & IT',
     salary: '100000',
     city: 'San Antonio',
@@ -20893,7 +20893,7 @@ const data = [
   },
   {
     Timestamp: '1/28/2020 8:56:23',
-    'job title': 'Instrument Panel Design Release Engineer',
+    jobTitle: 'Instrument Panel Design Release Engineer',
     team: 'Misc',
     salary: '100000',
     city: 'Plymouth',
@@ -20904,7 +20904,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:33:31',
-    'job title': 'IT project manager',
+    jobTitle: 'IT project manager',
     team: 'Network, Security & IT',
     salary: '100000',
     city: 'San Francisco Bay Area',
@@ -20915,7 +20915,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 17:47:29',
-    'job title': 'Lead Product Designer',
+    jobTitle: 'Lead Product Designer',
     team: 'Product Design',
     salary: '100000',
     city: 'Minneapolis',
@@ -20925,7 +20925,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '100000',
     city: 'San Diego',
@@ -20935,7 +20935,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '100000',
     city: 'Joliet',
@@ -20946,7 +20946,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 14:52:25',
-    'job title': 'Marketing Manager',
+    jobTitle: 'Marketing Manager',
     team: 'Marketing',
     salary: '100000',
     city: 'San Francisco Bay Area',
@@ -20957,7 +20957,7 @@ const data = [
   },
   {
     Timestamp: '10/20/2020 10:57:33',
-    'job title': 'Mid-level Brand Designer ',
+    jobTitle: 'Mid-level Brand Designer ',
     team: 'Product Design',
     salary: '100000',
     city: 'Chicago',
@@ -20967,7 +20967,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '100000',
@@ -20978,7 +20978,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '100000',
     city: 'Columbus',
@@ -20989,7 +20989,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 3:52:14',
-    'job title': 'Principal Partner ',
+    jobTitle: 'Principal Partner ',
     team: 'Operations',
     salary: '100000',
     city: 'San Francisco Bay Area',
@@ -21000,7 +21000,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 21:32:34',
-    'job title': 'Product Analyst',
+    jobTitle: 'Product Analyst',
     team: 'Product Management',
     salary: '100000',
     city: 'San Francisco Bay Area',
@@ -21011,7 +21011,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 5:21:14',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     salary: '100000',
     city: 'San Francisco Bay Area',
@@ -21022,7 +21022,7 @@ const data = [
   },
   {
     Timestamp: '1/16/2020 15:11:04',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     salary: '100000',
     city: 'New York City',
@@ -21033,7 +21033,7 @@ const data = [
   },
   {
     Timestamp: '1/16/2020 17:19:54',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     salary: '100000',
     city: 'Seattle',
@@ -21044,7 +21044,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:44:24',
-    'job title': 'Product Management Director',
+    jobTitle: 'Product Management Director',
     team: 'Product Management',
     salary: '100000',
     city: 'New York City',
@@ -21055,7 +21055,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:35:22',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '100000',
     city: 'San Francisco Bay Area',
@@ -21066,7 +21066,7 @@ const data = [
   },
   {
     Timestamp: '2/9/2020 19:27:44',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '100000',
     city: 'San Francisco Bay Area',
@@ -21077,7 +21077,7 @@ const data = [
   },
   {
     Timestamp: '2/14/2020 14:16:39',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '100000',
     city: 'San Francisco Bay Area',
@@ -21088,7 +21088,7 @@ const data = [
   },
   {
     Timestamp: '2/14/2020 4:24:00',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '100000',
     city: 'Atlanta',
@@ -21098,7 +21098,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '100000',
     city: 'Boston',
@@ -21108,7 +21108,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '100000',
     city: 'Salt Lake City',
@@ -21119,7 +21119,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 0:57:28',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '100000',
     city: 'Salt Lake City',
@@ -21130,7 +21130,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 21:07:26',
-    'job title': 'Product Marketing Manager',
+    jobTitle: 'Product Marketing Manager',
     team: 'Marketing',
     salary: '100000',
     city: 'San Francisco Bay Area',
@@ -21141,7 +21141,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 13:33:53',
-    'job title': 'Product Marketing Manager',
+    jobTitle: 'Product Marketing Manager',
     team: 'Marketing',
     salary: '100000',
     city: 'Austin',
@@ -21152,7 +21152,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 10:37:19',
-    'job title': 'Product Owner',
+    jobTitle: 'Product Owner',
     team: 'Agile',
     salary: '100000',
     city: 'Baltimore',
@@ -21163,7 +21163,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 12:46:20',
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Product Management',
     salary: '100000',
     city: 'Los Angeles',
@@ -21174,7 +21174,7 @@ const data = [
   },
   {
     Timestamp: '10/8/2020 15:02:18',
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Product Management',
     salary: '100000',
     city: 'San Francisco Bay Area',
@@ -21185,7 +21185,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 11:15:53',
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Product Management',
     salary: '100000',
     city: 'Redmond',
@@ -21196,7 +21196,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 17:56:34',
-    'job title': 'Project Manager: Implementation',
+    jobTitle: 'Project Manager: Implementation',
     team: 'Product Management',
     salary: '100000',
     city: 'New York City',
@@ -21207,7 +21207,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 12:45:06',
-    'job title': 'Research Coordinator',
+    jobTitle: 'Research Coordinator',
     team: 'Misc',
     salary: '100000',
     city: 'San Francisco Bay Area',
@@ -21218,7 +21218,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 10:37:55',
-    'job title': 'Scrum Master',
+    jobTitle: 'Scrum Master',
     team: 'Agile',
     salary: '100000',
     city: 'Baltimore ',
@@ -21228,7 +21228,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     salary: '100000',
     city: 'Atlanta',
@@ -21238,7 +21238,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '100000',
@@ -21250,7 +21250,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 20:14:28',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '100000',
@@ -21262,7 +21262,7 @@ const data = [
   },
   {
     Timestamp: '9/9/2020 14:42:39',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '100000',
@@ -21273,7 +21273,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '100000',
     city: 'Little Rock',
@@ -21284,7 +21284,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:42:40',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '100000',
@@ -21295,7 +21295,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '100000',
     city: 'Chicago',
@@ -21305,7 +21305,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '100000',
     city: 'Oak Brook',
@@ -21316,7 +21316,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 15:30:39',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '100000',
@@ -21327,7 +21327,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '100000',
     city: 'Boston',
@@ -21337,7 +21337,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '5',
     salary: '100000',
@@ -21348,7 +21348,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '100000',
     city: 'Lincoln',
@@ -21359,7 +21359,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 15:17:49',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '100000',
@@ -21371,7 +21371,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 15:41:47',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '100000',
@@ -21382,7 +21382,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '100000',
@@ -21393,7 +21393,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '100000',
     city: 'New York City',
@@ -21404,7 +21404,7 @@ const data = [
   },
   {
     Timestamp: '2/27/2020 16:48:29',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '100000',
     city: 'Houston',
@@ -21414,7 +21414,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '100000',
@@ -21426,7 +21426,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 18:27:57',
-    'job title': 'Solutions Engineer',
+    jobTitle: 'Solutions Engineer',
     team: 'Sales',
     salary: '100000',
     city: 'Orlando',
@@ -21437,7 +21437,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 4:25:32',
-    'job title': 'Sr. Consultant ',
+    jobTitle: 'Sr. Consultant ',
     team: 'Misc',
     salary: '100000',
     city: 'San Francisco Bay Area',
@@ -21448,7 +21448,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 18:02:42',
-    'job title': 'Sr. Data Analyst',
+    jobTitle: 'Sr. Data Analyst',
     team: 'Data Science',
     salary: '100000',
     city: 'Minneapolis',
@@ -21459,7 +21459,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 15:54:17',
-    'job title': 'Sr. Data Analyst',
+    jobTitle: 'Sr. Data Analyst',
     team: 'Data Science',
     salary: '100000',
     city: 'Seattle',
@@ -21470,7 +21470,7 @@ const data = [
   },
   {
     Timestamp: '2/29/2020 9:54:48',
-    'job title': 'Sr. Interaction Designer',
+    jobTitle: 'Sr. Interaction Designer',
     team: 'Product Design',
     salary: '100000',
     city: 'Miami',
@@ -21481,7 +21481,7 @@ const data = [
   },
   {
     Timestamp: '2/3/2020 16:23:29',
-    'job title': 'Sr. Manager of Community Support',
+    jobTitle: 'Sr. Manager of Community Support',
     team: 'Misc',
     salary: '100000',
     city: 'Austin',
@@ -21492,7 +21492,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 18:44:18',
-    'job title': 'Sr. Technical Analyst',
+    jobTitle: 'Sr. Technical Analyst',
     team: 'Data Science',
     salary: '100000',
     city: 'Indianapolis',
@@ -21503,7 +21503,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 19:54:38',
-    'job title': 'Sr. UX Architect',
+    jobTitle: 'Sr. UX Architect',
     team: 'Product Design',
     salary: '100000',
     city: 'Seattle',
@@ -21514,7 +21514,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 17:38:09',
-    'job title': 'Sr. UX Designer',
+    jobTitle: 'Sr. UX Designer',
     team: 'Product Design',
     salary: '100000',
     city: 'Washington',
@@ -21525,7 +21525,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 9:21:56',
-    'job title': 'Sr. UX Designer',
+    jobTitle: 'Sr. UX Designer',
     team: 'Product Design',
     salary: '100000',
     city: 'Louisville',
@@ -21535,7 +21535,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '100000',
     city: 'Phoenix',
@@ -21545,7 +21545,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '100000',
     city: 'San Francisco',
@@ -21555,7 +21555,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '100000',
     city: 'San Francisco',
@@ -21565,7 +21565,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '100000',
@@ -21576,7 +21576,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '100000',
@@ -21587,7 +21587,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '100000',
     city: 'Bethesda',
@@ -21597,7 +21597,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '100000',
     city: 'Minneapolis',
@@ -21607,7 +21607,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '100000',
     city: 'New York City',
@@ -21617,7 +21617,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '100000',
     city: 'New York City',
@@ -21627,7 +21627,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '100000',
     city: 'Portland',
@@ -21637,7 +21637,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '100000',
     city: 'Pittsburgh',
@@ -21647,7 +21647,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '100000',
     city: 'Houston',
@@ -21657,7 +21657,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '100000',
     city: 'Dallas',
@@ -21667,7 +21667,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '100000',
     city: 'San Antonio',
@@ -21677,7 +21677,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '100000',
     city: 'Spokane',
@@ -21687,7 +21687,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'System Engineer',
+    jobTitle: 'System Engineer',
     team: 'Network, Security & IT',
     salary: '100000',
     city: 'Scottsdale',
@@ -21697,7 +21697,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Tech Lead',
+    jobTitle: 'Tech Lead',
     team: 'Software Engineering Management',
     'job level': '2',
     salary: '100000',
@@ -21709,7 +21709,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 1:14:34',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '100000',
     city: 'Los Angeles',
@@ -21720,7 +21720,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 11:38:11',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '100000',
     city: 'San Francisco Bay Area',
@@ -21731,7 +21731,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:23:40',
-    'job title': 'VP of Strategic Program Management',
+    jobTitle: 'VP of Strategic Program Management',
     team: 'Operations',
     salary: '100000',
     city: 'Philadelphia',
@@ -21741,7 +21741,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '100218',
     city: 'Detroit',
@@ -21751,7 +21751,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '100500',
     city: 'Inland Empire',
@@ -21761,7 +21761,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '100500',
@@ -21772,7 +21772,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Security Engineer',
+    jobTitle: 'Security Engineer',
     team: 'Network, Security & IT',
     salary: '100600',
     city: 'Palo Alto',
@@ -21783,7 +21783,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 10:23:15',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '100800',
     city: 'Atlanta',
@@ -21794,7 +21794,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 12:12:27',
-    'job title': 'IT Project Manager',
+    jobTitle: 'IT Project Manager',
     team: 'Network, Security & IT',
     salary: '101000',
     city: 'Boston',
@@ -21804,7 +21804,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '101000',
     city: 'Philadelphia',
@@ -21815,7 +21815,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 15:51:04',
-    'job title': 'Project Manager',
+    jobTitle: 'Project Manager',
     team: 'Product Management',
     salary: '101000',
     city: 'San Francisco Bay Area',
@@ -21825,7 +21825,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Security Engineer',
+    jobTitle: 'Security Engineer',
     team: 'Network, Security & IT',
     salary: '101000',
     city: 'San Antonio',
@@ -21835,7 +21835,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '101000',
@@ -21847,7 +21847,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 23:16:30',
-    'job title': 'Sr. Analyst, CRM',
+    jobTitle: 'Sr. Analyst, CRM',
     team: 'Misc',
     salary: '101000',
     city: 'New York City',
@@ -21858,7 +21858,7 @@ const data = [
   },
   {
     Timestamp: '2/25/2020 6:41:51',
-    'job title': 'Sr. Requirements Engineer',
+    jobTitle: 'Sr. Requirements Engineer',
     team: 'Misc',
     salary: '101000',
     city: 'Indianapolis',
@@ -21868,7 +21868,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '101000',
@@ -21880,7 +21880,7 @@ const data = [
   },
   {
     Timestamp: '1/8/2021 23:40:27',
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     salary: '101000',
     city: 'San Francisco Bay Area',
@@ -21891,7 +21891,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 23:28:45',
-    'job title': 'End User Computing Engineer',
+    jobTitle: 'End User Computing Engineer',
     team: 'Software Engineering',
     salary: '101200',
     city: 'Annapolis',
@@ -21902,7 +21902,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 10:46:45',
-    'job title': 'Sr. Customer Service Manager',
+    jobTitle: 'Sr. Customer Service Manager',
     team: 'Sales',
     salary: '101300',
     city: 'New York City',
@@ -21912,7 +21912,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '101500',
     city: 'Allentown',
@@ -21922,7 +21922,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '101500',
@@ -21933,7 +21933,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Account Manager',
+    jobTitle: 'Account Manager',
     team: 'Sales',
     salary: '102000',
     city: 'Duluth',
@@ -21944,7 +21944,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 13:58:42',
-    'job title': 'Content Strategist',
+    jobTitle: 'Content Strategist',
     team: 'Creative',
     salary: '102000',
     city: 'Seattle',
@@ -21955,7 +21955,7 @@ const data = [
   },
   {
     Timestamp: '11/24/2020 8:14:17',
-    'job title': 'Data Scientist',
+    jobTitle: 'Data Scientist',
     team: 'Data Science',
     salary: '102000',
     city: 'Washington',
@@ -21965,7 +21965,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '102000',
@@ -21976,7 +21976,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '102000',
     city: 'Pittsburgh',
@@ -21987,7 +21987,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 13:48:18',
-    'job title': 'Head of Public Relations',
+    jobTitle: 'Head of Public Relations',
     team: 'Misc',
     salary: '102000',
     city: 'Washington',
@@ -21998,7 +21998,7 @@ const data = [
   },
   {
     Timestamp: '2/25/2020 0:44:58',
-    'job title': 'Instructional Designer',
+    jobTitle: 'Instructional Designer',
     team: 'Product Design',
     salary: '102000',
     city: 'Austin',
@@ -22008,7 +22008,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '102000',
@@ -22019,7 +22019,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '102000',
@@ -22031,7 +22031,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 16:32:34',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '102000',
@@ -22042,7 +22042,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '102000',
     city: 'Bentonville',
@@ -22052,7 +22052,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '102000',
     city: 'Chicago',
@@ -22063,7 +22063,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 14:16:10',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '102000',
@@ -22075,7 +22075,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 17:43:16',
-    'job title': 'Sr. Marketing Manager',
+    jobTitle: 'Sr. Marketing Manager',
     team: 'Marketing',
     salary: '102000',
     city: 'San Diego',
@@ -22086,7 +22086,7 @@ const data = [
   },
   {
     Timestamp: '2/25/2020 14:32:39',
-    'job title': 'Sr. Program Manager',
+    jobTitle: 'Sr. Program Manager',
     team: 'Technical Program Management',
     salary: '102000',
     city: 'Austin',
@@ -22097,7 +22097,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 10:00:51',
-    'job title': 'Sr. UX Designer',
+    jobTitle: 'Sr. UX Designer',
     team: 'Product Design',
     salary: '102000',
     city: 'Washington',
@@ -22107,7 +22107,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '102000',
     city: 'Denver',
@@ -22117,7 +22117,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '102000',
     city: 'Wilmington',
@@ -22127,7 +22127,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '7',
     salary: '102000',
@@ -22138,7 +22138,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '102000',
     city: 'Ann Arbor',
@@ -22148,7 +22148,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '102000',
@@ -22160,7 +22160,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:04:54',
-    'job title': 'Systems Engineer',
+    jobTitle: 'Systems Engineer',
     team: 'Network, Security & IT',
     salary: '102000',
     city: 'San Francisco Bay Area',
@@ -22171,7 +22171,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 11:47:35',
-    'job title': 'Project Manager',
+    jobTitle: 'Project Manager',
     team: 'Product Management',
     salary: '102200',
     city: 'New York City',
@@ -22181,7 +22181,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '102345',
@@ -22192,7 +22192,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Server Engineer',
+    jobTitle: 'Server Engineer',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '102500',
@@ -22204,7 +22204,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 21:23:44',
-    'job title': 'Managing Director',
+    jobTitle: 'Managing Director',
     team: 'Misc',
     salary: '102600',
     city: 'Pittsburgh',
@@ -22214,7 +22214,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '102930',
     city: 'Los Angeles',
@@ -22225,7 +22225,7 @@ const data = [
   },
   {
     Timestamp: '1/16/2020 0:59:03',
-    'job title': 'Inside Sales Manager',
+    jobTitle: 'Inside Sales Manager',
     team: 'Sales',
     salary: '103000',
     city: 'Los Angeles',
@@ -22235,7 +22235,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '103000',
     city: 'St. Louis',
@@ -22246,7 +22246,7 @@ const data = [
   },
   {
     Timestamp: '6/10/2020 11:33:43',
-    'job title': 'Lead Visual Designer',
+    jobTitle: 'Lead Visual Designer',
     team: 'Product Design',
     salary: '103000',
     city: 'New York City',
@@ -22256,7 +22256,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '103000',
     city: 'Boston',
@@ -22267,7 +22267,7 @@ const data = [
   },
   {
     Timestamp: '2/10/2020 15:53:38',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '103000',
     city: 'Denver',
@@ -22278,7 +22278,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 20:09:57',
-    'job title': 'Product Manager - Cloud',
+    jobTitle: 'Product Manager - Cloud',
     team: 'Product Management',
     salary: '103000',
     city: 'Chicago',
@@ -22288,7 +22288,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'QA Engineer',
+    jobTitle: 'QA Engineer',
     team: 'Software Engineering',
     salary: '103000',
     city: 'Cleveland',
@@ -22299,7 +22299,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 14:32:47',
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     salary: '103000',
     city: 'Philadelphia',
@@ -22310,7 +22310,7 @@ const data = [
   },
   {
     Timestamp: '1/17/2020 10:24:05',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '103000',
     city: 'New York City',
@@ -22320,7 +22320,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '103000',
     city: 'Austin',
@@ -22331,7 +22331,7 @@ const data = [
   },
   {
     Timestamp: '10/10/2020 19:30:21',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '103000',
@@ -22343,7 +22343,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 15:36:19',
-    'job title': 'Sr. SAP Consultant',
+    jobTitle: 'Sr. SAP Consultant',
     team: 'Misc',
     salary: '103000',
     city: 'New York City',
@@ -22353,7 +22353,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '103000',
@@ -22364,7 +22364,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '103000',
@@ -22375,7 +22375,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '103000',
     city: 'Washington',
@@ -22385,7 +22385,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '103000',
     city: 'Chicago',
@@ -22395,7 +22395,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '103000',
     city: 'Salem',
@@ -22406,7 +22406,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 1:46:58',
-    'job title': 'Technical Program Manager',
+    jobTitle: 'Technical Program Manager',
     team: 'Technical Program Management',
     salary: '103000',
     city: 'Menlo Park',
@@ -22416,7 +22416,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '103000',
@@ -22428,7 +22428,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 13:17:18',
-    'job title': 'UX Lead Designer',
+    jobTitle: 'UX Lead Designer',
     team: 'Product Design',
     salary: '103000',
     city: 'Chicago',
@@ -22439,7 +22439,7 @@ const data = [
   },
   {
     Timestamp: '5/22/2020 11:17:52',
-    'job title': 'Solutions Engineer',
+    jobTitle: 'Solutions Engineer',
     team: 'Sales',
     salary: '103200',
     city: 'New York City',
@@ -22450,7 +22450,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 9:15:33',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '103950',
     city: 'Chicago',
@@ -22460,7 +22460,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Applications Coordinator',
+    jobTitle: 'Applications Coordinator',
     team: 'Misc',
     'job level': '2',
     salary: '104000',
@@ -22472,7 +22472,7 @@ const data = [
   },
   {
     Timestamp: '1/29/2020 16:40:11',
-    'job title': 'Conversation Designer',
+    jobTitle: 'Conversation Designer',
     team: 'Product Design',
     salary: '104000',
     city: 'New York City',
@@ -22482,7 +22482,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '104000',
     city: 'Philadelphia',
@@ -22493,7 +22493,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 23:14:29',
-    'job title': 'Director of Digital Strategy',
+    jobTitle: 'Director of Digital Strategy',
     team: 'Misc',
     salary: '104000',
     city: 'Boston',
@@ -22504,7 +22504,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 13:40:02',
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '104000',
     city: 'Alexandria',
@@ -22514,7 +22514,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '104000',
     city: 'Broomfield',
@@ -22524,7 +22524,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '104000',
@@ -22536,7 +22536,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 13:56:09',
-    'job title': 'Software Application Developer',
+    jobTitle: 'Software Application Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '104000',
@@ -22547,7 +22547,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '104000',
     city: 'Santa Barbara',
@@ -22557,7 +22557,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '104000',
     city: 'Cedar Rapids',
@@ -22567,7 +22567,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '104000',
@@ -22579,7 +22579,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 10:52:20',
-    'job title': 'Sr. Marketing Cloud Manager',
+    jobTitle: 'Sr. Marketing Cloud Manager',
     team: 'Marketing',
     salary: '104500',
     city: 'Chicago',
@@ -22589,7 +22589,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '7',
     salary: '104603',
@@ -22601,7 +22601,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 10:37:16',
-    'job title': 'Account Executive',
+    jobTitle: 'Account Executive',
     team: 'Sales',
     salary: '105000',
     city: 'Washington',
@@ -22612,7 +22612,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 21:26:46',
-    'job title': 'Art Director',
+    jobTitle: 'Art Director',
     team: 'Product Design',
     salary: '105000',
     city: 'New York City',
@@ -22623,7 +22623,7 @@ const data = [
   },
   {
     Timestamp: '11/10/2020 13:38:02',
-    'job title': 'Business Development Director',
+    jobTitle: 'Business Development Director',
     team: 'Sales',
     salary: '105000',
     city: 'Seattle',
@@ -22634,7 +22634,7 @@ const data = [
   },
   {
     Timestamp: '5/21/2020 23:55:46',
-    'job title': 'Cybersecurity Engineer',
+    jobTitle: 'Cybersecurity Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '105000',
@@ -22646,7 +22646,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 23:09:31',
-    'job title': 'Cybersecurity Engineer',
+    jobTitle: 'Cybersecurity Engineer',
     team: 'Network, Security & IT',
     salary: '105000',
     city: 'Cleveland ',
@@ -22657,7 +22657,7 @@ const data = [
   },
   {
     Timestamp: '3/2/2020 9:26:50',
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '105000',
     city: 'San Francisco Bay Area',
@@ -22667,7 +22667,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '105000',
     city: 'Denver',
@@ -22677,7 +22677,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '105000',
     city: 'Salt Lake City',
@@ -22688,7 +22688,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 11:54:19',
-    'job title': 'Digital Change Consultant',
+    jobTitle: 'Digital Change Consultant',
     team: 'Misc',
     salary: '105000',
     city: 'Atlanta',
@@ -22699,7 +22699,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 15:30:48',
-    'job title': 'Field Marketing & Event Operations',
+    jobTitle: 'Field Marketing & Event Operations',
     team: 'Marketing',
     salary: '105000',
     city: 'San Francisco Bay Area',
@@ -22710,7 +22710,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 17:16:55',
-    'job title': 'Front End Developer',
+    jobTitle: 'Front End Developer',
     team: 'Software Engineering',
     salary: '105000',
     city: 'Denver',
@@ -22721,7 +22721,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 15:35:10',
-    'job title': 'IT Security Engineer',
+    jobTitle: 'IT Security Engineer',
     team: 'Network, Security & IT',
     salary: '105000',
     city: 'Austin',
@@ -22731,7 +22731,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '105000',
     city: 'San Francisco',
@@ -22741,7 +22741,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '105000',
     city: 'Greensboro',
@@ -22751,7 +22751,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '105000',
     city: 'Madison',
@@ -22761,7 +22761,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '105000',
@@ -22772,7 +22772,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Office',
+    jobTitle: 'Office',
     team: 'Misc',
     salary: '105000',
     city: 'Omaha',
@@ -22783,7 +22783,7 @@ const data = [
   },
   {
     Timestamp: '2/16/2020 15:20:25',
-    'job title': 'Operations Manager',
+    jobTitle: 'Operations Manager',
     team: 'Operations',
     salary: '105000',
     city: 'San Francisco Bay Area',
@@ -22794,7 +22794,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 23:38:17',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     salary: '105000',
     city: 'San Francisco Bay Area',
@@ -22805,7 +22805,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 21:33:04',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     'job level': '2',
     salary: '105000',
@@ -22817,7 +22817,7 @@ const data = [
   },
   {
     Timestamp: '3/4/2020 22:40:37',
-    'job title': 'Product Lead',
+    jobTitle: 'Product Lead',
     team: 'Misc',
     salary: '105000',
     city: 'San Francisco Bay Area',
@@ -22828,7 +22828,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 19:13:28',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '105000',
     city: 'San Francisco Bay Area',
@@ -22839,7 +22839,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 1:52:54',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '105000',
     city: 'Chicago',
@@ -22849,7 +22849,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     'job level': '1',
     salary: '105000',
@@ -22861,7 +22861,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 7:13:41',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '105000',
     city: 'New York City',
@@ -22871,7 +22871,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     salary: '105000',
     city: 'Jacksonville',
@@ -22881,7 +22881,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '9',
     salary: '105000',
@@ -22892,7 +22892,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '105000',
@@ -22904,7 +22904,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 17:55:05',
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     salary: '105000',
     city: 'Portland',
@@ -22915,7 +22915,7 @@ const data = [
   },
   {
     Timestamp: '2/16/2020 20:51:44',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '105000',
@@ -22926,7 +22926,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '105000',
     city: 'Los Angeles',
@@ -22936,7 +22936,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '105000',
@@ -22948,7 +22948,7 @@ const data = [
   },
   {
     Timestamp: '2/29/2020 17:08:58',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '105000',
     city: 'Los Angeles',
@@ -22959,7 +22959,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 19:01:29',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '105000',
@@ -22970,7 +22970,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '105000',
@@ -22981,7 +22981,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '105000',
     city: 'Chicago',
@@ -22992,7 +22992,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 10:12:05',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '105000',
@@ -23004,7 +23004,7 @@ const data = [
   },
   {
     Timestamp: '8/3/2020 10:16:43',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '105000',
@@ -23015,7 +23015,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '105000',
@@ -23026,7 +23026,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '105000',
@@ -23038,7 +23038,7 @@ const data = [
   },
   {
     Timestamp: '1/26/2020 10:33:14',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '105000',
     city: 'Pittsburgh',
@@ -23049,7 +23049,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 16:37:29',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '105000',
@@ -23060,7 +23060,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '105000',
@@ -23072,7 +23072,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 11:51:50',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '105000',
@@ -23083,7 +23083,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '105000',
@@ -23094,7 +23094,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Solutions Architect',
+    jobTitle: 'Solutions Architect',
     team: 'Network, Security & IT',
     salary: '105000',
     city: 'Seattle',
@@ -23105,7 +23105,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 14:38:34',
-    'job title': 'Sr. Product Owner',
+    jobTitle: 'Sr. Product Owner',
     team: 'Agile',
     salary: '105000',
     city: 'Denver',
@@ -23116,7 +23116,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 8:37:20',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '105000',
     city: 'San Diego',
@@ -23127,7 +23127,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 11:31:08',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '105000',
@@ -23139,7 +23139,7 @@ const data = [
   },
   {
     Timestamp: '6/9/2020 19:01:54',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '105000',
     city: 'St. Louis',
@@ -23150,7 +23150,7 @@ const data = [
   },
   {
     Timestamp: '10/30/2020 19:26:40',
-    'job title': 'Sr. Solution Consultant',
+    jobTitle: 'Sr. Solution Consultant',
     team: 'Sales',
     salary: '105000',
     city: 'San Francisco Bay Area',
@@ -23161,7 +23161,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 16:37:46',
-    'job title': 'Sr. UX Designer',
+    jobTitle: 'Sr. UX Designer',
     team: 'Product Design',
     salary: '105000',
     city: 'New York City',
@@ -23171,7 +23171,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '105000',
@@ -23182,7 +23182,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '105000',
     city: 'Ventura',
@@ -23192,7 +23192,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '105000',
@@ -23203,7 +23203,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '105000',
     city: 'Chicago',
@@ -23213,7 +23213,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '105000',
     city: 'Ann Arbor',
@@ -23223,7 +23223,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '105000',
@@ -23234,7 +23234,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '105000',
     city: 'Nashville',
@@ -23244,7 +23244,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '105000',
     city: 'Houston',
@@ -23254,7 +23254,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '105000',
     city: 'Houston',
@@ -23264,7 +23264,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Engineer',
+    jobTitle: 'System Engineer',
     team: 'Network, Security & IT',
     salary: '105000',
     city: 'Chicago',
@@ -23274,7 +23274,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Engineer',
+    jobTitle: 'System Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '105000',
@@ -23286,7 +23286,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 19:23:50',
-    'job title': 'Systems Engineer',
+    jobTitle: 'Systems Engineer',
     team: 'Network, Security & IT',
     salary: '105000',
     city: 'Atlanta',
@@ -23296,7 +23296,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '105000',
     city: 'Los Angeles',
@@ -23306,7 +23306,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '105000',
@@ -23317,7 +23317,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '105000',
@@ -23328,7 +23328,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '105000',
     city: 'Reston',
@@ -23339,7 +23339,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 1:22:56',
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     salary: '105000',
     city: 'San Francisco Bay Area',
@@ -23350,7 +23350,7 @@ const data = [
   },
   {
     Timestamp: '10/12/2020 19:35:20',
-    'job title': 'UX/UI Designer',
+    jobTitle: 'UX/UI Designer',
     team: 'Product Design',
     salary: '105000',
     city: 'Denver',
@@ -23360,7 +23360,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'VP of IT Operations',
+    jobTitle: 'VP of IT Operations',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '105000',
@@ -23371,7 +23371,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '105000',
@@ -23383,7 +23383,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:38:31',
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     salary: '105000',
     city: 'Seattle',
@@ -23394,7 +23394,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2021 16:54:11',
-    'job title': 'Growth Manager',
+    jobTitle: 'Growth Manager',
     team: 'Misc',
     salary: '105800',
     city: 'San Diego',
@@ -23404,7 +23404,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '106000',
     city: 'San Diego',
@@ -23414,7 +23414,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '106000',
     city: 'Denver',
@@ -23424,7 +23424,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '106000',
     city: 'Chicago',
@@ -23434,7 +23434,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '106000',
@@ -23446,7 +23446,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 16:49:05',
-    'job title': 'Machine Learning Engineer',
+    jobTitle: 'Machine Learning Engineer',
     team: 'Data Science',
     salary: '106000',
     city: 'Portland',
@@ -23457,7 +23457,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 20:43:17',
-    'job title': 'Project Manager',
+    jobTitle: 'Project Manager',
     team: 'Product Management',
     salary: '106000',
     city: 'San Francisco Bay Area',
@@ -23468,7 +23468,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 13:36:37',
-    'job title': 'Sr. Interaction Designer',
+    jobTitle: 'Sr. Interaction Designer',
     team: 'Product Design',
     salary: '106000',
     city: 'Raleigh',
@@ -23479,7 +23479,7 @@ const data = [
   },
   {
     Timestamp: '3/9/2020 22:31:47',
-    'job title': 'Sr. Product Owner',
+    jobTitle: 'Sr. Product Owner',
     team: 'Agile',
     salary: '106000',
     city: 'Grand Rapids',
@@ -23489,7 +23489,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '106000',
     city: 'Boston',
@@ -23499,7 +23499,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '106000',
     city: 'Austin',
@@ -23510,7 +23510,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 15:28:03',
-    'job title': 'Sr. UX Researcher',
+    jobTitle: 'Sr. UX Researcher',
     team: 'Product Design',
     salary: '106500',
     city: 'Atlanta',
@@ -23521,7 +23521,7 @@ const data = [
   },
   {
     Timestamp: '10/26/2020 17:54:42',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     salary: '107000',
     city: 'New York City',
@@ -23532,7 +23532,7 @@ const data = [
   },
   {
     Timestamp: '7/14/2020 12:05:52',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '107000',
     city: 'New York City',
@@ -23543,7 +23543,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 20:28:07',
-    'job title': 'Project Manager',
+    jobTitle: 'Project Manager',
     team: 'Product Management',
     salary: '107000',
     city: 'Seattle',
@@ -23554,7 +23554,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 18:25:51',
-    'job title': 'Recruiter',
+    jobTitle: 'Recruiter',
     team: 'Recruiting',
     salary: '107000',
     city: 'San Francisco Bay Area',
@@ -23565,7 +23565,7 @@ const data = [
   },
   {
     Timestamp: '1/23/2020 13:47:08',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '107000',
@@ -23577,7 +23577,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 0:03:46',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '107000',
     city: 'San Francisco Bay Area',
@@ -23588,7 +23588,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 16:00:54',
-    'job title': 'Sr. Database Administrator',
+    jobTitle: 'Sr. Database Administrator',
     team: 'Data Science',
     salary: '107000',
     city: 'Raleigh',
@@ -23599,7 +23599,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 11:14:29',
-    'job title': 'Sr. Scrum Master',
+    jobTitle: 'Sr. Scrum Master',
     team: 'Agile',
     salary: '107000',
     city: 'Chicago',
@@ -23610,7 +23610,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:53:48',
-    'job title': 'Sr. Solutions Specialist',
+    jobTitle: 'Sr. Solutions Specialist',
     team: 'Sales',
     salary: '107000',
     city: 'Chicago',
@@ -23620,7 +23620,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '107000',
     city: 'New York City',
@@ -23631,7 +23631,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 14:21:30',
-    'job title': 'UX Designer ',
+    jobTitle: 'UX Designer ',
     team: 'Product Design',
     salary: '107000',
     city: 'Durham',
@@ -23641,7 +23641,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Information Security',
+    jobTitle: 'Information Security',
     team: 'Network, Security & IT',
     salary: '107500',
     city: 'Milwaukee',
@@ -23652,7 +23652,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 16:47:12',
-    'job title': 'Data Scientist',
+    jobTitle: 'Data Scientist',
     team: 'Data Science',
     salary: '108000',
     city: 'San Diego',
@@ -23662,7 +23662,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '108000',
@@ -23673,7 +23673,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Information Security',
+    jobTitle: 'Information Security',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '108000',
@@ -23684,7 +23684,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Information Security',
+    jobTitle: 'Information Security',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '108000',
@@ -23695,7 +23695,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '108000',
     city: 'Denver',
@@ -23706,7 +23706,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 12:32:58',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '108000',
     city: 'Boston',
@@ -23717,7 +23717,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 13:36:03',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '108000',
     city: 'Detroit',
@@ -23727,7 +23727,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '108000',
     city: 'Los Angeles',
@@ -23737,7 +23737,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '108000',
     city: 'Denver',
@@ -23748,7 +23748,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 11:51:48',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '108000',
@@ -23760,7 +23760,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 13:55:38',
-    'job title': 'Sr. Recruiter',
+    jobTitle: 'Sr. Recruiter',
     team: 'Recruiting',
     salary: '108000',
     city: 'Austin',
@@ -23770,7 +23770,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '108000',
     city: 'Dallas',
@@ -23781,7 +23781,7 @@ const data = [
   },
   {
     Timestamp: '1/14/2020 12:16:53',
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '108000',
     city: 'New York City',
@@ -23791,7 +23791,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '108500',
@@ -23803,7 +23803,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 17:02:37',
-    'job title': 'Data Scientist',
+    jobTitle: 'Data Scientist',
     team: 'Data Science',
     salary: '109000',
     city: 'Washington',
@@ -23814,7 +23814,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 11:03:02',
-    'job title': 'Product Owner',
+    jobTitle: 'Product Owner',
     team: 'Agile',
     salary: '109000',
     city: 'Washington',
@@ -23824,7 +23824,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '109000',
@@ -23835,7 +23835,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '109000',
@@ -23847,7 +23847,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 16:58:55',
-    'job title': 'Sr. Cloud Engineer',
+    jobTitle: 'Sr. Cloud Engineer',
     team: 'Data Science',
     salary: '109000',
     city: 'Louisville',
@@ -23857,7 +23857,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Tech Lead',
+    jobTitle: 'Tech Lead',
     team: 'Software Engineering Management',
     'job level': '3',
     salary: '109000',
@@ -23868,7 +23868,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '109500',
@@ -23880,7 +23880,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:20:54',
-    'job title': 'Analytics Manager ',
+    jobTitle: 'Analytics Manager ',
     team: 'Misc',
     salary: '110000',
     city: 'Phoenix',
@@ -23891,7 +23891,7 @@ const data = [
   },
   {
     Timestamp: '1/27/2020 13:49:17',
-    'job title': 'Business Development Director',
+    jobTitle: 'Business Development Director',
     team: 'Sales',
     salary: '110000',
     city: 'Orange County',
@@ -23902,7 +23902,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 11:46:41',
-    'job title': 'Channel Marketing Manager',
+    jobTitle: 'Channel Marketing Manager',
     team: 'Marketing',
     salary: '110000',
     city: 'San Francisco Bay Area',
@@ -23913,7 +23913,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 23:21:13',
-    'job title': 'Chief of Staff',
+    jobTitle: 'Chief of Staff',
     team: 'Operations',
     salary: '110000',
     city: 'New York City',
@@ -23924,7 +23924,7 @@ const data = [
   },
   {
     Timestamp: '8/11/2020 14:49:37',
-    'job title': 'Community Director',
+    jobTitle: 'Community Director',
     team: 'Misc',
     salary: '110000',
     city: 'Los Angeles',
@@ -23934,7 +23934,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '110000',
     city: 'Denver',
@@ -23944,7 +23944,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '110000',
     city: 'Boston',
@@ -23954,7 +23954,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '110000',
@@ -23965,7 +23965,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '110000',
     city: 'Chapel Hill',
@@ -23975,7 +23975,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '110000',
     city: 'Austin',
@@ -23985,7 +23985,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '110000',
@@ -23997,7 +23997,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:45:48',
-    'job title': 'Director of Strategic Partnerships',
+    jobTitle: 'Director of Strategic Partnerships',
     team: 'Sales',
     salary: '110000',
     city: 'Washington',
@@ -24008,7 +24008,7 @@ const data = [
   },
   {
     Timestamp: '4/13/2020 16:43:08',
-    'job title': 'Director of Training Experience',
+    jobTitle: 'Director of Training Experience',
     team: 'Human Resources',
     salary: '110000',
     city: 'San Francisco Bay Area',
@@ -24019,7 +24019,7 @@ const data = [
   },
   {
     Timestamp: '7/16/2020 15:09:27',
-    'job title': 'Email Marketing Manager',
+    jobTitle: 'Email Marketing Manager',
     team: 'Marketing',
     salary: '110000',
     city: 'San Francisco Bay Area',
@@ -24029,7 +24029,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Information Security',
+    jobTitle: 'Information Security',
     team: 'Network, Security & IT',
     'job level': '5',
     salary: '110000',
@@ -24040,7 +24040,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     'job level': '1',
     salary: '110000',
@@ -24051,7 +24051,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '110000',
     city: 'New Haven',
@@ -24061,7 +24061,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '110000',
     city: 'Washington',
@@ -24071,7 +24071,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '110000',
     city: 'Boston',
@@ -24081,7 +24081,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '110000',
     city: 'Grand Rapids',
@@ -24092,7 +24092,7 @@ const data = [
   },
   {
     Timestamp: '9/28/2020 4:35:24',
-    'job title': 'Marketing Manager',
+    jobTitle: 'Marketing Manager',
     team: 'Marketing',
     salary: '110000',
     city: 'Los Angeles',
@@ -24102,7 +24102,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '110000',
     city: 'Denver',
@@ -24112,7 +24112,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '110000',
     city: 'Boston',
@@ -24122,7 +24122,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '110000',
@@ -24133,7 +24133,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '110000',
     city: 'Washington',
@@ -24144,7 +24144,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 15:18:16',
-    'job title': 'Operations Program Manager',
+    jobTitle: 'Operations Program Manager',
     team: 'Technical Program Management',
     salary: '110000',
     city: 'San Francisco Bay Area',
@@ -24155,7 +24155,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 14:08:34',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     salary: '110000',
     city: 'New York City',
@@ -24166,7 +24166,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2021 11:10:10',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '110000',
     city: 'San Francisco Bay Area',
@@ -24177,7 +24177,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 16:30:39',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '110000',
     city: 'San Francisco Bay Area',
@@ -24188,7 +24188,7 @@ const data = [
   },
   {
     Timestamp: '2/15/2020 11:50:15',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '110000',
     city: 'Los Angeles',
@@ -24199,7 +24199,7 @@ const data = [
   },
   {
     Timestamp: '3/25/2020 15:55:53',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '110000',
     city: 'Miami',
@@ -24210,7 +24210,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 0:57:27',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '110000',
     city: 'Chicago',
@@ -24221,7 +24221,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:44:17',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '110000',
     city: 'Louisville',
@@ -24232,7 +24232,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 10:59:50',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '110000',
     city: 'New York City',
@@ -24243,7 +24243,7 @@ const data = [
   },
   {
     Timestamp: '8/7/2020 22:01:58',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '110000',
     city: 'New York City',
@@ -24254,7 +24254,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 19:33:35',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '110000',
     city: 'Portland',
@@ -24264,7 +24264,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '110000',
     city: 'Pittsburgh',
@@ -24275,7 +24275,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 22:06:01',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '110000',
     city: 'Seattle',
@@ -24286,7 +24286,7 @@ const data = [
   },
   {
     Timestamp: '3/2/2020 21:14:58',
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Product Management',
     salary: '110000',
     city: 'San Francisco Bay Area',
@@ -24296,7 +24296,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Technical Program Management',
     'job level': '3',
     salary: '110000',
@@ -24307,7 +24307,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Technical Program Management',
     salary: '110000',
     city: 'Irvine',
@@ -24317,7 +24317,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'QA Engineer',
+    jobTitle: 'QA Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '110000',
@@ -24328,7 +24328,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'QA Engineer',
+    jobTitle: 'QA Engineer',
     team: 'Software Engineering',
     salary: '110000',
     city: 'Boston',
@@ -24339,7 +24339,7 @@ const data = [
   },
   {
     Timestamp: '3/20/2020 16:00:12',
-    'job title': 'Sales Development Manager',
+    jobTitle: 'Sales Development Manager',
     team: 'Sales',
     salary: '110000',
     city: 'Los Angeles',
@@ -24350,7 +24350,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 7:38:11',
-    'job title': 'Sales System Administrator',
+    jobTitle: 'Sales System Administrator',
     team: 'Network, Security & IT',
     salary: '110000',
     city: 'Kansas City',
@@ -24361,7 +24361,7 @@ const data = [
   },
   {
     Timestamp: '5/18/2020 10:59:17',
-    'job title': 'Security Engineer',
+    jobTitle: 'Security Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '110000',
@@ -24373,7 +24373,7 @@ const data = [
   },
   {
     Timestamp: '1/23/2020 9:31:21',
-    'job title': 'Security Technical Writer ',
+    jobTitle: 'Security Technical Writer ',
     team: 'Creative',
     salary: '110000',
     city: 'Charlotte',
@@ -24383,7 +24383,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '110000',
@@ -24395,7 +24395,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 22:55:52',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '110000',
@@ -24407,7 +24407,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:54:39',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '110000',
@@ -24419,7 +24419,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 17:16:53',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '110000',
@@ -24430,7 +24430,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '110000',
@@ -24442,7 +24442,7 @@ const data = [
   },
   {
     Timestamp: '2/10/2020 18:24:29',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '110000',
@@ -24454,7 +24454,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 15:43:07',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '110000',
@@ -24465,7 +24465,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '110000',
     city: 'New York City',
@@ -24476,7 +24476,7 @@ const data = [
   },
   {
     Timestamp: '8/24/2020 12:11:44',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '110000',
     city: 'New York City',
@@ -24486,7 +24486,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '110000',
     city: 'Raleigh',
@@ -24496,7 +24496,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '110000',
     city: 'Charlotte',
@@ -24506,7 +24506,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '110000',
     city: 'Cincinnati',
@@ -24516,7 +24516,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '110000',
@@ -24527,7 +24527,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '4',
     salary: '110000',
@@ -24538,7 +24538,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '110000',
     city: 'Tysons',
@@ -24549,7 +24549,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 12:43:11',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '110000',
@@ -24561,7 +24561,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 21:57:17',
-    'job title': 'Sr. Cloud Integration Engineer',
+    jobTitle: 'Sr. Cloud Integration Engineer',
     team: 'Data Science',
     salary: '110000',
     city: 'Boston',
@@ -24572,7 +24572,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:56:56',
-    'job title': 'Sr. Technical Writer',
+    jobTitle: 'Sr. Technical Writer',
     team: 'Creative',
     salary: '110000',
     city: 'Seattle',
@@ -24583,7 +24583,7 @@ const data = [
   },
   {
     Timestamp: '2/22/2020 16:01:44',
-    'job title': 'Sr. UX Designer',
+    jobTitle: 'Sr. UX Designer',
     team: 'Product Design',
     salary: '110000',
     city: 'Atlanta',
@@ -24594,7 +24594,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2020 16:07:16',
-    'job title': 'Sr. UX Designer',
+    jobTitle: 'Sr. UX Designer',
     team: 'Product Design',
     salary: '110000',
     city: 'Salt Lake City',
@@ -24605,7 +24605,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 12:54:09',
-    'job title': 'Sr. UX Designer',
+    jobTitle: 'Sr. UX Designer',
     team: 'Product Design',
     salary: '110000',
     city: 'Salt Lake City',
@@ -24616,7 +24616,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 23:30:10',
-    'job title': 'Sr. UX Designer',
+    jobTitle: 'Sr. UX Designer',
     team: 'Product Design',
     salary: '110000',
     city: 'Seattle',
@@ -24627,7 +24627,7 @@ const data = [
   },
   {
     Timestamp: '1/17/2020 16:55:27',
-    'job title': 'Strategic Partnerships Manager',
+    jobTitle: 'Strategic Partnerships Manager',
     team: 'Sales',
     salary: '110000',
     city: 'San Francisco Bay Area',
@@ -24637,7 +24637,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '110000',
     city: 'San Jose',
@@ -24647,7 +24647,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '110000',
     city: 'Irvine',
@@ -24657,7 +24657,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '110000',
@@ -24668,7 +24668,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '110000',
     city: 'Atlanta',
@@ -24678,7 +24678,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '110000',
     city: 'Indianapolis',
@@ -24688,7 +24688,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '110000',
     city: 'Boston',
@@ -24698,7 +24698,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '110000',
     city: 'Omaha',
@@ -24708,7 +24708,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '110000',
@@ -24719,7 +24719,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '110000',
     city: 'Green Bay',
@@ -24729,7 +24729,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '110000',
@@ -24741,7 +24741,7 @@ const data = [
   },
   {
     Timestamp: '11/28/2020 10:11:58',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     'job level': '2',
     salary: '110000',
@@ -24753,7 +24753,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 14:35:12',
-    'job title': 'UX Research Program Manager',
+    jobTitle: 'UX Research Program Manager',
     team: 'Product Design',
     salary: '110000',
     city: 'San Francisco Bay Area',
@@ -24764,7 +24764,7 @@ const data = [
   },
   {
     Timestamp: '2/9/2020 19:07:39',
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     salary: '110000',
     city: 'Washington',
@@ -24775,7 +24775,7 @@ const data = [
   },
   {
     Timestamp: '2/10/2020 9:25:42',
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     'job level': '2',
     salary: '110000',
@@ -24787,7 +24787,7 @@ const data = [
   },
   {
     Timestamp: '6/24/2020 21:31:36',
-    'job title': 'UX Writer',
+    jobTitle: 'UX Writer',
     team: 'Product Design',
     salary: '110000',
     city: 'Seattle',
@@ -24797,7 +24797,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '110000',
@@ -24808,7 +24808,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '4',
     salary: '110600',
@@ -24819,7 +24819,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '110700',
@@ -24831,7 +24831,7 @@ const data = [
   },
   {
     Timestamp: '2/23/2020 16:37:28',
-    'job title': 'Front End Engineer',
+    jobTitle: 'Front End Engineer',
     team: 'Software Engineering',
     salary: '110980',
     city: 'Nashville',
@@ -24842,7 +24842,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:37:47',
-    'job title': 'Game Server Software Engineer',
+    jobTitle: 'Game Server Software Engineer',
     team: 'Software Engineering',
     salary: '111000',
     city: 'Seattle',
@@ -24852,7 +24852,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Hardware Engineer',
+    jobTitle: 'Hardware Engineer',
     team: 'Hardware Engineering',
     salary: '111000',
     city: 'Dallas',
@@ -24863,7 +24863,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 12:58:14',
-    'job title': 'Manager of Media Delivery',
+    jobTitle: 'Manager of Media Delivery',
     team: 'Misc',
     salary: '111000',
     city: 'San Francisco Bay Area',
@@ -24874,7 +24874,7 @@ const data = [
   },
   {
     Timestamp: '2/26/2020 15:10:29',
-    'job title': 'Project Manager',
+    jobTitle: 'Project Manager',
     team: 'Product Management',
     salary: '111000',
     city: 'Orlando',
@@ -24884,7 +24884,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '111000',
@@ -24895,7 +24895,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '111000',
@@ -24906,7 +24906,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '111000',
     city: 'Huntsville',
@@ -24916,7 +24916,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '111000',
@@ -24927,7 +24927,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '111600',
     city: 'Dallas',
@@ -24938,7 +24938,7 @@ const data = [
   },
   {
     Timestamp: '8/17/2020 14:00:37',
-    'job title': 'Financial Analyst',
+    jobTitle: 'Financial Analyst',
     team: 'Accounting',
     salary: '111650',
     city: 'San Francisco Bay Area',
@@ -24948,7 +24948,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '111766',
     city: 'Lebanon',
@@ -24959,7 +24959,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 0:12:15',
-    'job title': 'Assistant VP',
+    jobTitle: 'Assistant VP',
     team: 'Operations',
     salary: '112000',
     city: 'San Francisco Bay Area',
@@ -24970,7 +24970,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 18:28:24',
-    'job title': 'Data Engineer',
+    jobTitle: 'Data Engineer',
     team: 'Data Science',
     salary: '112000',
     city: 'Denver',
@@ -24980,7 +24980,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '112000',
     city: 'San Diego',
@@ -24990,7 +24990,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '112000',
     city: 'Dallas',
@@ -25001,7 +25001,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 13:23:08',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '112000',
     city: 'Irvine',
@@ -25012,7 +25012,7 @@ const data = [
   },
   {
     Timestamp: '1/10/2021 4:54:23',
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Product Management',
     salary: '112000',
     city: 'San Francisco Bay Area',
@@ -25022,7 +25022,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '4',
     salary: '112000',
@@ -25034,7 +25034,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:34:22',
-    'job title': 'Sr. Data Analyst',
+    jobTitle: 'Sr. Data Analyst',
     team: 'Data Science',
     salary: '112000',
     city: 'San Francisco Bay Area',
@@ -25045,7 +25045,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 7:24:09',
-    'job title': 'Sr. Digital Marketing Manager',
+    jobTitle: 'Sr. Digital Marketing Manager',
     team: 'Marketing',
     salary: '112000',
     city: 'New York City',
@@ -25056,7 +25056,7 @@ const data = [
   },
   {
     Timestamp: '1/16/2020 19:16:59',
-    'job title': 'Sr. Product Designer',
+    jobTitle: 'Sr. Product Designer',
     team: 'Product Design',
     salary: '112000',
     city: 'Austin',
@@ -25067,7 +25067,7 @@ const data = [
   },
   {
     Timestamp: '3/2/2020 16:12:35',
-    'job title': 'UX Research Lead',
+    jobTitle: 'UX Research Lead',
     team: 'Product Design',
     salary: '112000',
     city: 'Richmond',
@@ -25078,7 +25078,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 12:51:37',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '112200',
@@ -25089,7 +25089,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '112500',
     city: 'Redmond',
@@ -25100,7 +25100,7 @@ const data = [
   },
   {
     Timestamp: '3/24/2020 0:43:12',
-    'job title': 'Marketing Director',
+    jobTitle: 'Marketing Director',
     team: 'Marketing',
     salary: '112500',
     city: 'San Francisco Bay Area',
@@ -25111,7 +25111,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:33:05',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '112500',
@@ -25122,7 +25122,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '112500',
     city: 'San Francisco',
@@ -25133,7 +25133,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 13:59:37',
-    'job title': 'Sr. Engineer',
+    jobTitle: 'Sr. Engineer',
     team: 'Software Engineering',
     salary: '112500',
     city: 'Milwaukee',
@@ -25143,7 +25143,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '112500',
     city: 'Seattle',
@@ -25154,7 +25154,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 4:55:14',
-    'job title': 'Business Analyst',
+    jobTitle: 'Business Analyst',
     team: 'Business Analytics',
     salary: '113000',
     city: 'Chandler',
@@ -25164,7 +25164,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '113000',
@@ -25176,7 +25176,7 @@ const data = [
   },
   {
     Timestamp: '12/21/2020 21:32:05',
-    'job title': 'Director of Events & Field Marketing ',
+    jobTitle: 'Director of Events & Field Marketing ',
     team: 'Marketing Ops',
     salary: '113000',
     city: 'Washington',
@@ -25187,7 +25187,7 @@ const data = [
   },
   {
     Timestamp: '1/28/2020 23:23:50',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '113000',
     city: 'Salt Lake City',
@@ -25198,7 +25198,7 @@ const data = [
   },
   {
     Timestamp: '1/26/2021 13:22:02',
-    'job title': 'Project Manager in Technology',
+    jobTitle: 'Project Manager in Technology',
     team: 'Product Management',
     salary: '113000',
     city: 'Raleigh',
@@ -25208,7 +25208,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '113000',
@@ -25219,7 +25219,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '113000',
     city: 'Columbus',
@@ -25230,7 +25230,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 12:50:04',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '113000',
@@ -25241,7 +25241,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '113000',
     city: 'Denver',
@@ -25252,7 +25252,7 @@ const data = [
   },
   {
     Timestamp: '8/17/2020 13:47:19',
-    'job title': 'Financial Analyst',
+    jobTitle: 'Financial Analyst',
     team: 'Accounting',
     salary: '113300',
     city: 'San Francisco Bay Area',
@@ -25263,7 +25263,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 22:07:52',
-    'job title': 'Product Management Director',
+    jobTitle: 'Product Management Director',
     team: 'Product Management',
     salary: '113300',
     city: 'Dayton',
@@ -25274,7 +25274,7 @@ const data = [
   },
   {
     Timestamp: '10/15/2020 15:56:27',
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '113400',
     city: 'New York City',
@@ -25285,7 +25285,7 @@ const data = [
   },
   {
     Timestamp: '2/28/2020 15:56:01',
-    'job title': 'Manager of Customer Success',
+    jobTitle: 'Manager of Customer Success',
     team: 'Sales',
     salary: '113500',
     city: 'New York City',
@@ -25296,7 +25296,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 12:22:52',
-    'job title': 'DT Business Analyst',
+    jobTitle: 'DT Business Analyst',
     team: 'Misc',
     salary: '113520',
     city: 'Cleveland',
@@ -25307,7 +25307,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 16:16:18',
-    'job title': 'Business Intelligence Analyst',
+    jobTitle: 'Business Intelligence Analyst',
     team: 'Data Science',
     'job level': '2',
     salary: '114000',
@@ -25319,7 +25319,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 19:06:27',
-    'job title': 'Content Manager',
+    jobTitle: 'Content Manager',
     team: 'Creative',
     salary: '114000',
     city: 'Bellevue',
@@ -25329,7 +25329,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '114000',
     city: 'San Francisco',
@@ -25340,7 +25340,7 @@ const data = [
   },
   {
     Timestamp: '3/10/2020 14:45:24',
-    'job title': 'Events Manager',
+    jobTitle: 'Events Manager',
     team: 'Misc',
     salary: '114000',
     city: 'San Francisco Bay Area',
@@ -25350,7 +25350,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '114000',
     city: 'Houston',
@@ -25360,7 +25360,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '114000',
@@ -25372,7 +25372,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 13:51:06',
-    'job title': 'Sr. Marketing Manager',
+    jobTitle: 'Sr. Marketing Manager',
     team: 'Marketing',
     salary: '114000',
     city: 'Boston',
@@ -25382,7 +25382,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '114000',
@@ -25393,7 +25393,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '114000',
     city: 'Philadelphia',
@@ -25403,7 +25403,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '8',
     salary: '114000',
@@ -25414,7 +25414,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Account Manager',
+    jobTitle: 'Account Manager',
     team: 'Sales',
     salary: '115000',
     city: 'Atlanta',
@@ -25425,7 +25425,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 16:16:24',
-    'job title': 'Business Development Director',
+    jobTitle: 'Business Development Director',
     team: 'Sales',
     salary: '115000',
     city: 'San Francisco Bay Area',
@@ -25436,7 +25436,7 @@ const data = [
   },
   {
     Timestamp: '2/15/2020 11:37:19',
-    'job title': 'Data Engineer',
+    jobTitle: 'Data Engineer',
     team: 'Data Science',
     salary: '115000',
     city: 'New York City',
@@ -25446,7 +25446,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '115000',
     city: 'Washington',
@@ -25456,7 +25456,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '115000',
@@ -25467,7 +25467,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '115000',
     city: 'Detroit',
@@ -25477,7 +25477,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '5',
     salary: '115000',
@@ -25488,7 +25488,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '115000',
     city: 'Houston',
@@ -25499,7 +25499,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 17:55:31',
-    'job title': 'Developer Marketing Program Manager',
+    jobTitle: 'Developer Marketing Program Manager',
     team: 'Marketing',
     salary: '115000',
     city: 'San Francisco Bay Area',
@@ -25510,7 +25510,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 3:31:35',
-    'job title': 'Digital Marketing Director',
+    jobTitle: 'Digital Marketing Director',
     team: 'Marketing',
     salary: '115000',
     city: 'Seattle',
@@ -25521,7 +25521,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 23:14:26',
-    'job title': 'Director of Customer Success',
+    jobTitle: 'Director of Customer Success',
     team: 'Sales',
     salary: '115000',
     city: 'Chicago',
@@ -25532,7 +25532,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 15:51:57',
-    'job title': 'Front End Developer',
+    jobTitle: 'Front End Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '115000',
@@ -25543,7 +25543,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     'job level': '4',
     salary: '115000',
@@ -25555,7 +25555,7 @@ const data = [
   },
   {
     Timestamp: '2/8/2020 2:24:07',
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '115000',
     city: 'Los Angeles',
@@ -25565,7 +25565,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '115000',
     city: 'Dallas',
@@ -25576,7 +25576,7 @@ const data = [
   },
   {
     Timestamp: '1/24/2020 15:11:43',
-    'job title': 'Marketing Campaigns Manager',
+    jobTitle: 'Marketing Campaigns Manager',
     team: 'Marketing',
     salary: '115000',
     city: 'San Francisco Bay Area',
@@ -25586,7 +25586,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '115000',
@@ -25597,7 +25597,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '115000',
     city: 'San Francisco',
@@ -25608,7 +25608,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 0:29:47',
-    'job title': 'Product Analyst',
+    jobTitle: 'Product Analyst',
     team: 'Product Management',
     salary: '115000',
     city: 'San Francisco Bay Area',
@@ -25619,7 +25619,7 @@ const data = [
   },
   {
     Timestamp: '2/22/2020 15:17:18',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     salary: '115000',
     city: 'San Diego',
@@ -25630,7 +25630,7 @@ const data = [
   },
   {
     Timestamp: '2/26/2020 10:39:34',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     salary: '115000',
     city: 'New York City',
@@ -25641,7 +25641,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 1:43:32',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '115000',
     city: 'San Diego',
@@ -25652,7 +25652,7 @@ const data = [
   },
   {
     Timestamp: '2/15/2020 1:12:09',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '115000',
     city: 'San Francisco Bay Area',
@@ -25663,7 +25663,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 8:38:50',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '115000',
     city: 'Pittsburgh',
@@ -25674,7 +25674,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 20:29:53',
-    'job title': 'Product Manager consultant ',
+    jobTitle: 'Product Manager consultant ',
     team: 'Product Management',
     salary: '115000',
     city: 'San Francisco Bay Area',
@@ -25684,7 +25684,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'QA Engineer',
+    jobTitle: 'QA Engineer',
     team: 'Software Engineering',
     salary: '115000',
     city: 'Oklahoma City',
@@ -25694,7 +25694,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'R&D',
+    jobTitle: 'R&D',
     team: 'Misc',
     salary: '115000',
     city: 'Plano',
@@ -25705,7 +25705,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 1:18:57',
-    'job title': 'Recruiter',
+    jobTitle: 'Recruiter',
     team: 'Recruiting',
     salary: '115000',
     city: 'San Francisco Bay Area',
@@ -25716,7 +25716,7 @@ const data = [
   },
   {
     Timestamp: '5/15/2020 14:30:37',
-    'job title': 'Scrum Master',
+    jobTitle: 'Scrum Master',
     team: 'Agile',
     salary: '115000',
     city: 'Houston',
@@ -25726,7 +25726,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Security Engineer',
+    jobTitle: 'Security Engineer',
     team: 'Network, Security & IT',
     salary: '115000',
     city: 'Los Angeles',
@@ -25736,7 +25736,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     salary: '115000',
     city: 'Buffalo',
@@ -25747,7 +25747,7 @@ const data = [
   },
   {
     Timestamp: '2/15/2020 13:07:33',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '115000',
@@ -25758,7 +25758,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '115000',
@@ -25770,7 +25770,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 11:41:04',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '115000',
@@ -25782,7 +25782,7 @@ const data = [
   },
   {
     Timestamp: '1/23/2020 13:45:10',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '115000',
@@ -25794,7 +25794,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 17:21:58',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '115000',
@@ -25806,7 +25806,7 @@ const data = [
   },
   {
     Timestamp: '1/26/2021 12:03:21',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '115000',
@@ -25818,7 +25818,7 @@ const data = [
   },
   {
     Timestamp: '11/27/2020 18:06:23',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '115000',
     city: 'Washington',
@@ -25828,7 +25828,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '115000',
@@ -25839,7 +25839,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '115000',
     city: 'Des Moines',
@@ -25850,7 +25850,7 @@ const data = [
   },
   {
     Timestamp: '2/11/2020 21:50:36',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '115000',
@@ -25861,7 +25861,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '115000',
     city: 'New York City',
@@ -25872,7 +25872,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2020 20:09:18',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '115000',
@@ -25883,7 +25883,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '115000',
     city: 'Cary',
@@ -25893,7 +25893,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '115000',
     city: 'Cincinnati',
@@ -25903,7 +25903,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '115000',
     city: 'Portland',
@@ -25913,7 +25913,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '115000',
     city: 'Philadelphia',
@@ -25923,7 +25923,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '115000',
     city: 'Salt Lake City',
@@ -25934,7 +25934,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 22:41:34',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '115000',
@@ -25946,7 +25946,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 1:49:09',
-    'job title': 'Specialist in Engineering',
+    jobTitle: 'Specialist in Engineering',
     team: 'Software Engineering',
     salary: '115000',
     city: 'San Francisco Bay Area',
@@ -25957,7 +25957,7 @@ const data = [
   },
   {
     Timestamp: '1/17/2020 15:09:52',
-    'job title': 'Sr. Brand Manager',
+    jobTitle: 'Sr. Brand Manager',
     team: 'Product Design',
     salary: '115000',
     city: 'New York City',
@@ -25968,7 +25968,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 1:37:41',
-    'job title': 'Sr. Engineer',
+    jobTitle: 'Sr. Engineer',
     team: 'Software Engineering',
     salary: '115000',
     city: 'Cleveland',
@@ -25979,7 +25979,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 17:53:16',
-    'job title': 'Sr. Marketing Brand Manager',
+    jobTitle: 'Sr. Marketing Brand Manager',
     team: 'Marketing',
     salary: '115000',
     city: 'Seattle',
@@ -25990,7 +25990,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 12:33:03',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '115000',
     city: 'Boston',
@@ -26001,7 +26001,7 @@ const data = [
   },
   {
     Timestamp: '3/10/2020 19:36:23',
-    'job title': 'Sr. UX/UI Developer',
+    jobTitle: 'Sr. UX/UI Developer',
     team: 'Software Engineering',
     salary: '115000',
     city: 'Milwaukee',
@@ -26011,7 +26011,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '115000',
@@ -26022,7 +26022,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '115000',
@@ -26033,7 +26033,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '115000',
     city: 'New York City',
@@ -26043,7 +26043,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '6',
     salary: '115000',
@@ -26054,7 +26054,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '115000',
     city: 'Portland',
@@ -26064,7 +26064,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '115000',
     city: 'Bellevue',
@@ -26074,7 +26074,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '115000',
     city: 'Seattle',
@@ -26085,7 +26085,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 10:58:45',
-    'job title': 'Technical Program Manager',
+    jobTitle: 'Technical Program Manager',
     team: 'Technical Program Management',
     salary: '115000',
     city: 'Minneapolis',
@@ -26095,7 +26095,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '115000',
@@ -26107,7 +26107,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 13:12:32',
-    'job title': 'UX Manager',
+    jobTitle: 'UX Manager',
     team: 'Product Design',
     salary: '115000',
     city: 'New York City',
@@ -26118,7 +26118,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 8:52:43',
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     salary: '115000',
     city: 'San Francisco Bay Area',
@@ -26129,7 +26129,7 @@ const data = [
   },
   {
     Timestamp: '1/14/2020 12:36:52',
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     salary: '115000',
     city: 'San Francisco Bay Area',
@@ -26140,7 +26140,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 22:37:40',
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     salary: '115000',
     city: 'New York City',
@@ -26150,7 +26150,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     salary: '115000',
     city: 'Las Vegas',
@@ -26160,7 +26160,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '115080',
     city: 'San Diego',
@@ -26171,7 +26171,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 12:49:18',
-    'job title': 'Recruiter',
+    jobTitle: 'Recruiter',
     team: 'Recruiting',
     salary: '115200',
     city: 'San Francisco Bay Area',
@@ -26182,7 +26182,7 @@ const data = [
   },
   {
     Timestamp: '1/16/2020 18:50:53',
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '115680',
     city: 'Philadelphia',
@@ -26192,7 +26192,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '115939',
     city: 'Sacramento',
@@ -26203,7 +26203,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 17:56:39',
-    'job title': 'Content Marketing Manager',
+    jobTitle: 'Content Marketing Manager',
     team: 'Marketing',
     salary: '116000',
     city: 'San Francisco Bay Area',
@@ -26213,7 +26213,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '116000',
@@ -26224,7 +26224,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '116000',
@@ -26235,7 +26235,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '116000',
@@ -26247,7 +26247,7 @@ const data = [
   },
   {
     Timestamp: '2/11/2020 21:57:22',
-    'job title': 'Software Application Developer',
+    jobTitle: 'Software Application Developer',
     team: 'Software Engineering',
     salary: '116000',
     city: 'San Francisco Bay Area',
@@ -26258,7 +26258,7 @@ const data = [
   },
   {
     Timestamp: '10/8/2020 12:44:55',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     salary: '116000',
     city: 'Seattle',
@@ -26269,7 +26269,7 @@ const data = [
   },
   {
     Timestamp: '10/8/2020 14:38:31',
-    'job title': 'Sr. Program Manager',
+    jobTitle: 'Sr. Program Manager',
     team: 'Technical Program Management',
     salary: '116000',
     city: 'Seattle',
@@ -26279,7 +26279,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '116200',
     city: 'Dallas',
@@ -26290,7 +26290,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 22:18:25',
-    'job title': 'Brand Manager',
+    jobTitle: 'Brand Manager',
     team: 'Product Management',
     salary: '117000',
     city: 'New York City',
@@ -26301,7 +26301,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2020 18:21:08',
-    'job title': 'Channel Marketing Manager',
+    jobTitle: 'Channel Marketing Manager',
     team: 'Marketing',
     salary: '117000',
     city: 'Boston',
@@ -26311,7 +26311,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '117000',
@@ -26323,7 +26323,7 @@ const data = [
   },
   {
     Timestamp: '2/29/2020 18:37:50',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '117000',
     city: 'Austin',
@@ -26333,7 +26333,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '117000',
@@ -26344,7 +26344,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '117500',
@@ -26356,7 +26356,7 @@ const data = [
   },
   {
     Timestamp: '2/11/2020 22:47:55',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '117500',
     city: 'San Francisco Bay Area',
@@ -26367,7 +26367,7 @@ const data = [
   },
   {
     Timestamp: '2/27/2020 13:19:58',
-    'job title': 'Business Analyst',
+    jobTitle: 'Business Analyst',
     team: 'Business Analytics',
     salary: '118000',
     city: 'New York City',
@@ -26378,7 +26378,7 @@ const data = [
   },
   {
     Timestamp: '2/15/2020 15:12:00',
-    'job title': 'Design Strategist',
+    jobTitle: 'Design Strategist',
     team: 'Product Design',
     salary: '118000',
     city: 'San Francisco Bay Area',
@@ -26388,7 +26388,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '118000',
     city: 'Indianapolis',
@@ -26399,7 +26399,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 11:39:31',
-    'job title': 'Manager of Talent Management',
+    jobTitle: 'Manager of Talent Management',
     team: 'Human Resources',
     salary: '118000',
     city: 'San Francisco Bay Area',
@@ -26410,7 +26410,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 8:07:46',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '118000',
     city: 'Washington',
@@ -26421,7 +26421,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 17:14:53',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '118000',
@@ -26433,7 +26433,7 @@ const data = [
   },
   {
     Timestamp: '2/10/2020 21:58:34',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '118000',
     city: 'Boston',
@@ -26444,7 +26444,7 @@ const data = [
   },
   {
     Timestamp: '2/27/2020 16:41:54',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '118000',
@@ -26456,7 +26456,7 @@ const data = [
   },
   {
     Timestamp: '1/23/2020 21:45:08',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '118000',
@@ -26468,7 +26468,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 10:29:44',
-    'job title': 'Sr. Product Designer',
+    jobTitle: 'Sr. Product Designer',
     team: 'Product Design',
     salary: '118000',
     city: 'Boston',
@@ -26478,7 +26478,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '118000',
     city: 'San Francisco',
@@ -26488,7 +26488,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '118000',
     city: 'Baton Rouge',
@@ -26498,7 +26498,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '6',
     salary: '118000',
@@ -26509,7 +26509,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '118000',
@@ -26520,7 +26520,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '118000',
@@ -26531,7 +26531,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '118000',
     city: 'Portland',
@@ -26542,7 +26542,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2021 19:05:03',
-    'job title': 'Systems Engineer',
+    jobTitle: 'Systems Engineer',
     team: 'Network, Security & IT',
     salary: '118000',
     city: 'San Francisco Bay Area',
@@ -26553,7 +26553,7 @@ const data = [
   },
   {
     Timestamp: '10/11/2020 2:21:14',
-    'job title': 'Project Manager',
+    jobTitle: 'Project Manager',
     team: 'Product Management',
     salary: '118400',
     city: 'San Francisco Bay Area',
@@ -26564,7 +26564,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 0:11:08',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '118500',
     city: 'San Francisco Bay Area',
@@ -26575,7 +26575,7 @@ const data = [
   },
   {
     Timestamp: '4/17/2020 19:14:41',
-    'job title': 'Executive Assistant',
+    jobTitle: 'Executive Assistant',
     team: 'Misc',
     salary: '119000',
     city: 'San Francisco Bay Area',
@@ -26586,7 +26586,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 22:06:34',
-    'job title': 'Managed Services Consultant',
+    jobTitle: 'Managed Services Consultant',
     team: 'Misc',
     salary: '119000',
     city: 'Charlotte',
@@ -26597,7 +26597,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 9:18:54',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '119000',
     city: 'St. Louis',
@@ -26607,7 +26607,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '119000',
     city: 'Boston',
@@ -26618,7 +26618,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 12:23:00',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '119000',
@@ -26630,7 +26630,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 15:11:59',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '119500',
@@ -26642,7 +26642,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 22:18:57',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '119500',
     city: 'Portland',
@@ -26653,7 +26653,7 @@ const data = [
   },
   {
     Timestamp: '2/25/2020 1:45:47',
-    'job title': 'Account Manager',
+    jobTitle: 'Account Manager',
     team: 'Sales',
     salary: '120000',
     city: 'San Francisco Bay Area',
@@ -26663,7 +26663,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Account Manager',
+    jobTitle: 'Account Manager',
     team: 'Sales',
     'job level': '3',
     salary: '120000',
@@ -26675,7 +26675,7 @@ const data = [
   },
   {
     Timestamp: '1/17/2020 9:45:50',
-    'job title': 'Business Analyst',
+    jobTitle: 'Business Analyst',
     team: 'Business Analytics',
     salary: '120000',
     city: 'Chicago',
@@ -26686,7 +26686,7 @@ const data = [
   },
   {
     Timestamp: '2/9/2020 12:15:37',
-    'job title': 'Business Development Director',
+    jobTitle: 'Business Development Director',
     team: 'Sales',
     salary: '120000',
     city: 'San Francisco Bay Area',
@@ -26697,7 +26697,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 18:51:57',
-    'job title': 'Channel Sales Manager',
+    jobTitle: 'Channel Sales Manager',
     team: 'Sales',
     salary: '120000',
     city: 'Columbus',
@@ -26708,7 +26708,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 13:18:38',
-    'job title': 'Client Success Manager',
+    jobTitle: 'Client Success Manager',
     team: 'Sales',
     salary: '120000',
     city: 'Austin',
@@ -26719,7 +26719,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 18:47:30',
-    'job title': 'Community Lead',
+    jobTitle: 'Community Lead',
     team: 'Misc',
     salary: '120000',
     city: 'San Francisco Bay Area',
@@ -26730,7 +26730,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 14:50:25',
-    'job title': 'Content Marketing Manager',
+    jobTitle: 'Content Marketing Manager',
     team: 'Marketing',
     salary: '120000',
     city: 'San Francisco Bay Area',
@@ -26741,7 +26741,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 20:51:36',
-    'job title': 'Content Strategist',
+    jobTitle: 'Content Strategist',
     team: 'Creative',
     salary: '120000',
     city: 'San Francisco Bay Area',
@@ -26751,7 +26751,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Cybersecurity Senior Analyst',
+    jobTitle: 'Cybersecurity Senior Analyst',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '120000',
@@ -26763,7 +26763,7 @@ const data = [
   },
   {
     Timestamp: '10/21/2020 13:56:29',
-    'job title': 'Data Scientist',
+    jobTitle: 'Data Scientist',
     team: 'Data Science',
     salary: '120000',
     city: 'Greenville',
@@ -26773,7 +26773,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '120000',
@@ -26784,7 +26784,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '120000',
@@ -26795,7 +26795,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '120000',
     city: 'Bellevue',
@@ -26806,7 +26806,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 15:37:26',
-    'job title': 'Director of Product Management',
+    jobTitle: 'Director of Product Management',
     team: 'Product Management',
     salary: '120000',
     city: 'Brooklyn',
@@ -26817,7 +26817,7 @@ const data = [
   },
   {
     Timestamp: '1/17/2020 9:56:25',
-    'job title': 'Director of Product Management',
+    jobTitle: 'Director of Product Management',
     team: 'Product Management',
     salary: '120000',
     city: 'New York City',
@@ -26828,7 +26828,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 8:40:51',
-    'job title': 'Director of Technology',
+    jobTitle: 'Director of Technology',
     team: 'Misc',
     salary: '120000',
     city: 'New York City',
@@ -26839,7 +26839,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 17:12:13',
-    'job title': 'Founder',
+    jobTitle: 'Founder',
     team: 'Operations',
     salary: '120000',
     city: 'Salt Lake City',
@@ -26850,7 +26850,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 16:05:25',
-    'job title': 'Head of Learning and Development',
+    jobTitle: 'Head of Learning and Development',
     team: 'Misc',
     salary: '120000',
     city: 'San Francisco Bay Area',
@@ -26861,7 +26861,7 @@ const data = [
   },
   {
     Timestamp: '2/25/2020 1:28:33',
-    'job title': 'IT Business Analyst ',
+    jobTitle: 'IT Business Analyst ',
     team: 'Network, Security & IT',
     salary: '120000',
     city: 'Washington',
@@ -26871,7 +26871,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '120000',
     city: 'San Francisco Bay Area',
@@ -26881,7 +26881,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '120000',
     city: 'Durham',
@@ -26891,7 +26891,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '120000',
     city: 'Honolulu',
@@ -26901,7 +26901,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '120000',
     city: 'Louisville',
@@ -26912,7 +26912,7 @@ const data = [
   },
   {
     Timestamp: '3/5/2020 12:03:09',
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '120000',
     city: 'McLean',
@@ -26923,7 +26923,7 @@ const data = [
   },
   {
     Timestamp: '4/21/2020 17:12:51',
-    'job title': 'Lead UX Designer',
+    jobTitle: 'Lead UX Designer',
     team: 'Product Design',
     salary: '120000',
     city: 'Chicago',
@@ -26934,7 +26934,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 18:58:46',
-    'job title': 'Marketing Director',
+    jobTitle: 'Marketing Director',
     team: 'Marketing',
     salary: '120000',
     city: 'San Francisco Bay Area',
@@ -26944,7 +26944,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '120000',
@@ -26955,7 +26955,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '120000',
     city: 'Boston',
@@ -26965,7 +26965,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '120000',
     city: 'New York City',
@@ -26975,7 +26975,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '120000',
@@ -26986,7 +26986,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '120000',
@@ -26998,7 +26998,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 22:05:27',
-    'job title': 'Performance Marketing Manager ',
+    jobTitle: 'Performance Marketing Manager ',
     team: 'Marketing',
     salary: '120000',
     city: 'San Francisco Bay Area',
@@ -27009,7 +27009,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:52:01',
-    'job title': 'Pre-sale Solutions Engineer ',
+    jobTitle: 'Pre-sale Solutions Engineer ',
     team: 'Sales',
     salary: '120000',
     city: 'Chicago',
@@ -27020,7 +27020,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 8:57:47',
-    'job title': 'Principal Research Scientist',
+    jobTitle: 'Principal Research Scientist',
     team: 'Product Design',
     salary: '120000',
     city: 'Albuquerque',
@@ -27031,7 +27031,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 21:33:38',
-    'job title': 'Producer',
+    jobTitle: 'Producer',
     team: 'Misc',
     salary: '120000',
     city: 'Los Angeles',
@@ -27042,7 +27042,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 12:55:01',
-    'job title': 'Product Design Lead',
+    jobTitle: 'Product Design Lead',
     team: 'Product Design',
     salary: '120000',
     city: 'Salt Lake City',
@@ -27053,7 +27053,7 @@ const data = [
   },
   {
     Timestamp: '12/2/2020 16:45:03',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     salary: '120000',
     city: 'San Francisco Bay Area',
@@ -27064,7 +27064,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 21:23:17',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '120000',
     city: 'San Francisco Bay Area',
@@ -27075,7 +27075,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 21:34:41',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '120000',
     city: 'Atlanta',
@@ -27085,7 +27085,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '120000',
     city: 'Chicago',
@@ -27096,7 +27096,7 @@ const data = [
   },
   {
     Timestamp: '5/24/2020 19:38:11',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '120000',
     city: 'New York City',
@@ -27107,7 +27107,7 @@ const data = [
   },
   {
     Timestamp: '6/19/2020 13:12:11',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '120000',
     city: 'Raleigh',
@@ -27118,7 +27118,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 8:56:41',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '120000',
     city: 'Philadelphia',
@@ -27129,7 +27129,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 6:02:44',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '120000',
     city: 'Dallas',
@@ -27140,7 +27140,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:46:20',
-    'job title': 'Product Manager and Research Specialist',
+    jobTitle: 'Product Manager and Research Specialist',
     team: 'Product Management',
     salary: '120000',
     city: 'New York City',
@@ -27151,7 +27151,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 13:58:10',
-    'job title': 'Product Marketing Manager',
+    jobTitle: 'Product Marketing Manager',
     team: 'Marketing',
     salary: '120000',
     city: 'New York City',
@@ -27162,7 +27162,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 23:22:22',
-    'job title': 'Product Marketing Manager',
+    jobTitle: 'Product Marketing Manager',
     team: 'Marketing',
     salary: '120000',
     city: 'Austin',
@@ -27173,7 +27173,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 16:54:08',
-    'job title': 'Project Manager',
+    jobTitle: 'Project Manager',
     team: 'Product Management',
     salary: '120000',
     city: 'Seattle',
@@ -27183,7 +27183,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Security Consultant',
+    jobTitle: 'Security Consultant',
     team: 'Network, Security & IT',
     salary: '120000',
     city: 'Austin',
@@ -27193,7 +27193,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Security engineer',
+    jobTitle: 'Security engineer',
     team: 'Network, Security & IT',
     salary: '120000',
     city: 'Spokane',
@@ -27203,7 +27203,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '120000',
@@ -27214,7 +27214,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     salary: '120000',
     city: 'Dayton',
@@ -27225,7 +27225,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 13:28:57',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '120000',
@@ -27237,7 +27237,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 0:46:25',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '120000',
@@ -27249,7 +27249,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:58:20',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '120000',
@@ -27260,7 +27260,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '120000',
     city: 'San Francisco',
@@ -27271,7 +27271,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 13:53:42',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '120000',
@@ -27282,7 +27282,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '120000',
     city: 'San Francisco',
@@ -27292,7 +27292,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '8',
     salary: '120000',
@@ -27304,7 +27304,7 @@ const data = [
   },
   {
     Timestamp: '10/30/2020 13:05:15',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '120000',
@@ -27315,7 +27315,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '120000',
     city: 'Denver',
@@ -27326,7 +27326,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 13:30:11',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '120000',
     city: 'Denver',
@@ -27336,7 +27336,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '120000',
     city: 'Washington',
@@ -27346,7 +27346,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '120000',
@@ -27358,7 +27358,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 14:41:53',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '120000',
@@ -27370,7 +27370,7 @@ const data = [
   },
   {
     Timestamp: '8/25/2020 11:22:22',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '120000',
@@ -27382,7 +27382,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 11:05:45',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '120000',
@@ -27394,7 +27394,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 9:39:00',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '120000',
@@ -27405,7 +27405,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '120000',
     city: 'Philadelphia',
@@ -27416,7 +27416,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 12:42:54',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '120000',
@@ -27427,7 +27427,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '120000',
     city: 'Lehi',
@@ -27437,7 +27437,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '120000',
     city: 'Seattle',
@@ -27447,7 +27447,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '120000',
     city: 'Madison',
@@ -27458,7 +27458,7 @@ const data = [
   },
   {
     Timestamp: '2/23/2020 23:18:13',
-    'job title': 'Sourcing Analyst ',
+    jobTitle: 'Sourcing Analyst ',
     team: 'Misc',
     salary: '120000',
     city: 'San Francisco Bay Area',
@@ -27469,7 +27469,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 9:32:18',
-    'job title': 'Sr. Customer Service Manager',
+    jobTitle: 'Sr. Customer Service Manager',
     team: 'Sales',
     salary: '120000',
     city: 'Boston',
@@ -27480,7 +27480,7 @@ const data = [
   },
   {
     Timestamp: '10/11/2020 8:50:05',
-    'job title': 'Sr. Customer Service Manager',
+    jobTitle: 'Sr. Customer Service Manager',
     team: 'Sales',
     salary: '120000',
     city: 'New York City',
@@ -27491,7 +27491,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 17:04:09',
-    'job title': 'Sr. Digital Producer',
+    jobTitle: 'Sr. Digital Producer',
     team: 'Misc',
     salary: '120000',
     city: 'San Francisco Bay Area',
@@ -27502,7 +27502,7 @@ const data = [
   },
   {
     Timestamp: '11/29/2020 14:49:33',
-    'job title': 'Sr. Financial Analyst',
+    jobTitle: 'Sr. Financial Analyst',
     team: 'Accounting',
     salary: '120000',
     city: 'San Francisco Bay Area',
@@ -27513,7 +27513,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 15:41:05',
-    'job title': 'Sr. Manager Engineering Enablement',
+    jobTitle: 'Sr. Manager Engineering Enablement',
     team: 'Misc',
     salary: '120000',
     city: 'Boston',
@@ -27524,7 +27524,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 19:05:02',
-    'job title': 'Sr. Manager of Customer Success',
+    jobTitle: 'Sr. Manager of Customer Success',
     team: 'Sales',
     salary: '120000',
     city: 'Ann Arbor',
@@ -27535,7 +27535,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 7:08:08',
-    'job title': 'Sr. Manager of Quality Assurance',
+    jobTitle: 'Sr. Manager of Quality Assurance',
     team: 'Misc',
     salary: '120000',
     city: 'Glendale',
@@ -27546,7 +27546,7 @@ const data = [
   },
   {
     Timestamp: '2/25/2020 19:40:49',
-    'job title': 'Sr. Product Designer',
+    jobTitle: 'Sr. Product Designer',
     team: 'Product Design',
     salary: '120000',
     city: 'Los Angeles',
@@ -27557,7 +27557,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 11:46:25',
-    'job title': 'Sr. Product Designer',
+    jobTitle: 'Sr. Product Designer',
     team: 'Product Design',
     salary: '120000',
     city: 'New York City',
@@ -27568,7 +27568,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 12:43:56',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '120000',
     city: 'Washington',
@@ -27579,7 +27579,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 22:34:14',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '120000',
     city: 'Chicago',
@@ -27590,7 +27590,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:42:53',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '120000',
     city: 'Minneapolis',
@@ -27601,7 +27601,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 7:46:11',
-    'job title': 'Sr. Product Owner',
+    jobTitle: 'Sr. Product Owner',
     team: 'Agile',
     salary: '120000',
     city: 'Atlanta',
@@ -27612,7 +27612,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 15:08:16',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '120000',
     city: 'St. Louis',
@@ -27623,7 +27623,7 @@ const data = [
   },
   {
     Timestamp: '7/16/2020 18:43:19',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '120000',
     city: 'Raleigh',
@@ -27634,7 +27634,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 0:34:11',
-    'job title': 'Sr. Systems Engineer',
+    jobTitle: 'Sr. Systems Engineer',
     team: 'Network, Security & IT',
     salary: '120000',
     city: 'Seattle',
@@ -27645,7 +27645,7 @@ const data = [
   },
   {
     Timestamp: '7/14/2020 12:54:58',
-    'job title': 'Sr. UX Researcher',
+    jobTitle: 'Sr. UX Researcher',
     team: 'Product Design',
     salary: '120000',
     city: 'New York City',
@@ -27655,7 +27655,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '7',
     salary: '120000',
@@ -27666,7 +27666,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '120000',
     city: 'Hartford',
@@ -27676,7 +27676,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '120000',
     city: 'Washington',
@@ -27686,7 +27686,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '120000',
     city: 'Atlanta',
@@ -27696,7 +27696,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '120000',
     city: 'Chicago',
@@ -27706,7 +27706,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '120000',
     city: 'Boston',
@@ -27716,7 +27716,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '120000',
     city: 'St. Louis',
@@ -27726,7 +27726,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '120000',
     city: 'New York City',
@@ -27736,7 +27736,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '120000',
     city: 'New York City',
@@ -27747,7 +27747,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:52:45',
-    'job title': 'Systems Analyst',
+    jobTitle: 'Systems Analyst',
     team: 'Network, Security & IT',
     salary: '120000',
     city: 'Miami',
@@ -27758,7 +27758,7 @@ const data = [
   },
   {
     Timestamp: '2/9/2020 13:29:45',
-    'job title': 'Technical Product Manager',
+    jobTitle: 'Technical Product Manager',
     team: 'Product Management',
     salary: '120000',
     city: 'San Francisco Bay Area',
@@ -27769,7 +27769,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 22:24:47',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '120000',
     city: 'Washington',
@@ -27780,7 +27780,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 11:52:34',
-    'job title': 'VP of Consumer Growth',
+    jobTitle: 'VP of Consumer Growth',
     team: 'Operations',
     salary: '120000',
     city: 'Cedar Rapids',
@@ -27790,7 +27790,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '120750',
@@ -27802,7 +27802,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 15:47:18',
-    'job title': 'Data Scientist',
+    jobTitle: 'Data Scientist',
     team: 'Data Science',
     salary: '121000',
     city: 'New York City',
@@ -27813,7 +27813,7 @@ const data = [
   },
   {
     Timestamp: '2/10/2020 10:11:46',
-    'job title': 'Marketing Manager',
+    jobTitle: 'Marketing Manager',
     team: 'Marketing',
     salary: '121000',
     city: 'Charlotte',
@@ -27823,7 +27823,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '121000',
     city: 'San Diego',
@@ -27833,7 +27833,7 @@ const data = [
     education: 'Doctorate or Post-doctorate'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '121000',
     city: 'Columbus',
@@ -27844,7 +27844,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 19:12:19',
-    'job title': 'Design Verification Engineer',
+    jobTitle: 'Design Verification Engineer',
     team: 'Product Design',
     salary: '121400',
     city: 'Seattle',
@@ -27855,7 +27855,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 14:07:00',
-    'job title': 'Conversation Designer',
+    jobTitle: 'Conversation Designer',
     team: 'Product Design',
     salary: '122000',
     city: 'Atlanta',
@@ -27866,7 +27866,7 @@ const data = [
   },
   {
     Timestamp: '2/10/2020 0:49:49',
-    'job title': 'Global Supply Manager',
+    jobTitle: 'Global Supply Manager',
     team: 'Misc',
     salary: '122000',
     city: 'San Francisco Bay Area',
@@ -27877,7 +27877,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 15:49:23',
-    'job title': 'IT Manager',
+    jobTitle: 'IT Manager',
     team: 'Network, Security & IT',
     salary: '122000',
     city: 'Seattle',
@@ -27887,7 +27887,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '122000',
     city: 'Chicago',
@@ -27897,7 +27897,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '122000',
@@ -27909,7 +27909,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 18:35:11',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '122000',
@@ -27920,7 +27920,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '122000',
     city: 'Washington',
@@ -27931,7 +27931,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 17:14:04',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '122000',
     city: 'Boston',
@@ -27941,7 +27941,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '122000',
     city: 'Detroit',
@@ -27952,7 +27952,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:55:31',
-    'job title': 'Sr. Marketing Manager',
+    jobTitle: 'Sr. Marketing Manager',
     team: 'Marketing',
     salary: '122000',
     city: 'Seattle',
@@ -27962,7 +27962,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '122000',
     city: 'New York City',
@@ -27973,7 +27973,7 @@ const data = [
   },
   {
     Timestamp: '2/3/2020 16:35:52',
-    'job title': 'UX Design Lead',
+    jobTitle: 'UX Design Lead',
     team: 'Product Design',
     salary: '122000',
     city: 'Raleigh',
@@ -27983,7 +27983,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '122350',
     city: 'Chicago',
@@ -27993,7 +27993,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '122400',
     city: 'Austin',
@@ -28004,7 +28004,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:00:31',
-    'job title': 'Lead Data Engineer',
+    jobTitle: 'Lead Data Engineer',
     team: 'Data Science',
     'job level': '1',
     salary: '122500',
@@ -28015,7 +28015,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '122500',
     city: 'Denver',
@@ -28026,7 +28026,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 13:32:59',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '122500',
@@ -28038,7 +28038,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 15:07:21',
-    'job title': 'EMC Storage Engineer II',
+    jobTitle: 'EMC Storage Engineer II',
     team: 'Data Science',
     salary: '122720',
     city: 'Kansas City',
@@ -28048,7 +28048,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '123000',
     city: 'Birmingham',
@@ -28059,7 +28059,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 15:45:39',
-    'job title': 'IT Manager',
+    jobTitle: 'IT Manager',
     team: 'Network, Security & IT',
     salary: '123000',
     city: 'New York City',
@@ -28070,7 +28070,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 5:33:36',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '123000',
     city: 'Herndon',
@@ -28080,7 +28080,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '123000',
     city: 'Reston',
@@ -28091,7 +28091,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 15:18:11',
-    'job title': 'Sr. Solutions Consultant ',
+    jobTitle: 'Sr. Solutions Consultant ',
     team: 'Sales',
     salary: '123000',
     city: 'New York City',
@@ -28102,7 +28102,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 19:09:44',
-    'job title': 'Sr. System Administrator',
+    jobTitle: 'Sr. System Administrator',
     team: 'Network, Security & IT',
     salary: '123000',
     city: 'Centreville',
@@ -28113,7 +28113,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 13:45:57',
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     salary: '123000',
     city: 'San Francisco Bay Area',
@@ -28124,7 +28124,7 @@ const data = [
   },
   {
     Timestamp: '1/16/2020 0:18:16',
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     salary: '123000',
     city: 'Seattle',
@@ -28135,7 +28135,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 17:19:19',
-    'job title': 'Sr. Product Designer',
+    jobTitle: 'Sr. Product Designer',
     team: 'Product Design',
     salary: '123500',
     city: 'Los Angeles',
@@ -28146,7 +28146,7 @@ const data = [
   },
   {
     Timestamp: '7/31/2020 0:19:39',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '123500',
     city: 'Seattle',
@@ -28156,7 +28156,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '124000',
@@ -28168,7 +28168,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 1:43:55',
-    'job title': 'Director Recruiting',
+    jobTitle: 'Director Recruiting',
     team: 'Recruiting',
     salary: '124000',
     city: 'San Francisco Bay Area',
@@ -28179,7 +28179,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 16:46:04',
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '124000',
     city: 'Boulder',
@@ -28190,7 +28190,7 @@ const data = [
   },
   {
     Timestamp: '2/9/2020 21:27:49',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '124000',
     city: 'San Francisco Bay Area',
@@ -28201,7 +28201,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 13:45:27',
-    'job title': 'Quality Systems Manager',
+    jobTitle: 'Quality Systems Manager',
     team: 'Misc',
     salary: '124000',
     city: 'San Francisco Bay Area',
@@ -28212,7 +28212,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 13:45:32',
-    'job title': 'Quality Systems Manager',
+    jobTitle: 'Quality Systems Manager',
     team: 'Misc',
     salary: '124000',
     city: 'San Francisco Bay Area',
@@ -28222,7 +28222,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Security engineer',
+    jobTitle: 'Security engineer',
     team: 'Network, Security & IT',
     'job level': '5',
     salary: '124000',
@@ -28234,7 +28234,7 @@ const data = [
   },
   {
     Timestamp: '2/14/2020 20:42:11',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '124000',
@@ -28245,7 +28245,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '4',
     salary: '124000',
@@ -28257,7 +28257,7 @@ const data = [
   },
   {
     Timestamp: '9/9/2020 18:48:58',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '124000',
     city: 'New York City',
@@ -28268,7 +28268,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 8:00:44',
-    'job title': 'Sr. Engineering Manager',
+    jobTitle: 'Sr. Engineering Manager',
     team: 'Software Engineering',
     salary: '124000',
     city: 'Kansas City',
@@ -28279,7 +28279,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:56:37',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '124000',
     city: 'Seattle',
@@ -28289,7 +28289,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '8',
     salary: '124000',
@@ -28300,7 +28300,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '124250',
@@ -28312,7 +28312,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 14:54:14',
-    'job title': 'Sr. Mobile QA Engineer ',
+    jobTitle: 'Sr. Mobile QA Engineer ',
     team: 'Software Engineering',
     salary: '124500',
     city: 'San Francisco Bay Area',
@@ -28323,7 +28323,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 23:27:17',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '124500',
     city: 'San Francisco Bay Area',
@@ -28333,7 +28333,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Hardware Engineer',
+    jobTitle: 'Hardware Engineer',
     team: 'Hardware Engineering',
     'job level': '2',
     salary: '124682',
@@ -28345,7 +28345,7 @@ const data = [
   },
   {
     Timestamp: '7/13/2020 19:06:18',
-    'job title': 'AI Engineer',
+    jobTitle: 'AI Engineer',
     team: 'Data Science',
     'job level': '2',
     salary: '125000',
@@ -28357,7 +28357,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 14:14:29',
-    'job title': 'Brand Manager',
+    jobTitle: 'Brand Manager',
     team: 'Product Management',
     salary: '125000',
     city: 'Chicago',
@@ -28367,7 +28367,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '125000',
     city: 'Cambridge',
@@ -28378,7 +28378,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 14:46:55',
-    'job title': 'Data Engineer',
+    jobTitle: 'Data Engineer',
     team: 'Data Science',
     salary: '125000',
     city: 'San Francisco Bay Area',
@@ -28389,7 +28389,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 19:54:54',
-    'job title': 'Designer',
+    jobTitle: 'Designer',
     team: 'Product Design',
     salary: '125000',
     city: 'San Francisco Bay Area',
@@ -28399,7 +28399,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '125000',
@@ -28410,7 +28410,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '125000',
     city: 'New York City',
@@ -28420,7 +28420,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '125000',
     city: 'Alexandria',
@@ -28431,7 +28431,7 @@ const data = [
   },
   {
     Timestamp: '11/19/2020 13:07:22',
-    'job title': 'Developer Community Manager',
+    jobTitle: 'Developer Community Manager',
     team: 'Human Resources',
     salary: '125000',
     city: 'San Francisco Bay Area',
@@ -28442,7 +28442,7 @@ const data = [
   },
   {
     Timestamp: '9/16/2020 23:04:23',
-    'job title': 'Director of Content',
+    jobTitle: 'Director of Content',
     team: 'Creative',
     salary: '125000',
     city: 'San Diego',
@@ -28453,7 +28453,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 13:16:48',
-    'job title': 'Director of Marketing Strategy ',
+    jobTitle: 'Director of Marketing Strategy ',
     team: 'Marketing Ops',
     salary: '125000',
     city: 'Cupertino',
@@ -28464,7 +28464,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 15:07:41',
-    'job title': 'Director of Product Development',
+    jobTitle: 'Director of Product Development',
     team: 'Product Design',
     salary: '125000',
     city: 'New York City',
@@ -28475,7 +28475,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 21:08:09',
-    'job title': 'Director of Stakeholder Engagement',
+    jobTitle: 'Director of Stakeholder Engagement',
     team: 'Operations',
     salary: '125000',
     city: 'Chicago',
@@ -28486,7 +28486,7 @@ const data = [
   },
   {
     Timestamp: '2/10/2020 16:09:28',
-    'job title': 'Enterprise Solutions',
+    jobTitle: 'Enterprise Solutions',
     team: 'Misc',
     salary: '125000',
     city: 'New York City',
@@ -28497,7 +28497,7 @@ const data = [
   },
   {
     Timestamp: '10/30/2020 16:32:35',
-    'job title': 'ERP Systems Analyst',
+    jobTitle: 'ERP Systems Analyst',
     team: 'Network, Security & IT',
     salary: '125000',
     city: 'New York City',
@@ -28508,7 +28508,7 @@ const data = [
   },
   {
     Timestamp: '2/16/2020 13:41:48',
-    'job title': 'Frontend Software Engineer',
+    jobTitle: 'Frontend Software Engineer',
     team: 'Software Engineering',
     salary: '125000',
     city: 'Chicago',
@@ -28519,7 +28519,7 @@ const data = [
   },
   {
     Timestamp: '2/25/2020 11:49:31',
-    'job title': 'Full Stack Software Engineer',
+    jobTitle: 'Full Stack Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '125000',
@@ -28531,7 +28531,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 11:00:10',
-    'job title': 'Head of Learning and Development',
+    jobTitle: 'Head of Learning and Development',
     team: 'Misc',
     salary: '125000',
     city: 'New York City',
@@ -28542,7 +28542,7 @@ const data = [
   },
   {
     Timestamp: '12/28/2020 17:42:33',
-    'job title': 'Lead Product Designer',
+    jobTitle: 'Lead Product Designer',
     team: 'Product Design',
     salary: '125000',
     city: 'New York City',
@@ -28552,7 +28552,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '125000',
     city: 'Tampa',
@@ -28562,7 +28562,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     'job level': '5',
     salary: '125000',
@@ -28573,7 +28573,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '125000',
     city: 'Anchorage',
@@ -28584,7 +28584,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 19:26:47',
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '125000',
     city: 'New York City',
@@ -28594,7 +28594,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '125000',
     city: 'Chicago',
@@ -28604,7 +28604,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '125000',
     city: 'Boston',
@@ -28614,7 +28614,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '125000',
     city: 'Dallas',
@@ -28625,7 +28625,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 13:53:56',
-    'job title': 'People Operations Manager',
+    jobTitle: 'People Operations Manager',
     team: 'Operations',
     salary: '125000',
     city: 'San Francisco Bay Area',
@@ -28636,7 +28636,7 @@ const data = [
   },
   {
     Timestamp: '2/10/2020 21:04:20',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '125000',
     city: 'San Francisco Bay Area',
@@ -28647,7 +28647,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 12:34:25',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '125000',
     city: 'Boston',
@@ -28658,7 +28658,7 @@ const data = [
   },
   {
     Timestamp: '2/11/2020 23:30:30',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '125000',
     city: 'New York City',
@@ -28669,7 +28669,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2021 16:45:15',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '125000',
     city: 'New York City',
@@ -28680,7 +28680,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 7:37:34',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '125000',
     city: 'Durham',
@@ -28691,7 +28691,7 @@ const data = [
   },
   {
     Timestamp: '12/3/2020 17:49:14',
-    'job title': 'Product Marketing Manager',
+    jobTitle: 'Product Marketing Manager',
     team: 'Marketing',
     salary: '125000',
     city: 'Chicago',
@@ -28702,7 +28702,7 @@ const data = [
   },
   {
     Timestamp: '10/8/2020 0:38:52',
-    'job title': 'Product Operations Manager',
+    jobTitle: 'Product Operations Manager',
     team: 'Product Management',
     salary: '125000',
     city: 'Atlanta',
@@ -28713,7 +28713,7 @@ const data = [
   },
   {
     Timestamp: '1/28/2020 15:42:30',
-    'job title': 'Sales System Administrator',
+    jobTitle: 'Sales System Administrator',
     team: 'Network, Security & IT',
     salary: '125000',
     city: 'New York City',
@@ -28724,7 +28724,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 20:15:54',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     salary: '125000',
     city: 'Chicago',
@@ -28735,7 +28735,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 22:38:55',
-    'job title': 'Software Development Engineer in Test',
+    jobTitle: 'Software Development Engineer in Test',
     team: 'Software Engineering',
     salary: '125000',
     city: 'San Francisco Bay Area',
@@ -28746,7 +28746,7 @@ const data = [
   },
   {
     Timestamp: '2/23/2020 15:43:41',
-    'job title': 'Software Development Engineer in Test',
+    jobTitle: 'Software Development Engineer in Test',
     team: 'Software Engineering',
     salary: '125000',
     city: 'San Francisco Bay Area',
@@ -28757,7 +28757,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 14:11:27',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '125000',
@@ -28768,7 +28768,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '125000',
@@ -28780,7 +28780,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 12:48:23',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '125000',
@@ -28792,7 +28792,7 @@ const data = [
   },
   {
     Timestamp: '2/25/2020 20:55:44',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '125000',
     city: 'San Francisco Bay Area',
@@ -28802,7 +28802,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '125000',
     city: 'San Francisco',
@@ -28813,7 +28813,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 2:31:31',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '125000',
     city: 'San Francisco Bay Area',
@@ -28823,7 +28823,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '125000',
     city: 'Irvine',
@@ -28833,7 +28833,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '125000',
     city: 'Chicago',
@@ -28843,7 +28843,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '4',
     salary: '125000',
@@ -28855,7 +28855,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 19:37:55',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '125000',
@@ -28866,7 +28866,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '125000',
     city: 'Raleigh',
@@ -28876,7 +28876,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '125000',
     city: 'Asheville',
@@ -28886,7 +28886,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Solutions Architect',
+    jobTitle: 'Solutions Architect',
     team: 'Network, Security & IT',
     salary: '125000',
     city: 'Minneapolis',
@@ -28897,7 +28897,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:37:17',
-    'job title': 'Solutions Engineer',
+    jobTitle: 'Solutions Engineer',
     team: 'Sales',
     'job level': '1',
     salary: '125000',
@@ -28909,7 +28909,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 2:33:11',
-    'job title': 'Sr. Customer Service Manager',
+    jobTitle: 'Sr. Customer Service Manager',
     team: 'Sales',
     salary: '125000',
     city: 'San Francisco Bay Area',
@@ -28920,7 +28920,7 @@ const data = [
   },
   {
     Timestamp: '2/25/2020 15:40:41',
-    'job title': 'Sr. Frontend Engineer',
+    jobTitle: 'Sr. Frontend Engineer',
     team: 'Software Engineering',
     salary: '125000',
     city: 'Salt Lake City',
@@ -28931,7 +28931,7 @@ const data = [
   },
   {
     Timestamp: '1/25/2020 16:35:45',
-    'job title': 'Sr. Product Designer',
+    jobTitle: 'Sr. Product Designer',
     team: 'Product Design',
     salary: '125000',
     city: 'Phoenix',
@@ -28942,7 +28942,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 19:55:44',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '125000',
     city: 'Seattle',
@@ -28953,7 +28953,7 @@ const data = [
   },
   {
     Timestamp: '2/28/2020 12:47:14',
-    'job title': 'Sr. Product Marketing Manager',
+    jobTitle: 'Sr. Product Marketing Manager',
     team: 'Marketing',
     salary: '125000',
     city: 'San Francisco Bay Area',
@@ -28964,7 +28964,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 18:59:04',
-    'job title': 'Sr. Program Manager',
+    jobTitle: 'Sr. Program Manager',
     team: 'Technical Program Management',
     salary: '125000',
     city: 'Indianapolis',
@@ -28975,7 +28975,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 13:24:04',
-    'job title': 'Sr. Project Manager',
+    jobTitle: 'Sr. Project Manager',
     team: 'Product Management',
     salary: '125000',
     city: 'Orlando',
@@ -28986,7 +28986,7 @@ const data = [
   },
   {
     Timestamp: '2/28/2020 14:36:33',
-    'job title': 'Sr. Recruiter',
+    jobTitle: 'Sr. Recruiter',
     team: 'Recruiting',
     salary: '125000',
     city: 'New York City',
@@ -28997,7 +28997,7 @@ const data = [
   },
   {
     Timestamp: '3/15/2020 21:45:10',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '125000',
     city: 'Los Angeles',
@@ -29008,7 +29008,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 16:15:45',
-    'job title': 'Strategy & Analytics Manager',
+    jobTitle: 'Strategy & Analytics Manager',
     team: 'Data Science',
     salary: '125000',
     city: 'Chicago',
@@ -29018,7 +29018,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '125000',
     city: 'Washington',
@@ -29028,7 +29028,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '125000',
@@ -29039,7 +29039,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '125000',
@@ -29050,7 +29050,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '125000',
     city: 'Seattle',
@@ -29060,7 +29060,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Engineer',
+    jobTitle: 'System Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '125000',
@@ -29072,7 +29072,7 @@ const data = [
   },
   {
     Timestamp: '11/29/2020 16:29:40',
-    'job title': 'Systems Engineer',
+    jobTitle: 'Systems Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '125000',
@@ -29084,7 +29084,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 18:32:51',
-    'job title': 'Unix Systems Administrator',
+    jobTitle: 'Unix Systems Administrator',
     team: 'Network, Security & IT',
     salary: '125000',
     city: 'Jersey City',
@@ -29095,7 +29095,7 @@ const data = [
   },
   {
     Timestamp: '11/24/2020 13:34:55',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '125000',
     city: 'San Francisco Bay Area',
@@ -29106,7 +29106,7 @@ const data = [
   },
   {
     Timestamp: '9/10/2020 0:21:21',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '125000',
     city: 'New York City',
@@ -29116,7 +29116,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     'job level': '4',
     salary: '125000',
@@ -29128,7 +29128,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 16:05:53',
-    'job title': 'Operational Compliance Manager',
+    jobTitle: 'Operational Compliance Manager',
     team: 'Human Resources',
     salary: '125600',
     city: 'New York City',
@@ -29138,7 +29138,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '126000',
     city: 'Louisville',
@@ -29148,7 +29148,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '126000',
     city: 'Philadelphia',
@@ -29158,7 +29158,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '126000',
     city: 'Sacramento',
@@ -29169,7 +29169,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 1:52:41',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '126000',
@@ -29180,7 +29180,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '126000',
     city: 'Minneapolis',
@@ -29191,7 +29191,7 @@ const data = [
   },
   {
     Timestamp: '2/27/2020 13:53:02',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '126000',
     city: 'New York City',
@@ -29201,7 +29201,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '126000',
     city: 'Dallas',
@@ -29212,7 +29212,7 @@ const data = [
   },
   {
     Timestamp: '2/23/2020 14:31:20',
-    'job title': 'Sr. Recruiter',
+    jobTitle: 'Sr. Recruiter',
     team: 'Recruiting',
     salary: '126000',
     city: 'New York City',
@@ -29222,7 +29222,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '126000',
     city: 'Boston',
@@ -29232,7 +29232,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '126000',
     city: 'Boston',
@@ -29242,7 +29242,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Engineer',
+    jobTitle: 'System Engineer',
     team: 'Network, Security & IT',
     'job level': '6',
     salary: '126000',
@@ -29254,7 +29254,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 12:21:16',
-    'job title': 'Data Scientist',
+    jobTitle: 'Data Scientist',
     team: 'Data Science',
     salary: '126700',
     city: 'Boston',
@@ -29264,7 +29264,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '127000',
@@ -29275,7 +29275,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '127000',
     city: 'Austin',
@@ -29286,7 +29286,7 @@ const data = [
   },
   {
     Timestamp: '9/28/2020 19:24:12',
-    'job title': 'Product Marketing Manager',
+    jobTitle: 'Product Marketing Manager',
     team: 'Marketing',
     salary: '127000',
     city: 'San Francisco Bay Area',
@@ -29297,7 +29297,7 @@ const data = [
   },
   {
     Timestamp: '11/2/2020 12:27:08',
-    'job title': 'Recruiter',
+    jobTitle: 'Recruiter',
     team: 'Recruiting',
     salary: '127000',
     city: 'San Francisco Bay Area',
@@ -29307,7 +29307,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '127000',
@@ -29319,7 +29319,7 @@ const data = [
   },
   {
     Timestamp: '1/25/2021 23:27:45',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '4',
     salary: '127000',
@@ -29330,7 +29330,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '127000',
     city: 'Atlanta',
@@ -29341,7 +29341,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 14:00:14',
-    'job title': 'Sr. Consultant',
+    jobTitle: 'Sr. Consultant',
     team: 'Misc',
     salary: '127000',
     city: 'Austin',
@@ -29351,7 +29351,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '127000',
     city: 'Denver',
@@ -29361,7 +29361,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '127000',
     city: 'New York City',
@@ -29372,7 +29372,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 10:08:01',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '127276',
@@ -29384,7 +29384,7 @@ const data = [
   },
   {
     Timestamp: '7/14/2020 12:56:44',
-    'job title': 'Sr. Platform Product Manager',
+    jobTitle: 'Sr. Platform Product Manager',
     team: 'Network, Security & IT',
     salary: '127500',
     city: 'Boston',
@@ -29395,7 +29395,7 @@ const data = [
   },
   {
     Timestamp: '6/19/2020 16:38:52',
-    'job title': 'Sr. Program Manager',
+    jobTitle: 'Sr. Program Manager',
     team: 'Technical Program Management',
     salary: '127500',
     city: 'Austin',
@@ -29406,7 +29406,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 11:24:01',
-    'job title': 'Director of Customer Experience',
+    jobTitle: 'Director of Customer Experience',
     team: 'Sales',
     salary: '128000',
     city: 'Boston',
@@ -29417,7 +29417,7 @@ const data = [
   },
   {
     Timestamp: '2/10/2020 0:46:56',
-    'job title': 'Director of Strategic Partnerships',
+    jobTitle: 'Director of Strategic Partnerships',
     team: 'Sales',
     salary: '128000',
     city: 'New York City',
@@ -29428,7 +29428,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 1:21:11',
-    'job title': 'Field Marketing Manager',
+    jobTitle: 'Field Marketing Manager',
     team: 'Marketing',
     salary: '128000',
     city: 'San Francisco Bay Area',
@@ -29438,7 +29438,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Infrastructure Architect ',
+    jobTitle: 'Infrastructure Architect ',
     team: 'Network, Security & IT',
     'job level': '6',
     salary: '128000',
@@ -29450,7 +29450,7 @@ const data = [
   },
   {
     Timestamp: '11/25/2020 7:07:42',
-    'job title': 'Product Marketing Manager',
+    jobTitle: 'Product Marketing Manager',
     team: 'Marketing',
     salary: '128000',
     city: 'New York City',
@@ -29461,7 +29461,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 12:41:33',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '128000',
     city: 'Seattle',
@@ -29471,7 +29471,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Solutions Architect',
+    jobTitle: 'Solutions Architect',
     team: 'Network, Security & IT',
     salary: '128000',
     city: 'New York City',
@@ -29482,7 +29482,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 21:09:31',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '128000',
     city: 'Chicago',
@@ -29492,7 +29492,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '128000',
     city: 'Phoenix',
@@ -29503,7 +29503,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 1:22:11',
-    'job title': 'Visual Designer',
+    jobTitle: 'Visual Designer',
     team: 'Product Design',
     salary: '128000',
     city: 'San Francisco Bay Area',
@@ -29513,7 +29513,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '128500',
     city: 'Huntsville',
@@ -29523,7 +29523,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '129000',
     city: 'New York City',
@@ -29534,7 +29534,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 18:57:20',
-    'job title': 'Product Content Strategist',
+    jobTitle: 'Product Content Strategist',
     team: 'Product Design',
     salary: '129000',
     city: 'San Francisco Bay Area',
@@ -29544,7 +29544,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '8',
     salary: '129000',
@@ -29556,7 +29556,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 13:03:12',
-    'job title': 'Sr. Project Manager',
+    jobTitle: 'Sr. Project Manager',
     team: 'Product Management',
     salary: '129000',
     city: 'Miami',
@@ -29566,7 +29566,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '6',
     salary: '129000',
@@ -29578,7 +29578,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:18:04',
-    'job title': 'UX Design Lead',
+    jobTitle: 'UX Design Lead',
     team: 'Product Design',
     salary: '129000',
     city: 'New York City',
@@ -29589,7 +29589,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 16:33:53',
-    'job title': 'Support Engineer',
+    jobTitle: 'Support Engineer',
     team: 'Network, Security & IT',
     salary: '129800',
     city: 'San Francisco Bay Area',
@@ -29600,7 +29600,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 13:44:03',
-    'job title': 'Acquisition Analyst ',
+    jobTitle: 'Acquisition Analyst ',
     team: 'Misc',
     salary: '130000',
     city: 'Los Angeles',
@@ -29611,7 +29611,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 7:04:54',
-    'job title': 'Assistant VP',
+    jobTitle: 'Assistant VP',
     team: 'Operations',
     salary: '130000',
     city: 'Raleigh',
@@ -29622,7 +29622,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 11:12:28',
-    'job title': 'Backend Engineer',
+    jobTitle: 'Backend Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '130000',
@@ -29634,7 +29634,7 @@ const data = [
   },
   {
     Timestamp: '1/14/2020 2:03:38',
-    'job title': 'Business Analyst',
+    jobTitle: 'Business Analyst',
     team: 'Business Analytics',
     salary: '130000',
     city: 'Cupertino',
@@ -29645,7 +29645,7 @@ const data = [
   },
   {
     Timestamp: '12/2/2020 16:50:07',
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '130000',
     city: 'San Francisco Bay Area',
@@ -29655,7 +29655,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '130000',
     city: 'Bellevue',
@@ -29666,7 +29666,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 19:17:08',
-    'job title': 'Data Scientist',
+    jobTitle: 'Data Scientist',
     team: 'Data Science',
     salary: '130000',
     city: 'Columbus',
@@ -29677,7 +29677,7 @@ const data = [
   },
   {
     Timestamp: '3/26/2020 17:15:28',
-    'job title': 'Design Lead',
+    jobTitle: 'Design Lead',
     team: 'Product Design',
     salary: '130000',
     city: 'Atlanta',
@@ -29687,7 +29687,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '130000',
     city: 'Oakland',
@@ -29698,7 +29698,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 20:59:08',
-    'job title': 'Director of Consumer Data Strategy',
+    jobTitle: 'Director of Consumer Data Strategy',
     team: 'Operations',
     salary: '130000',
     city: 'New York City',
@@ -29709,7 +29709,7 @@ const data = [
   },
   {
     Timestamp: '1/29/2020 16:59:39',
-    'job title': 'Director of Marketing',
+    jobTitle: 'Director of Marketing',
     team: 'Marketing Ops',
     salary: '130000',
     city: 'New York City',
@@ -29720,7 +29720,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 17:10:17',
-    'job title': 'Growth marketing manager ',
+    jobTitle: 'Growth marketing manager ',
     team: 'Marketing',
     salary: '130000',
     city: 'San Francisco Bay Area',
@@ -29730,7 +29730,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '130000',
     city: 'Chicago',
@@ -29741,7 +29741,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 10:25:00',
-    'job title': 'Lead Web Engineer',
+    jobTitle: 'Lead Web Engineer',
     team: 'Software Engineering Management',
     salary: '130000',
     city: 'New York City',
@@ -29752,7 +29752,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 14:49:06',
-    'job title': 'Manager',
+    jobTitle: 'Manager',
     team: 'Misc',
     salary: '130000',
     city: 'Boston',
@@ -29762,7 +29762,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '130000',
     city: 'Dallas',
@@ -29773,7 +29773,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 6:26:42',
-    'job title': 'Operations Manager',
+    jobTitle: 'Operations Manager',
     team: 'Operations',
     salary: '130000',
     city: 'New York City',
@@ -29784,7 +29784,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 15:39:50',
-    'job title': 'Paralegal',
+    jobTitle: 'Paralegal',
     team: 'Misc',
     salary: '130000',
     city: 'San Francisco Bay Area',
@@ -29795,7 +29795,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 14:12:27',
-    'job title': 'Partner Marketing Manager',
+    jobTitle: 'Partner Marketing Manager',
     team: 'Marketing',
     salary: '130000',
     city: 'San Francisco Bay Area',
@@ -29806,7 +29806,7 @@ const data = [
   },
   {
     Timestamp: '2/10/2020 11:49:09',
-    'job title': 'Product Analyst',
+    jobTitle: 'Product Analyst',
     team: 'Product Management',
     salary: '130000',
     city: 'San Francisco Bay Area',
@@ -29817,7 +29817,7 @@ const data = [
   },
   {
     Timestamp: '2/28/2020 17:48:17',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     salary: '130000',
     city: 'San Francisco Bay Area',
@@ -29828,7 +29828,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 14:34:53',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '130000',
     city: 'San Francisco Bay Area',
@@ -29839,7 +29839,7 @@ const data = [
   },
   {
     Timestamp: '2/9/2020 13:40:55',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '130000',
     city: 'San Francisco Bay Area',
@@ -29850,7 +29850,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 22:54:44',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '130000',
     city: 'San Francisco Bay Area',
@@ -29861,7 +29861,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 19:14:07',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '130000',
     city: 'Los Angeles',
@@ -29872,7 +29872,7 @@ const data = [
   },
   {
     Timestamp: '2/11/2020 21:02:31',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '130000',
     city: 'Los Angeles',
@@ -29883,7 +29883,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 23:13:52',
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Product Management',
     salary: '130000',
     city: 'San Francisco Bay Area',
@@ -29894,7 +29894,7 @@ const data = [
   },
   {
     Timestamp: '2/25/2020 20:39:51',
-    'job title': 'Recruiting Manager',
+    jobTitle: 'Recruiting Manager',
     team: 'Recruiting',
     salary: '130000',
     city: 'San Francisco Bay Area',
@@ -29905,7 +29905,7 @@ const data = [
   },
   {
     Timestamp: '2/28/2020 16:19:53',
-    'job title': 'Regional Marketing Manager',
+    jobTitle: 'Regional Marketing Manager',
     team: 'Marketing',
     salary: '130000',
     city: 'New York City',
@@ -29915,7 +29915,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Sales Engineer',
+    jobTitle: 'Sales Engineer',
     team: 'Sales',
     'job level': '4',
     salary: '130000',
@@ -29926,7 +29926,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Security Admin',
+    jobTitle: 'Security Admin',
     team: 'Network, Security & IT',
     salary: '130000',
     city: 'Houston',
@@ -29936,7 +29936,7 @@ const data = [
     education: 'Some Undergrad'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     salary: '130000',
     city: 'Tampa',
@@ -29946,7 +29946,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     salary: '130000',
     city: 'Houston',
@@ -29956,7 +29956,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '130000',
@@ -29967,7 +29967,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '130000',
@@ -29979,7 +29979,7 @@ const data = [
   },
   {
     Timestamp: '1/23/2021 19:42:10',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '130000',
@@ -29990,7 +29990,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '130000',
@@ -30002,7 +30002,7 @@ const data = [
   },
   {
     Timestamp: '6/26/2020 14:19:10',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '130000',
@@ -30014,7 +30014,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 12:46:43',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '130000',
@@ -30025,7 +30025,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '130000',
@@ -30036,7 +30036,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '130000',
@@ -30047,7 +30047,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '130000',
     city: 'Kirkland',
@@ -30058,7 +30058,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 19:11:12',
-    'job title': 'Software Engineer ',
+    jobTitle: 'Software Engineer ',
     team: 'Software Engineering',
     'job level': '2',
     salary: '130000',
@@ -30069,7 +30069,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Solutions Architect',
+    jobTitle: 'Solutions Architect',
     team: 'Network, Security & IT',
     salary: '130000',
     city: 'Tampa',
@@ -30080,7 +30080,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 16:12:24',
-    'job title': 'Sr. Data Analyst',
+    jobTitle: 'Sr. Data Analyst',
     team: 'Data Science',
     salary: '130000',
     city: 'San Francisco Bay Area',
@@ -30091,7 +30091,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 11:45:52',
-    'job title': 'Sr. Human Resources Partner',
+    jobTitle: 'Sr. Human Resources Partner',
     team: 'Human Resources',
     salary: '130000',
     city: 'New York City',
@@ -30102,7 +30102,7 @@ const data = [
   },
   {
     Timestamp: '3/9/2020 21:39:19',
-    'job title': 'Sr. Human-Centered Design Lead',
+    jobTitle: 'Sr. Human-Centered Design Lead',
     team: 'Product Design',
     salary: '130000',
     city: 'Miami',
@@ -30113,7 +30113,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 11:21:50',
-    'job title': 'Sr. Manager of Strategic Partnerships ',
+    jobTitle: 'Sr. Manager of Strategic Partnerships ',
     team: 'Misc',
     salary: '130000',
     city: 'Austin',
@@ -30124,7 +30124,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 15:56:01',
-    'job title': 'Sr. Partnerships Manager ',
+    jobTitle: 'Sr. Partnerships Manager ',
     team: 'Misc',
     salary: '130000',
     city: 'Boston',
@@ -30135,7 +30135,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 10:10:48',
-    'job title': 'Sr. Platform Engineer',
+    jobTitle: 'Sr. Platform Engineer',
     team: 'Network, Security & IT',
     salary: '130000',
     city: 'Boston',
@@ -30146,7 +30146,7 @@ const data = [
   },
   {
     Timestamp: '2/28/2020 11:13:57',
-    'job title': 'Sr. Product Designer',
+    jobTitle: 'Sr. Product Designer',
     team: 'Product Design',
     salary: '130000',
     city: 'San Francisco Bay Area',
@@ -30157,7 +30157,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 14:46:31',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '130000',
     city: 'San Francisco Bay Area',
@@ -30168,7 +30168,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 0:01:45',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '130000',
     city: 'Chicago',
@@ -30179,7 +30179,7 @@ const data = [
   },
   {
     Timestamp: '2/23/2020 21:22:56',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '130000',
     city: 'Minneapolis',
@@ -30190,7 +30190,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 0:10:31',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '130000',
     city: 'New York City',
@@ -30201,7 +30201,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 15:53:21',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '130000',
     city: 'Raleigh',
@@ -30212,7 +30212,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 0:32:58',
-    'job title': 'Sr. Technical Program Manager',
+    jobTitle: 'Sr. Technical Program Manager',
     team: 'Technical Program Management',
     salary: '130000',
     city: 'Seattle',
@@ -30223,7 +30223,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 10:08:57',
-    'job title': 'Sr. Technical Writer',
+    jobTitle: 'Sr. Technical Writer',
     team: 'Creative',
     salary: '130000',
     city: 'Boston',
@@ -30234,7 +30234,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 15:57:52',
-    'job title': 'Sr. UX Architect',
+    jobTitle: 'Sr. UX Architect',
     team: 'Product Design',
     salary: '130000',
     city: 'Chicago',
@@ -30244,7 +30244,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '130000',
     city: 'Los Angeles',
@@ -30254,7 +30254,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '130000',
     city: 'San Francisco Bay Area Bay Area',
@@ -30264,7 +30264,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '130000',
@@ -30275,7 +30275,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '130000',
     city: 'Santa Rosa',
@@ -30285,7 +30285,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '130000',
     city: 'San Diego',
@@ -30295,7 +30295,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '130000',
     city: 'Washington',
@@ -30305,7 +30305,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '130000',
     city: 'Chicago',
@@ -30315,7 +30315,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '130000',
     city: 'Chicago',
@@ -30325,7 +30325,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '130000',
     city: 'Bethesda',
@@ -30335,7 +30335,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '130000',
@@ -30346,7 +30346,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '130000',
     city: 'Jersey City',
@@ -30356,7 +30356,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '130000',
     city: 'Austin',
@@ -30367,7 +30367,7 @@ const data = [
   },
   {
     Timestamp: '11/24/2020 12:57:25',
-    'job title': 'Technical Program Manager',
+    jobTitle: 'Technical Program Manager',
     team: 'Technical Program Management',
     salary: '130000',
     city: 'San Francisco Bay Area',
@@ -30377,7 +30377,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '130000',
@@ -30389,7 +30389,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 18:08:25',
-    'job title': 'UI Engineer',
+    jobTitle: 'UI Engineer',
     team: 'Software Engineering',
     salary: '130000',
     city: 'San Francisco Bay Area',
@@ -30400,7 +30400,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:02:28',
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     salary: '130000',
     city: 'New York City',
@@ -30411,7 +30411,7 @@ const data = [
   },
   {
     Timestamp: '1/4/2021 15:39:44',
-    'job title': 'Cloud Solutions Architect',
+    jobTitle: 'Cloud Solutions Architect',
     team: 'Data Science',
     salary: '130370',
     city: 'New York City',
@@ -30421,7 +30421,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '130843',
     city: 'West Palm Beach',
@@ -30432,7 +30432,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 23:11:55',
-    'job title': 'Account Supervisor',
+    jobTitle: 'Account Supervisor',
     team: 'Sales',
     salary: '131000',
     city: 'New York City',
@@ -30443,7 +30443,7 @@ const data = [
   },
   {
     Timestamp: '8/6/2020 21:06:58',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '131000',
     city: 'San Francisco Bay Area',
@@ -30453,7 +30453,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '131000',
     city: 'New York City',
@@ -30464,7 +30464,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 16:17:58',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '131000',
     city: 'New York City',
@@ -30475,7 +30475,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 17:25:31',
-    'job title': 'Sr. UX Researcher',
+    jobTitle: 'Sr. UX Researcher',
     team: 'Product Design',
     salary: '131000',
     city: 'San Francisco Bay Area',
@@ -30486,7 +30486,7 @@ const data = [
   },
   {
     Timestamp: '1/6/2021 21:38:53',
-    'job title': 'VP of Product & Platform Strategy Manager',
+    jobTitle: 'VP of Product & Platform Strategy Manager',
     team: 'Operations',
     salary: '131000',
     city: 'New York City',
@@ -30496,7 +30496,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '132000',
     city: 'San Francisco',
@@ -30507,7 +30507,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 15:12:22',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '132000',
     city: 'San Francisco Bay Area',
@@ -30518,7 +30518,7 @@ const data = [
   },
   {
     Timestamp: '2/11/2020 2:39:08',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '132000',
     city: 'San Francisco Bay Area',
@@ -30529,7 +30529,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 8:44:06',
-    'job title': 'Product Manager II',
+    jobTitle: 'Product Manager II',
     team: 'Product Management',
     salary: '132000',
     city: 'San Francisco Bay Area',
@@ -30540,7 +30540,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 14:25:45',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '132000',
@@ -30552,7 +30552,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2021 20:36:51',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '132000',
     city: 'Atlanta',
@@ -30563,7 +30563,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 10:06:42',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '132000',
@@ -30574,7 +30574,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '132000',
     city: 'New York City',
@@ -30584,7 +30584,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '132000',
     city: 'Austin',
@@ -30594,7 +30594,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '132000',
@@ -30606,7 +30606,7 @@ const data = [
   },
   {
     Timestamp: '2/11/2020 23:16:49',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '132000',
     city: 'San Francisco Bay Area',
@@ -30617,7 +30617,7 @@ const data = [
   },
   {
     Timestamp: '2/22/2020 22:47:06',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '132000',
     city: 'Seattle',
@@ -30628,7 +30628,7 @@ const data = [
   },
   {
     Timestamp: '3/3/2020 12:39:28',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '132000',
     city: 'Austin',
@@ -30639,7 +30639,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 21:30:29',
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '132500',
     city: 'Boston',
@@ -30650,7 +30650,7 @@ const data = [
   },
   {
     Timestamp: '7/17/2020 14:41:11',
-    'job title': 'Head of Customer Support',
+    jobTitle: 'Head of Customer Support',
     team: 'Sales',
     salary: '132500',
     city: 'New York City',
@@ -30661,7 +30661,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 15:52:10',
-    'job title': 'Production Designer',
+    jobTitle: 'Production Designer',
     team: 'Product Design',
     salary: '132500',
     city: 'San Francisco Bay Area',
@@ -30672,7 +30672,7 @@ const data = [
   },
   {
     Timestamp: '2/16/2020 20:29:02',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '132500',
     city: 'Boston',
@@ -30682,7 +30682,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     'job level': '5',
     salary: '132500',
@@ -30694,7 +30694,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 13:40:34',
-    'job title': 'Manager of Big Data and Research',
+    jobTitle: 'Manager of Big Data and Research',
     team: 'Data Science',
     salary: '133000',
     city: 'Portland',
@@ -30705,7 +30705,7 @@ const data = [
   },
   {
     Timestamp: '2/8/2020 0:30:37',
-    'job title': 'Marketing Program Manager',
+    jobTitle: 'Marketing Program Manager',
     team: 'Marketing',
     salary: '133000',
     city: 'San Francisco Bay Area',
@@ -30716,7 +30716,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 8:54:22',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '133000',
     city: 'St. Louis',
@@ -30726,7 +30726,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Security Analyst',
+    jobTitle: 'Security Analyst',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '133000',
@@ -30738,7 +30738,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 14:44:49',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '133000',
@@ -30749,7 +30749,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '133000',
@@ -30760,7 +30760,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '133000',
     city: 'Pittsburgh',
@@ -30770,7 +30770,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '133000',
     city: 'Houston',
@@ -30781,7 +30781,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 17:47:32',
-    'job title': 'Sr. Customer Service Manager',
+    jobTitle: 'Sr. Customer Service Manager',
     team: 'Sales',
     salary: '133000',
     city: 'New York City',
@@ -30792,7 +30792,7 @@ const data = [
   },
   {
     Timestamp: '9/25/2020 11:06:14',
-    'job title': 'Sr. Program Manager',
+    jobTitle: 'Sr. Program Manager',
     team: 'Technical Program Management',
     salary: '133000',
     city: 'San Francisco Bay Area',
@@ -30802,7 +30802,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '133000',
@@ -30814,7 +30814,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 22:14:01',
-    'job title': 'Technical Program Manager',
+    jobTitle: 'Technical Program Manager',
     team: 'Technical Program Management',
     salary: '133000',
     city: 'New York City',
@@ -30824,7 +30824,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '134000',
     city: 'Chicago',
@@ -30835,7 +30835,7 @@ const data = [
   },
   {
     Timestamp: '6/9/2020 12:53:50',
-    'job title': 'Full stack Software Engineer',
+    jobTitle: 'Full stack Software Engineer',
     team: 'Software Engineering',
     salary: '134000',
     city: 'New York City',
@@ -30846,7 +30846,7 @@ const data = [
   },
   {
     Timestamp: '4/17/2020 19:16:57',
-    'job title': 'Principle, Compete and Strategy Lead',
+    jobTitle: 'Principle, Compete and Strategy Lead',
     team: 'Misc',
     salary: '134000',
     city: 'Los Angeles',
@@ -30856,7 +30856,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '134000',
     city: 'Manhattan',
@@ -30867,7 +30867,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2021 19:27:14',
-    'job title': 'Product Marketing Manager',
+    jobTitle: 'Product Marketing Manager',
     team: 'Marketing',
     salary: '134000',
     city: 'San Francisco Bay Area',
@@ -30877,7 +30877,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Technical Program Management',
     'job level': '4',
     salary: '134000',
@@ -30889,7 +30889,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 15:34:12',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '134000',
     city: 'Seattle',
@@ -30899,7 +30899,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Engineer',
+    jobTitle: 'System Engineer',
     team: 'Network, Security & IT',
     'job level': '7',
     salary: '134000',
@@ -30911,7 +30911,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 13:10:30',
-    'job title': 'Sr. Data Analyst',
+    jobTitle: 'Sr. Data Analyst',
     team: 'Data Science',
     salary: '134600',
     city: 'Dallas',
@@ -30922,7 +30922,7 @@ const data = [
   },
   {
     Timestamp: '10/8/2020 17:37:12',
-    'job title': 'Automation Test Engineer',
+    jobTitle: 'Automation Test Engineer',
     team: 'Software Engineering',
     salary: '135000',
     city: 'Rochester',
@@ -30933,7 +30933,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 21:22:21',
-    'job title': 'Brand Manager',
+    jobTitle: 'Brand Manager',
     team: 'Product Management',
     salary: '135000',
     city: 'Los Angeles',
@@ -30944,7 +30944,7 @@ const data = [
   },
   {
     Timestamp: '7/19/2020 4:03:47',
-    'job title': 'Business Operations Manager',
+    jobTitle: 'Business Operations Manager',
     team: 'Operations',
     salary: '135000',
     city: 'San Francisco Bay Area',
@@ -30955,7 +30955,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 0:27:52',
-    'job title': 'Customer Success Manager',
+    jobTitle: 'Customer Success Manager',
     team: 'Sales',
     salary: '135000',
     city: 'San Francisco Bay Area',
@@ -30965,7 +30965,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     'job level': '1',
     salary: '135000',
@@ -30977,7 +30977,7 @@ const data = [
   },
   {
     Timestamp: '3/10/2020 18:31:18',
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '135000',
     city: 'San Francisco Bay Area',
@@ -30988,7 +30988,7 @@ const data = [
   },
   {
     Timestamp: '1/26/2021 11:23:19',
-    'job title': 'Design Researcher',
+    jobTitle: 'Design Researcher',
     team: 'Product Design',
     salary: '135000',
     city: 'Austin',
@@ -30998,7 +30998,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '135000',
@@ -31009,7 +31009,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '135000',
     city: 'New York City',
@@ -31019,7 +31019,7 @@ const data = [
     education: 'Trade School'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '135000',
     city: 'Seattle',
@@ -31030,7 +31030,7 @@ const data = [
   },
   {
     Timestamp: '1/27/2020 21:14:32',
-    'job title': 'Director of Brand Strategy',
+    jobTitle: 'Director of Brand Strategy',
     team: 'Marketing Ops',
     salary: '135000',
     city: 'New York City',
@@ -31041,7 +31041,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 2:00:54',
-    'job title': 'Director of Customer Marketing',
+    jobTitle: 'Director of Customer Marketing',
     team: 'Marketing Ops',
     salary: '135000',
     city: 'Irvine',
@@ -31052,7 +31052,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 21:24:15',
-    'job title': 'Director of Product Management',
+    jobTitle: 'Director of Product Management',
     team: 'Product Management',
     salary: '135000',
     city: 'Salt Lake City',
@@ -31063,7 +31063,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 12:35:15',
-    'job title': 'Director of Product Operations',
+    jobTitle: 'Director of Product Operations',
     team: 'Product Management',
     salary: '135000',
     city: 'Boulder',
@@ -31074,7 +31074,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 13:49:02',
-    'job title': 'Global Content Program Manager',
+    jobTitle: 'Global Content Program Manager',
     team: 'Misc',
     salary: '135000',
     city: 'Seattle',
@@ -31085,7 +31085,7 @@ const data = [
   },
   {
     Timestamp: '3/1/2020 2:46:27',
-    'job title': 'Head of Business Operations',
+    jobTitle: 'Head of Business Operations',
     team: 'Misc',
     salary: '135000',
     city: 'Seattle',
@@ -31095,7 +31095,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '135000',
     city: 'Philadelphia',
@@ -31106,7 +31106,7 @@ const data = [
   },
   {
     Timestamp: '1/17/2020 21:59:32',
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '135000',
     city: 'Raleigh',
@@ -31116,7 +31116,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '135000',
     city: 'Dallas',
@@ -31127,7 +31127,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 9:27:13',
-    'job title': 'Manager of Customer Success',
+    jobTitle: 'Manager of Customer Success',
     team: 'Sales',
     salary: '135000',
     city: 'Seattle',
@@ -31138,7 +31138,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 13:37:18',
-    'job title': 'Marketing Manager',
+    jobTitle: 'Marketing Manager',
     team: 'Marketing',
     salary: '135000',
     city: 'San Francisco Bay Area',
@@ -31148,7 +31148,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer ',
+    jobTitle: 'Network Engineer ',
     team: 'Network, Security & IT',
     salary: '135000',
     city: 'Kansas City',
@@ -31158,7 +31158,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '135000',
     city: 'Houston',
@@ -31169,7 +31169,7 @@ const data = [
   },
   {
     Timestamp: '7/15/2020 14:56:13',
-    'job title': 'PR Director',
+    jobTitle: 'PR Director',
     team: 'Misc',
     salary: '135000',
     city: 'San Francisco Bay Area',
@@ -31180,7 +31180,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 22:06:45',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     'job level': '3',
     salary: '135000',
@@ -31192,7 +31192,7 @@ const data = [
   },
   {
     Timestamp: '1/26/2021 13:40:52',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     salary: '135000',
     city: 'Los Angeles',
@@ -31203,7 +31203,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 23:13:17',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     salary: '135000',
     city: 'San Francisco Bay Area',
@@ -31214,7 +31214,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 19:17:38',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     salary: '135000',
     city: 'New York City',
@@ -31225,7 +31225,7 @@ const data = [
   },
   {
     Timestamp: '2/9/2020 15:31:50',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '135000',
     city: 'San Francisco Bay Area',
@@ -31236,7 +31236,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 16:58:28',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '135000',
     city: 'San Francisco Bay Area',
@@ -31247,7 +31247,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 11:51:35',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '135000',
     city: 'San Francisco Bay Area',
@@ -31258,7 +31258,7 @@ const data = [
   },
   {
     Timestamp: '2/15/2020 18:33:18',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '135000',
     city: 'Boston',
@@ -31269,7 +31269,7 @@ const data = [
   },
   {
     Timestamp: '2/25/2020 14:51:50',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '135000',
     city: 'New York City',
@@ -31280,7 +31280,7 @@ const data = [
   },
   {
     Timestamp: '2/25/2020 20:47:10',
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Product Management',
     salary: '135000',
     city: 'Portland',
@@ -31291,7 +31291,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 18:27:02',
-    'job title': 'Sales Development Manager',
+    jobTitle: 'Sales Development Manager',
     team: 'Sales',
     salary: '135000',
     city: 'San Francisco Bay Area',
@@ -31302,7 +31302,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 10:08:08',
-    'job title': 'Sales Engineer',
+    jobTitle: 'Sales Engineer',
     team: 'Sales',
     salary: '135000',
     city: 'Boston',
@@ -31313,7 +31313,7 @@ const data = [
   },
   {
     Timestamp: '2/14/2020 17:50:56',
-    'job title': 'Sales Operations Manager',
+    jobTitle: 'Sales Operations Manager',
     team: 'Sales',
     salary: '135000',
     city: 'San Francisco Bay Area',
@@ -31324,7 +31324,7 @@ const data = [
   },
   {
     Timestamp: '8/3/2020 14:31:18',
-    'job title': 'Scrum Master',
+    jobTitle: 'Scrum Master',
     team: 'Agile',
     salary: '135000',
     city: 'Cherry Hill',
@@ -31334,7 +31334,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     salary: '135000',
     city: 'Richmond',
@@ -31345,7 +31345,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2020 4:09:16',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '135000',
@@ -31357,7 +31357,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 10:47:47',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '135000',
@@ -31368,7 +31368,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '135000',
     city: 'Los Angeles',
@@ -31379,7 +31379,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 17:52:12',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '135000',
     city: 'San Francisco Bay Area',
@@ -31390,7 +31390,7 @@ const data = [
   },
   {
     Timestamp: '3/9/2020 17:08:16',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '135000',
     city: 'Los Angeles',
@@ -31400,7 +31400,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '135000',
@@ -31411,7 +31411,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '135000',
     city: 'San Francisco',
@@ -31421,7 +31421,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '135000',
@@ -31432,7 +31432,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '135000',
     city: 'Denver',
@@ -31443,7 +31443,7 @@ const data = [
   },
   {
     Timestamp: '8/26/2020 16:27:55',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '135000',
     city: 'Atlanta',
@@ -31453,7 +31453,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '135000',
@@ -31465,7 +31465,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 11:56:30',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '135000',
     city: 'Chicago',
@@ -31475,7 +31475,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '135000',
     city: 'Manhattan',
@@ -31486,7 +31486,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 9:22:53',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '135000',
     city: 'Boston',
@@ -31497,7 +31497,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 0:30:10',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '135000',
@@ -31508,7 +31508,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '135000',
@@ -31519,7 +31519,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '135000',
     city: 'New York City',
@@ -31530,7 +31530,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 17:10:07',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '135000',
@@ -31542,7 +31542,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 15:58:50',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '135000',
@@ -31554,7 +31554,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 12:55:14',
-    'job title': 'Software Engineering Manager',
+    jobTitle: 'Software Engineering Manager',
     team: 'Software Engineering Management',
     salary: '135000',
     city: 'Portland',
@@ -31565,7 +31565,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 22:15:23',
-    'job title': 'Sr. Business & Systems Analyst',
+    jobTitle: 'Sr. Business & Systems Analyst',
     team: 'Network, Security & IT',
     salary: '135000',
     city: 'Los Angeles',
@@ -31576,7 +31576,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 9:16:20',
-    'job title': 'Sr. Consultant ',
+    jobTitle: 'Sr. Consultant ',
     team: 'Misc',
     salary: '135000',
     city: 'San Francisco Bay Area',
@@ -31587,7 +31587,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 23:18:14',
-    'job title': 'Sr. Content Marketing Coordinator',
+    jobTitle: 'Sr. Content Marketing Coordinator',
     team: 'Marketing',
     salary: '135000',
     city: 'San Francisco Bay Area',
@@ -31598,7 +31598,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:07:05',
-    'job title': 'Sr. Linux Engineer',
+    jobTitle: 'Sr. Linux Engineer',
     team: 'Software Engineering',
     salary: '135000',
     city: 'New York City',
@@ -31609,7 +31609,7 @@ const data = [
   },
   {
     Timestamp: '11/19/2020 12:38:06',
-    'job title': 'Sr. Manager of Event & Field Marketing',
+    jobTitle: 'Sr. Manager of Event & Field Marketing',
     team: 'Marketing',
     salary: '135000',
     city: 'San Francisco Bay Area',
@@ -31620,7 +31620,7 @@ const data = [
   },
   {
     Timestamp: '3/2/2020 23:54:57',
-    'job title': 'Sr. Manager of Strategic Partnerships',
+    jobTitle: 'Sr. Manager of Strategic Partnerships',
     team: 'Misc',
     salary: '135000',
     city: 'San Francisco Bay Area',
@@ -31631,7 +31631,7 @@ const data = [
   },
   {
     Timestamp: '1/24/2020 13:24:49',
-    'job title': 'Sr. Product Designer',
+    jobTitle: 'Sr. Product Designer',
     team: 'Product Design',
     salary: '135000',
     city: 'Seattle',
@@ -31642,7 +31642,7 @@ const data = [
   },
   {
     Timestamp: '2/11/2020 19:29:41',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '135000',
     city: 'New York City',
@@ -31653,7 +31653,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 3:17:49',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '135000',
     city: 'Seattle',
@@ -31664,7 +31664,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 2:48:12',
-    'job title': 'Sr. Recruiter',
+    jobTitle: 'Sr. Recruiter',
     team: 'Recruiting',
     salary: '135000',
     city: 'San Francisco Bay Area',
@@ -31675,7 +31675,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 18:39:04',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '135000',
     city: 'Boulder',
@@ -31686,7 +31686,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2021 16:39:21',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '135000',
     city: 'New York City',
@@ -31697,7 +31697,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 18:31:14',
-    'job title': 'Sr. Tecnical Recruiter',
+    jobTitle: 'Sr. Tecnical Recruiter',
     team: 'Recruiting',
     salary: '135000',
     city: 'Seattle',
@@ -31707,7 +31707,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '135000',
     city: 'Minneapolis',
@@ -31717,7 +31717,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '135000',
     city: 'Charlotte',
@@ -31728,7 +31728,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 22:51:57',
-    'job title': 'Technical Program Manager',
+    jobTitle: 'Technical Program Manager',
     team: 'Technical Program Management',
     salary: '135000',
     city: 'Boston',
@@ -31739,7 +31739,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 18:18:43',
-    'job title': 'Technical Recruiter',
+    jobTitle: 'Technical Recruiter',
     team: 'Recruiting',
     salary: '135000',
     city: 'New York City',
@@ -31749,7 +31749,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '135000',
     city: 'Melbourne',
@@ -31760,7 +31760,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 20:32:25',
-    'job title': 'UX Design Lead',
+    jobTitle: 'UX Design Lead',
     team: 'Product Design',
     salary: '135000',
     city: 'Boston',
@@ -31771,7 +31771,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 3:57:48',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '135000',
     city: 'San Francisco Bay Area',
@@ -31782,7 +31782,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 21:13:37',
-    'job title': 'UX Writer',
+    jobTitle: 'UX Writer',
     team: 'Product Design',
     salary: '135000',
     city: 'San Francisco Bay Area',
@@ -31793,7 +31793,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 11:17:28',
-    'job title': 'VP of Technology Programs',
+    jobTitle: 'VP of Technology Programs',
     team: 'Operations',
     salary: '135000',
     city: 'Chicago',
@@ -31804,7 +31804,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 17:58:05',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '135500',
     city: 'Seattle',
@@ -31815,7 +31815,7 @@ const data = [
   },
   {
     Timestamp: '10/8/2020 15:20:08',
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     salary: '135500',
     city: 'San Francisco Bay Area',
@@ -31825,7 +31825,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '136000',
     city: 'Reston',
@@ -31835,7 +31835,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '136000',
     city: 'Atlanta',
@@ -31846,7 +31846,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 13:29:05',
-    'job title': 'Network Tools Engineer',
+    jobTitle: 'Network Tools Engineer',
     team: 'Network, Security & IT',
     salary: '136000',
     city: 'Seattle',
@@ -31856,7 +31856,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '136000',
     city: 'Houston',
@@ -31867,7 +31867,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 13:23:22',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '136600',
     city: 'San Francisco Bay Area',
@@ -31877,7 +31877,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     salary: '136700',
     city: 'Salt Lake City',
@@ -31887,7 +31887,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '137000',
     city: 'Seattle',
@@ -31898,7 +31898,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 10:51:54',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '137000',
     city: 'Austin',
@@ -31909,7 +31909,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 18:13:19',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '137000',
@@ -31921,7 +31921,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 18:06:54',
-    'job title': 'UX/UI Design Lead',
+    jobTitle: 'UX/UI Design Lead',
     team: 'Product Design',
     salary: '137000',
     city: 'Chicago',
@@ -31932,7 +31932,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 11:32:38',
-    'job title': 'Principal Product Manager',
+    jobTitle: 'Principal Product Manager',
     team: 'Product Management',
     salary: '137500',
     city: 'Newark',
@@ -31943,7 +31943,7 @@ const data = [
   },
   {
     Timestamp: '9/25/2020 22:20:38',
-    'job title': 'Product Manager Community',
+    jobTitle: 'Product Manager Community',
     team: 'Product Management',
     salary: '137500',
     city: 'San Francisco Bay Area',
@@ -31954,7 +31954,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 5:34:57',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '137500',
     city: 'New York City',
@@ -31964,7 +31964,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '137500',
     city: 'Houston',
@@ -31975,7 +31975,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 15:05:50',
-    'job title': 'Marketing Communications Producer',
+    jobTitle: 'Marketing Communications Producer',
     team: 'Marketing',
     salary: '137700',
     city: 'Miami',
@@ -31986,7 +31986,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 13:04:29',
-    'job title': 'Strategic Partnerships Manager',
+    jobTitle: 'Strategic Partnerships Manager',
     team: 'Sales',
     salary: '137700',
     city: 'Austin',
@@ -31997,7 +31997,7 @@ const data = [
   },
   {
     Timestamp: '2/26/2020 10:20:17',
-    'job title': 'Growth Manager',
+    jobTitle: 'Growth Manager',
     team: 'Misc',
     salary: '138000',
     city: 'New York City',
@@ -32008,7 +32008,7 @@ const data = [
   },
   {
     Timestamp: '2/26/2020 12:59:28',
-    'job title': 'IT Director',
+    jobTitle: 'IT Director',
     team: 'Network, Security & IT',
     salary: '138000',
     city: 'Portland',
@@ -32018,7 +32018,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '138000',
     city: 'Los Angeles',
@@ -32029,7 +32029,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:52:33',
-    'job title': 'Manager of UX Design',
+    jobTitle: 'Manager of UX Design',
     team: 'Product Design',
     salary: '138000',
     city: 'Austin',
@@ -32040,7 +32040,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 11:37:07',
-    'job title': 'Operations Program Manager',
+    jobTitle: 'Operations Program Manager',
     team: 'Technical Program Management',
     salary: '138000',
     city: 'San Francisco Bay Area',
@@ -32051,7 +32051,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 12:46:12',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '138000',
     city: 'San Francisco Bay Area',
@@ -32062,7 +32062,7 @@ const data = [
   },
   {
     Timestamp: '2/10/2020 0:19:08',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '138000',
     city: 'San Francisco Bay Area',
@@ -32073,7 +32073,7 @@ const data = [
   },
   {
     Timestamp: '8/6/2020 13:27:48',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '138000',
     city: 'San Francisco Bay Area',
@@ -32084,7 +32084,7 @@ const data = [
   },
   {
     Timestamp: '2/9/2020 17:39:00',
-    'job title': 'Product Strategy Sr. ',
+    jobTitle: 'Product Strategy Sr. ',
     team: 'Marketing',
     salary: '138000',
     city: 'San Francisco Bay Area',
@@ -32095,7 +32095,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 18:05:01',
-    'job title': 'QA Engineer',
+    jobTitle: 'QA Engineer',
     team: 'Software Engineering',
     salary: '138000',
     city: 'San Francisco Bay Area',
@@ -32105,7 +32105,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '138000',
     city: 'Chicago',
@@ -32115,7 +32115,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '138000',
     city: 'Seattle',
@@ -32126,7 +32126,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 17:21:28',
-    'job title': 'Sr. Program Manager',
+    jobTitle: 'Sr. Program Manager',
     team: 'Technical Program Management',
     salary: '138500',
     city: 'San Francisco Bay Area',
@@ -32137,7 +32137,7 @@ const data = [
   },
   {
     Timestamp: '2/23/2020 18:04:29',
-    'job title': 'Director of Clinical Research',
+    jobTitle: 'Director of Clinical Research',
     team: 'Misc',
     salary: '139000',
     city: 'Seattle',
@@ -32147,7 +32147,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '139000',
     city: 'Boston',
@@ -32157,7 +32157,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '139000',
     city: 'Redwood City',
@@ -32167,7 +32167,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '139000',
@@ -32179,7 +32179,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 20:24:35',
-    'job title': 'Product Analyst',
+    jobTitle: 'Product Analyst',
     team: 'Data Science',
     salary: '139500',
     city: 'San Francisco Bay Area',
@@ -32190,7 +32190,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 13:05:20',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '139500',
     city: 'Seattle',
@@ -32201,7 +32201,7 @@ const data = [
   },
   {
     Timestamp: '9/28/2020 21:24:38',
-    'job title': 'Account Executive',
+    jobTitle: 'Account Executive',
     team: 'Sales',
     salary: '140000',
     city: 'San Francisco Bay Area',
@@ -32212,7 +32212,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:21:07',
-    'job title': 'Account Executive',
+    jobTitle: 'Account Executive',
     team: 'Sales',
     salary: '140000',
     city: 'New York City',
@@ -32223,7 +32223,7 @@ const data = [
   },
   {
     Timestamp: '2/25/2020 7:24:50',
-    'job title': 'Account Manager',
+    jobTitle: 'Account Manager',
     team: 'Sales',
     salary: '140000',
     city: 'San Francisco Bay Area',
@@ -32233,7 +32233,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '140000',
     city: 'New York City',
@@ -32244,7 +32244,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 12:57:13',
-    'job title': 'Delivery Manager',
+    jobTitle: 'Delivery Manager',
     team: 'Product Management',
     salary: '140000',
     city: 'Los Angeles',
@@ -32254,7 +32254,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '5',
     salary: '140000',
@@ -32266,7 +32266,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 17:29:05',
-    'job title': 'Director of Business Operations',
+    jobTitle: 'Director of Business Operations',
     team: 'Operations',
     salary: '140000',
     city: 'Salt Lake City',
@@ -32277,7 +32277,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 15:09:01',
-    'job title': 'Director of Content',
+    jobTitle: 'Director of Content',
     team: 'Creative',
     salary: '140000',
     city: 'San Francisco Bay Area',
@@ -32288,7 +32288,7 @@ const data = [
   },
   {
     Timestamp: '7/16/2020 13:48:45',
-    'job title': 'Director of Engineering',
+    jobTitle: 'Director of Engineering',
     team: 'Software Engineering Management',
     salary: '140000',
     city: 'New York City',
@@ -32299,7 +32299,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 21:16:51',
-    'job title': 'Director of Operations',
+    jobTitle: 'Director of Operations',
     team: 'Operations',
     salary: '140000',
     city: 'New York City',
@@ -32310,7 +32310,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 3:56:59',
-    'job title': 'Director Recruiting',
+    jobTitle: 'Director Recruiting',
     team: 'Recruiting',
     salary: '140000',
     city: 'Houston',
@@ -32321,7 +32321,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 16:14:22',
-    'job title': 'Head Of Design',
+    jobTitle: 'Head Of Design',
     team: 'Product Design',
     salary: '140000',
     city: 'Denver',
@@ -32332,7 +32332,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 12:12:55',
-    'job title': 'Head of Revenue',
+    jobTitle: 'Head of Revenue',
     team: 'Accounting',
     salary: '140000',
     city: 'Portland',
@@ -32342,7 +32342,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '140000',
     city: 'Raleigh',
@@ -32352,7 +32352,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '140000',
     city: 'Canton',
@@ -32363,7 +32363,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 15:59:55',
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     'job level': '2',
     salary: '140000',
@@ -32375,7 +32375,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:16:05',
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '140000',
     city: 'Denver',
@@ -32385,7 +32385,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '140000',
     city: 'Chicago',
@@ -32396,7 +32396,7 @@ const data = [
   },
   {
     Timestamp: '1/16/2020 23:51:49',
-    'job title': 'Lead UX Designer',
+    jobTitle: 'Lead UX Designer',
     team: 'Product Design',
     salary: '140000',
     city: 'New York City',
@@ -32407,7 +32407,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 22:51:20',
-    'job title': 'Marketing Director',
+    jobTitle: 'Marketing Director',
     team: 'Marketing',
     salary: '140000',
     city: 'San Francisco Bay Area',
@@ -32417,7 +32417,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '140000',
     city: 'Minneapolis',
@@ -32428,7 +32428,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2020 17:40:07',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     salary: '140000',
     city: 'San Francisco Bay Area',
@@ -32439,7 +32439,7 @@ const data = [
   },
   {
     Timestamp: '3/24/2020 11:55:50',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '140000',
     city: 'Chicago',
@@ -32450,7 +32450,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 11:41:00',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '140000',
     city: 'Seattle',
@@ -32461,7 +32461,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 1:20:26',
-    'job title': 'Product Marketing Manager',
+    jobTitle: 'Product Marketing Manager',
     team: 'Marketing',
     salary: '140000',
     city: 'San Francisco Bay Area',
@@ -32472,7 +32472,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 14:37:04',
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Product Management',
     salary: '140000',
     city: 'New York City',
@@ -32482,7 +32482,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'QA Engineer',
+    jobTitle: 'QA Engineer',
     team: 'Software Engineering',
     salary: '140000',
     city: 'San Francisco Bay Area',
@@ -32493,7 +32493,7 @@ const data = [
   },
   {
     Timestamp: '10/8/2020 13:17:45',
-    'job title': 'SaaS Sales - Senior',
+    jobTitle: 'SaaS Sales - Senior',
     team: 'Sales',
     salary: '140000',
     city: 'Denver',
@@ -32504,7 +32504,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 17:08:59',
-    'job title': 'Sales Director',
+    jobTitle: 'Sales Director',
     team: 'Sales',
     salary: '140000',
     city: 'Detroit',
@@ -32515,7 +32515,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 16:05:47',
-    'job title': 'Scrum Master',
+    jobTitle: 'Scrum Master',
     team: 'Agile',
     salary: '140000',
     city: 'New York City',
@@ -32525,7 +32525,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Security Admin',
+    jobTitle: 'Security Admin',
     team: 'Network, Security & IT',
     'job level': '5',
     salary: '140000',
@@ -32536,7 +32536,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Security Admin',
+    jobTitle: 'Security Admin',
     team: 'Network, Security & IT',
     salary: '140000',
     city: 'Columbia',
@@ -32546,7 +32546,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     salary: '140000',
     city: 'Portland',
@@ -32556,7 +32556,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     salary: '140000',
     city: 'Seattle',
@@ -32567,7 +32567,7 @@ const data = [
   },
   {
     Timestamp: '12/2/2020 17:14:40',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '140000',
@@ -32579,7 +32579,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 19:24:20',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '140000',
@@ -32590,7 +32590,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '140000',
     city: 'San Francisco',
@@ -32601,7 +32601,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 23:46:47',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '140000',
@@ -32612,7 +32612,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '140000',
     city: 'Chicago',
@@ -32622,7 +32622,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '4',
     salary: '140000',
@@ -32634,7 +32634,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 13:03:52',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '140000',
     city: 'New York City',
@@ -32644,7 +32644,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '140000',
     city: 'New York City',
@@ -32654,7 +32654,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '140000',
     city: 'Dayton',
@@ -32664,7 +32664,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '140000',
     city: 'Austin',
@@ -32675,7 +32675,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 0:37:27',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '140000',
     city: 'Seattle',
@@ -32685,7 +32685,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '140000',
     city: 'Madison',
@@ -32696,7 +32696,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 19:39:57',
-    'job title': 'Sr. Business Development Manager',
+    jobTitle: 'Sr. Business Development Manager',
     team: 'Misc',
     salary: '140000',
     city: 'San Francisco Bay Area',
@@ -32707,7 +32707,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 12:03:42',
-    'job title': 'Sr. Content Director',
+    jobTitle: 'Sr. Content Director',
     team: 'Marketing',
     salary: '140000',
     city: 'Boston',
@@ -32718,7 +32718,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 16:12:10',
-    'job title': 'Sr. Digital Analyst',
+    jobTitle: 'Sr. Digital Analyst',
     team: 'Data Science',
     salary: '140000',
     city: 'New York City',
@@ -32729,7 +32729,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 12:52:42',
-    'job title': 'Sr. Enterprise Architecture Specialist',
+    jobTitle: 'Sr. Enterprise Architecture Specialist',
     team: 'Misc',
     salary: '140000',
     city: 'Dallas',
@@ -32740,7 +32740,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 21:23:23',
-    'job title': 'Sr. Frontend Engineer',
+    jobTitle: 'Sr. Frontend Engineer',
     team: 'Software Engineering',
     salary: '140000',
     city: 'Boulder',
@@ -32751,7 +32751,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 21:04:56',
-    'job title': 'Sr. Manager of Demand Generation',
+    jobTitle: 'Sr. Manager of Demand Generation',
     team: 'Sales',
     salary: '140000',
     city: 'San Francisco Bay Area',
@@ -32762,7 +32762,7 @@ const data = [
   },
   {
     Timestamp: '2/10/2020 17:20:17',
-    'job title': 'Sr. Manager of Information Security',
+    jobTitle: 'Sr. Manager of Information Security',
     team: 'Network, Security & IT',
     salary: '140000',
     city: 'Dallas',
@@ -32773,7 +32773,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 16:11:17',
-    'job title': 'Sr. Manager Procurement ',
+    jobTitle: 'Sr. Manager Procurement ',
     team: 'Misc',
     salary: '140000',
     city: 'Denver',
@@ -32784,7 +32784,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 15:39:52',
-    'job title': 'Sr. Product Designer',
+    jobTitle: 'Sr. Product Designer',
     team: 'Product Design',
     salary: '140000',
     city: 'Boston',
@@ -32795,7 +32795,7 @@ const data = [
   },
   {
     Timestamp: '2/11/2020 18:14:33',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '140000',
     city: 'Denver',
@@ -32806,7 +32806,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 14:51:22',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '140000',
     city: 'Denver',
@@ -32817,7 +32817,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 9:59:06',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '140000',
     city: 'Salt Lake City',
@@ -32828,7 +32828,7 @@ const data = [
   },
   {
     Timestamp: '1/14/2020 9:42:01',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '140000',
     city: 'Boston',
@@ -32839,7 +32839,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 21:01:37',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '140000',
@@ -32851,7 +32851,7 @@ const data = [
   },
   {
     Timestamp: '2/4/2020 11:50:31',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '140000',
     city: 'New York City',
@@ -32862,7 +32862,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 9:39:25',
-    'job title': 'Sr. UI/UX Engineer',
+    jobTitle: 'Sr. UI/UX Engineer',
     team: 'Software Engineering',
     salary: '140000',
     city: 'Boston',
@@ -32873,7 +32873,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 12:32:47',
-    'job title': 'Sr. UX Designer',
+    jobTitle: 'Sr. UX Designer',
     team: 'Product Design',
     salary: '140000',
     city: 'San Francisco Bay Area',
@@ -32884,7 +32884,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 13:02:14',
-    'job title': 'Sr. UX/UI Designer',
+    jobTitle: 'Sr. UX/UI Designer',
     team: 'Product Design',
     salary: '140000',
     city: 'San Francisco Bay Area',
@@ -32895,7 +32895,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 14:45:19',
-    'job title': 'Strategic Partnerships Manager',
+    jobTitle: 'Strategic Partnerships Manager',
     team: 'Sales',
     salary: '140000',
     city: 'New York City',
@@ -32905,7 +32905,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '140000',
     city: 'San Diego',
@@ -32915,7 +32915,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '140000',
@@ -32926,7 +32926,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '140000',
     city: 'New York City',
@@ -32936,7 +32936,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '140000',
     city: 'Philadelphia',
@@ -32947,7 +32947,7 @@ const data = [
   },
   {
     Timestamp: '12/4/2020 12:26:05',
-    'job title': 'Technical Product Manager',
+    jobTitle: 'Technical Product Manager',
     team: 'Product Management',
     salary: '140000',
     city: 'New York City',
@@ -32958,7 +32958,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 15:47:04',
-    'job title': 'Technical Program Manager',
+    jobTitle: 'Technical Program Manager',
     team: 'Technical Program Management',
     salary: '140000',
     city: 'Austin',
@@ -32968,7 +32968,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '140000',
     city: 'Chicago',
@@ -32979,7 +32979,7 @@ const data = [
   },
   {
     Timestamp: '2/26/2020 0:57:07',
-    'job title': 'UI Engineer',
+    jobTitle: 'UI Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '140000',
@@ -32990,7 +32990,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'UX',
+    jobTitle: 'UX',
     team: 'Product Design',
     salary: '140000',
     city: 'Houston',
@@ -33001,7 +33001,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 11:12:32',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     'job level': '3',
     salary: '140000',
@@ -33013,7 +33013,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 17:10:00',
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     salary: '140000',
     city: 'San Francisco Bay Area',
@@ -33024,7 +33024,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 18:48:54',
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     salary: '140000',
     city: 'San Francisco Bay Area',
@@ -33035,7 +33035,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 22:13:23',
-    'job title': 'UX/UI Designer',
+    jobTitle: 'UX/UI Designer',
     team: 'Product Design',
     'job level': 'II',
     salary: '140000',
@@ -33047,7 +33047,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 8:33:22',
-    'job title': 'VP of IT Strategy',
+    jobTitle: 'VP of IT Strategy',
     team: 'Operations',
     salary: '140000',
     city: 'Washington',
@@ -33058,7 +33058,7 @@ const data = [
   },
   {
     Timestamp: '1/27/2020 15:13:52',
-    'job title': 'VP of Product',
+    jobTitle: 'VP of Product',
     team: 'Operations',
     salary: '140000',
     city: 'New York City',
@@ -33069,7 +33069,7 @@ const data = [
   },
   {
     Timestamp: '3/2/2020 13:55:33',
-    'job title': 'VP of Product & Engineering',
+    jobTitle: 'VP of Product & Engineering',
     team: 'Operations',
     salary: '140000',
     city: 'Portland',
@@ -33079,7 +33079,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     salary: '140000',
     city: 'Herndon',
@@ -33089,7 +33089,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Engineer',
+    jobTitle: 'System Engineer',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '140500',
@@ -33101,7 +33101,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 11:51:42',
-    'job title': 'Chief Technology Officer',
+    jobTitle: 'Chief Technology Officer',
     team: 'Operations',
     salary: '141000',
     city: 'Chicago',
@@ -33112,7 +33112,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 16:02:43',
-    'job title': 'Data Scientist',
+    jobTitle: 'Data Scientist',
     team: 'Data Science',
     salary: '141000',
     city: 'San Francisco Bay Area',
@@ -33123,7 +33123,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 18:09:01',
-    'job title': 'Director of Brand',
+    jobTitle: 'Director of Brand',
     team: 'Misc',
     salary: '141000',
     city: 'New York City',
@@ -33134,7 +33134,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 15:44:35',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '141000',
     city: 'San Francisco Bay Area',
@@ -33144,7 +33144,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '141000',
     city: 'New York City',
@@ -33155,7 +33155,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 18:29:51',
-    'job title': 'Technical Program Manager',
+    jobTitle: 'Technical Program Manager',
     team: 'Technical Program Management',
     salary: '141000',
     city: 'Seattle',
@@ -33166,7 +33166,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 21:29:17',
-    'job title': 'Director of Engineering',
+    jobTitle: 'Director of Engineering',
     team: 'Software Engineering Management',
     salary: '142000',
     city: 'Atlanta',
@@ -33177,7 +33177,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 17:06:58',
-    'job title': 'Editorial Manager',
+    jobTitle: 'Editorial Manager',
     team: 'Misc',
     salary: '142000',
     city: 'San Francisco Bay Area',
@@ -33187,7 +33187,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '142000',
     city: 'Austin',
@@ -33197,7 +33197,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '5',
     salary: '142000',
@@ -33208,7 +33208,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '142000',
@@ -33220,7 +33220,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 12:53:54',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '142000',
@@ -33232,7 +33232,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 6:18:01',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '142000',
@@ -33244,7 +33244,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 0:19:49',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '142000',
@@ -33256,7 +33256,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:40:39',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '142000',
     city: 'Seattle',
@@ -33266,7 +33266,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '6',
     salary: '142000',
@@ -33278,7 +33278,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 1:22:06',
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Product Management',
     'job level': '2',
     salary: '142500',
@@ -33290,7 +33290,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 1:38:26',
-    'job title': 'Business Design Lead',
+    jobTitle: 'Business Design Lead',
     team: 'Product Design',
     salary: '143000',
     city: 'San Francisco Bay Area',
@@ -33301,7 +33301,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 18:12:07',
-    'job title': 'Lead UI Software Engineer',
+    jobTitle: 'Lead UI Software Engineer',
     team: 'Software Engineering Management',
     salary: '143000',
     city: 'Boston',
@@ -33312,7 +33312,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 1:13:20',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '143000',
@@ -33324,7 +33324,7 @@ const data = [
   },
   {
     Timestamp: '6/10/2020 18:20:13',
-    'job title': 'Sr. Director of Sales Enablement',
+    jobTitle: 'Sr. Director of Sales Enablement',
     team: 'Sales',
     salary: '143000',
     city: 'New York City',
@@ -33335,7 +33335,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 2:15:41',
-    'job title': 'Sr. Platform Engineer',
+    jobTitle: 'Sr. Platform Engineer',
     team: 'Network, Security & IT',
     salary: '143000',
     city: 'San Francisco Bay Area',
@@ -33346,7 +33346,7 @@ const data = [
   },
   {
     Timestamp: '2/26/2020 16:46:20',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '143000',
     city: 'Portland',
@@ -33357,7 +33357,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 19:55:59',
-    'job title': 'Sr. Product Owner',
+    jobTitle: 'Sr. Product Owner',
     team: 'Agile',
     salary: '143000',
     city: 'Baltimore',
@@ -33368,7 +33368,7 @@ const data = [
   },
   {
     Timestamp: '7/16/2020 0:44:03',
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     salary: '143000',
     city: 'New York City',
@@ -33379,7 +33379,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 0:59:05',
-    'job title': 'Software Developer',
+    jobTitle: 'Software Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '143500',
@@ -33391,7 +33391,7 @@ const data = [
   },
   {
     Timestamp: '3/2/2020 20:49:24',
-    'job title': 'GRC Manager ',
+    jobTitle: 'GRC Manager ',
     team: 'Misc',
     salary: '144000',
     city: 'Baltimore',
@@ -33402,7 +33402,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 20:08:49',
-    'job title': 'IT Manager',
+    jobTitle: 'IT Manager',
     team: 'Network, Security & IT',
     salary: '144000',
     city: 'Dallas',
@@ -33413,7 +33413,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 9:27:07',
-    'job title': 'Product Design Manager',
+    jobTitle: 'Product Design Manager',
     team: 'Product Design',
     salary: '144000',
     city: 'Boston',
@@ -33423,7 +33423,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Technical Program Management',
     'job level': '5',
     salary: '144000',
@@ -33435,7 +33435,7 @@ const data = [
   },
   {
     Timestamp: '3/10/2020 1:13:48',
-    'job title': 'Researcher',
+    jobTitle: 'Researcher',
     team: 'Misc',
     salary: '144000',
     city: 'San Francisco Bay Area',
@@ -33445,7 +33445,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Sales Engineer',
+    jobTitle: 'Sales Engineer',
     team: 'Sales',
     'job level': '4',
     salary: '144000',
@@ -33457,7 +33457,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 12:58:00',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '144000',
     city: 'San Francisco Bay Area',
@@ -33468,7 +33468,7 @@ const data = [
   },
   {
     Timestamp: '3/4/2020 16:41:24',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '144000',
     city: 'Atlanta',
@@ -33479,7 +33479,7 @@ const data = [
   },
   {
     Timestamp: '2/9/2020 13:58:39',
-    'job title': 'Sr. UX Designer',
+    jobTitle: 'Sr. UX Designer',
     team: 'Product Design',
     salary: '144000',
     city: 'San Francisco Bay Area',
@@ -33490,7 +33490,7 @@ const data = [
   },
   {
     Timestamp: '2/9/2020 13:58:56',
-    'job title': 'Sr. UX Designer',
+    jobTitle: 'Sr. UX Designer',
     team: 'Product Design',
     salary: '144000',
     city: 'San Francisco Bay Area',
@@ -33500,7 +33500,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '144000',
     city: 'Detroit',
@@ -33511,7 +33511,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 14:28:51',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '144970',
@@ -33523,7 +33523,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 22:03:13',
-    'job title': 'Customer Success Manager',
+    jobTitle: 'Customer Success Manager',
     team: 'Sales',
     salary: '145000',
     city: 'Omaha',
@@ -33534,7 +33534,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 11:10:18',
-    'job title': 'Customer Success Team Manager',
+    jobTitle: 'Customer Success Team Manager',
     team: 'Sales',
     salary: '145000',
     city: 'San Francisco Bay Area',
@@ -33544,7 +33544,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     'job level': '5',
     salary: '145000',
@@ -33555,7 +33555,7 @@ const data = [
     education: 'Doctorate or Post-doctorate'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '145000',
     city: 'New York City',
@@ -33566,7 +33566,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 15:20:31',
-    'job title': 'Data Scientist',
+    jobTitle: 'Data Scientist',
     team: 'Data Science',
     salary: '145000',
     city: 'New York City',
@@ -33576,7 +33576,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '145000',
     city: 'Denver',
@@ -33586,7 +33586,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '145000',
     city: 'Austin',
@@ -33597,7 +33597,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 20:52:37',
-    'job title': 'Developer',
+    jobTitle: 'Developer',
     team: 'Software Engineering',
     salary: '145000',
     city: 'New York City',
@@ -33607,7 +33607,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Director',
+    jobTitle: 'Director',
     team: 'Operations',
     salary: '145000',
     city: 'New Haven',
@@ -33618,7 +33618,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 19:08:35',
-    'job title': 'Director of marketing analytics ',
+    jobTitle: 'Director of marketing analytics ',
     team: 'Marketing Ops',
     salary: '145000',
     city: 'New York City',
@@ -33629,7 +33629,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 9:33:04',
-    'job title': 'Director of Product Management',
+    jobTitle: 'Director of Product Management',
     team: 'Product Management',
     salary: '145000',
     city: 'Seattle',
@@ -33640,7 +33640,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2020 10:29:07',
-    'job title': 'Engineering Manager',
+    jobTitle: 'Engineering Manager',
     team: 'Software Engineering Management',
     salary: '145000',
     city: 'Atlanta',
@@ -33651,7 +33651,7 @@ const data = [
   },
   {
     Timestamp: '6/10/2020 7:47:35',
-    'job title': 'Engineering Manager',
+    jobTitle: 'Engineering Manager',
     team: 'Software Engineering Management',
     salary: '145000',
     city: 'Boston',
@@ -33662,7 +33662,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 3:31:43',
-    'job title': 'Frontend Software Engineer',
+    jobTitle: 'Frontend Software Engineer',
     team: 'Software Engineering',
     salary: '145000',
     city: 'Menlo Park',
@@ -33672,7 +33672,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Information Systems Analyst',
+    jobTitle: 'Information Systems Analyst',
     team: 'Network, Security & IT',
     salary: '145000',
     city: 'New York City',
@@ -33683,7 +33683,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 13:33:18',
-    'job title': 'Instructional Designer',
+    jobTitle: 'Instructional Designer',
     team: 'Product Design',
     salary: '145000',
     city: 'San Francisco Bay Area',
@@ -33693,7 +33693,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '145000',
     city: 'Boston',
@@ -33704,7 +33704,7 @@ const data = [
   },
   {
     Timestamp: '9/2/2020 0:01:59',
-    'job title': 'Manager of Customer Success',
+    jobTitle: 'Manager of Customer Success',
     team: 'Sales',
     salary: '145000',
     city: 'San Francisco Bay Area',
@@ -33714,7 +33714,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '145000',
     city: 'San Diego',
@@ -33725,7 +33725,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 12:40:33',
-    'job title': 'Principal Partner ',
+    jobTitle: 'Principal Partner ',
     team: 'Operations',
     salary: '145000',
     city: 'San Francisco Bay Area',
@@ -33736,7 +33736,7 @@ const data = [
   },
   {
     Timestamp: '2/11/2020 17:12:30',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '145000',
     city: 'San Francisco Bay Area',
@@ -33747,7 +33747,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 11:25:29',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '145000',
     city: 'New York City',
@@ -33758,7 +33758,7 @@ const data = [
   },
   {
     Timestamp: '8/6/2020 12:45:42',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '145000',
     city: 'New York City',
@@ -33769,7 +33769,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 4:07:49',
-    'job title': 'Product Manager II',
+    jobTitle: 'Product Manager II',
     team: 'Product Management',
     salary: '145000',
     city: 'Redmond',
@@ -33780,7 +33780,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 11:06:26',
-    'job title': 'Sales development manager ',
+    jobTitle: 'Sales development manager ',
     team: 'Sales',
     salary: '145000',
     city: 'San Francisco Bay Area',
@@ -33790,7 +33790,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Security Engineer',
+    jobTitle: 'Security Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '145000',
@@ -33802,7 +33802,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 10:49:16',
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     salary: '145000',
     city: 'New York City',
@@ -33812,7 +33812,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '4',
     salary: '145000',
@@ -33823,7 +33823,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '4',
     salary: '145000',
@@ -33834,7 +33834,7 @@ const data = [
     education: 'Doctorate or Post-doctorate'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '145000',
@@ -33845,7 +33845,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '145000',
     city: 'Atlanta',
@@ -33855,7 +33855,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '145000',
     city: 'Pittsburgh',
@@ -33865,7 +33865,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '145000',
@@ -33877,7 +33877,7 @@ const data = [
   },
   {
     Timestamp: '3/10/2020 19:43:58',
-    'job title': 'Sr. IT Engineer',
+    jobTitle: 'Sr. IT Engineer',
     team: 'Network, Security & IT',
     salary: '145000',
     city: 'San Francisco Bay Area',
@@ -33888,7 +33888,7 @@ const data = [
   },
   {
     Timestamp: '9/11/2020 16:28:23',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '145000',
     city: 'San Francisco Bay Area',
@@ -33899,7 +33899,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 15:25:57',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '145000',
     city: 'New York City',
@@ -33910,7 +33910,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 8:16:01',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '145000',
     city: 'New York City',
@@ -33921,7 +33921,7 @@ const data = [
   },
   {
     Timestamp: '1/28/2021 12:36:28',
-    'job title': 'Sr. Project Manager',
+    jobTitle: 'Sr. Project Manager',
     team: 'Product Management',
     salary: '145000',
     city: 'Minneapolis',
@@ -33932,7 +33932,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 12:09:42',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '145000',
     city: 'New York City',
@@ -33943,7 +33943,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 0:10:22',
-    'job title': 'Sr. Team Product Manager',
+    jobTitle: 'Sr. Team Product Manager',
     team: 'Product Management',
     salary: '145000',
     city: 'Austin',
@@ -33954,7 +33954,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 16:02:22',
-    'job title': 'Sr. UX Researcher ',
+    jobTitle: 'Sr. UX Researcher ',
     team: 'Product Design',
     salary: '145000',
     city: 'San Francisco Bay Area',
@@ -33964,7 +33964,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '145000',
     city: 'San Francisco',
@@ -33974,7 +33974,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '145000',
     city: 'Orange',
@@ -33984,7 +33984,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '145000',
     city: 'Tukwila',
@@ -33995,7 +33995,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:48:37',
-    'job title': 'Systems Engineer',
+    jobTitle: 'Systems Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '145000',
@@ -34007,7 +34007,7 @@ const data = [
   },
   {
     Timestamp: '1/27/2020 17:47:28',
-    'job title': 'User Acquisition Marketing Manager',
+    jobTitle: 'User Acquisition Marketing Manager',
     team: 'Marketing',
     salary: '145000',
     city: 'San Francisco Bay Area',
@@ -34018,7 +34018,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 9:35:24',
-    'job title': 'UX Design Lead',
+    jobTitle: 'UX Design Lead',
     team: 'Product Design',
     salary: '145000',
     city: 'Raleigh',
@@ -34029,7 +34029,7 @@ const data = [
   },
   {
     Timestamp: '2/8/2020 12:51:10',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '145600',
     city: 'Rochester',
@@ -34040,7 +34040,7 @@ const data = [
   },
   {
     Timestamp: '12/4/2020 18:57:22',
-    'job title': 'Strategy and Ops Analyst',
+    jobTitle: 'Strategy and Ops Analyst',
     team: 'Misc',
     salary: '145800',
     city: 'San Francisco Bay Area',
@@ -34051,7 +34051,7 @@ const data = [
   },
   {
     Timestamp: '3/5/2020 18:40:53',
-    'job title': 'Growth Marketing Manager',
+    jobTitle: 'Growth Marketing Manager',
     team: 'Marketing',
     salary: '146000',
     city: 'San Francisco Bay Area',
@@ -34062,7 +34062,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 23:22:24',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '146500',
     city: 'San Francisco Bay Area',
@@ -34073,7 +34073,7 @@ const data = [
   },
   {
     Timestamp: '3/12/2020 13:10:15',
-    'job title': 'Social Media Manager',
+    jobTitle: 'Social Media Manager',
     team: 'Marketing',
     salary: '147000',
     city: 'New York City',
@@ -34084,7 +34084,7 @@ const data = [
   },
   {
     Timestamp: '1/23/2021 10:34:49',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '147000',
@@ -34096,7 +34096,7 @@ const data = [
   },
   {
     Timestamp: '12/1/2020 0:34:20',
-    'job title': 'Sr. Project Manager',
+    jobTitle: 'Sr. Project Manager',
     team: 'Product Management',
     salary: '147000',
     city: 'Seattle',
@@ -34107,7 +34107,7 @@ const data = [
   },
   {
     Timestamp: '3/9/2020 21:35:25',
-    'job title': 'Director of Marketing and Customer Support',
+    jobTitle: 'Director of Marketing and Customer Support',
     team: 'Marketing Ops',
     salary: '147500',
     city: 'Philadelphia',
@@ -34118,7 +34118,7 @@ const data = [
   },
   {
     Timestamp: '2/23/2020 18:25:41',
-    'job title': 'Director of Product Management',
+    jobTitle: 'Director of Product Management',
     team: 'Product Management',
     salary: '148000',
     city: 'New York City',
@@ -34129,7 +34129,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 9:45:10',
-    'job title': 'Merchandiser ',
+    jobTitle: 'Merchandiser ',
     team: 'Misc',
     salary: '148000',
     city: 'Cupertino',
@@ -34139,7 +34139,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Technical Program Management',
     salary: '148000',
     city: 'Chicago',
@@ -34149,7 +34149,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     salary: '148000',
     city: 'Denver',
@@ -34159,7 +34159,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '4',
     salary: '148000',
@@ -34170,7 +34170,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '6',
     salary: '148000',
@@ -34182,7 +34182,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 14:47:06',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '148000',
     city: 'Seattle',
@@ -34193,7 +34193,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 10:48:11',
-    'job title': 'Sr. Product Designer',
+    jobTitle: 'Sr. Product Designer',
     team: 'Product Design',
     salary: '148000',
     city: 'Denver',
@@ -34204,7 +34204,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 22:29:11',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '148000',
     city: 'New York City',
@@ -34214,7 +34214,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '148000',
     city: 'Los Angeles',
@@ -34225,7 +34225,7 @@ const data = [
   },
   {
     Timestamp: '8/26/2020 17:22:04',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '148500',
@@ -34237,7 +34237,7 @@ const data = [
   },
   {
     Timestamp: '2/11/2020 17:13:08',
-    'job title': 'Director of Product Management',
+    jobTitle: 'Director of Product Management',
     team: 'Product Management',
     salary: '149000',
     city: 'Los Angeles',
@@ -34248,7 +34248,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 11:01:41',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '149000',
     city: 'San Francisco Bay Area',
@@ -34259,7 +34259,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 13:50:59',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '149000',
@@ -34271,7 +34271,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:31:32',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '149000',
     city: 'New York City',
@@ -34282,7 +34282,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 19:54:11',
-    'job title': 'Technical Program Manager',
+    jobTitle: 'Technical Program Manager',
     team: 'Technical Program Management',
     salary: '149000',
     city: 'San Francisco Bay Area',
@@ -34292,7 +34292,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Account Manager',
+    jobTitle: 'Account Manager',
     team: 'Sales',
     'job level': '5',
     salary: '150000',
@@ -34304,7 +34304,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 3:00:11',
-    'job title': 'Android Developer ',
+    jobTitle: 'Android Developer ',
     team: 'Software Engineering',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -34315,7 +34315,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 19:23:14',
-    'job title': 'B2B Sales',
+    jobTitle: 'B2B Sales',
     team: 'Sales',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -34326,7 +34326,7 @@ const data = [
   },
   {
     Timestamp: '10/30/2020 16:40:39',
-    'job title': 'Chief of Staff',
+    jobTitle: 'Chief of Staff',
     team: 'Operations',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -34337,7 +34337,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 6:19:43',
-    'job title': 'Cybersecurity Engineer',
+    jobTitle: 'Cybersecurity Engineer',
     team: 'Network, Security & IT',
     'job level': '5',
     salary: '150000',
@@ -34349,7 +34349,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 20:59:32',
-    'job title': 'Data Scientist',
+    jobTitle: 'Data Scientist',
     team: 'Data Science',
     salary: '150000',
     city: 'Menlo Park',
@@ -34360,7 +34360,7 @@ const data = [
   },
   {
     Timestamp: '1/25/2021 19:41:15',
-    'job title': 'Data Scientist',
+    jobTitle: 'Data Scientist',
     team: 'Data Science',
     salary: '150000',
     city: 'Seattle',
@@ -34371,7 +34371,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 14:03:02',
-    'job title': 'Design Manager',
+    jobTitle: 'Design Manager',
     team: 'Product Design',
     salary: '150000',
     city: 'Boston',
@@ -34382,7 +34382,7 @@ const data = [
   },
   {
     Timestamp: '3/10/2020 23:31:47',
-    'job title': 'Designer',
+    jobTitle: 'Designer',
     team: 'Product Design',
     'job level': '2',
     salary: '150000',
@@ -34393,7 +34393,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '150000',
     city: 'Boulder',
@@ -34403,7 +34403,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '8',
     salary: '150000',
@@ -34414,7 +34414,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '150000',
@@ -34426,7 +34426,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 23:04:55',
-    'job title': 'Director of Operations',
+    jobTitle: 'Director of Operations',
     team: 'Operations',
     salary: '150000',
     city: 'Seattle',
@@ -34437,7 +34437,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 16:27:52',
-    'job title': 'Director of Product Management',
+    jobTitle: 'Director of Product Management',
     team: 'Product Management',
     salary: '150000',
     city: 'Boston',
@@ -34448,7 +34448,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 10:58:36',
-    'job title': 'Director of Product Management',
+    jobTitle: 'Director of Product Management',
     team: 'Product Management',
     salary: '150000',
     city: 'Portland',
@@ -34459,7 +34459,7 @@ const data = [
   },
   {
     Timestamp: '2/23/2020 12:35:59',
-    'job title': 'Director of Product Marketing',
+    jobTitle: 'Director of Product Marketing',
     team: 'Marketing',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -34470,7 +34470,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 9:42:26',
-    'job title': 'Engineering Manager',
+    jobTitle: 'Engineering Manager',
     team: 'Software Engineering Management',
     salary: '150000',
     city: 'New York City',
@@ -34481,7 +34481,7 @@ const data = [
   },
   {
     Timestamp: '11/11/2020 11:54:21',
-    'job title': 'Enterprise Account Executive',
+    jobTitle: 'Enterprise Account Executive',
     team: 'Sales',
     salary: '150000',
     city: 'Seattle',
@@ -34492,7 +34492,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 18:11:57',
-    'job title': 'Executive Producer, Game Development',
+    jobTitle: 'Executive Producer, Game Development',
     team: 'Misc',
     salary: '150000',
     city: 'Los Angeles',
@@ -34503,7 +34503,7 @@ const data = [
   },
   {
     Timestamp: '12/3/2020 19:25:20',
-    'job title': 'Finance Manager',
+    jobTitle: 'Finance Manager',
     team: 'Accounting',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -34514,7 +34514,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 23:14:57',
-    'job title': 'Founder',
+    jobTitle: 'Founder',
     team: 'Operations',
     salary: '150000',
     city: 'New York City',
@@ -34525,7 +34525,7 @@ const data = [
   },
   {
     Timestamp: '1/23/2020 14:43:34',
-    'job title': 'Global Leadership and Talent Development Consultant ',
+    jobTitle: 'Global Leadership and Talent Development Consultant ',
     team: 'Human Resources',
     salary: '150000',
     city: 'Los Angeles',
@@ -34536,7 +34536,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 13:46:22',
-    'job title': 'Global Marketing Manager',
+    jobTitle: 'Global Marketing Manager',
     team: 'Marketing',
     salary: '150000',
     city: 'Houston',
@@ -34547,7 +34547,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 19:40:59',
-    'job title': 'Head of Customer Experience & engagement ',
+    jobTitle: 'Head of Customer Experience & engagement ',
     team: 'Sales',
     salary: '150000',
     city: 'Boston',
@@ -34558,7 +34558,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 10:12:07',
-    'job title': 'Head of OSS',
+    jobTitle: 'Head of OSS',
     team: 'Misc',
     salary: '150000',
     city: 'Portland',
@@ -34569,7 +34569,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 18:10:50',
-    'job title': 'Head of Product Management',
+    jobTitle: 'Head of Product Management',
     team: 'Product Management',
     salary: '150000',
     city: 'Los Angeles',
@@ -34580,7 +34580,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 14:53:26',
-    'job title': 'Head of Product Management',
+    jobTitle: 'Head of Product Management',
     team: 'Product Management',
     salary: '150000',
     city: 'New York City',
@@ -34590,7 +34590,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '150000',
     city: 'Seattle',
@@ -34600,7 +34600,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '150000',
     city: 'Chicago',
@@ -34611,7 +34611,7 @@ const data = [
   },
   {
     Timestamp: '11/13/2020 13:52:53',
-    'job title': 'Line Producer',
+    jobTitle: 'Line Producer',
     team: 'Misc',
     salary: '150000',
     city: 'Los Angeles',
@@ -34622,7 +34622,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 2:52:00',
-    'job title': 'Manager of Supply Account Management',
+    jobTitle: 'Manager of Supply Account Management',
     team: 'Sales',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -34633,7 +34633,7 @@ const data = [
   },
   {
     Timestamp: '12/1/2020 12:41:43',
-    'job title': 'Marketing Communications Programs Manager',
+    jobTitle: 'Marketing Communications Programs Manager',
     team: 'Marketing',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -34643,7 +34643,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '150000',
     city: 'Cincinnati',
@@ -34654,7 +34654,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 0:44:46',
-    'job title': 'Principal Data Engineer',
+    jobTitle: 'Principal Data Engineer',
     team: 'Data Science',
     salary: '150000',
     city: 'Seattle',
@@ -34665,7 +34665,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2020 17:46:23',
-    'job title': 'Principal Product Designer',
+    jobTitle: 'Principal Product Designer',
     team: 'Product Design',
     salary: '150000',
     city: 'Denver',
@@ -34676,7 +34676,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 12:27:08',
-    'job title': 'Product Analyst',
+    jobTitle: 'Product Analyst',
     team: 'Product Management',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -34687,7 +34687,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 22:56:38',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -34698,7 +34698,7 @@ const data = [
   },
   {
     Timestamp: '2/9/2020 18:40:24',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -34709,7 +34709,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 0:41:55',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -34720,7 +34720,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 1:46:46',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -34730,7 +34730,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     'job level': '4',
     salary: '150000',
@@ -34742,7 +34742,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 15:24:24',
-    'job title': 'Product Operations Manager',
+    jobTitle: 'Product Operations Manager',
     team: 'Product Management',
     salary: '150000',
     city: 'New York City',
@@ -34753,7 +34753,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 1:42:16',
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Product Management',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -34764,7 +34764,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 22:18:17',
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Product Management',
     salary: '150000',
     city: 'New York City',
@@ -34775,7 +34775,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 10:49:23',
-    'job title': 'Research Scientist',
+    jobTitle: 'Research Scientist',
     team: 'Data Science',
     salary: '150000',
     city: 'New York City',
@@ -34786,7 +34786,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 10:46:57',
-    'job title': 'Research Scientist',
+    jobTitle: 'Research Scientist',
     team: 'Data Science',
     salary: '150000',
     city: 'New York City',
@@ -34797,7 +34797,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 15:43:50',
-    'job title': 'Research Scientist II',
+    jobTitle: 'Research Scientist II',
     team: 'Data Science',
     salary: '150000',
     city: 'Atlanta',
@@ -34808,7 +34808,7 @@ const data = [
   },
   {
     Timestamp: '3/23/2020 13:22:36',
-    'job title': 'Sales Engineer',
+    jobTitle: 'Sales Engineer',
     team: 'Sales',
     salary: '150000',
     city: 'Bozeman',
@@ -34819,7 +34819,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 14:34:45',
-    'job title': 'Sales Operations Manager',
+    jobTitle: 'Sales Operations Manager',
     team: 'Sales',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -34829,7 +34829,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Security Admin',
+    jobTitle: 'Security Admin',
     team: 'Network, Security & IT',
     salary: '150000',
     city: 'Washington',
@@ -34839,7 +34839,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Security Admin',
+    jobTitle: 'Security Admin',
     team: 'Network, Security & IT',
     'job level': '6',
     salary: '150000',
@@ -34851,7 +34851,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:09:12',
-    'job title': 'Security Engineer',
+    jobTitle: 'Security Engineer',
     team: 'Network, Security & IT',
     salary: '150000',
     city: 'Washington',
@@ -34861,7 +34861,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '150000',
@@ -34872,7 +34872,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '150000',
@@ -34883,7 +34883,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     salary: '150000',
     city: 'Seattle',
@@ -34894,7 +34894,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 1:29:09',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '150000',
@@ -34906,7 +34906,7 @@ const data = [
   },
   {
     Timestamp: '1/24/2020 5:02:41',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -34917,7 +34917,7 @@ const data = [
   },
   {
     Timestamp: '3/18/2020 22:57:59',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -34928,7 +34928,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 13:12:46',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '150000',
@@ -34940,7 +34940,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2020 10:11:19',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '150000',
@@ -34952,7 +34952,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 14:42:23',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '150000',
     city: 'New York City',
@@ -34962,7 +34962,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '150000',
     city: 'Philadelphia',
@@ -34972,7 +34972,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '150000',
     city: 'Austin',
@@ -34982,7 +34982,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '4',
     salary: '150000',
@@ -34994,7 +34994,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 11:56:06',
-    'job title': 'Sr. Account Executive ',
+    jobTitle: 'Sr. Account Executive ',
     team: 'Sales',
     salary: '150000',
     city: 'New York City',
@@ -35005,7 +35005,7 @@ const data = [
   },
   {
     Timestamp: '2/25/2020 14:04:19',
-    'job title': 'Sr. Accounting Manager',
+    jobTitle: 'Sr. Accounting Manager',
     team: 'Accounting',
     salary: '150000',
     city: 'New York City',
@@ -35016,7 +35016,7 @@ const data = [
   },
   {
     Timestamp: '1/25/2021 11:44:45',
-    'job title': 'Sr. Brand Designer',
+    jobTitle: 'Sr. Brand Designer',
     team: 'Product Design',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -35027,7 +35027,7 @@ const data = [
   },
   {
     Timestamp: '2/15/2020 14:51:22',
-    'job title': 'Sr. Communications Manager',
+    jobTitle: 'Sr. Communications Manager',
     team: 'Misc',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -35038,7 +35038,7 @@ const data = [
   },
   {
     Timestamp: '11/13/2020 1:50:03',
-    'job title': 'Sr. Community Manager',
+    jobTitle: 'Sr. Community Manager',
     team: 'Misc',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -35049,7 +35049,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 21:52:24',
-    'job title': 'Sr. DevOps Engineer',
+    jobTitle: 'Sr. DevOps Engineer',
     team: 'Software Engineering',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -35060,7 +35060,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2020 10:34:58',
-    'job title': 'Sr. Manager of Business Operations',
+    jobTitle: 'Sr. Manager of Business Operations',
     team: 'Operations',
     salary: '150000',
     city: 'New York City',
@@ -35071,7 +35071,7 @@ const data = [
   },
   {
     Timestamp: '2/10/2020 17:14:53',
-    'job title': 'Sr. Manager of Engineering',
+    jobTitle: 'Sr. Manager of Engineering',
     team: 'Software Engineering Management',
     salary: '150000',
     city: 'Fremont',
@@ -35082,7 +35082,7 @@ const data = [
   },
   {
     Timestamp: '11/19/2020 12:37:34',
-    'job title': 'Sr. Manager of Event & Field Marketing',
+    jobTitle: 'Sr. Manager of Event & Field Marketing',
     team: 'Marketing',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -35093,7 +35093,7 @@ const data = [
   },
   {
     Timestamp: '2/11/2020 10:26:02',
-    'job title': 'Sr. Product Designer',
+    jobTitle: 'Sr. Product Designer',
     team: 'Product Design',
     salary: '150000',
     city: 'New York City',
@@ -35104,7 +35104,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 12:21:35',
-    'job title': 'Sr. Product Designer',
+    jobTitle: 'Sr. Product Designer',
     team: 'Product Design',
     salary: '150000',
     city: 'New York City',
@@ -35115,7 +35115,7 @@ const data = [
   },
   {
     Timestamp: '1/14/2020 3:23:00',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -35126,7 +35126,7 @@ const data = [
   },
   {
     Timestamp: '2/9/2020 23:44:10',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -35137,7 +35137,7 @@ const data = [
   },
   {
     Timestamp: '10/14/2020 14:24:13',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '150000',
     city: 'Los Angeles',
@@ -35148,7 +35148,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 16:57:06',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -35159,7 +35159,7 @@ const data = [
   },
   {
     Timestamp: '2/11/2020 21:29:45',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -35170,7 +35170,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 20:16:12',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '150000',
     city: 'New York City',
@@ -35181,7 +35181,7 @@ const data = [
   },
   {
     Timestamp: '4/13/2020 19:21:53',
-    'job title': 'Sr. Program Manager',
+    jobTitle: 'Sr. Program Manager',
     team: 'Technical Program Management',
     salary: '150000',
     city: 'Seattle',
@@ -35192,7 +35192,7 @@ const data = [
   },
   {
     Timestamp: '1/14/2020 16:01:47',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -35203,7 +35203,7 @@ const data = [
   },
   {
     Timestamp: '2/26/2020 23:14:43',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '150000',
@@ -35215,7 +35215,7 @@ const data = [
   },
   {
     Timestamp: '2/8/2020 13:46:04',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '150000',
     city: 'New York City',
@@ -35226,7 +35226,7 @@ const data = [
   },
   {
     Timestamp: '8/19/2020 15:08:14',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '150000',
     city: 'Seattle',
@@ -35237,7 +35237,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 1:58:44',
-    'job title': 'Sr. Technical Recruiter',
+    jobTitle: 'Sr. Technical Recruiter',
     team: 'Recruiting',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -35248,7 +35248,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 11:52:43',
-    'job title': 'Sr. UX Researcher',
+    jobTitle: 'Sr. UX Researcher',
     team: 'Product Design',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -35258,7 +35258,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '150000',
@@ -35269,7 +35269,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '150000',
     city: 'Chicago',
@@ -35279,7 +35279,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '150000',
@@ -35290,7 +35290,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '150000',
     city: 'Pittsburgh',
@@ -35301,7 +35301,7 @@ const data = [
   },
   {
     Timestamp: '2/23/2020 6:20:42',
-    'job title': 'Systems Engineer',
+    jobTitle: 'Systems Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '150000',
@@ -35313,7 +35313,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 14:22:46',
-    'job title': 'Technical Product Marketing Manager',
+    jobTitle: 'Technical Product Marketing Manager',
     team: 'Marketing',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -35324,7 +35324,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 15:31:10',
-    'job title': 'Technical Program Manager',
+    jobTitle: 'Technical Program Manager',
     team: 'Technical Program Management',
     salary: '150000',
     city: 'Seattle',
@@ -35334,7 +35334,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '150000',
@@ -35346,7 +35346,7 @@ const data = [
   },
   {
     Timestamp: '11/24/2020 0:33:33',
-    'job title': 'UX Copywriter',
+    jobTitle: 'UX Copywriter',
     team: 'Product Design',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -35357,7 +35357,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 14:21:29',
-    'job title': 'UX Designer',
+    jobTitle: 'UX Designer',
     team: 'Product Design',
     salary: '150000',
     city: 'Los Angeles',
@@ -35368,7 +35368,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2021 16:37:49',
-    'job title': 'VP of Marketing',
+    jobTitle: 'VP of Marketing',
     team: 'Operations',
     salary: '150000',
     city: 'San Francisco Bay Area',
@@ -35379,7 +35379,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:47:51',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '150500',
     city: 'Los Angeles',
@@ -35389,7 +35389,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '152000',
     city: 'Redmond',
@@ -35400,7 +35400,7 @@ const data = [
   },
   {
     Timestamp: '11/23/2020 23:51:43',
-    'job title': 'Executive Communications Manager ',
+    jobTitle: 'Executive Communications Manager ',
     team: 'Misc',
     salary: '152000',
     city: 'San Francisco Bay Area',
@@ -35411,7 +35411,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 16:56:23',
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Product Management',
     salary: '152000',
     city: 'San Francisco Bay Area',
@@ -35421,7 +35421,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '152000',
     city: 'New York City',
@@ -35432,7 +35432,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 9:41:13',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '152000',
     city: 'Austin',
@@ -35443,7 +35443,7 @@ const data = [
   },
   {
     Timestamp: '3/10/2020 13:12:19',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '153000',
     city: 'Chicago',
@@ -35453,7 +35453,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '153000',
@@ -35465,7 +35465,7 @@ const data = [
   },
   {
     Timestamp: '11/26/2020 11:50:27',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '153000',
     city: 'Denver',
@@ -35476,7 +35476,7 @@ const data = [
   },
   {
     Timestamp: '1/25/2021 10:15:05',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '153200',
     city: 'Atlanta',
@@ -35486,7 +35486,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Technical Program Management',
     salary: '154000',
     city: 'Seattle',
@@ -35496,7 +35496,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '154000',
@@ -35507,7 +35507,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '154250',
     city: 'Orlando',
@@ -35518,7 +35518,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 8:50:58',
-    'job title': 'Agile Project Manager',
+    jobTitle: 'Agile Project Manager',
     team: 'Agile',
     salary: '155000',
     city: 'Denver',
@@ -35529,7 +35529,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 11:13:02',
-    'job title': 'Brand Designer',
+    jobTitle: 'Brand Designer',
     team: 'Product Design',
     salary: '155000',
     city: 'San Francisco Bay Area',
@@ -35540,7 +35540,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 13:54:58',
-    'job title': 'Director of Lifecycle Marketing',
+    jobTitle: 'Director of Lifecycle Marketing',
     team: 'Marketing Ops',
     salary: '155000',
     city: 'San Francisco Bay Area',
@@ -35551,7 +35551,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:31:08',
-    'job title': 'Director of Talent Management',
+    jobTitle: 'Director of Talent Management',
     team: 'Human Resources',
     salary: '155000',
     city: 'Austin',
@@ -35562,7 +35562,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 23:23:57',
-    'job title': 'Engineering Manager ',
+    jobTitle: 'Engineering Manager ',
     team: 'Software Engineering Management',
     salary: '155000',
     city: 'Boston',
@@ -35573,7 +35573,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 9:24:27',
-    'job title': 'Head of Marketing',
+    jobTitle: 'Head of Marketing',
     team: 'Marketing',
     salary: '155000',
     city: 'San Francisco Bay Area',
@@ -35583,7 +35583,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     'job level': '1',
     salary: '155000',
@@ -35595,7 +35595,7 @@ const data = [
   },
   {
     Timestamp: '3/9/2020 13:53:03',
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '155000',
     city: 'New York City',
@@ -35606,7 +35606,7 @@ const data = [
   },
   {
     Timestamp: '10/5/2020 18:35:49',
-    'job title': 'Marketing Channel & Experience Strategist',
+    jobTitle: 'Marketing Channel & Experience Strategist',
     team: 'Marketing',
     salary: '155000',
     city: 'San Francisco Bay Area',
@@ -35616,7 +35616,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '155000',
     city: 'New York City',
@@ -35627,7 +35627,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 0:52:56',
-    'job title': 'Principal Product Designer',
+    jobTitle: 'Principal Product Designer',
     team: 'Product Design',
     salary: '155000',
     city: 'San Francisco Bay Area',
@@ -35638,7 +35638,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 16:15:26',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '155000',
     city: 'San Francisco Bay Area',
@@ -35649,7 +35649,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 12:00:25',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '155000',
     city: 'San Francisco Bay Area',
@@ -35660,7 +35660,7 @@ const data = [
   },
   {
     Timestamp: '8/13/2020 0:47:32',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '155000',
     city: 'New York City',
@@ -35671,7 +35671,7 @@ const data = [
   },
   {
     Timestamp: '12/8/2020 14:30:37',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '155000',
     city: 'Seattle',
@@ -35682,7 +35682,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 3:01:00',
-    'job title': 'Product Owner',
+    jobTitle: 'Product Owner',
     team: 'Agile',
     salary: '155000',
     city: 'Chicago',
@@ -35693,7 +35693,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 18:27:04',
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Product Management',
     salary: '155000',
     city: 'San Francisco Bay Area',
@@ -35703,7 +35703,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Sales Engineer',
+    jobTitle: 'Sales Engineer',
     team: 'Sales',
     salary: '155000',
     city: 'Cincinnati',
@@ -35713,7 +35713,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '155000',
@@ -35724,7 +35724,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '155000',
@@ -35735,7 +35735,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '155000',
@@ -35747,7 +35747,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 1:12:51',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '155000',
     city: 'Boston',
@@ -35757,7 +35757,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '155000',
     city: 'New York City',
@@ -35768,7 +35768,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 21:22:24',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '155000',
@@ -35780,7 +35780,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 22:00:52',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '155000',
     city: 'New York City',
@@ -35791,7 +35791,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 10:23:15',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '155000',
     city: 'Seattle',
@@ -35802,7 +35802,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 17:05:27',
-    'job title': 'Sr. QA Engineer',
+    jobTitle: 'Sr. QA Engineer',
     team: 'Software Engineering Management',
     salary: '155000',
     city: 'New York City',
@@ -35813,7 +35813,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 2:03:43',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '155000',
     city: 'Seattle',
@@ -35824,7 +35824,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:42:07',
-    'job title': 'Sr. Talent Aqcuisition',
+    jobTitle: 'Sr. Talent Aqcuisition',
     team: 'Recruiting',
     salary: '155000',
     city: 'San Francisco Bay Area',
@@ -35835,7 +35835,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 14:22:14',
-    'job title': 'Sr. Technical Recruiter',
+    jobTitle: 'Sr. Technical Recruiter',
     team: 'Recruiting',
     salary: '155000',
     city: 'San Francisco Bay Area',
@@ -35846,7 +35846,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 9:36:58',
-    'job title': 'Sr. UX Designer',
+    jobTitle: 'Sr. UX Designer',
     team: 'Product Design',
     salary: '155000',
     city: 'Seattle',
@@ -35857,7 +35857,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 13:57:12',
-    'job title': 'Strategic Partnerships Manager',
+    jobTitle: 'Strategic Partnerships Manager',
     team: 'Sales',
     salary: '155000',
     city: 'New York City',
@@ -35867,7 +35867,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '155000',
     city: 'Salt Lake City',
@@ -35878,7 +35878,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 2:11:11',
-    'job title': 'UX Manager',
+    jobTitle: 'UX Manager',
     team: 'Product Design',
     salary: '155000',
     city: 'Seattle',
@@ -35889,7 +35889,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 21:56:34',
-    'job title': 'Sr. Data Analyst',
+    jobTitle: 'Sr. Data Analyst',
     team: 'Data Science',
     salary: '155100',
     city: 'Seattle',
@@ -35900,7 +35900,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 12:50:35',
-    'job title': 'Marketing Director',
+    jobTitle: 'Marketing Director',
     team: 'Marketing',
     salary: '156000',
     city: 'New York City',
@@ -35911,7 +35911,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2021 12:26:23',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '156000',
@@ -35922,7 +35922,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '156000',
@@ -35933,7 +35933,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '156000',
     city: 'Denver',
@@ -35944,7 +35944,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 11:09:59',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '156000',
@@ -35955,7 +35955,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '156000',
@@ -35967,7 +35967,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 21:22:50',
-    'job title': 'Sr. Manager of Lifecycle and CRM',
+    jobTitle: 'Sr. Manager of Lifecycle and CRM',
     team: 'Misc',
     salary: '156000',
     city: 'New York City',
@@ -35978,7 +35978,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 19:04:33',
-    'job title': 'Sr. Product Marketing Manager',
+    jobTitle: 'Sr. Product Marketing Manager',
     team: 'Marketing',
     salary: '156000',
     city: 'Seattle',
@@ -35989,7 +35989,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 17:37:22',
-    'job title': 'Technical Account Manager',
+    jobTitle: 'Technical Account Manager',
     team: 'Marketing',
     salary: '156000',
     city: 'Salt Lake City',
@@ -36000,7 +36000,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 15:50:21',
-    'job title': 'Director of Creative Strategy',
+    jobTitle: 'Director of Creative Strategy',
     team: 'Creative',
     salary: '156100',
     city: 'Washington',
@@ -36011,7 +36011,7 @@ const data = [
   },
   {
     Timestamp: '3/22/2020 20:18:49',
-    'job title': 'Manager of Content Development',
+    jobTitle: 'Manager of Content Development',
     team: 'Misc',
     salary: '157000',
     city: 'San Francisco Bay Area',
@@ -36022,7 +36022,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 18:07:41',
-    'job title': 'Sr. Manager of Taxonomy',
+    jobTitle: 'Sr. Manager of Taxonomy',
     team: 'Misc',
     salary: '157000',
     city: 'Los Angeles',
@@ -36033,7 +36033,7 @@ const data = [
   },
   {
     Timestamp: '3/4/2020 21:46:29',
-    'job title': 'Product Manager (contract)',
+    jobTitle: 'Product Manager (contract)',
     team: 'Product Management',
     salary: '157440',
     city: 'Seattle',
@@ -36044,7 +36044,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 3:01:59',
-    'job title': 'Director of Operations',
+    jobTitle: 'Director of Operations',
     team: 'Operations',
     salary: '158000',
     city: 'San Francisco Bay Area',
@@ -36054,7 +36054,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Technical Program Management',
     salary: '158000',
     city: 'San Francisco',
@@ -36065,7 +36065,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 23:14:12',
-    'job title': 'Resident Engineering Manager',
+    jobTitle: 'Resident Engineering Manager',
     team: 'Misc',
     salary: '158000',
     city: 'New York City',
@@ -36076,7 +36076,7 @@ const data = [
   },
   {
     Timestamp: '3/7/2020 19:47:42',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '158000',
     city: 'San Francisco Bay Area',
@@ -36086,7 +36086,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '158000',
     city: 'Seattle',
@@ -36097,7 +36097,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 17:40:43',
-    'job title': 'Sr. Product Marketing Manager',
+    jobTitle: 'Sr. Product Marketing Manager',
     team: 'Marketing',
     salary: '158000',
     city: 'San Francisco Bay Area',
@@ -36108,7 +36108,7 @@ const data = [
   },
   {
     Timestamp: '2/28/2020 14:03:56',
-    'job title': 'Sr. UX Designer',
+    jobTitle: 'Sr. UX Designer',
     team: 'Product Design',
     salary: '158000',
     city: 'Portland',
@@ -36119,7 +36119,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2021 18:41:13',
-    'job title': 'Technical Program Manager',
+    jobTitle: 'Technical Program Manager',
     team: 'Technical Program Management',
     salary: '158000',
     city: 'San Francisco Bay Area',
@@ -36130,7 +36130,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 1:36:53',
-    'job title': 'Principal Product Manager',
+    jobTitle: 'Principal Product Manager',
     team: 'Product Management',
     salary: '159000',
     city: 'San Francisco Bay Area',
@@ -36141,7 +36141,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 22:17:15',
-    'job title': 'Chief of Staff',
+    jobTitle: 'Chief of Staff',
     team: 'Operations',
     salary: '160000',
     city: 'San Francisco Bay Area',
@@ -36152,7 +36152,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 17:07:39',
-    'job title': 'Cloud Solutions Architect',
+    jobTitle: 'Cloud Solutions Architect',
     team: 'Data Science',
     salary: '160000',
     city: 'San Francisco Bay Area',
@@ -36163,7 +36163,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 16:29:45',
-    'job title': 'Commerical Counsel',
+    jobTitle: 'Commerical Counsel',
     team: 'Misc',
     salary: '160000',
     city: 'New York City',
@@ -36174,7 +36174,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 13:50:19',
-    'job title': 'Content Strategy Manager',
+    jobTitle: 'Content Strategy Manager',
     team: 'Creative',
     salary: '160000',
     city: 'San Francisco Bay Area',
@@ -36185,7 +36185,7 @@ const data = [
   },
   {
     Timestamp: '2/23/2020 23:59:20',
-    'job title': 'Data Engineer',
+    jobTitle: 'Data Engineer',
     team: 'Data Science',
     salary: '160000',
     city: 'San Francisco Bay Area',
@@ -36196,7 +36196,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 13:42:50',
-    'job title': 'Design Program Manager',
+    jobTitle: 'Design Program Manager',
     team: 'Product Design',
     salary: '160000',
     city: 'San Francisco Bay Area',
@@ -36206,7 +36206,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '160000',
     city: 'San Mateo',
@@ -36217,7 +36217,7 @@ const data = [
   },
   {
     Timestamp: '1/14/2020 12:57:36',
-    'job title': 'Director of Business Intelligence',
+    jobTitle: 'Director of Business Intelligence',
     team: 'Operations',
     salary: '160000',
     city: 'Los Angeles',
@@ -36228,7 +36228,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:03:06',
-    'job title': 'Director of Product Management',
+    jobTitle: 'Director of Product Management',
     team: 'Product Management',
     salary: '160000',
     city: 'San Francisco Bay Area',
@@ -36239,7 +36239,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:57:58',
-    'job title': 'Director of UX/UI',
+    jobTitle: 'Director of UX/UI',
     team: 'Product Design',
     salary: '160000',
     city: 'San Francisco Bay Area',
@@ -36250,7 +36250,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 11:37:31',
-    'job title': 'Founder',
+    jobTitle: 'Founder',
     team: 'Operations',
     salary: '160000',
     city: 'New York City',
@@ -36261,7 +36261,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 20:55:53',
-    'job title': 'Growth Marketing Manager',
+    jobTitle: 'Growth Marketing Manager',
     team: 'Marketing',
     salary: '160000',
     city: 'San Francisco Bay Area',
@@ -36272,7 +36272,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 1:33:47',
-    'job title': 'Head of Content ',
+    jobTitle: 'Head of Content ',
     team: 'Creative',
     salary: '160000',
     city: 'San Francisco Bay Area',
@@ -36283,7 +36283,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2020 23:02:05',
-    'job title': 'Head of Technical Program Management',
+    jobTitle: 'Head of Technical Program Management',
     team: 'Technical Program Management',
     salary: '160000',
     city: 'San Francisco Bay Area',
@@ -36294,7 +36294,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 20:13:42',
-    'job title': 'HR Business Partner',
+    jobTitle: 'HR Business Partner',
     team: 'Human Resources',
     salary: '160000',
     city: 'San Francisco Bay Area',
@@ -36304,7 +36304,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '160000',
     city: 'Sunnyvale',
@@ -36315,7 +36315,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2020 21:04:10',
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '160000',
     city: 'Los Angeles',
@@ -36326,7 +36326,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 16:29:56',
-    'job title': 'Lead Systems Analyst',
+    jobTitle: 'Lead Systems Analyst',
     team: 'Data Science',
     salary: '160000',
     city: 'San Francisco Bay Area',
@@ -36336,7 +36336,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     'job level': '7',
     salary: '160000',
@@ -36347,7 +36347,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '160000',
     city: 'Portland',
@@ -36358,7 +36358,7 @@ const data = [
   },
   {
     Timestamp: '5/1/2020 1:05:44',
-    'job title': 'Pre-sale Solutions Engineer ',
+    jobTitle: 'Pre-sale Solutions Engineer ',
     team: 'Sales',
     salary: '160000',
     city: 'Brooklyn',
@@ -36369,7 +36369,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 16:53:15',
-    'job title': 'Principal Engineer',
+    jobTitle: 'Principal Engineer',
     team: 'Software Engineering',
     salary: '160000',
     city: 'Jersey City',
@@ -36380,7 +36380,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 15:17:38',
-    'job title': 'Principal Product Designer',
+    jobTitle: 'Principal Product Designer',
     team: 'Product Design',
     salary: '160000',
     city: 'Boston',
@@ -36391,7 +36391,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 9:55:34',
-    'job title': 'Principal Software Engineer',
+    jobTitle: 'Principal Software Engineer',
     team: 'Software Engineering',
     salary: '160000',
     city: 'Chicago',
@@ -36402,7 +36402,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 20:38:51',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     'job level': '4',
     salary: '160000',
@@ -36414,7 +36414,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 1:07:17',
-    'job title': 'Product Owner',
+    jobTitle: 'Product Owner',
     team: 'Agile',
     salary: '160000',
     city: 'Minneapolis',
@@ -36425,7 +36425,7 @@ const data = [
   },
   {
     Timestamp: '5/1/2020 0:39:08',
-    'job title': 'Sales Engineer',
+    jobTitle: 'Sales Engineer',
     team: 'Sales',
     salary: '160000',
     city: 'Brooklyn',
@@ -36436,7 +36436,7 @@ const data = [
   },
   {
     Timestamp: '3/16/2020 17:54:08',
-    'job title': 'SEO Manager',
+    jobTitle: 'SEO Manager',
     team: 'Misc',
     salary: '160000',
     city: 'Manchester',
@@ -36446,7 +36446,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '160000',
     city: 'San Francisco',
@@ -36456,7 +36456,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '160000',
     city: 'Pleasanton ',
@@ -36466,7 +36466,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '160000',
     city: 'Folsom',
@@ -36477,7 +36477,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 18:11:30',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '160000',
     city: 'Boston',
@@ -36488,7 +36488,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 8:37:22',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '160000',
@@ -36499,7 +36499,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '5',
     salary: '160000',
@@ -36510,7 +36510,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '160000',
@@ -36522,7 +36522,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 8:31:24',
-    'job title': 'Sr. Business Analyst',
+    jobTitle: 'Sr. Business Analyst',
     team: 'Business Analytics',
     salary: '160000',
     city: 'Boston',
@@ -36533,7 +36533,7 @@ const data = [
   },
   {
     Timestamp: '1/16/2020 13:23:51',
-    'job title': 'Sr. Data Analyst',
+    jobTitle: 'Sr. Data Analyst',
     team: 'Data Science',
     salary: '160000',
     city: 'San Francisco Bay Area',
@@ -36544,7 +36544,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 13:40:34',
-    'job title': 'Sr. Hardware Researcher',
+    jobTitle: 'Sr. Hardware Researcher',
     team: 'Network, Security & IT',
     salary: '160000',
     city: 'San Francisco Bay Area',
@@ -36555,7 +36555,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 14:37:38',
-    'job title': 'Sr. Manager Marketing Operations ',
+    jobTitle: 'Sr. Manager Marketing Operations ',
     team: 'Marketing',
     salary: '160000',
     city: 'San Francisco Bay Area',
@@ -36566,7 +36566,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 9:31:57',
-    'job title': 'Sr. Marketing Director',
+    jobTitle: 'Sr. Marketing Director',
     team: 'Marketing',
     salary: '160000',
     city: 'Detroit',
@@ -36577,7 +36577,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 13:46:14',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '160000',
     city: 'San Francisco Bay Area',
@@ -36588,7 +36588,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 14:11:41',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '160000',
     city: 'Los Angeles',
@@ -36599,7 +36599,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 23:24:20',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '160000',
     city: 'San Francisco Bay Area',
@@ -36610,7 +36610,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 9:29:32',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '160000',
     city: 'New York City',
@@ -36621,7 +36621,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 13:27:19',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '160000',
     city: 'Portland',
@@ -36632,7 +36632,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:17:17',
-    'job title': 'Sr. Product Marketing Manager',
+    jobTitle: 'Sr. Product Marketing Manager',
     team: 'Marketing',
     salary: '160000',
     city: 'San Francisco Bay Area',
@@ -36643,7 +36643,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 10:52:26',
-    'job title': 'Sr. Product Marketing Manager',
+    jobTitle: 'Sr. Product Marketing Manager',
     team: 'Marketing',
     salary: '160000',
     city: 'New York City',
@@ -36654,7 +36654,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 12:57:10',
-    'job title': 'Sr. QA Engineer',
+    jobTitle: 'Sr. QA Engineer',
     team: 'Software Engineering',
     salary: '160000',
     city: 'San Francisco Bay Area',
@@ -36665,7 +36665,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 10:54:00',
-    'job title': 'Sr. QA Engineer',
+    jobTitle: 'Sr. QA Engineer',
     team: 'Software Engineering Management',
     salary: '160000',
     city: 'San Francisco Bay Area',
@@ -36676,7 +36676,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 13:26:00',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '160000',
     city: 'Chicago',
@@ -36687,7 +36687,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 18:22:34',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '160000',
     city: 'New York City',
@@ -36698,7 +36698,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 13:47:26',
-    'job title': 'Sr. Technical Program Manager',
+    jobTitle: 'Sr. Technical Program Manager',
     team: 'Technical Program Management',
     salary: '160000',
     city: 'San Francisco Bay Area',
@@ -36708,7 +36708,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '160000',
     city: 'San Francisco',
@@ -36718,7 +36718,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '160000',
     city: 'San Francisco',
@@ -36728,7 +36728,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '160000',
     city: 'Dallas',
@@ -36738,7 +36738,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Team Lead',
+    jobTitle: 'Team Lead',
     team: 'Software Engineering Management',
     salary: '160000',
     city: 'New York City',
@@ -36749,7 +36749,7 @@ const data = [
   },
   {
     Timestamp: '1/17/2020 2:01:05',
-    'job title': 'Technical Program Manager',
+    jobTitle: 'Technical Program Manager',
     team: 'Technical Program Management',
     salary: '160000',
     city: 'Sacramento',
@@ -36759,7 +36759,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '160000',
     city: 'Chicago',
@@ -36770,7 +36770,7 @@ const data = [
   },
   {
     Timestamp: '1/16/2020 16:35:08',
-    'job title': 'VP of Consumer Growth',
+    jobTitle: 'VP of Consumer Growth',
     team: 'Operations',
     salary: '160000',
     city: 'Denver',
@@ -36781,7 +36781,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 18:31:03',
-    'job title': 'VP of Marketing',
+    jobTitle: 'VP of Marketing',
     team: 'Operations',
     salary: '160000',
     city: 'New York City',
@@ -36791,7 +36791,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '160000',
@@ -36802,7 +36802,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '161000',
     city: 'Louisville',
@@ -36813,7 +36813,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 21:58:53',
-    'job title': 'Sr. Communications Manager ',
+    jobTitle: 'Sr. Communications Manager ',
     team: 'Misc',
     salary: '161000',
     city: 'San Francisco Bay Area',
@@ -36824,7 +36824,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 10:38:02',
-    'job title': 'Creative Director',
+    jobTitle: 'Creative Director',
     team: 'Product Design',
     salary: '162000',
     city: 'San Francisco Bay Area',
@@ -36835,7 +36835,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 12:58:21',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '162000',
     city: 'New York City',
@@ -36845,7 +36845,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '5',
     salary: '162000',
@@ -36857,7 +36857,7 @@ const data = [
   },
   {
     Timestamp: '1/16/2020 22:31:57',
-    'job title': 'Business Operations Manager',
+    jobTitle: 'Business Operations Manager',
     team: 'Operations',
     salary: '162500',
     city: 'San Francisco Bay Area',
@@ -36868,7 +36868,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 13:45:38',
-    'job title': 'IT project manager (consultant)',
+    jobTitle: 'IT project manager (consultant)',
     team: 'Network, Security & IT',
     salary: '163000',
     city: 'Jersey City',
@@ -36879,7 +36879,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 22:34:54',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '163000',
     city: 'San Francisco Bay Area',
@@ -36890,7 +36890,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 0:03:15',
-    'job title': 'Sr. Director of Operations ',
+    jobTitle: 'Sr. Director of Operations ',
     team: 'Operations',
     salary: '163000',
     city: 'New York City',
@@ -36900,7 +36900,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '163000',
     city: 'New York City',
@@ -36911,7 +36911,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 17:03:32',
-    'job title': 'Director of Product Management',
+    jobTitle: 'Director of Product Management',
     team: 'Product Management',
     salary: '164000',
     city: 'New York City',
@@ -36921,7 +36921,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Technical Program Management',
     'job level': '3',
     salary: '164000',
@@ -36932,7 +36932,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '164000',
     city: 'St. Louis',
@@ -36943,7 +36943,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 19:28:43',
-    'job title': 'Sr. Business Systems Analyst',
+    jobTitle: 'Sr. Business Systems Analyst',
     team: 'Data Science',
     salary: '164000',
     city: 'San Francisco Bay Area',
@@ -36954,7 +36954,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 0:49:35',
-    'job title': 'Business Operations Manager',
+    jobTitle: 'Business Operations Manager',
     team: 'Operations',
     salary: '165000',
     city: 'San Francisco Bay Area',
@@ -36965,7 +36965,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 14:17:23',
-    'job title': 'Clinical Research Manager',
+    jobTitle: 'Clinical Research Manager',
     team: 'Misc',
     salary: '165000',
     city: 'San Francisco Bay Area',
@@ -36975,7 +36975,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     salary: '165000',
     city: 'Minneapolis',
@@ -36985,7 +36985,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '165000',
@@ -36996,7 +36996,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '165000',
     city: 'Stafford',
@@ -37007,7 +37007,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 20:26:37',
-    'job title': 'Director of Client Success',
+    jobTitle: 'Director of Client Success',
     team: 'Sales',
     salary: '165000',
     city: 'Nashville',
@@ -37018,7 +37018,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2021 10:33:26',
-    'job title': 'Director of IT Operations',
+    jobTitle: 'Director of IT Operations',
     team: 'Network, Security & IT',
     salary: '165000',
     city: 'San Francisco Bay Area',
@@ -37029,7 +37029,7 @@ const data = [
   },
   {
     Timestamp: '2/11/2020 18:34:30',
-    'job title': 'Director of Product Management',
+    jobTitle: 'Director of Product Management',
     team: 'Product Management',
     salary: '165000',
     city: 'New York City',
@@ -37040,7 +37040,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 20:29:36',
-    'job title': 'Engineering Manager',
+    jobTitle: 'Engineering Manager',
     team: 'Software Engineering Management',
     salary: '165000',
     city: 'Boston',
@@ -37050,7 +37050,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Finance Manager',
+    jobTitle: 'Finance Manager',
     team: 'Accounting',
     salary: '165000',
     city: 'Santa Clara ',
@@ -37061,7 +37061,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 12:59:59',
-    'job title': 'Global Talent Management',
+    jobTitle: 'Global Talent Management',
     team: 'Human Resources',
     salary: '165000',
     city: 'San Francisco Bay Area',
@@ -37072,7 +37072,7 @@ const data = [
   },
   {
     Timestamp: '1/27/2020 16:56:32',
-    'job title': 'Head of Growth',
+    jobTitle: 'Head of Growth',
     team: 'Operations',
     salary: '165000',
     city: 'New York City',
@@ -37083,7 +37083,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 22:00:46',
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '165000',
     city: 'Seattle',
@@ -37094,7 +37094,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 16:18:01',
-    'job title': 'Partnerships',
+    jobTitle: 'Partnerships',
     team: 'Misc',
     salary: '165000',
     city: 'Los Angeles',
@@ -37105,7 +37105,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 18:09:23',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '165000',
     city: 'San Francisco Bay Area',
@@ -37116,7 +37116,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 22:28:20',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '165000',
     city: 'San Francisco Bay Area',
@@ -37127,7 +37127,7 @@ const data = [
   },
   {
     Timestamp: '2/28/2020 23:13:07',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '165000',
     city: 'San Francisco Bay Area',
@@ -37138,7 +37138,7 @@ const data = [
   },
   {
     Timestamp: '3/4/2020 13:53:30',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '165000',
     city: 'San Francisco Bay Area',
@@ -37149,7 +37149,7 @@ const data = [
   },
   {
     Timestamp: '3/4/2020 13:54:43',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '165000',
     city: 'San Francisco Bay Area',
@@ -37160,7 +37160,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 19:45:04',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '165000',
@@ -37171,7 +37171,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '7',
     salary: '165000',
@@ -37182,7 +37182,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '165000',
     city: 'Denver',
@@ -37192,7 +37192,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '165000',
@@ -37203,7 +37203,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '165000',
@@ -37214,7 +37214,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '165000',
     city: 'Austin',
@@ -37224,7 +37224,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Solutions Architect',
+    jobTitle: 'Solutions Architect',
     team: 'Network, Security & IT',
     'job level': '6',
     salary: '165000',
@@ -37236,7 +37236,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 20:59:37',
-    'job title': 'Sr. Data Analyst',
+    jobTitle: 'Sr. Data Analyst',
     team: 'Data Science',
     salary: '165000',
     city: 'San Francisco Bay Area',
@@ -37247,7 +37247,7 @@ const data = [
   },
   {
     Timestamp: '12/17/2020 13:28:52',
-    'job title': 'Sr. DevOps Engineer',
+    jobTitle: 'Sr. DevOps Engineer',
     team: 'Software Engineering',
     salary: '165000',
     city: 'Austin',
@@ -37258,7 +37258,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 10:44:15',
-    'job title': 'Sr. Engineering Manager',
+    jobTitle: 'Sr. Engineering Manager',
     team: 'Software Engineering',
     salary: '165000',
     city: 'Chicago',
@@ -37269,7 +37269,7 @@ const data = [
   },
   {
     Timestamp: '1/30/2020 13:13:30',
-    'job title': 'Sr. Marketing Manager',
+    jobTitle: 'Sr. Marketing Manager',
     team: 'Marketing',
     salary: '165000',
     city: 'San Francisco Bay Area',
@@ -37280,7 +37280,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2020 17:41:21',
-    'job title': 'Sr. Product Designer',
+    jobTitle: 'Sr. Product Designer',
     team: 'Product Design',
     salary: '165000',
     city: 'San Francisco Bay Area',
@@ -37291,7 +37291,7 @@ const data = [
   },
   {
     Timestamp: '12/4/2020 1:30:33',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '165000',
     city: 'San Francisco Bay Area',
@@ -37302,7 +37302,7 @@ const data = [
   },
   {
     Timestamp: '3/9/2020 20:11:22',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '165000',
     city: 'San Francisco Bay Area',
@@ -37313,7 +37313,7 @@ const data = [
   },
   {
     Timestamp: '5/7/2020 22:50:38',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '165000',
     city: 'Seattle',
@@ -37324,7 +37324,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 16:59:09',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '165000',
@@ -37336,7 +37336,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 14:05:29',
-    'job title': 'Sr. Software Engineer (Back End)',
+    jobTitle: 'Sr. Software Engineer (Back End)',
     team: 'Software Engineering',
     salary: '165000',
     city: 'San Francisco Bay Area',
@@ -37347,7 +37347,7 @@ const data = [
   },
   {
     Timestamp: '1/15/2021 14:36:01',
-    'job title': 'Sr. UX Designer',
+    jobTitle: 'Sr. UX Designer',
     team: 'Product Design',
     salary: '165000',
     city: 'San Francisco Bay Area',
@@ -37358,7 +37358,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 8:25:58',
-    'job title': 'Sr. VP',
+    jobTitle: 'Sr. VP',
     team: 'Operations',
     salary: '165000',
     city: 'New York City',
@@ -37369,7 +37369,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 15:51:36',
-    'job title': 'Strategy Director',
+    jobTitle: 'Strategy Director',
     team: 'Misc',
     salary: '165000',
     city: 'New York City',
@@ -37380,7 +37380,7 @@ const data = [
   },
   {
     Timestamp: '1/25/2021 11:11:06',
-    'job title': 'Support Engineer',
+    jobTitle: 'Support Engineer',
     team: 'Network, Security & IT',
     salary: '165000',
     city: 'Herndon',
@@ -37390,7 +37390,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '165000',
@@ -37401,7 +37401,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '165000',
     city: 'Denver',
@@ -37411,7 +37411,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '166000',
     city: 'Portland',
@@ -37421,7 +37421,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '166000',
     city: 'Austin',
@@ -37432,7 +37432,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 20:51:13',
-    'job title': 'Marketing Manager',
+    jobTitle: 'Marketing Manager',
     team: 'Marketing',
     salary: '166000',
     city: 'New York City',
@@ -37443,7 +37443,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 21:18:45',
-    'job title': 'Group Product Manager',
+    jobTitle: 'Group Product Manager',
     team: 'Product Management',
     salary: '167000',
     city: 'San Francisco Bay Area',
@@ -37454,7 +37454,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 14:23:09',
-    'job title': 'Lead UX Researcher',
+    jobTitle: 'Lead UX Researcher',
     team: 'Product Design',
     salary: '167000',
     city: 'San Francisco Bay Area',
@@ -37465,7 +37465,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 18:08:19',
-    'job title': 'Marketing Manager',
+    jobTitle: 'Marketing Manager',
     team: 'Marketing',
     salary: '167000',
     city: 'San Francisco Bay Area',
@@ -37475,7 +37475,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '167123',
     city: 'Portland',
@@ -37485,7 +37485,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '167500',
     city: 'Washington',
@@ -37496,7 +37496,7 @@ const data = [
   },
   {
     Timestamp: '6/5/2020 18:42:15',
-    'job title': 'Director of Product Operations',
+    jobTitle: 'Director of Product Operations',
     team: 'Product Management',
     salary: '168000',
     city: 'New York City',
@@ -37506,7 +37506,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '168000',
     city: 'Atlanta',
@@ -37517,7 +37517,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 1:39:33',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '168000',
     city: 'San Francisco Bay Area',
@@ -37528,7 +37528,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 0:09:17',
-    'job title': 'Sr. Backend Software Engineer',
+    jobTitle: 'Sr. Backend Software Engineer',
     team: 'Software Engineering',
     salary: '168000',
     city: 'San Francisco Bay Area',
@@ -37539,7 +37539,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 6:03:12',
-    'job title': 'Sr. Data Analyst',
+    jobTitle: 'Sr. Data Analyst',
     team: 'Data Science',
     salary: '168000',
     city: 'San Francisco Bay Area',
@@ -37549,7 +37549,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '168300',
     city: 'Redmond',
@@ -37560,7 +37560,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 1:12:54',
-    'job title': 'Product Marketing Manager',
+    jobTitle: 'Product Marketing Manager',
     team: 'Marketing',
     salary: '169000',
     city: 'San Francisco Bay Area',
@@ -37571,7 +37571,7 @@ const data = [
   },
   {
     Timestamp: '3/3/2020 17:01:57',
-    'job title': 'Account Executive',
+    jobTitle: 'Account Executive',
     team: 'Sales',
     salary: '170000',
     city: 'San Francisco Bay Area',
@@ -37581,7 +37581,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Computer Systems Engineer II',
+    jobTitle: 'Computer Systems Engineer II',
     team: 'Misc',
     'job level': '4',
     salary: '170000',
@@ -37592,7 +37592,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '170000',
     city: 'New York City',
@@ -37602,7 +37602,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '170000',
     city: 'Portland',
@@ -37612,7 +37612,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '170000',
     city: 'Seattle',
@@ -37623,7 +37623,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 0:26:26',
-    'job title': 'Director of People',
+    jobTitle: 'Director of People',
     team: 'Human Resources',
     salary: '170000',
     city: 'Portland',
@@ -37634,7 +37634,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 9:50:10',
-    'job title': 'Global Education Lead',
+    jobTitle: 'Global Education Lead',
     team: 'Misc',
     salary: '170000',
     city: 'New York City',
@@ -37645,7 +37645,7 @@ const data = [
   },
   {
     Timestamp: '2/25/2020 21:24:04',
-    'job title': 'Head of Growth',
+    jobTitle: 'Head of Growth',
     team: 'Operations',
     salary: '170000',
     city: 'Portland',
@@ -37655,7 +37655,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '170000',
     city: 'Atlanta',
@@ -37666,7 +37666,7 @@ const data = [
   },
   {
     Timestamp: '1/14/2020 19:43:35',
-    'job title': 'Lead UX Designer',
+    jobTitle: 'Lead UX Designer',
     team: 'Product Design',
     salary: '170000',
     city: 'Seattle',
@@ -37676,7 +37676,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '170000',
     city: 'Charlotte',
@@ -37687,7 +37687,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:43:31',
-    'job title': 'Privacy Engineer',
+    jobTitle: 'Privacy Engineer',
     team: 'Software Engineering',
     salary: '170000',
     city: 'San Francisco Bay Area',
@@ -37698,7 +37698,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 1:22:40',
-    'job title': 'Product Design Lead ',
+    jobTitle: 'Product Design Lead ',
     team: 'Product Design',
     salary: '170000',
     city: 'New York City',
@@ -37709,7 +37709,7 @@ const data = [
   },
   {
     Timestamp: '2/8/2020 0:35:03',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     salary: '170000',
     city: 'San Francisco Bay Area',
@@ -37720,7 +37720,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 16:28:20',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '170000',
     city: 'San Francisco Bay Area',
@@ -37731,7 +37731,7 @@ const data = [
   },
   {
     Timestamp: '1/18/2020 4:29:58',
-    'job title': 'Security Engineer',
+    jobTitle: 'Security Engineer',
     team: 'Network, Security & IT',
     salary: '170000',
     city: 'San Francisco Bay Area',
@@ -37741,7 +37741,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     salary: '170000',
     city: 'San Francisco',
@@ -37751,7 +37751,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '170000',
@@ -37763,7 +37763,7 @@ const data = [
   },
   {
     Timestamp: '2/16/2020 19:38:39',
-    'job title': 'Software Development Manager',
+    jobTitle: 'Software Development Manager',
     team: 'Software Engineering Management',
     salary: '170000',
     city: 'San Francisco Bay Area',
@@ -37773,7 +37773,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '4',
     salary: '170000',
@@ -37785,7 +37785,7 @@ const data = [
   },
   {
     Timestamp: '1/24/2020 15:01:29',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '170000',
     city: 'San Francisco Bay Area',
@@ -37795,7 +37795,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '170000',
     city: 'Emeryville',
@@ -37805,7 +37805,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '5',
     salary: '170000',
@@ -37817,7 +37817,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 14:09:18',
-    'job title': 'Software Engineering Manager',
+    jobTitle: 'Software Engineering Manager',
     team: 'Software Engineering Management',
     salary: '170000',
     city: 'Boston',
@@ -37828,7 +37828,7 @@ const data = [
   },
   {
     Timestamp: '2/29/2020 15:26:33',
-    'job title': 'Special Projects Lead',
+    jobTitle: 'Special Projects Lead',
     team: 'Product Management',
     salary: '170000',
     city: 'New York City',
@@ -37839,7 +37839,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 10:48:15',
-    'job title': 'Sr. Design Strategist',
+    jobTitle: 'Sr. Design Strategist',
     team: 'Product Design',
     salary: '170000',
     city: 'New York City',
@@ -37850,7 +37850,7 @@ const data = [
   },
   {
     Timestamp: '2/10/2020 0:16:51',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '170000',
     city: 'San Francisco Bay Area',
@@ -37861,7 +37861,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 16:32:25',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '170000',
     city: 'San Francisco Bay Area',
@@ -37872,7 +37872,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:30:44',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '170000',
     city: 'New York City',
@@ -37883,7 +37883,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 15:44:16',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '170000',
     city: 'Seattle',
@@ -37894,7 +37894,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 0:59:30',
-    'job title': 'Sr. Product Marketing Manager',
+    jobTitle: 'Sr. Product Marketing Manager',
     team: 'Marketing',
     salary: '170000',
     city: 'San Francisco Bay Area',
@@ -37905,7 +37905,7 @@ const data = [
   },
   {
     Timestamp: '2/14/2020 17:32:29',
-    'job title': 'Sr. Sales Operations Manager',
+    jobTitle: 'Sr. Sales Operations Manager',
     team: 'Sales',
     salary: '170000',
     city: 'San Francisco Bay Area',
@@ -37916,7 +37916,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 23:03:25',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '170000',
     city: 'San Francisco Bay Area',
@@ -37927,7 +37927,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 23:47:07',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '170000',
     city: 'San Francisco Bay Area',
@@ -37938,7 +37938,7 @@ const data = [
   },
   {
     Timestamp: '3/9/2020 20:58:24',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '170000',
     city: 'Seattle',
@@ -37948,7 +37948,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '170000',
@@ -37959,7 +37959,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '7',
     salary: '170000',
@@ -37971,7 +37971,7 @@ const data = [
   },
   {
     Timestamp: '11/24/2020 0:40:07',
-    'job title': 'Technical Marketing Manager',
+    jobTitle: 'Technical Marketing Manager',
     team: 'Marketing',
     salary: '170000',
     city: 'San Francisco Bay Area',
@@ -37981,7 +37981,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '170000',
@@ -37992,7 +37992,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     'job level': '7',
     salary: '170000',
@@ -38004,7 +38004,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 12:53:46',
-    'job title': 'Staff Software Engineer',
+    jobTitle: 'Staff Software Engineer',
     team: 'Software Engineering',
     salary: '171525',
     city: 'Seattle',
@@ -38014,7 +38014,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     'job level': '6',
     salary: '172000',
@@ -38025,7 +38025,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '172000',
     city: 'Oakland',
@@ -38036,7 +38036,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 12:15:33',
-    'job title': 'Security Engineer',
+    jobTitle: 'Security Engineer',
     team: 'Network, Security & IT',
     salary: '172000',
     city: 'Seattle',
@@ -38047,7 +38047,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 12:21:21',
-    'job title': 'Sr. Brand Manager',
+    jobTitle: 'Sr. Brand Manager',
     team: 'Product Design',
     salary: '172000',
     city: 'San Francisco Bay Area',
@@ -38058,7 +38058,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 19:24:03',
-    'job title': 'Sr. Project Manager',
+    jobTitle: 'Sr. Project Manager',
     team: 'Product Management',
     salary: '172000',
     city: 'San Francisco Bay Area',
@@ -38069,7 +38069,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 22:55:50',
-    'job title': 'Sr. UX Designer (independent)',
+    jobTitle: 'Sr. UX Designer (independent)',
     team: 'Product Design',
     salary: '172000',
     city: 'Chicago',
@@ -38080,7 +38080,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 9:56:52',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '172200',
     city: 'New York City',
@@ -38090,7 +38090,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Advocate',
+    jobTitle: 'Advocate',
     team: 'Misc',
     salary: '175000',
     city: 'Austin',
@@ -38101,7 +38101,7 @@ const data = [
   },
   {
     Timestamp: '7/19/2020 21:07:10',
-    'job title': 'Chief Operating Officer',
+    jobTitle: 'Chief Operating Officer',
     team: 'Operations',
     salary: '175000',
     city: 'New York City',
@@ -38112,7 +38112,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 12:51:34',
-    'job title': 'Data Engineer',
+    jobTitle: 'Data Engineer',
     team: 'Data Science',
     salary: '175000',
     city: 'Seattle',
@@ -38122,7 +38122,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '175000',
     city: 'Los Angeles',
@@ -38132,7 +38132,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '175000',
     city: 'Charlotte',
@@ -38143,7 +38143,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 17:57:07',
-    'job title': 'Director of Communications',
+    jobTitle: 'Director of Communications',
     team: 'Operations',
     salary: '175000',
     city: 'San Francisco Bay Area',
@@ -38154,7 +38154,7 @@ const data = [
   },
   {
     Timestamp: '2/15/2020 13:42:13',
-    'job title': 'Director of Content marketing',
+    jobTitle: 'Director of Content marketing',
     team: 'Marketing Ops',
     salary: '175000',
     city: 'San Francisco Bay Area',
@@ -38165,7 +38165,7 @@ const data = [
   },
   {
     Timestamp: '10/23/2020 12:35:54',
-    'job title': 'Director of Program Management',
+    jobTitle: 'Director of Program Management',
     team: 'Technical Program Management',
     salary: '175000',
     city: 'San Francisco Bay Area',
@@ -38176,7 +38176,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 9:59:32',
-    'job title': 'Executive Director of Product Management',
+    jobTitle: 'Executive Director of Product Management',
     team: 'Product Management',
     salary: '175000',
     city: 'San Francisco Bay Area',
@@ -38187,7 +38187,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 14:39:15',
-    'job title': 'Head of Bizops',
+    jobTitle: 'Head of Bizops',
     team: 'Misc',
     salary: '175000',
     city: 'San Francisco Bay Area',
@@ -38198,7 +38198,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 14:20:11',
-    'job title': 'Head of People & Talent ',
+    jobTitle: 'Head of People & Talent ',
     team: 'Recruiting',
     salary: '175000',
     city: 'San Francisco Bay Area',
@@ -38209,7 +38209,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 9:54:39',
-    'job title': 'Head of Product',
+    jobTitle: 'Head of Product',
     team: 'Product Management',
     salary: '175000',
     city: 'New York City',
@@ -38220,7 +38220,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 9:20:50',
-    'job title': 'Lead Product Manager',
+    jobTitle: 'Lead Product Manager',
     team: 'Product Management',
     salary: '175000',
     city: 'San Francisco Bay Area',
@@ -38230,7 +38230,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '175000',
     city: 'San Francisco',
@@ -38240,7 +38240,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '175000',
     city: 'Baltimore',
@@ -38251,7 +38251,7 @@ const data = [
   },
   {
     Timestamp: '10/1/2020 13:07:29',
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '175000',
     city: 'San Francisco Bay Area',
@@ -38261,7 +38261,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '175000',
     city: 'New York City',
@@ -38272,7 +38272,7 @@ const data = [
   },
   {
     Timestamp: '2/23/2020 10:27:00',
-    'job title': 'Manager of Security Engineering',
+    jobTitle: 'Manager of Security Engineering',
     team: 'Network, Security & IT',
     salary: '175000',
     city: 'Boston',
@@ -38283,7 +38283,7 @@ const data = [
   },
   {
     Timestamp: '1/27/2020 14:28:23',
-    'job title': 'Marketing Director',
+    jobTitle: 'Marketing Director',
     team: 'Marketing',
     salary: '175000',
     city: 'San Francisco Bay Area',
@@ -38293,7 +38293,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '175000',
     city: 'Los Angeles',
@@ -38303,7 +38303,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '4',
     salary: '175000',
@@ -38315,7 +38315,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 10:08:08',
-    'job title': 'Sr. Director of Marketing',
+    jobTitle: 'Sr. Director of Marketing',
     team: 'Marketing',
     salary: '175000',
     city: 'New York City',
@@ -38326,7 +38326,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 4:32:50',
-    'job title': 'Sr. Manager Marketing Analytics ',
+    jobTitle: 'Sr. Manager Marketing Analytics ',
     team: 'Marketing',
     salary: '175000',
     city: 'San Francisco Bay Area',
@@ -38337,7 +38337,7 @@ const data = [
   },
   {
     Timestamp: '2/10/2020 13:59:07',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '175000',
     city: 'San Francisco Bay Area',
@@ -38348,7 +38348,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 20:56:34',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '175000',
     city: 'Washington',
@@ -38359,7 +38359,7 @@ const data = [
   },
   {
     Timestamp: '3/13/2020 22:39:23',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '175000',
     city: 'Boston',
@@ -38370,7 +38370,7 @@ const data = [
   },
   {
     Timestamp: '8/26/2020 16:55:07',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '175000',
     city: 'New York City',
@@ -38381,7 +38381,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 7:31:34',
-    'job title': 'Sr. UX/UI Design Manager',
+    jobTitle: 'Sr. UX/UI Design Manager',
     team: 'Product Design',
     salary: '175000',
     city: 'New York City',
@@ -38392,7 +38392,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 9:25:31',
-    'job title': 'Sr. VP of HR',
+    jobTitle: 'Sr. VP of HR',
     team: 'Human Resources',
     salary: '175000',
     city: 'Birmingham',
@@ -38403,7 +38403,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 15:36:42',
-    'job title': 'Sr. VP of Operations',
+    jobTitle: 'Sr. VP of Operations',
     team: 'Operations',
     salary: '175000',
     city: 'Chicago',
@@ -38413,7 +38413,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '175000',
     city: 'Washington',
@@ -38423,7 +38423,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     salary: '175000',
     city: 'Denver',
@@ -38434,7 +38434,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 7:01:31',
-    'job title': 'VP of Sales',
+    jobTitle: 'VP of Sales',
     team: 'Operations',
     salary: '175000',
     city: 'Baltimore ',
@@ -38445,7 +38445,7 @@ const data = [
   },
   {
     Timestamp: '8/30/2020 21:13:23',
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '175000',
@@ -38457,7 +38457,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 13:15:16',
-    'job title': 'Sr. Director',
+    jobTitle: 'Sr. Director',
     team: 'Misc',
     salary: '176000',
     city: 'Boulder',
@@ -38467,7 +38467,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '176000',
     city: 'Greenbelt',
@@ -38477,7 +38477,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '7',
     salary: '176126',
@@ -38488,7 +38488,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '176800',
     city: 'Atlanta',
@@ -38499,7 +38499,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 14:31:41',
-    'job title': 'Chief of Staff',
+    jobTitle: 'Chief of Staff',
     team: 'Operations',
     salary: '180000',
     city: 'San Francisco Bay Area',
@@ -38510,7 +38510,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 10:01:09',
-    'job title': 'Data Scientist',
+    jobTitle: 'Data Scientist',
     team: 'Data Science',
     salary: '180000',
     city: 'New York City',
@@ -38520,7 +38520,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '180000',
     city: 'Reston',
@@ -38531,7 +38531,7 @@ const data = [
   },
   {
     Timestamp: '7/17/2020 1:36:06',
-    'job title': 'Director of Client Success',
+    jobTitle: 'Director of Client Success',
     team: 'Sales',
     salary: '180000',
     city: 'San Francisco Bay Area',
@@ -38542,7 +38542,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 21:05:45',
-    'job title': 'Director of Legal',
+    jobTitle: 'Director of Legal',
     team: 'Operations',
     salary: '180000',
     city: 'New York City',
@@ -38553,7 +38553,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 10:39:32',
-    'job title': 'Director of Product Marketing',
+    jobTitle: 'Director of Product Marketing',
     team: 'Marketing',
     salary: '180000',
     city: 'Los Angeles',
@@ -38564,7 +38564,7 @@ const data = [
   },
   {
     Timestamp: '2/10/2020 15:03:07',
-    'job title': 'Director of Strategic Partnerships',
+    jobTitle: 'Director of Strategic Partnerships',
     team: 'Sales',
     salary: '180000',
     city: 'San Francisco Bay Area',
@@ -38575,7 +38575,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:05:32',
-    'job title': 'Director of Strategic Partnerships',
+    jobTitle: 'Director of Strategic Partnerships',
     team: 'Sales',
     salary: '180000',
     city: 'Chicago',
@@ -38586,7 +38586,7 @@ const data = [
   },
   {
     Timestamp: '2/9/2020 18:34:04',
-    'job title': 'Director of User Experience',
+    jobTitle: 'Director of User Experience',
     team: 'Product Design',
     salary: '180000',
     city: 'Irvine',
@@ -38597,7 +38597,7 @@ const data = [
   },
   {
     Timestamp: '10/30/2020 12:21:06',
-    'job title': 'Embedded Software Engineer',
+    jobTitle: 'Embedded Software Engineer',
     team: 'Software Engineering',
     salary: '180000',
     city: 'San Francisco Bay Area',
@@ -38608,7 +38608,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2021 18:55:25',
-    'job title': 'iOS Engineer',
+    jobTitle: 'iOS Engineer',
     team: 'Software Engineering',
     salary: '180000',
     city: 'San Francisco Bay Area',
@@ -38618,7 +38618,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     'job level': '1',
     salary: '180000',
@@ -38630,7 +38630,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 19:18:09',
-    'job title': 'Lead UX Researcher',
+    jobTitle: 'Lead UX Researcher',
     team: 'Product Design',
     salary: '180000',
     city: 'San Francisco Bay Area',
@@ -38641,7 +38641,7 @@ const data = [
   },
   {
     Timestamp: '12/2/2020 17:20:02',
-    'job title': 'Partner Engineering Manager',
+    jobTitle: 'Partner Engineering Manager',
     team: 'Misc',
     salary: '180000',
     city: 'San Francisco Bay Area',
@@ -38652,7 +38652,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:03:18',
-    'job title': 'SaaS sales',
+    jobTitle: 'SaaS sales',
     team: 'Sales',
     salary: '180000',
     city: 'San Francisco Bay Area',
@@ -38662,7 +38662,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     salary: '180000',
     city: 'Los Angeles',
@@ -38673,7 +38673,7 @@ const data = [
   },
   {
     Timestamp: '2/26/2020 12:49:57',
-    'job title': 'SMB Sales Manager',
+    jobTitle: 'SMB Sales Manager',
     team: 'Sales',
     salary: '180000',
     city: 'Salt Lake City',
@@ -38683,7 +38683,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '180000',
     city: 'Santa Monica',
@@ -38693,7 +38693,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '180000',
     city: 'New  York City',
@@ -38704,7 +38704,7 @@ const data = [
   },
   {
     Timestamp: '11/19/2020 12:24:18',
-    'job title': 'Sr. Corporate Events Marketing Manager',
+    jobTitle: 'Sr. Corporate Events Marketing Manager',
     team: 'Misc',
     salary: '180000',
     city: 'San Francisco Bay Area',
@@ -38715,7 +38715,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 15:59:15',
-    'job title': 'Sr. Director of Marketing',
+    jobTitle: 'Sr. Director of Marketing',
     team: 'Marketing',
     salary: '180000',
     city: 'San Francisco Bay Area',
@@ -38726,7 +38726,7 @@ const data = [
   },
   {
     Timestamp: '1/15/2020 13:15:10',
-    'job title': 'Sr. Director of Partnerships',
+    jobTitle: 'Sr. Director of Partnerships',
     team: 'Misc',
     salary: '180000',
     city: 'New York City',
@@ -38737,7 +38737,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 16:20:43',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '180000',
     city: 'Seattle',
@@ -38748,7 +38748,7 @@ const data = [
   },
   {
     Timestamp: '7/9/2020 13:23:48',
-    'job title': 'Staff Engineer',
+    jobTitle: 'Staff Engineer',
     team: 'Software Engineering',
     salary: '180000',
     city: 'Los Angeles',
@@ -38759,7 +38759,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 21:09:29',
-    'job title': 'VP of Operations',
+    jobTitle: 'VP of Operations',
     team: 'Operations',
     salary: '180000',
     city: 'Boston',
@@ -38769,7 +38769,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     salary: '180000',
     city: 'Chicago',
@@ -38779,7 +38779,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '181000',
     city: 'Seattle',
@@ -38790,7 +38790,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 21:18:53',
-    'job title': 'Group Product Manager',
+    jobTitle: 'Group Product Manager',
     team: 'Product Management',
     salary: '181000',
     city: 'San Francisco Bay Area',
@@ -38801,7 +38801,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 13:36:51',
-    'job title': 'Site Reliability Engineer Manager',
+    jobTitle: 'Site Reliability Engineer Manager',
     team: 'Software Engineering Management',
     salary: '181000',
     city: 'San Francisco Bay Area',
@@ -38812,7 +38812,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 2:21:20',
-    'job title': 'Sr. Finance Strategist',
+    jobTitle: 'Sr. Finance Strategist',
     team: 'Accounting',
     salary: '181450',
     city: 'San Francisco Bay Area',
@@ -38823,7 +38823,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 21:04:09',
-    'job title': 'Sales System Administrator',
+    jobTitle: 'Sales System Administrator',
     team: 'Network, Security & IT',
     salary: '181500',
     city: 'San Francisco Bay Area',
@@ -38834,7 +38834,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 18:55:53',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '181650',
     city: 'San Francisco Bay Area',
@@ -38845,7 +38845,7 @@ const data = [
   },
   {
     Timestamp: '1/16/2020 10:04:52',
-    'job title': 'Manager of Marketing Analytics',
+    jobTitle: 'Manager of Marketing Analytics',
     team: 'Marketing',
     salary: '182000',
     city: 'San Francisco Bay Area',
@@ -38856,7 +38856,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 22:02:13',
-    'job title': 'VP of Marketing',
+    jobTitle: 'VP of Marketing',
     team: 'Operations',
     salary: '182875',
     city: 'Chicago',
@@ -38866,7 +38866,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '183000',
     city: 'San Francisco Bay Area',
@@ -38877,7 +38877,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 20:16:18',
-    'job title': 'Technical Program Manager',
+    jobTitle: 'Technical Program Manager',
     team: 'Technical Program Management',
     salary: '183000',
     city: 'San Francisco Bay Area',
@@ -38887,7 +38887,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     'job level': '4',
     salary: '184000',
@@ -38898,7 +38898,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Solutions Architect',
+    jobTitle: 'Solutions Architect',
     team: 'Network, Security & IT',
     salary: '184000',
     city: 'Cincinnati',
@@ -38909,7 +38909,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2021 0:46:42',
-    'job title': 'ENG Manager',
+    jobTitle: 'ENG Manager',
     team: 'Misc',
     salary: '184500',
     city: 'New York City',
@@ -38920,7 +38920,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 0:30:33',
-    'job title': 'CFO ',
+    jobTitle: 'CFO ',
     team: 'Operations',
     salary: '185000',
     city: 'San Francisco Bay Area',
@@ -38931,7 +38931,7 @@ const data = [
   },
   {
     Timestamp: '7/24/2020 22:49:16',
-    'job title': 'Data Science Manager',
+    jobTitle: 'Data Science Manager',
     team: 'Data Science',
     salary: '185000',
     city: 'New York City',
@@ -38941,7 +38941,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '185000',
     city: 'San Francisco',
@@ -38952,7 +38952,7 @@ const data = [
   },
   {
     Timestamp: '2/27/2020 10:02:31',
-    'job title': 'Director of Cybersecurity',
+    jobTitle: 'Director of Cybersecurity',
     team: 'Network, Security & IT',
     salary: '185000',
     city: 'New York City',
@@ -38963,7 +38963,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 13:30:55',
-    'job title': 'Director of Product Management',
+    jobTitle: 'Director of Product Management',
     team: 'Product Management',
     salary: '185000',
     city: 'New York City',
@@ -38974,7 +38974,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 12:27:16',
-    'job title': 'Director of User Research',
+    jobTitle: 'Director of User Research',
     team: 'Product Design',
     salary: '185000',
     city: 'San Francisco Bay Area',
@@ -38985,7 +38985,7 @@ const data = [
   },
   {
     Timestamp: '2/27/2020 1:01:42',
-    'job title': 'Director Supply Chain',
+    jobTitle: 'Director Supply Chain',
     team: 'Misc',
     salary: '185000',
     city: 'San Francisco Bay Area',
@@ -38996,7 +38996,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 13:20:40',
-    'job title': 'Engineering Manager',
+    jobTitle: 'Engineering Manager',
     team: 'Software Engineering Management',
     salary: '185000',
     city: 'Seattle',
@@ -39007,7 +39007,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 4:49:19',
-    'job title': 'Expert Product Manager ',
+    jobTitle: 'Expert Product Manager ',
     team: 'Product Management',
     salary: '185000',
     city: 'San Francisco Bay Area',
@@ -39018,7 +39018,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:51:05',
-    'job title': 'Global Experience Design Director',
+    jobTitle: 'Global Experience Design Director',
     team: 'Product Design',
     salary: '185000',
     city: 'New York City',
@@ -39029,7 +39029,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 1:50:27',
-    'job title': 'Group Product Manager',
+    jobTitle: 'Group Product Manager',
     team: 'Product Management',
     salary: '185000',
     city: 'San Francisco Bay Area',
@@ -39040,7 +39040,7 @@ const data = [
   },
   {
     Timestamp: '3/3/2020 23:08:27',
-    'job title': 'Hardware Engineer',
+    jobTitle: 'Hardware Engineer',
     team: 'Hardware Engineering',
     salary: '185000',
     city: 'San Francisco Bay Area',
@@ -39051,7 +39051,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 13:30:45',
-    'job title': 'Lead Designer',
+    jobTitle: 'Lead Designer',
     team: 'Product Design',
     salary: '185000',
     city: 'San Francisco Bay Area',
@@ -39062,7 +39062,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 19:31:34',
-    'job title': 'Principal UX Designer',
+    jobTitle: 'Principal UX Designer',
     team: 'Product Design',
     salary: '185000',
     city: 'Seattle',
@@ -39073,7 +39073,7 @@ const data = [
   },
   {
     Timestamp: '2/10/2020 16:27:03',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     salary: '185000',
     city: 'San Francisco Bay Area',
@@ -39083,7 +39083,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '185000',
@@ -39094,7 +39094,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '4',
     salary: '185000',
@@ -39105,7 +39105,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '185000',
@@ -39116,7 +39116,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '185000',
@@ -39128,7 +39128,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 1:46:27',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '185000',
     city: 'San Francisco Bay Area',
@@ -39139,7 +39139,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 9:20:03',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '185000',
     city: 'San Francisco Bay Area',
@@ -39150,7 +39150,7 @@ const data = [
   },
   {
     Timestamp: '2/9/2020 12:28:21',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '185000',
     city: 'San Francisco Bay Area',
@@ -39161,7 +39161,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 19:03:06',
-    'job title': 'Sr. Product Marketing Manager',
+    jobTitle: 'Sr. Product Marketing Manager',
     team: 'Marketing',
     salary: '185000',
     city: 'San Francisco Bay Area',
@@ -39172,7 +39172,7 @@ const data = [
   },
   {
     Timestamp: '3/9/2020 22:38:47',
-    'job title': 'Sr. Project Manager',
+    jobTitle: 'Sr. Project Manager',
     team: 'Product Management',
     salary: '185000',
     city: 'San Francisco Bay Area',
@@ -39183,7 +39183,7 @@ const data = [
   },
   {
     Timestamp: '12/14/2020 21:02:36',
-    'job title': 'Sr. Public Relations Manager',
+    jobTitle: 'Sr. Public Relations Manager',
     team: 'Human Resources',
     salary: '185000',
     city: 'San Francisco Bay Area',
@@ -39194,7 +39194,7 @@ const data = [
   },
   {
     Timestamp: '6/9/2020 18:15:42',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '185000',
     city: 'San Francisco Bay Area',
@@ -39205,7 +39205,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 11:41:01',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '185000',
     city: 'New York City',
@@ -39216,7 +39216,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2021 18:38:44',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '185000',
     city: 'Seattle',
@@ -39227,7 +39227,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 21:19:52',
-    'job title': 'Sr. UX Researcher',
+    jobTitle: 'Sr. UX Researcher',
     team: 'Product Design',
     salary: '185000',
     city: 'San Francisco Bay Area',
@@ -39237,7 +39237,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '6',
     salary: '185000',
@@ -39248,7 +39248,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '185000',
     city: 'Miami',
@@ -39259,7 +39259,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 21:19:22',
-    'job title': 'Director Product Management',
+    jobTitle: 'Director Product Management',
     team: 'Product Management',
     salary: '186000',
     city: 'San Francisco Bay Area',
@@ -39270,7 +39270,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 12:20:06',
-    'job title': 'Engineering Manager',
+    jobTitle: 'Engineering Manager',
     team: 'Software Engineering Management',
     salary: '186000',
     city: 'San Francisco Bay Area',
@@ -39281,7 +39281,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 20:48:19',
-    'job title': 'Executive Director of Product Management',
+    jobTitle: 'Executive Director of Product Management',
     team: 'Product Management',
     salary: '186000',
     city: 'Columbus',
@@ -39292,7 +39292,7 @@ const data = [
   },
   {
     Timestamp: '2/27/2020 18:21:04',
-    'job title': 'Product Director',
+    jobTitle: 'Product Director',
     team: 'Misc',
     salary: '187000',
     city: 'Chattanooga',
@@ -39303,7 +39303,7 @@ const data = [
   },
   {
     Timestamp: '2/27/2020 2:24:49',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '187000',
@@ -39315,7 +39315,7 @@ const data = [
   },
   {
     Timestamp: '2/10/2020 19:57:45',
-    'job title': 'Sr. Analyst',
+    jobTitle: 'Sr. Analyst',
     team: 'Misc',
     salary: '187000',
     city: 'San Francisco Bay Area',
@@ -39326,7 +39326,7 @@ const data = [
   },
   {
     Timestamp: '2/25/2020 1:09:17',
-    'job title': 'Director of Product Management',
+    jobTitle: 'Director of Product Management',
     team: 'Product Management',
     salary: '188000',
     city: 'San Francisco Bay Area',
@@ -39337,7 +39337,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 11:02:03',
-    'job title': 'Product GTM Expert',
+    jobTitle: 'Product GTM Expert',
     team: 'Misc',
     salary: '188000',
     city: 'Philadelphia',
@@ -39348,7 +39348,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 18:06:27',
-    'job title': 'VP of Product',
+    jobTitle: 'VP of Product',
     team: 'Operations',
     salary: '188000',
     city: 'Los Angeles',
@@ -39358,7 +39358,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '189000',
     city: 'Dallas',
@@ -39368,7 +39368,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '3',
     salary: '189000',
@@ -39379,7 +39379,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '189000',
     city: 'Denver',
@@ -39390,7 +39390,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2021 21:15:08',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '189000',
     city: 'Seattle',
@@ -39401,7 +39401,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 1:04:25',
-    'job title': 'Principal Product Manager',
+    jobTitle: 'Principal Product Manager',
     team: 'Product Management',
     salary: '189280',
     city: 'San Francisco Bay Area',
@@ -39411,7 +39411,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '190000',
     city: 'Los Angeles',
@@ -39421,7 +39421,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '190000',
     city: 'Denver',
@@ -39432,7 +39432,7 @@ const data = [
   },
   {
     Timestamp: '1/14/2020 7:21:30',
-    'job title': 'Director of Product Design/UX',
+    jobTitle: 'Director of Product Design/UX',
     team: 'Product Design',
     salary: '190000',
     city: 'New York City',
@@ -39443,7 +39443,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 7:44:32',
-    'job title': 'Director of Product Management',
+    jobTitle: 'Director of Product Management',
     team: 'Product Management',
     salary: '190000',
     city: 'New York City',
@@ -39453,7 +39453,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     'job level': '2',
     salary: '190000',
@@ -39464,7 +39464,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '190000',
     city: 'Los Angeles',
@@ -39475,7 +39475,7 @@ const data = [
   },
   {
     Timestamp: '2/9/2020 16:53:20',
-    'job title': 'Product Management Director',
+    jobTitle: 'Product Management Director',
     team: 'Product Management',
     salary: '190000',
     city: 'San Francisco Bay Area',
@@ -39486,7 +39486,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 2:27:32',
-    'job title': 'Product Manager of AI',
+    jobTitle: 'Product Manager of AI',
     team: 'Product Management',
     salary: '190000',
     city: 'San Francisco Bay Area',
@@ -39496,7 +39496,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '4',
     salary: '190000',
@@ -39508,7 +39508,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2020 18:40:56',
-    'job title': 'Sr. Manager of Engineering',
+    jobTitle: 'Sr. Manager of Engineering',
     team: 'Software Engineering Management',
     salary: '190000',
     city: 'Boulder',
@@ -39519,7 +39519,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:41:01',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '190000',
     city: 'Seattle',
@@ -39530,7 +39530,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 16:14:15',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '190000',
     city: 'San Francisco Bay Area',
@@ -39541,7 +39541,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 17:09:00',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '190000',
     city: 'Seattle',
@@ -39552,7 +39552,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 23:13:55',
-    'job title': 'Staff Engineer',
+    jobTitle: 'Staff Engineer',
     team: 'Software Engineering',
     salary: '190000',
     city: 'San Francisco Bay Area',
@@ -39563,7 +39563,7 @@ const data = [
   },
   {
     Timestamp: '1/27/2020 16:46:26',
-    'job title': 'VP of Customer Success',
+    jobTitle: 'VP of Customer Success',
     team: 'Operations',
     salary: '190000',
     city: 'New York City',
@@ -39574,7 +39574,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 21:20:25',
-    'job title': 'Sr. Counsel',
+    jobTitle: 'Sr. Counsel',
     team: 'Misc',
     salary: '191000',
     city: 'San Francisco Bay Area',
@@ -39585,7 +39585,7 @@ const data = [
   },
   {
     Timestamp: '2/11/2020 23:21:37',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '191000',
     city: 'San Francisco Bay Area',
@@ -39595,7 +39595,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '6',
     salary: '191000',
@@ -39607,7 +39607,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:32:28',
-    'job title': 'Head of Product Experts',
+    jobTitle: 'Head of Product Experts',
     team: 'Product Management',
     salary: '192000',
     city: 'San Francisco Bay Area',
@@ -39617,7 +39617,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '2',
     salary: '192000',
@@ -39629,7 +39629,7 @@ const data = [
   },
   {
     Timestamp: '4/17/2020 22:19:45',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '192000',
     city: 'San Francisco Bay Area',
@@ -39640,7 +39640,7 @@ const data = [
   },
   {
     Timestamp: '3/2/2020 0:41:43',
-    'job title': 'UX Writer',
+    jobTitle: 'UX Writer',
     team: 'Product Design',
     salary: '192000',
     city: 'Seattle',
@@ -39651,7 +39651,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 11:46:18',
-    'job title': 'Sr. UX Producer / Sr. Design Program Manager',
+    jobTitle: 'Sr. UX Producer / Sr. Design Program Manager',
     team: 'Product Design',
     salary: '193000',
     city: 'San Francisco Bay Area',
@@ -39662,7 +39662,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 14:31:55',
-    'job title': 'Principal, Solutions Marketing',
+    jobTitle: 'Principal, Solutions Marketing',
     team: 'Marketing',
     salary: '194000',
     city: 'San Francisco Bay Area',
@@ -39672,7 +39672,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     salary: '194000',
     city: 'Boston',
@@ -39683,7 +39683,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 1:16:55',
-    'job title': 'Finance Manager',
+    jobTitle: 'Finance Manager',
     team: 'Accounting',
     salary: '195000',
     city: 'San Francisco Bay Area',
@@ -39694,7 +39694,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 21:43:09',
-    'job title': 'Product Marketing Manager',
+    jobTitle: 'Product Marketing Manager',
     team: 'Marketing',
     salary: '195000',
     city: 'San Francisco Bay Area',
@@ -39705,7 +39705,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:52:31',
-    'job title': 'Product Marketing Manager',
+    jobTitle: 'Product Marketing Manager',
     team: 'Marketing',
     salary: '195000',
     city: 'San Francisco Bay Area',
@@ -39715,7 +39715,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '195000',
     city: 'San Francisco',
@@ -39725,7 +39725,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '195000',
     city: 'Palo Alto',
@@ -39735,7 +39735,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '5',
     salary: '195000',
@@ -39747,7 +39747,7 @@ const data = [
   },
   {
     Timestamp: '2/11/2020 0:02:57',
-    'job title': 'Sr. UX Designer',
+    jobTitle: 'Sr. UX Designer',
     team: 'Product Design',
     salary: '195000',
     city: 'New York City',
@@ -39758,7 +39758,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 11:00:10',
-    'job title': 'Staff Systems Designer',
+    jobTitle: 'Staff Systems Designer',
     team: 'Network, Security & IT',
     salary: '195000',
     city: 'South Orange',
@@ -39768,7 +39768,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '195000',
     city: 'Atlanta',
@@ -39779,7 +39779,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 13:39:37',
-    'job title': 'VP of Data Science',
+    jobTitle: 'VP of Data Science',
     team: 'Operations',
     salary: '195000',
     city: 'Portland',
@@ -39790,7 +39790,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 2:51:52',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '195300',
     city: 'San Francisco Bay Area',
@@ -39800,7 +39800,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '5',
     salary: '197000',
@@ -39812,7 +39812,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 23:19:43',
-    'job title': 'Product Design Manager ',
+    jobTitle: 'Product Design Manager ',
     team: 'Product Design',
     salary: '198000',
     city: 'San Francisco Bay Area',
@@ -39823,7 +39823,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 14:24:06',
-    'job title': 'Sr. Program Manager',
+    jobTitle: 'Sr. Program Manager',
     team: 'Technical Program Management',
     salary: '198000',
     city: 'San Francisco Bay Area',
@@ -39834,7 +39834,7 @@ const data = [
   },
   {
     Timestamp: '2/8/2020 20:51:40',
-    'job title': 'Sr. Security and Machine Learning Engineer',
+    jobTitle: 'Sr. Security and Machine Learning Engineer',
     team: 'Network, Security & IT',
     salary: '199000',
     city: 'Seattle',
@@ -39845,7 +39845,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 21:06:21',
-    'job title': 'Business Development Director',
+    jobTitle: 'Business Development Director',
     team: 'Sales',
     salary: '200000',
     city: 'New York City',
@@ -39856,7 +39856,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 17:57:47',
-    'job title': 'Co-Founder, Head of Business Strategy & Operations',
+    jobTitle: 'Co-Founder, Head of Business Strategy & Operations',
     team: 'Operations',
     salary: '200000',
     city: 'Chicago',
@@ -39867,7 +39867,7 @@ const data = [
   },
   {
     Timestamp: '4/2/2020 20:28:08',
-    'job title': 'Design Director',
+    jobTitle: 'Design Director',
     team: 'Product Design',
     salary: '200000',
     city: 'Los Angeles',
@@ -39878,7 +39878,7 @@ const data = [
   },
   {
     Timestamp: '2/22/2020 8:35:40',
-    'job title': 'Director of Communications',
+    jobTitle: 'Director of Communications',
     team: 'Operations',
     salary: '200000',
     city: 'San Francisco Bay Area',
@@ -39889,7 +39889,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 13:10:17',
-    'job title': 'Director of Data Partnerships',
+    jobTitle: 'Director of Data Partnerships',
     team: 'Operations',
     salary: '200000',
     city: 'San Francisco Bay Area',
@@ -39900,7 +39900,7 @@ const data = [
   },
   {
     Timestamp: '11/24/2020 14:54:33',
-    'job title': 'Director of Product Management',
+    jobTitle: 'Director of Product Management',
     team: 'Product Management',
     salary: '200000',
     city: 'San Francisco Bay Area',
@@ -39911,7 +39911,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 1:35:36',
-    'job title': 'Principal Engineer',
+    jobTitle: 'Principal Engineer',
     team: 'Software Engineering',
     salary: '200000',
     city: 'San Francisco Bay Area',
@@ -39922,7 +39922,7 @@ const data = [
   },
   {
     Timestamp: '2/25/2020 7:22:46',
-    'job title': 'Product Designer',
+    jobTitle: 'Product Designer',
     team: 'Product Design',
     salary: '200000',
     city: 'New York City',
@@ -39933,7 +39933,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 4:29:24',
-    'job title': 'Program Manager',
+    jobTitle: 'Program Manager',
     team: 'Product Management',
     salary: '200000',
     city: 'San Francisco Bay Area',
@@ -39944,7 +39944,7 @@ const data = [
   },
   {
     Timestamp: '2/8/2020 11:47:18',
-    'job title': 'Research Lead',
+    jobTitle: 'Research Lead',
     team: 'Misc',
     salary: '200000',
     city: 'San Francisco Bay Area',
@@ -39954,7 +39954,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Security Admin',
+    jobTitle: 'Security Admin',
     team: 'Network, Security & IT',
     salary: '200000',
     city: 'San Francisco',
@@ -39964,7 +39964,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '6',
     salary: '200000',
@@ -39975,7 +39975,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '4',
     salary: '200000',
@@ -39987,7 +39987,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 9:32:15',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '200000',
     city: 'San Francisco Bay Area',
@@ -39998,7 +39998,7 @@ const data = [
   },
   {
     Timestamp: '1/16/2020 16:46:25',
-    'job title': 'Sr. Director of Product Management',
+    jobTitle: 'Sr. Director of Product Management',
     team: 'Product Management',
     salary: '200000',
     city: 'San Francisco Bay Area',
@@ -40009,7 +40009,7 @@ const data = [
   },
   {
     Timestamp: '1/16/2020 16:41:40',
-    'job title': 'Sr. Director of Product Management',
+    jobTitle: 'Sr. Director of Product Management',
     team: 'Product Management',
     salary: '200000',
     city: 'San Francisco Bay Area',
@@ -40020,7 +40020,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 13:14:56',
-    'job title': 'Sr. Engineering Manager',
+    jobTitle: 'Sr. Engineering Manager',
     team: 'Software Engineering',
     salary: '200000',
     city: 'Seattle',
@@ -40031,7 +40031,7 @@ const data = [
   },
   {
     Timestamp: '2/9/2020 2:28:08',
-    'job title': 'Sr. Full-Stack Engineer',
+    jobTitle: 'Sr. Full-Stack Engineer',
     team: 'Software Engineering',
     salary: '200000',
     city: 'San Francisco Bay Area',
@@ -40042,7 +40042,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 13:16:34',
-    'job title': 'Sr. Legal Counsel',
+    jobTitle: 'Sr. Legal Counsel',
     team: 'Misc',
     salary: '200000',
     city: 'Los Angeles',
@@ -40053,7 +40053,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 9:28:54',
-    'job title': 'Sr. Manager of Training and Quality ',
+    jobTitle: 'Sr. Manager of Training and Quality ',
     team: 'Human Resources',
     salary: '200000',
     city: 'Washington',
@@ -40064,7 +40064,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2021 11:30:09',
-    'job title': 'Sr. Technical Program Manager',
+    jobTitle: 'Sr. Technical Program Manager',
     team: 'Technical Program Management',
     salary: '200000',
     city: 'Seattle',
@@ -40075,7 +40075,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 10:08:26',
-    'job title': 'Sr. VP of Product',
+    jobTitle: 'Sr. VP of Product',
     team: 'Product Management',
     salary: '200000',
     city: 'Miami',
@@ -40086,7 +40086,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 16:47:49',
-    'job title': 'Technical Marketing Writer',
+    jobTitle: 'Technical Marketing Writer',
     team: 'Marketing',
     salary: '200000',
     city: 'San Francisco Bay Area',
@@ -40097,7 +40097,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 16:24:06',
-    'job title': 'UX Writing Manager',
+    jobTitle: 'UX Writing Manager',
     team: 'Product Design',
     salary: '200000',
     city: 'San Francisco Bay Area',
@@ -40108,7 +40108,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 22:05:50',
-    'job title': 'VP of Client Experience',
+    jobTitle: 'VP of Client Experience',
     team: 'Operations',
     salary: '200000',
     city: 'New York City',
@@ -40119,7 +40119,7 @@ const data = [
   },
   {
     Timestamp: '2/1/2020 20:10:38',
-    'job title': 'VP of Operations',
+    jobTitle: 'VP of Operations',
     team: 'Operations',
     salary: '200000',
     city: 'New York City',
@@ -40130,7 +40130,7 @@ const data = [
   },
   {
     Timestamp: '2/11/2020 20:44:43',
-    'job title': 'VP of Product',
+    jobTitle: 'VP of Product',
     team: 'Operations',
     salary: '200000',
     city: 'San Francisco Bay Area',
@@ -40141,7 +40141,7 @@ const data = [
   },
   {
     Timestamp: '2/11/2020 17:10:09',
-    'job title': 'VP of Product Marketing',
+    jobTitle: 'VP of Product Marketing',
     team: 'Operations',
     salary: '200000',
     city: 'San Francisco Bay Area',
@@ -40152,7 +40152,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 17:40:02',
-    'job title': 'VP of Strategic Partnerships',
+    jobTitle: 'VP of Strategic Partnerships',
     team: 'Operations',
     salary: '200000',
     city: 'San Francisco Bay Area',
@@ -40163,7 +40163,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 10:26:39',
-    'job title': 'Head of Global Marketing',
+    jobTitle: 'Head of Global Marketing',
     team: 'Marketing',
     salary: '200008',
     city: 'San Francisco Bay Area',
@@ -40174,7 +40174,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 23:20:29',
-    'job title': 'Sr. Technical Recruiter ',
+    jobTitle: 'Sr. Technical Recruiter ',
     team: 'Recruiting',
     salary: '202000',
     city: 'Redmond',
@@ -40185,7 +40185,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:33:57',
-    'job title': 'Technical Product Marketing Manager',
+    jobTitle: 'Technical Product Marketing Manager',
     team: 'Marketing',
     salary: '202500',
     city: 'San Francisco Bay Area',
@@ -40196,7 +40196,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 22:06:50',
-    'job title': 'Lead Designer',
+    jobTitle: 'Lead Designer',
     team: 'Product Design',
     salary: '202800',
     city: 'San Francisco Bay Area',
@@ -40207,7 +40207,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 2:00:47',
-    'job title': 'Head of Product',
+    jobTitle: 'Head of Product',
     team: 'Product Management',
     salary: '203000',
     city: 'San Francisco Bay Area',
@@ -40218,7 +40218,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 20:20:57',
-    'job title': 'Sr. Product Marketing Manager',
+    jobTitle: 'Sr. Product Marketing Manager',
     team: 'Marketing',
     salary: '203000',
     city: 'San Francisco Bay Area',
@@ -40229,7 +40229,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 11:24:39',
-    'job title': 'Director of Product Management',
+    jobTitle: 'Director of Product Management',
     team: 'Product Management',
     salary: '205000',
     city: 'Seattle',
@@ -40239,7 +40239,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '205000',
     city: 'Minneapolis',
@@ -40250,7 +40250,7 @@ const data = [
   },
   {
     Timestamp: '2/9/2020 22:17:43',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '205000',
     city: 'Menlo Park',
@@ -40261,7 +40261,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 18:14:01',
-    'job title': 'Sr. Program Manager',
+    jobTitle: 'Sr. Program Manager',
     team: 'Technical Program Management',
     salary: '205000',
     city: 'New York City',
@@ -40272,7 +40272,7 @@ const data = [
   },
   {
     Timestamp: '3/9/2020 16:30:02',
-    'job title': 'Director of UX',
+    jobTitle: 'Director of UX',
     team: 'Product Design',
     salary: '206000',
     city: 'San Francisco Bay Area',
@@ -40283,7 +40283,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 20:34:22',
-    'job title': 'Sr. Program Manager',
+    jobTitle: 'Sr. Program Manager',
     team: 'Technical Program Management',
     salary: '206000',
     city: 'Seattle',
@@ -40293,7 +40293,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '207000',
     city: 'New York City',
@@ -40304,7 +40304,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 15:38:35',
-    'job title': 'Sr. Business Development Manager',
+    jobTitle: 'Sr. Business Development Manager',
     team: 'Misc',
     salary: '207000',
     city: 'San Francisco Bay Area',
@@ -40314,7 +40314,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '208000',
     city: 'Indianapolis',
@@ -40325,7 +40325,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 23:37:40',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '209000',
     city: 'New York City',
@@ -40336,7 +40336,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 5:59:54',
-    'job title': 'Director of Partnerships',
+    jobTitle: 'Director of Partnerships',
     team: 'Operations',
     salary: '210000',
     city: 'New York City',
@@ -40347,7 +40347,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 1:49:39',
-    'job title': 'Director of Product Management',
+    jobTitle: 'Director of Product Management',
     team: 'Product Management',
     salary: '210000',
     city: 'Salt Lake City',
@@ -40357,7 +40357,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '210000',
     city: 'San Francisco Bay Area',
@@ -40368,7 +40368,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 14:02:57',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '210000',
     city: 'San Francisco Bay Area',
@@ -40378,7 +40378,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '6',
     salary: '210000',
@@ -40389,7 +40389,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '210000',
@@ -40401,7 +40401,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 16:17:09',
-    'job title': 'Sr. Director',
+    jobTitle: 'Sr. Director',
     team: 'Misc',
     salary: '210000',
     city: 'San Francisco Bay Area',
@@ -40412,7 +40412,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 10:02:08',
-    'job title': 'Sr. Director of Media Strategy',
+    jobTitle: 'Sr. Director of Media Strategy',
     team: 'Marketing',
     salary: '210000',
     city: 'New York City',
@@ -40422,7 +40422,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '210000',
     city: 'Fairfield',
@@ -40433,7 +40433,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 11:16:01',
-    'job title': 'VP of Enterprise Data & Analytics',
+    jobTitle: 'VP of Enterprise Data & Analytics',
     team: 'Operations',
     salary: '210000',
     city: 'New York City',
@@ -40444,7 +40444,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 19:38:47',
-    'job title': 'Principal Program Manager',
+    jobTitle: 'Principal Program Manager',
     team: 'Technical Program Management',
     salary: '210009',
     city: 'Bellevue',
@@ -40455,7 +40455,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 17:06:23',
-    'job title': 'Sr. Director of Operations',
+    jobTitle: 'Sr. Director of Operations',
     team: 'Operations',
     salary: '212000',
     city: 'San Francisco Bay Area',
@@ -40465,7 +40465,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '213000',
     city: 'Cambridge',
@@ -40476,7 +40476,7 @@ const data = [
   },
   {
     Timestamp: '10/19/2020 19:48:08',
-    'job title': 'Director of Safety and Compliance',
+    jobTitle: 'Director of Safety and Compliance',
     team: 'Misc',
     salary: '214000',
     city: 'San Francisco Bay Area',
@@ -40487,7 +40487,7 @@ const data = [
   },
   {
     Timestamp: '3/6/2020 17:06:20',
-    'job title': 'Director of Safety and Compliance',
+    jobTitle: 'Director of Safety and Compliance',
     team: 'Misc',
     salary: '214000',
     city: 'San Francisco Bay Area',
@@ -40498,7 +40498,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 13:41:53',
-    'job title': 'Sr. Program Manager',
+    jobTitle: 'Sr. Program Manager',
     team: 'Technical Program Management',
     salary: '214000',
     city: 'San Francisco Bay Area',
@@ -40508,7 +40508,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '215000',
     city: 'Palo Alto',
@@ -40518,7 +40518,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '215000',
     city: 'New York City',
@@ -40529,7 +40529,7 @@ const data = [
   },
   {
     Timestamp: '2/10/2020 2:28:42',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '215000',
     city: 'San Francisco Bay Area',
@@ -40540,7 +40540,7 @@ const data = [
   },
   {
     Timestamp: '2/9/2020 16:06:23',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '216000',
     city: 'San Francisco Bay Area',
@@ -40551,7 +40551,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 22:11:08',
-    'job title': 'Director of Services',
+    jobTitle: 'Director of Services',
     team: 'Misc',
     salary: '217000',
     city: 'New York City',
@@ -40562,7 +40562,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 14:10:17',
-    'job title': 'Head of Insights & Strategy',
+    jobTitle: 'Head of Insights & Strategy',
     team: 'Misc',
     salary: '217500',
     city: 'San Francisco Bay Area',
@@ -40572,7 +40572,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '218000',
     city: 'Washington',
@@ -40583,7 +40583,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2020 12:24:26',
-    'job title': 'Eecutive VP of UX & Product',
+    jobTitle: 'Eecutive VP of UX & Product',
     team: 'Operations',
     salary: '220000',
     city: 'Salt Lake City',
@@ -40594,7 +40594,7 @@ const data = [
   },
   {
     Timestamp: '1/15/2020 18:02:24',
-    'job title': 'Engineering Manager',
+    jobTitle: 'Engineering Manager',
     team: 'Software Engineering Management',
     salary: '220000',
     city: 'Los Angeles',
@@ -40605,7 +40605,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 23:06:48',
-    'job title': 'Head of People',
+    jobTitle: 'Head of People',
     team: 'Human Resources',
     salary: '220000',
     city: 'San Francisco Bay Area',
@@ -40616,7 +40616,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 12:20:55',
-    'job title': 'Legal Counsel',
+    jobTitle: 'Legal Counsel',
     team: 'Misc',
     salary: '220000',
     city: 'San Francisco Bay Area',
@@ -40627,7 +40627,7 @@ const data = [
   },
   {
     Timestamp: '2/7/2020 13:29:14',
-    'job title': 'Managing Director of IT Development',
+    jobTitle: 'Managing Director of IT Development',
     team: 'Network, Security & IT',
     salary: '220000',
     city: 'Washington',
@@ -40638,7 +40638,7 @@ const data = [
   },
   {
     Timestamp: '3/30/2020 1:37:12',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '220000',
     city: 'New York City',
@@ -40648,7 +40648,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '220000',
     city: 'Westlake Village',
@@ -40659,7 +40659,7 @@ const data = [
   },
   {
     Timestamp: '2/14/2020 16:20:31',
-    'job title': 'VP of Marketing',
+    jobTitle: 'VP of Marketing',
     team: 'Operations',
     salary: '220000',
     city: 'Los Angeles',
@@ -40670,7 +40670,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 10:21:59',
-    'job title': 'Director of Product Management',
+    jobTitle: 'Director of Product Management',
     team: 'Product Management',
     salary: '222000',
     city: 'Austin',
@@ -40681,7 +40681,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 18:59:31',
-    'job title': 'Design Director',
+    jobTitle: 'Design Director',
     team: 'Product Design',
     salary: '225000',
     city: 'New York City',
@@ -40692,7 +40692,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2021 19:36:25',
-    'job title': 'Director of Brand',
+    jobTitle: 'Director of Brand',
     team: 'Marketing Ops',
     salary: '225000',
     city: 'San Francisco Bay Area',
@@ -40703,7 +40703,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 0:32:12',
-    'job title': 'Director of Growth Marketing',
+    jobTitle: 'Director of Growth Marketing',
     team: 'Marketing Ops',
     salary: '225000',
     city: 'San Francisco Bay Area',
@@ -40714,7 +40714,7 @@ const data = [
   },
   {
     Timestamp: '1/21/2020 10:28:37',
-    'job title': 'Head of Creative',
+    jobTitle: 'Head of Creative',
     team: 'Product Design',
     salary: '225000',
     city: 'New York City',
@@ -40724,7 +40724,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '225000',
     city: 'Houston',
@@ -40735,7 +40735,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 5:46:34',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '225000',
     city: 'San Francisco Bay Area',
@@ -40745,7 +40745,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '225000',
     city: 'San Francisco',
@@ -40756,7 +40756,7 @@ const data = [
   },
   {
     Timestamp: '2/24/2020 1:37:30',
-    'job title': 'Sr. Solution Consultant',
+    jobTitle: 'Sr. Solution Consultant',
     team: 'Sales',
     salary: '225000',
     city: 'Houston',
@@ -40767,7 +40767,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:49:52',
-    'job title': 'Sr. UX Designer (UX Designer III)',
+    jobTitle: 'Sr. UX Designer (UX Designer III)',
     team: 'Product Design',
     salary: '225000',
     city: 'Seattle',
@@ -40778,7 +40778,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 10:08:26',
-    'job title': 'VP of Marketing',
+    jobTitle: 'VP of Marketing',
     team: 'Operations',
     salary: '225000',
     city: 'New York City',
@@ -40789,7 +40789,7 @@ const data = [
   },
   {
     Timestamp: '2/9/2020 13:49:53',
-    'job title': 'VP of Product',
+    jobTitle: 'VP of Product',
     team: 'Operations',
     salary: '225000',
     city: 'San Francisco Bay Area',
@@ -40800,7 +40800,7 @@ const data = [
   },
   {
     Timestamp: '1/19/2021 6:21:01',
-    'job title': 'VP of product management',
+    jobTitle: 'VP of product management',
     team: 'Operations',
     salary: '225000',
     city: 'New York City',
@@ -40811,7 +40811,7 @@ const data = [
   },
   {
     Timestamp: '2/27/2020 0:52:36',
-    'job title': 'Assistant General Counsel',
+    jobTitle: 'Assistant General Counsel',
     team: 'Misc',
     salary: '225300',
     city: 'San Francisco Bay Area',
@@ -40822,7 +40822,7 @@ const data = [
   },
   {
     Timestamp: '3/1/2020 14:02:07',
-    'job title': 'Assistant General Counsel',
+    jobTitle: 'Assistant General Counsel',
     team: 'Misc',
     salary: '225300',
     city: 'San Francisco Bay Area',
@@ -40833,7 +40833,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 1:18:59',
-    'job title': 'Sr. Fraud Detection Engineer',
+    jobTitle: 'Sr. Fraud Detection Engineer',
     team: 'Network, Security & IT',
     salary: '226000',
     city: 'San Francisco Bay Area',
@@ -40844,7 +40844,7 @@ const data = [
   },
   {
     Timestamp: '10/7/2020 12:29:49',
-    'job title': 'Data Science Manager',
+    jobTitle: 'Data Science Manager',
     team: 'Data Science',
     salary: '230000',
     city: 'New York City',
@@ -40854,7 +40854,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '230000',
     city: 'Los Angeles',
@@ -40865,7 +40865,7 @@ const data = [
   },
   {
     Timestamp: '2/13/2020 17:21:03',
-    'job title': 'Engineering Manager',
+    jobTitle: 'Engineering Manager',
     team: 'Software Engineering Management',
     salary: '230000',
     city: 'San Francisco Bay Area',
@@ -40875,7 +40875,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '230000',
     city: 'Los Angeles',
@@ -40886,7 +40886,7 @@ const data = [
   },
   {
     Timestamp: '5/22/2020 19:49:29',
-    'job title': 'Principal Software Engineer',
+    jobTitle: 'Principal Software Engineer',
     team: 'Software Engineering',
     salary: '230000',
     city: 'San Francisco Bay Area',
@@ -40897,7 +40897,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 22:30:10',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '230000',
     city: 'Austin',
@@ -40908,7 +40908,7 @@ const data = [
   },
   {
     Timestamp: '2/11/2020 23:56:51',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '230000',
     city: 'San Francisco Bay Area',
@@ -40919,7 +40919,7 @@ const data = [
   },
   {
     Timestamp: '1/16/2020 20:02:58',
-    'job title': 'Sr. Technical Program Manager',
+    jobTitle: 'Sr. Technical Program Manager',
     team: 'Technical Program Management',
     salary: '230000',
     city: 'Seattle',
@@ -40930,7 +40930,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 10:02:53',
-    'job title': 'VP of Analytics',
+    jobTitle: 'VP of Analytics',
     team: 'Business Analytics',
     salary: '230000',
     city: 'New York City',
@@ -40941,7 +40941,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 22:30:42',
-    'job title': 'VP of Product Management',
+    jobTitle: 'VP of Product Management',
     team: 'Operations',
     salary: '230000',
     city: 'San Francisco Bay Area',
@@ -40952,7 +40952,7 @@ const data = [
   },
   {
     Timestamp: '7/7/2020 17:31:51',
-    'job title': 'UX Researcher',
+    jobTitle: 'UX Researcher',
     team: 'Product Design',
     salary: '234000',
     city: 'San Francisco Bay Area',
@@ -40963,7 +40963,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 0:14:13',
-    'job title': 'Engineering Manager',
+    jobTitle: 'Engineering Manager',
     team: 'Software Engineering Management',
     salary: '236000',
     city: 'Seattle',
@@ -40973,7 +40973,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '237000',
     city: 'New York City',
@@ -40983,7 +40983,7 @@ const data = [
     education: 'Graduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '240000',
     city: 'Cincinnati',
@@ -40994,7 +40994,7 @@ const data = [
   },
   {
     Timestamp: '11/19/2020 12:36:48',
-    'job title': 'Director of Event Marketing',
+    jobTitle: 'Director of Event Marketing',
     team: 'Marketing Ops',
     salary: '240000',
     city: 'San Francisco Bay Area',
@@ -41005,7 +41005,7 @@ const data = [
   },
   {
     Timestamp: '2/6/2020 14:17:42',
-    'job title': 'Marketing Campaign Manager Lead for North America',
+    jobTitle: 'Marketing Campaign Manager Lead for North America',
     team: 'Marketing',
     salary: '240000',
     city: 'Los Angeles',
@@ -41016,7 +41016,7 @@ const data = [
   },
   {
     Timestamp: '7/16/2020 22:25:26',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '240000',
     city: 'Seattle',
@@ -41027,7 +41027,7 @@ const data = [
   },
   {
     Timestamp: '2/27/2020 1:12:33',
-    'job title': 'Head of Design',
+    jobTitle: 'Head of Design',
     team: 'Product Design',
     salary: '244000',
     city: 'San Francisco Bay Area',
@@ -41037,7 +41037,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '245000',
     city: 'San Diego',
@@ -41047,7 +41047,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Dev-Ops',
+    jobTitle: 'Dev-Ops',
     team: 'Network, Security & IT',
     salary: '250000',
     city: 'Austin',
@@ -41058,7 +41058,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 18:35:14',
-    'job title': 'Director of Business Operations',
+    jobTitle: 'Director of Business Operations',
     team: 'Operations',
     salary: '250000',
     city: 'San Francisco Bay Area',
@@ -41068,7 +41068,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '250000',
     city: 'Los Angeles',
@@ -41078,7 +41078,7 @@ const data = [
     education: 'High School'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     salary: '250000',
     city: 'Tampa',
@@ -41089,7 +41089,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 4:03:18',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '250000',
@@ -41101,7 +41101,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 1:51:08',
-    'job title': 'Sr. Product Manager',
+    jobTitle: 'Sr. Product Manager',
     team: 'Product Management',
     salary: '250000',
     city: 'San Francisco Bay Area',
@@ -41112,7 +41112,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 19:52:30',
-    'job title': 'Sr. VP of Product',
+    jobTitle: 'Sr. VP of Product',
     team: 'Product Management',
     salary: '250000',
     city: 'New York City',
@@ -41122,7 +41122,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '250000',
     city: 'Sarasota',
@@ -41133,7 +41133,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 21:53:10',
-    'job title': 'VP of Customer Success',
+    jobTitle: 'VP of Customer Success',
     team: 'Operations',
     salary: '250000',
     city: 'Portland',
@@ -41144,7 +41144,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 12:54:53',
-    'job title': 'VP of Marketing',
+    jobTitle: 'VP of Marketing',
     team: 'Operations',
     salary: '250000',
     city: 'New York City',
@@ -41155,7 +41155,7 @@ const data = [
   },
   {
     Timestamp: '3/7/2020 8:03:53',
-    'job title': 'Staff Software Engineer',
+    jobTitle: 'Staff Software Engineer',
     team: 'Software Engineering',
     salary: '252000',
     city: 'New York City',
@@ -41166,7 +41166,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 9:07:27',
-    'job title': 'VP of Product',
+    jobTitle: 'VP of Product',
     team: 'Operations',
     salary: '257500',
     city: 'New York City',
@@ -41177,7 +41177,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 5:09:59',
-    'job title': 'Sr. Director of Global Business Development',
+    jobTitle: 'Sr. Director of Global Business Development',
     team: 'Operations',
     salary: '258000',
     city: 'Jersey City',
@@ -41187,7 +41187,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Data Analyst',
+    jobTitle: 'Data Analyst',
     team: 'Data Science',
     'job level': '5',
     salary: '260000',
@@ -41199,7 +41199,7 @@ const data = [
   },
   {
     Timestamp: '1/22/2021 19:15:40',
-    'job title': 'Engineering Director',
+    jobTitle: 'Engineering Director',
     team: 'Software Engineering Management',
     salary: '260000',
     city: 'New York City',
@@ -41210,7 +41210,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 18:46:53',
-    'job title': 'VP of Client Partnerships',
+    jobTitle: 'VP of Client Partnerships',
     team: 'Operations',
     salary: '260000',
     city: 'Los Angeles',
@@ -41221,7 +41221,7 @@ const data = [
   },
   {
     Timestamp: '2/9/2020 9:45:54',
-    'job title': 'VP of Software Development',
+    jobTitle: 'VP of Software Development',
     team: 'Operations',
     salary: '260000',
     city: 'Salt Lake City',
@@ -41232,7 +41232,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 20:41:54',
-    'job title': 'Sr. Customer Service Manager',
+    jobTitle: 'Sr. Customer Service Manager',
     team: 'Sales',
     salary: '265000',
     city: 'Washington',
@@ -41242,7 +41242,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Network Engineer',
+    jobTitle: 'Network Engineer',
     team: 'Network, Security & IT',
     salary: '270400',
     city: 'Amarillo',
@@ -41253,7 +41253,7 @@ const data = [
   },
   {
     Timestamp: '2/9/2020 21:02:00',
-    'job title': 'Director of Digital Product Management',
+    jobTitle: 'Director of Digital Product Management',
     team: 'Product Management',
     salary: '273000',
     city: 'San Francisco Bay Area',
@@ -41264,7 +41264,7 @@ const data = [
   },
   {
     Timestamp: '2/26/2020 10:50:03',
-    'job title': 'Business Development Director',
+    jobTitle: 'Business Development Director',
     team: 'Sales',
     salary: '280000',
     city: 'New York City',
@@ -41275,7 +41275,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 17:41:04',
-    'job title': 'Director of Product Planning',
+    jobTitle: 'Director of Product Planning',
     team: 'Misc',
     salary: '285000',
     city: 'San Francisco Bay Area',
@@ -41286,7 +41286,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 22:53:51',
-    'job title': 'Creative Director ',
+    jobTitle: 'Creative Director ',
     team: 'Product Design',
     salary: '286000',
     city: 'Los Angeles',
@@ -41297,7 +41297,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 16:10:33',
-    'job title': 'Instructional Designer',
+    jobTitle: 'Instructional Designer',
     team: 'Product Design',
     salary: '288000',
     city: 'San Francisco Bay Area',
@@ -41307,7 +41307,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Site Reliability Engineer',
+    jobTitle: 'Site Reliability Engineer',
     team: 'Network, Security & IT',
     'job level': '5',
     salary: '290000',
@@ -41319,7 +41319,7 @@ const data = [
   },
   {
     Timestamp: '2/20/2020 21:01:25',
-    'job title': 'VP of Enterprise Sales',
+    jobTitle: 'VP of Enterprise Sales',
     team: 'Operations',
     salary: '290000',
     city: 'New York City',
@@ -41329,7 +41329,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Web Developer',
+    jobTitle: 'Web Developer',
     team: 'Software Engineering',
     salary: '290000',
     city: 'Idaho',
@@ -41339,7 +41339,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '296000',
     city: 'Sunnyvale',
@@ -41350,7 +41350,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 9:40:21',
-    'job title': 'Business Development Director',
+    jobTitle: 'Business Development Director',
     team: 'Sales',
     salary: '300000',
     city: 'Boston',
@@ -41360,7 +41360,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Developer',
+    jobTitle: 'Lead Software Developer',
     team: 'Software Engineering Management',
     salary: '300000',
     city: 'Philadelphia',
@@ -41371,7 +41371,7 @@ const data = [
   },
   {
     Timestamp: '11/12/2020 8:45:31',
-    'job title': 'VP of Sales',
+    jobTitle: 'VP of Sales',
     team: 'Operations',
     salary: '300000',
     city: 'New York City',
@@ -41381,7 +41381,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     'job level': '3',
     salary: '307200',
@@ -41392,7 +41392,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     salary: '310000',
     city: 'East Camden',
@@ -41402,7 +41402,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Newtork Admin',
+    jobTitle: 'Newtork Admin',
     team: 'Network, Security & IT',
     salary: '312000',
     city: 'Edison',
@@ -41412,7 +41412,7 @@ const data = [
     education: 'Associates Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '315000',
@@ -41423,7 +41423,7 @@ const data = [
     education: 'Professional Certifications'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '320000',
@@ -41434,7 +41434,7 @@ const data = [
     education: 'Undergraduate Degree'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '1',
     salary: '320000',
@@ -41446,7 +41446,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 9:18:14',
-    'job title': 'Sr. Technical Product Manager',
+    jobTitle: 'Sr. Technical Product Manager',
     team: 'Product Management',
     salary: '323000',
     city: 'New York City',
@@ -41457,7 +41457,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 21:43:44',
-    'job title': 'Director of Communications',
+    jobTitle: 'Director of Communications',
     team: 'Operations',
     salary: '330000',
     city: 'Seattle',
@@ -41468,7 +41468,7 @@ const data = [
   },
   {
     Timestamp: '2/17/2020 13:27:11',
-    'job title': 'Sr. Applied Scientist',
+    jobTitle: 'Sr. Applied Scientist',
     team: 'Data Science',
     salary: '350000',
     city: 'Seattle',
@@ -41479,7 +41479,7 @@ const data = [
   },
   {
     Timestamp: '2/26/2020 17:37:27',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '375000',
     city: 'Los Angeles',
@@ -41490,7 +41490,7 @@ const data = [
   },
   {
     Timestamp: '1/27/2020 15:07:47',
-    'job title': 'Chief Operating Officer',
+    jobTitle: 'Chief Operating Officer',
     team: 'Operations',
     salary: '400000',
     city: 'New York City',
@@ -41501,7 +41501,7 @@ const data = [
   },
   {
     Timestamp: '1/24/2021 17:57:28',
-    'job title': 'Sr. Applied Scientist',
+    jobTitle: 'Sr. Applied Scientist',
     team: 'Data Science',
     salary: '400000',
     city: 'San Francisco Bay Area',
@@ -41512,7 +41512,7 @@ const data = [
   },
   {
     Timestamp: '1/13/2020 4:02:03',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '420000',
@@ -41524,7 +41524,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 8:32:11',
-    'job title': 'Sr. Software Developer',
+    jobTitle: 'Sr. Software Developer',
     team: 'Software Engineering',
     salary: '420000',
     city: 'San Francisco Bay Area',
@@ -41535,7 +41535,7 @@ const data = [
   },
   {
     Timestamp: '7/15/2020 16:31:39',
-    'job title': 'Engineering Manager',
+    jobTitle: 'Engineering Manager',
     team: 'Software Engineering Management',
     salary: '450000',
     city: 'San Francisco Bay Area',
@@ -41545,7 +41545,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Lead Software Engineer',
+    jobTitle: 'Lead Software Engineer',
     team: 'Software Engineering Management',
     salary: '450000',
     city: 'New York City',
@@ -41556,7 +41556,7 @@ const data = [
   },
   {
     Timestamp: '3/7/2020 19:02:08',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '450000',
@@ -41568,7 +41568,7 @@ const data = [
   },
   {
     Timestamp: '3/7/2020 19:02:15',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     'job level': '1',
     salary: '450000',
@@ -41580,7 +41580,7 @@ const data = [
   },
   {
     Timestamp: '2/12/2020 14:05:53',
-    'job title': 'Sr. DevOps Engineer',
+    jobTitle: 'Sr. DevOps Engineer',
     team: 'Software Engineering',
     salary: '450000',
     city: 'San Francisco Bay Area',
@@ -41591,7 +41591,7 @@ const data = [
   },
   {
     Timestamp: '2/21/2020 9:29:05',
-    'job title': 'Head of IT',
+    jobTitle: 'Head of IT',
     team: 'Network, Security & IT',
     salary: '500000',
     city: 'New York City',
@@ -41602,7 +41602,7 @@ const data = [
   },
   {
     Timestamp: '1/20/2020 21:12:26',
-    'job title': 'Software Engineer',
+    jobTitle: 'Software Engineer',
     team: 'Software Engineering',
     salary: '500000',
     city: 'New York City',
@@ -41613,7 +41613,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 0:41:12',
-    'job title': 'Sr. Research Scientist (AI)',
+    jobTitle: 'Sr. Research Scientist (AI)',
     team: 'Data Science',
     salary: '512000',
     city: 'San Francisco Bay Area',
@@ -41624,7 +41624,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 13:15:48',
-    'job title': 'UX Research Manager',
+    jobTitle: 'UX Research Manager',
     team: 'Product Design',
     salary: '582000',
     city: 'San Francisco Bay Area',
@@ -41635,7 +41635,7 @@ const data = [
   },
   {
     Timestamp: '1/12/2020 2:04:43',
-    'job title': 'Sr. Manager of Software Development',
+    jobTitle: 'Sr. Manager of Software Development',
     team: 'Software Engineering',
     salary: '600000',
     city: 'Seattle',
@@ -41646,7 +41646,7 @@ const data = [
   },
   {
     Timestamp: '2/5/2020 14:59:17',
-    'job title': 'Sr. VP of Sales',
+    jobTitle: 'Sr. VP of Sales',
     team: 'Sales',
     salary: '600000',
     city: 'New York City',
@@ -41656,7 +41656,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'System Admin',
+    jobTitle: 'System Admin',
     team: 'Network, Security & IT',
     salary: '700000',
     city: 'Rockville',
@@ -41667,7 +41667,7 @@ const data = [
   },
   {
     Timestamp: '3/4/2020 9:16:29',
-    'job title': 'Customer Success Manager',
+    jobTitle: 'Customer Success Manager',
     team: 'Sales',
     salary: '725000',
     city: 'Chicago',
@@ -41677,7 +41677,7 @@ const data = [
     education: 'Not Disclosed'
   },
   {
-    'job title': 'Technical Support Engineer',
+    jobTitle: 'Technical Support Engineer',
     team: 'Network, Security & IT',
     'job level': '2',
     salary: '780000',
@@ -41689,7 +41689,7 @@ const data = [
   },
   {
     Timestamp: '9/26/2020 20:17:49',
-    'job title': 'Head of Sales',
+    jobTitle: 'Head of Sales',
     team: 'Sales',
     salary: '800000',
     city: 'New York City',
@@ -41700,7 +41700,7 @@ const data = [
   },
   {
     Timestamp: '1/26/2021 16:10:27',
-    'job title': 'Project Manager',
+    jobTitle: 'Project Manager',
     team: 'Product Management',
     salary: '800000',
     city: 'Raleigh',
@@ -41711,7 +41711,7 @@ const data = [
   },
   {
     Timestamp: '3/16/2020 16:19:21',
-    'job title': 'Project Manager',
+    jobTitle: 'Project Manager',
     team: 'Product Management',
     salary: '880000',
     city: 'Greenville',
@@ -41722,7 +41722,7 @@ const data = [
   },
   {
     Timestamp: '1/11/2020 13:31:48',
-    'job title': 'Lead Product Manager',
+    jobTitle: 'Lead Product Manager',
     team: 'Product Management',
     salary: '40000',
     city: 'Dallas',
@@ -41733,7 +41733,7 @@ const data = [
   },
   {
     Timestamp: '1/25/2021 22:15:00',
-    'job title': 'Partner Engineering Manager',
+    jobTitle: 'Partner Engineering Manager',
     team: 'Misc',
     salary: '100000',
     city: 'Los Angeles',
@@ -41744,7 +41744,7 @@ const data = [
   },
   {
     Timestamp: '2/18/2020 0:32:28',
-    'job title': 'Administrative Business Partner',
+    jobTitle: 'Administrative Business Partner',
     team: 'Misc',
     salary: '106017',
     city: 'San Francisco Bay Area',
@@ -41755,7 +41755,7 @@ const data = [
   },
   {
     Timestamp: '2/27/2020 10:38:02',
-    'job title': 'Product Manager',
+    jobTitle: 'Product Manager',
     team: 'Product Management',
     salary: '109000',
     city: 'San Diego',
@@ -41766,7 +41766,7 @@ const data = [
   },
   {
     Timestamp: '7/14/2020 11:56:23',
-    'job title': 'Sr. Project Manager',
+    jobTitle: 'Sr. Project Manager',
     team: 'Product Management',
     salary: '128600',
     city: 'Washington',
@@ -41777,7 +41777,7 @@ const data = [
   },
   {
     Timestamp: '2/19/2020 1:15:01',
-    'job title': 'Sr. Technical Recruiter ',
+    jobTitle: 'Sr. Technical Recruiter ',
     team: 'Recruiting',
     salary: '155000',
     city: 'San Francisco Bay Area',
