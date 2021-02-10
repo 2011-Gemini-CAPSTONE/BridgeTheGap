@@ -2,7 +2,7 @@ const Sequelize = require('sequelize')
 const db = require('../db')
 
 const Data = db.define('data', {
-  'job title': {
+  jobTitle: {
     type: Sequelize.STRING,
     allowNull: false
   },

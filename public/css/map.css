@@ -1,0 +1,22 @@
+.dataBox {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: solid 2px;
+  margin-left: 60%;
+  margin-right: 10%;
+  height: 150px;
+  align-items: center;
+}
+
+.maleData {
+  margin: 10px;
+}
+
+.femaleData {
+  margin: 20px;
+}
+
+#disclaimer {
+  font-size: 7px;
+}

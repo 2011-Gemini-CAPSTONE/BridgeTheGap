@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import '../../../public/css/map.css'
 
 const USMap = props => {
   const [statesData, setStatesData] = useState(null)
@@ -25,24 +26,33 @@ const USMap = props => {
 
   return (
     <>
-      <h1>
-        Female:{' '}
-        {isNaN(female)
-          ? 'No Female Data'
-          : female.toLocaleString('en-US', {
-              style: 'currency',
-              currency: 'USD'
-            })}
-      </h1>
-      <h1>
-        Male:{' '}
-        {isNaN(male)
-          ? 'No Male Data'
-          : male.toLocaleString('en-US', {
-              style: 'currency',
-              currency: 'USD'
-            })}
-      </h1>
+      <div className="dataBox">
+        <div className="femaleData">
+          <h4>
+            Female:{' '}
+            {isNaN(female)
+              ? 'No Female Data'
+              : female.toLocaleString('en-US', {
+                  style: 'currency',
+                  currency: 'USD'
+                })}
+          </h4>
+        </div>
+        <div className="maleData">
+          <h4>
+            Male:{' '}
+            {isNaN(male)
+              ? 'No Male Data'
+              : male.toLocaleString('en-US', {
+                  style: 'currency',
+                  currency: 'USD'
+                })}
+          </h4>
+        </div>
+        <p id="disclaimer">
+          * Average may not be entirely accurate due to lack of data
+        </p>
+      </div>
       <svg viewBox="0 0 960 600">
         {statesData.map(stateData => (
           <path
@@ -55,19 +65,28 @@ const USMap = props => {
             onMouseOver={event => {
               event.target.style.fill = 'red'
               let user = userData.filter(data => data.state === stateData.name)
-              let females = user.filter(f => f.gender === 'Female')
+              let femalesFilter = user.filter(f => f.gender === 'Female')
+              let females = femalesFilter.filter(
+                f => f.jobTitle === 'Software Engineer'
+              )
               let femaleTotal = females
                 .map(f => f.salary)
                 .reduce((accu, val) => accu + +val, 0)
               let femaleAve = femaleTotal / females.length
               setFemaleSalary(femaleAve)
 
-              let males = user.filter(m => m.gender === 'Male')
+              let malesFilter = user.filter(m => m.gender === 'Male')
+              let males = malesFilter.filter(
+                m => m.jobTitle === 'Software Engineer'
+              )
               let maleTotal = males
                 .map(m => m.salary)
                 .reduce((accu, val) => accu + +val, 0)
               let maleAve = maleTotal / males.length
               setMaleSalary(maleAve)
+
+              console.log('This is female -> ', females)
+              console.log('This is male -> ', males)
             }}
             onMouseOut={event => {
               event.target.style.fill = 'black'
