@@ -6,6 +6,7 @@ const USMap = props => {
   const [statesData, setStatesData] = useState(null)
   const [female, setFemaleSalary] = useState(0)
   const [male, setMaleSalary] = useState(0)
+  const [state, setState] = useState('')
   const userData = props.data
   // console.log('outside return' , female)
   // This should only run once due to the [] arg for the dependencies.
@@ -62,6 +63,8 @@ const USMap = props => {
                     .reduce((accu, val) => accu + +val, 0)
                   let maleAve = maleTotal / males.length
                   setMaleSalary(maleAve)
+                  const userState = user.map(user => user.state)
+                  setState(userState)
 
                   console.log('This is female -> ', females)
                   console.log('This is male -> ', males)
@@ -74,6 +77,9 @@ const USMap = props => {
           </svg>
         </div>
         <div className="dataBox">
+          <div>
+            <h4>{state}</h4>
+          </div>
           <div className="femaleData">
             <h4 className="femaleText">
               Female:{' '}

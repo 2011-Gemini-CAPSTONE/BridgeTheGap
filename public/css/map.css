@@ -8,12 +8,11 @@
   align-items: center;
   overflow-wrap: break-word;
   position: absolute;
-  top: 250px;
-  left: 200px;
+  top: 60%;
+  left: 15%;
 }
 
 .maleData {
-  margin: 5px;
 }
 
 .maleText {
@@ -21,7 +20,7 @@
 }
 
 .femaleData {
-  margin: 10px;
+  margin: 5px;
 }
 
 .femaleText {
@@ -43,4 +42,16 @@
 #disclaimerData {
   font-size: 12px;
   margin-left: 10px;
+}
+
+@media screen and (max-width: 676px) {
+  #disclaimer {
+    font-size: 5px;
+  }
+  .femaleText {
+    font-size: 10px;
+  }
+  .maleText {
+    font-size: 10px;
+  }
 }
