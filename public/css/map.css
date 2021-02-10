@@ -5,18 +5,40 @@
   border: solid 2px;
   margin-left: 60%;
   margin-right: 10%;
-  height: 150px;
+  height: 100px;
   align-items: center;
+  overflow-wrap: break-word;
 }
 
 .maleData {
-  margin: 10px;
+  margin: 5px;
+}
+
+.maleText {
+  font-size: 12px;
 }
 
 .femaleData {
-  margin: 20px;
+  margin: 10px;
+}
+
+.femaleText {
+  font-size: 12px;
+}
+
+.map {
+  /* margin-left: 20%; */
+  position: relative;
 }
 
 #disclaimer {
   font-size: 7px;
+  max-width: 50%;
+  overflow-wrap: break-word;
+  padding-bottom: 5%;
+}
+
+#disclaimerData {
+  font-size: 12px;
+  margin-left: 10px;
 }
