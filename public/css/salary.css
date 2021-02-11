@@ -1,4 +1,21 @@
 .salary-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+
+  margin-left: 15%;
+  margin-right: 15%;
+  justify-content: space-around;
 }
+
+.inputForm {
+  flex-direction: row;
+  border-radius: 10px;
+  border: solid 2px #5e2cba;
+  justify-content: center;
+}
+
+/* .dropdownForm {
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+}  */
