@@ -39,6 +39,7 @@ const USMap = props => {
                 stroke="#fff"
                 strokeWidth="1px"
                 d={stateData.shape}
+                onMouseDown={() => console.log('On Click Working!')}
                 onMouseOver={event => {
                   event.target.style.fill = '#083E80'
                   let user = userData.filter(
@@ -53,7 +54,7 @@ const USMap = props => {
                     .reduce((accu, val) => accu + +val, 0)
                   let femaleAve = femaleTotal / females.length
                   setFemaleSalary(femaleAve)
-                  console.log('user -> ', stateData)
+                  console.log(females)
                   let malesFilter = user.filter(m => m.gender === 'Male')
                   let males = malesFilter.filter(
                     m => m.jobTitle === 'Software Engineer'
@@ -65,9 +66,6 @@ const USMap = props => {
                   setMaleSalary(maleAve)
                   let stateName = stateData.name
                   setState(stateName)
-
-                  console.log('This is female -> ', females)
-                  console.log('This is male -> ', males)
                 }}
                 onMouseOut={event => {
                   event.target.style.fill = '#87BDDC'
