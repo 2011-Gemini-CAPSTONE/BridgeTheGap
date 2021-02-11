@@ -1,0 +1,70 @@
+.dataBox {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: solid 2px;
+  margin-left: 60%;
+  height: 15%;
+  width: 20%;
+  align-items: center;
+  overflow-wrap: break-word;
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  background-color: #add0e7;
+  color: white;
+}
+
+.maleData {
+}
+
+.maleText {
+  font-size: 12px;
+}
+
+.femaleData {
+  margin: 5px;
+}
+
+.femaleText {
+  font-size: 12px;
+}
+
+.map {
+  /* margin-left: 20%; */
+  position: relative;
+}
+
+.stateText {
+  margin-top: 5%;
+  justify-content: center;
+}
+
+.legendHeader {
+  width: 80%;
+  margin-left: 60%;
+  left: 15%;
+  top: 55%;
+  position: absolute;
+  color: #083e80;
+  font-weight: bold;
+}
+
+#disclaimer {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+#disclaimerData {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 676px) {
+  .femaleText {
+    font-size: 10px;
+  }
+  .maleText {
+    font-size: 10px;
+  }
+}

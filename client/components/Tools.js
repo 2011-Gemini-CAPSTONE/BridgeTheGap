@@ -1,6 +1,7 @@
 import React from 'react'
-import articles from '../../secrets'
+import articles from '../../articles'
 import {Card, CardImg, CardBody, CardTitle, CardText} from 'reactstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import '../../public/css/tools.css'
 
 export class Tools extends React.Component {

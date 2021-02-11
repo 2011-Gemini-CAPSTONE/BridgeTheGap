@@ -1,0 +1,104 @@
+.auth-div {
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+}
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.google-btn {
+  border: 1px solid black;
+  width: 350px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.google-btn span {
+  color: black;
+  text-decoration: none;
+}
+
+.google-icon {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+
+.linkedin-btn {
+  border: 1px solid black;
+  width: 350px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.linkedin-btn span {
+  color: black;
+  text-decoration: none;
+}
+
+.linkedin-icon {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+
+.github-btn {
+  border: 1px solid black;
+  width: 350px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.github-btn span {
+  color: black;
+  text-decoration: none;
+}
+
+.github-icon {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  padding-right: 40px;
+}
+
+.auth-form label {
+  display: block;
+}
+
+.auth-form input {
+  width: 300px;
+}
+
+.line {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  line-height: 0.1em;
+  margin: 10px 0 20px 0;
+}
+
+.line span {
+  background: #fff;
+  padding: 0 10px;
+}

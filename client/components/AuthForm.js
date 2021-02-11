@@ -2,6 +2,7 @@ import React from 'react'
 import {connect} from 'react-redux'
 import PropTypes from 'prop-types'
 import {auth} from '../store'
+import '../../public/css/auth.css'
 
 /**
  * COMPONENT
@@ -10,26 +11,66 @@ const AuthForm = props => {
   const {name, displayName, handleSubmit, error} = props
 
   return (
-    <div>
-      <form onSubmit={handleSubmit} name={name}>
-        <div>
-          <label htmlFor="email">
-            <small>Email</small>
-          </label>
-          <input name="email" type="text" />
+    <div className="auth-div">
+      <div className="auth-container">
+        <h1>{displayName}</h1>
+        <div className="auth-btn">
+          <div className="google-btn">
+            <a href="/auth/google">
+              <img
+                className="google-icon"
+                src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+              />
+              <span>{displayName} with Google</span>
+            </a>
+          </div>
+          <div className="linkedin-btn">
+            <a href="/auth/linkedin">
+              <img
+                className="linkedin-icon"
+                src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg"
+              />
+              <span>{displayName} with LinkedIn</span>
+            </a>
+          </div>
+          <div className="github-btn">
+            <a href="/auth/github">
+              <img
+                className="github-icon"
+                src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg"
+              />
+              <span>{displayName} with Github</span>
+            </a>
+          </div>
         </div>
-        <div>
-          <label htmlFor="password">
-            <small>Password</small>
-          </label>
-          <input name="password" type="password" />
+
+        <div className="line">
+          <span>OR</span>
         </div>
-        <div>
-          <button type="submit">{displayName}</button>
-        </div>
-        {error && error.response && <div> {error.response.data} </div>}
-      </form>
-      <a href="/auth/google">{displayName} with Google</a>
+
+        <form className="auth-form" onSubmit={handleSubmit} name={name}>
+          <div className="authform-email">
+            <label htmlFor="email">
+              <small>Email address or username</small>
+            </label>
+            <input
+              name="email"
+              type="text"
+              placeholder="Email address or username"
+            />
+          </div>
+          <div className="authform-password">
+            <label htmlFor="password">
+              <small>Password</small>
+            </label>
+            <input name="password" type="password" placeholder="Password" />
+          </div>
+          <div className="authform-submit">
+            <button type="submit">{displayName}</button>
+          </div>
+          {error && error.response && <div> {error.response.data} </div>}
+        </form>
+      </div>
     </div>
   )
 }
