@@ -1,64 +1,26 @@
-import React, {Component} from 'react'
-import ReactPaginate from 'react-paginate'
-import '../../public/css/pagination.css'
+import React from 'react'
+import {PaginationItem} from 'reactstrap'
 
-export default class App extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      offset: 0,
-      data: [],
-      perPage: 10,
-      currentPage: 0
-    }
-    // this.handlePageClick = this.handlePageClick.bind(this)
+export const Pagination = ({postsPerPage, totalPosts, paginate}) => {
+  const pageNumbers = []
+
+  for (let i = 1; i <= Math.ceil(totalPosts / postsPerPage); i++) {
+    pageNumbers.push(i)
   }
 
-  // receivedData() {
-  //   this.setState({
-  //     pageCount: Math.ceil(data.length / this.state.perPage),
-
-  //     postData,
-  //   })
-  // }
-
-  // handlePageClick = (e) => {
-  //   const selectedPage = e.selected
-  //   const offset = selectedPage * this.state.perPage
-
-  //   this.setState(
-  //     {
-  //       currentPage: selectedPage,
-  //       offset: offset,
-  //     },
-  //     () => {
-  //       this.receivedData()
-  //     }
-  //   )
-  // }
-
-  // componentDidMount() {
-  //   this.receivedData()
-  // }
-
-  render() {
-    return (
-      <div>
-        {this.state.postData}
-        <ReactPaginate
-          previousLabel="<<"
-          nextLabel=">>"
-          breakLabel=""
-          breakClassName="break-me"
-          pageCount={this.state.pageCount}
-          marginPagesDisplayed={0}
-          pageRangeDisplayed={4}
-          onPageChange={this.handlePageClick}
-          containerClassName="pagination"
-          subContainerClassName="pages pagination"
-          activeClassName="active"
-        />
-      </div>
-    )
-  }
+  return (
+    <nav>
+      <ul className="pagination">
+        {pageNumbers.map(number => (
+          <li key={number} className="page-item">
+            <a onClick={() => paginate(number)} className="page-link">
+              {number}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  )
 }
+
+export default Pagination
