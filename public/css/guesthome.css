@@ -10,10 +10,13 @@ h5,
 h6 {
   font-weight: bolder;
 }
-
+/* //makes a ref to the public folder
+  //file directory doesnt work the same when you deploy it in browser
+  //put the file path as if you are serving it from public
+  //aka url('/images/funwork.png') */
 .jumbo1-img {
-  background: url('https://images.unsplash.com/photo-1573497161079-f3fd25cc6b90?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjB8fHdvbWVuJTIwdGVjaHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60')
-    no-repeat center center;
+  background: url('https://i.ibb.co/X5b7Z8N/funwork-4-2x.png') no-repeat center
+    center;
   background-size: 70%;
   min-height: 60vh;
   background-position: right;
