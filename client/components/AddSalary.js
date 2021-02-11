@@ -10,6 +10,7 @@ import TextField from '@material-ui/core/TextField'
 import '../../public/css/salary.css'
 import stateLabelValues from './Assets/UsState'
 import teamNames from './Assets/Team'
+import {createData} from '../store/data'
 
 class AddSalary extends React.Component {
   constructor() {
@@ -42,6 +43,10 @@ class AddSalary extends React.Component {
     try {
       e.preventDefault()
       // Put in add Data thunk creator
+      this.props.addSalary(this.state)
+      // console.log('with state --->', this.props.addSalary({...this.state}))
+      console.log('with event --->', e.target)
+      console.log('with state --->', this.state)
       this.setState({
         jobTitle: '',
         team: '',
@@ -224,4 +229,8 @@ class AddSalary extends React.Component {
   }
 }
 
-export default connect()(AddSalary)
+const mapDispatch = dispatch => ({
+  addSalary: data => dispatch(createData(data))
+})
+
+export default connect(null, mapDispatch)(AddSalary)
