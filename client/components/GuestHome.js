@@ -5,7 +5,15 @@ import creativity from '../../public/images/creativity.svg'
 import megaphone from '../../public/images/megaphone.svg'
 import team from '../../public/images/team.svg'
 import companies from '../../public/images/companies.svg'
-import {Jumbotron, Button} from 'reactstrap'
+import {Link} from 'react-router-dom'
+import {
+  Jumbotron,
+  Button,
+  Container,
+  Card,
+  CardTitle,
+  CardText
+} from 'reactstrap'
 import ReactPlayer from 'react-player'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../../public/css/guesthome.css'
@@ -22,9 +30,11 @@ const GuestHome = () => {
               gaps, studies have shown that transparency wins the day.
             </p>
             <p className="jumbo1-btn">
-              <Button color="warning" size="md" block>
-                + Add Your Salary
-              </Button>
+              <Link to="/addsalary">
+                <Button color="warning" size="md" block>
+                  + Add Your Salary
+                </Button>
+              </Link>
             </p>
           </div>
         </div>
