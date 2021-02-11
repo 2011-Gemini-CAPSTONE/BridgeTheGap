@@ -1,15 +1,13 @@
 import axios from 'axios'
-import {dispatch} from 'd3'
-import {ActionSchedule} from 'material-ui/svg-icons'
 
 /**
  * ACTION TYPES
  */
 
 export const GET_DATA = 'GET_DATA'
-export const CREATE_USER = 'CREATE_USER'
-export const DELETE_USER = 'DELETE_USER'
-export const UPDATE_USER = 'UPDATE_USER'
+export const CREATE_DATA = 'CREATE_DATA'
+export const DELETE_DATA = 'DELETE_DATA'
+export const UPDATE_DATA = 'UPDATE_DATA'
 
 /**
  * ACTION CREATORS
@@ -19,19 +17,19 @@ export const _getData = data => ({
   data
 })
 
-export const _createUser = user => ({
-  type: CREATE_USER,
-  user
+export const _createData = data => ({
+  type: CREATE_DATA,
+  data
 })
 
-export const _deleteUser = user => ({
-  type: DELETE_USER,
-  user
+export const _deleteData = data => ({
+  type: DELETE_DATA,
+  data
 })
 
-export const _updateUser = user => ({
-  type: UPDATE_USER,
-  user
+export const _updateData = data => ({
+  type: UPDATE_DATA,
+  data
 })
 
 /**
@@ -48,32 +46,32 @@ export const getData = () => {
   }
 }
 
-export const createUser = user => {
+export const createData = data => {
   return async disptach => {
     try {
-      const res = await axios.post('api/data', user)
-      dispatch(_createUser(res.data))
+      const res = await axios.post('api/data', data)
+      dispatch(_createData(res.data))
     } catch (err) {
       console.log(err)
     }
   }
 }
 
-export const deleteUser = user => {
+export const deleteData = data => {
   return async disptach => {
     try {
-      await axios.delete(`/api/data/${user.id}`)
-      dispatch(_deleteUser(user))
+      await axios.delete(`/api/data/${data.id}`)
+      dispatch(_deleteData(data))
     } catch (err) {
       console.log(err)
     }
   }
 }
 
-export const updateUser = (user, userId) => {
+export const updateData = (data, dataId) => {
   return async dispatch => {
-    const res = await axios.put(`/api/data/${userId}`, user)
-    dispatch(_updateUser(red.data))
+    const res = await axios.put(`/api/data/${dataId}`, data)
+    dispatch(_updateData(red.data))
   }
 }
 /**
@@ -83,13 +81,13 @@ const dataReducer = (state = [], action) => {
   switch (action.type) {
     case GET_DATA:
       return action.data
-    case CREATE_USER:
-      return [...state, action.user]
-    case DELETE_USER:
-      return state.filter(user => user.id !== action.user.id)
-    case UPDATE_USER:
+    case CREATE_DATA:
+      return [...state, action.data]
+    case DELETE_DATA:
+      return state.filter(data => data.id !== action.data.id)
+    case UPDATE_DATA:
       return state.map(
-        user => (user.id === action.user.id ? action.user : user)
+        data => (data.id === action.data.id ? action.data : data)
       )
     default:
       return state
