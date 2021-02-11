@@ -42,6 +42,11 @@ const User = db.define('user', {
   fullName: {
     type: Sequelize.STRING,
     allowNull: true
+  },
+  isAdmin: {
+    type: Sequelize.BOOLEAN,
+    allowNull: false,
+    defaultValue: false
   }
 })
 
@@ -61,10 +66,6 @@ const User = db.define('user', {
 //     ]
 //   }),
 //   allowNull: false
-// },
-// isAdmin: {
-//   type: Sequelize.BOOLEAN,
-//   defaultValue: false
 // }
 
 module.exports = User
