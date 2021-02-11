@@ -1,5 +1,5 @@
 import React from 'react'
-import {Jumbotron, Container, Button} from 'reactstrap'
+import {Jumbotron} from 'reactstrap'
 import ReactPlayer from 'react-player'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../../public/css/about.css'
