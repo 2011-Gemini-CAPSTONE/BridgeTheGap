@@ -38,8 +38,65 @@ h6 {
 }
 
 .about-second {
-  background-color: white;
-  background: url('https://images.unsplash.com/photo-1573497161079-f3fd25cc6b90?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjB8fHdvbWVuJTIwdGVjaHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60')
-    no-repeat center center;
+  display: flex;
+}
+
+.movement-img {
+  background: url('https://i.ibb.co/0YM7jym/blueshirt-8-2x.png') no-repeat
+    center center;
   background-size: 70%;
+  min-height: 60vh;
+  background-position: top right;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.movement {
+  background-color: white;
+  background-size: 100%;
+  padding: 0;
+  position: relative;
+}
+
+.movement-box {
+  width: 400px;
+  margin-left: 11%;
+  background-color: white;
+  padding: 12px;
+}
+
+.movement-lead {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.care-img {
+  background: url('https://i.ibb.co/kyrtx4j/businessmeet-9-2x.png') no-repeat
+    center center;
+  background-size: 70%;
+  min-height: 60vh;
+  background-position: top left;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.care {
+  background-color: white;
+  background-size: 100%;
+  padding: 0;
+  position: relative;
+}
+
+.care-box {
+  width: 400px;
+  margin-left: 58%;
+  background-color: white;
+  padding: 12px;
+}
+
+.care-lead {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
