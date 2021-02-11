@@ -9,17 +9,7 @@ import {makeStyles} from '@material-ui/core/styles'
 import TextField from '@material-ui/core/TextField'
 import '../../public/css/salary.css'
 import stateLabelValues from './Assets/UsState'
-
-// const useStyles = makeStyles((theme) => ({
-//   root: {
-//     '& > *': {
-//       margin: theme.spacing(1),
-//       width: '25ch',
-//     },
-//   },
-// }))
-
-// const classes = useStyles()
+import teamNames from './Assets/Team'
 
 class AddSalary extends React.Component {
   constructor() {
@@ -36,7 +26,17 @@ class AddSalary extends React.Component {
     }
     this.handleSubmit = this.handleSubmit.bind(this)
     this.handleChange = this.handleChange.bind(this)
+    this.useStyles = this.useStyles.bind(this)
   }
+
+  useStyles = makeStyles(theme => ({
+    root: {
+      '& > *': {
+        margin: theme.spacing(1),
+        width: '25ch'
+      }
+    }
+  }))
 
   handleSubmit = e => {
     try {
@@ -74,154 +74,147 @@ class AddSalary extends React.Component {
       education
     } = this.state
     return (
-      <div>
+      <div className="salary-container">
         <form
           onSubmit={this.handleSubmit}
-          className="salary-form"
+          className="salary-container"
           noValidate
           autoComplete="off"
         >
-          <div>
-            <TextField
-              id="standard-basic"
-              label="Job Title"
-              name="jobTitle"
-              value={jobTitle}
-              onChange={this.handleChange}
-            />
-          </div>
-          <div>
-            <TextField
-              id="standard-basic"
-              label="Salary"
-              name="salary"
-              value={salary}
-              onChange={this.handleChange}
-            />
-          </div>
-          <div>
-            <TextField
-              id="standard-basic"
-              label="City"
-              helperText="i.e: New York City"
-              name="city"
-              value={city}
-              onChange={this.handleChange}
-            />
-          </div>
-          <div>
-            <TextField
-              id="standard-basic"
-              label="Education"
-              name="education"
-              value={education}
-              onChange={this.handleChange}
-            />
-          </div>
-          <FormControl className="state">
-            <div className="state">
-              <InputLabel id="demo-simple-select-helper-label">
-                State
-              </InputLabel>
-
-              <Select
-                labelId="demo-simple-select-helper-label"
-                id="demo-simple-select-helper"
-                name="state"
-                value={state}
+          <div className="inputForm">
+            <div className={this.useStyles.root}>
+              <TextField
+                id="standard-basic"
+                label="Job Title"
+                name="jobTitle"
+                value={jobTitle}
                 onChange={this.handleChange}
-              >
-                <MenuItem value="">
-                  <em>None</em>
-                </MenuItem>
-                {stateLabelValues.map(s => (
-                  <MenuItem key={s.label} value={s.label}>
-                    {s.value}
+              />
+            </div>
+            <div className={this.useStyles.root}>
+              <TextField
+                id="standard-basic"
+                label="Salary"
+                name="salary"
+                value={salary}
+                onChange={this.handleChange}
+              />
+            </div>
+            <FormControl>
+              <div className="team">
+                <InputLabel id="demo-simple-select-helper-label">
+                  Team
+                </InputLabel>
+                <Select
+                  labelId="demo-simple-select-helper-label"
+                  id="demo-simple-select-helper"
+                  name="team"
+                  value={team}
+                  onChange={this.handleChange}
+                >
+                  <MenuItem value="">
+                    <em>None</em>
                   </MenuItem>
-                ))}
-                <MenuItem value="Illinois">IL</MenuItem>
-                <MenuItem value="Alabama">AL</MenuItem>
-              </Select>
+                  {teamNames.map(t => (
+                    <MenuItem key={t} value={t}>
+                      {t}
+                    </MenuItem>
+                  ))}
+                </Select>
+                <FormHelperText>Select Team</FormHelperText>
+              </div>
+            </FormControl>
+            <FormControl>
+              <div className="gender">
+                <InputLabel id="demo-simple-select-helper-label">
+                  Gender
+                </InputLabel>
+                <Select
+                  labelId="demo-simple-select-helper-label"
+                  id="demo-simple-select-helper"
+                  name="gender"
+                  value={gender}
+                  onChange={this.handleChange}
+                >
+                  <MenuItem value="">
+                    <em>None</em>
+                  </MenuItem>
+                  <MenuItem value="Male">Male</MenuItem>
+                  <MenuItem value="Female">Female</MenuItem>
+                  <MenuItem value="Non-Binary">Non-Binary</MenuItem>
+                </Select>
+                <FormHelperText>Select Gender</FormHelperText>
+              </div>
+            </FormControl>
+            {/* </div> */}
+            {/* <div className="dropdownForm"> */}
+            <div className={this.useStyles.root}>
+              <TextField
+                id="standard-basic"
+                label="Education"
+                name="education"
+                value={education}
+                onChange={this.handleChange}
+              />
+            </div>
+            <div className={this.useStyles.root}>
+              <TextField
+                id="standard-basic"
+                label="City"
+                helperText="i.e: New York City"
+                name="city"
+                value={city}
+                onChange={this.handleChange}
+              />
+            </div>
+            <FormControl className="state">
+              <div className="state">
+                <InputLabel id="demo-simple-select-helper-label">
+                  State
+                </InputLabel>
 
-              <FormHelperText>Select State</FormHelperText>
-            </div>
-          </FormControl>
-          <FormControl className="Experience">
-            <div className="experience">
-              <InputLabel id="demo-simple-select-helper-label">
-                Job Level
-              </InputLabel>
-              <Select
-                labelId="demo-simple-select-helper-label"
-                id="demo-simple-select-helper"
-                name="experience"
-                value={experience}
-                onChange={this.handleChange}
-              >
-                <MenuItem value="">
-                  <em>None</em>
-                </MenuItem>
-                <MenuItem value="1">1</MenuItem>
-                <MenuItem value="2">2</MenuItem>
-                <MenuItem value="3">3</MenuItem>
-              </Select>
-              <FormHelperText>Select job level</FormHelperText>
-            </div>
-          </FormControl>
-          <FormControl>
-            <div className="team">
-              <InputLabel id="demo-simple-select-helper-label">Team</InputLabel>
-              <Select
-                labelId="demo-simple-select-helper-label"
-                id="demo-simple-select-helper"
-                name="team"
-                value={team}
-                onChange={this.handleChange}
-              >
-                <MenuItem value="">
-                  <em>None</em>
-                </MenuItem>
-                <MenuItem value="Software Engineering">
-                  Software Engineering
-                </MenuItem>
-                <MenuItem
-                  value="Technical Program Management
-"
+                <Select
+                  labelId="demo-simple-select-helper-label"
+                  id="demo-simple-select-helper"
+                  name="state"
+                  value={state}
+                  onChange={this.handleChange}
                 >
-                  Technical Program Management
-                </MenuItem>
-                <MenuItem
-                  value="Software Engineering Management
-"
+                  <MenuItem value="">
+                    <em>None</em>
+                  </MenuItem>
+                  {stateLabelValues.map(s => (
+                    <MenuItem key={s.label} value={s.label}>
+                      {s.value}
+                    </MenuItem>
+                  ))}
+                </Select>
+                <FormHelperText>Select State</FormHelperText>
+              </div>
+            </FormControl>
+            <FormControl className="Experience">
+              <div className="experience">
+                <InputLabel id="demo-simple-select-helper-label">
+                  Job Level
+                </InputLabel>
+                <Select
+                  labelId="demo-simple-select-helper-label"
+                  id="demo-simple-select-helper"
+                  name="experience"
+                  value={experience}
+                  onChange={this.handleChange}
                 >
-                  Software Engineering Management
-                </MenuItem>
-              </Select>
-              <FormHelperText>Select Team</FormHelperText>
-            </div>
-          </FormControl>
-          <FormControl>
-            <div className="gender">
-              <InputLabel id="demo-simple-select-helper-label">
-                Gender
-              </InputLabel>
-              <Select
-                labelId="demo-simple-select-helper-label"
-                id="demo-simple-select-helper"
-                name="gender"
-                value={gender}
-                onChange={this.handleChange}
-              >
-                <MenuItem value="">
-                  <em>None</em>
-                </MenuItem>
-                <MenuItem value="Male">Male</MenuItem>
-                <MenuItem value="Female">Female</MenuItem>
-                <MenuItem value="Non-Binary">Non-Binary</MenuItem>
-              </Select>
-              <FormHelperText>Select Gender</FormHelperText>
-            </div>
-          </FormControl>
+                  <MenuItem value="">
+                    <em>None</em>
+                  </MenuItem>
+                  <MenuItem value="1">1</MenuItem>
+                  <MenuItem value="2">2</MenuItem>
+                  <MenuItem value="3">3</MenuItem>
+                </Select>
+                <FormHelperText>Select job level</FormHelperText>
+              </div>
+            </FormControl>
+          </div>
           <div className="buttonSalary">
             <button type="submit">Submit</button>
           </div>
