@@ -24,7 +24,7 @@ const GuestHome = () => {
       <Jumbotron className="jumbo1">
         <div className="jumbo1-img">
           <div className="welcome-box">
-            <h2 className="jumbo1-h1">Gender Minorities Unite!</h2>
+            <h2 className="jumbo1-h1">Women & Gender Minorities Unite!</h2>
             <p className="jumbo1-lead">
               When it comes to effectively combatting bias and closing earning
               gaps, studies have shown that transparency wins the day.
@@ -79,7 +79,7 @@ const GuestHome = () => {
           </div>
           <div className="benefit">
             <img className="benefit-image" src={megaphone} />
-            <h4>Marketers</h4>
+            <h4>Activists</h4>
             <p className="benefit-p">
               Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
               ipsum dolor sit amet, consectetur adipscing elit.
@@ -103,7 +103,7 @@ const GuestHome = () => {
           </div>
           <div className="benefit">
             <img className="benefit-image" src={team} />
-            <h4>Companies</h4>
+            <h4>Organizations</h4>
             <p className="benefit-p">
               Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
               ipsum dolor sit amet, consectetur adipscing elit.
