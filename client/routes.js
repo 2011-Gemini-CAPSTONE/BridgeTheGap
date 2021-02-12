@@ -5,13 +5,12 @@ import PropTypes from 'prop-types'
 import {
   Login,
   Signup,
-  UserHome,
   GuestHome,
   Resources,
   Data,
   About,
-  NewMap,
-  AddSalary
+  AddSalary,
+  StateInfo
 } from './components'
 
 import {me} from './store'
@@ -37,6 +36,7 @@ class Routes extends Component {
         <Route path="/resources" component={Resources} />
         <Route path="/about" component={About} />
         <Route path="/addsalary" component={AddSalary} />
+        <Route path="/stateInfo" component={StateInfo} />
 
         {isLoggedIn && (
           <Switch>

@@ -2,14 +2,22 @@ import React, {useState, useEffect} from 'react'
 import {Tooltip} from 'material-ui'
 import stateMap from '../Assets/StatePath'
 import '../../../public/css/map.css'
+import StateInfo from '../StateInfo'
 
 const USMap = props => {
   const [statesData, setStatesData] = useState(null)
   const [female, setFemaleSalary] = useState(0)
   const [male, setMaleSalary] = useState(0)
   const [state, setState] = useState('')
+  const [stateInfo, setStateInfo] = useState(false)
+  const [stateUsers, setStateUsers] = useState([])
+  console.log(stateInfo)
   const userData = props.data
-  // console.log('outside return' , female)
+
+  const onClick = () => {
+    setStateInfo(true)
+  }
+
   // This should only run once due to the [] arg for the dependencies.
   useEffect(() => {
     ;(() => {
@@ -25,7 +33,15 @@ const USMap = props => {
     return <div>Loading...</div>
   }
 
-  return (
+  return stateInfo ? (
+    <div>
+      <StateInfo
+        stateUsers={stateUsers}
+        stateInfo={stateInfo}
+        setStateInfo={setStateInfo}
+      />
+    </div>
+  ) : (
     <>
       <div className="map">
         <div className="dataMap">
@@ -38,32 +54,31 @@ const USMap = props => {
                 stroke="#fff"
                 strokeWidth="1px"
                 d={stateData.shape}
-                onMouseDown={() => console.log('On Click Working!')}
+                onMouseDown={onClick}
                 onMouseOver={event => {
                   event.target.style.fill = '#083E80'
                   let user = userData.filter(
                     data => data.state === stateData.name
                   )
-                  console.log(user)
-                  let femalesFilter = user.filter(f => f.gender === 'Female')
-                  let females = femalesFilter.filter(
-                    f => f.jobTitle === 'Software Engineer'
-                  )
+                  setStateUsers(user)
+                  let females = user
+                    .filter(f => f.gender === 'Female')
+                    .filter(f => f.jobTitle === 'Software Engineer')
                   let femaleTotal = females
                     .map(f => f.salary)
                     .reduce((accu, val) => accu + +val, 0)
                   let femaleAve = femaleTotal / females.length
                   setFemaleSalary(femaleAve)
-                  console.log(females)
-                  let malesFilter = user.filter(m => m.gender === 'Male')
-                  let males = malesFilter.filter(
-                    m => m.jobTitle === 'Software Engineer'
-                  )
+                  console.log('This is females -> ', females)
+                  let males = user
+                    .filter(m => m.gender === 'Male')
+                    .filter(m => m.jobTitle === 'Software Engineer')
                   let maleTotal = males
                     .map(m => m.salary)
                     .reduce((accu, val) => accu + +val, 0)
                   let maleAve = maleTotal / males.length
                   setMaleSalary(maleAve)
+                  console.log('This is males -> ', males)
                   let stateName = stateData.name
                   setState(stateName)
                 }}
@@ -99,6 +114,11 @@ const USMap = props => {
                     style: 'currency',
                     currency: 'USD'
                   })}
+            </h4>
+          </div>
+          <div>
+            <h4 className="allUsersText">
+              Amount of reported jobs in {state} : {stateUsers.length}
             </h4>
           </div>
         </div>

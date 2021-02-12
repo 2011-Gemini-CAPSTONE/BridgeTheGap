@@ -7,8 +7,9 @@ class Data extends React.Component {
   componentDidMount() {
     this.props.getData()
   }
+
   render() {
-    return <NewMap data={this.props.data} />
+    return <NewMap data={this.props.data} onClick={this.onClick} />
   }
 }
 

@@ -6,8 +6,8 @@
   flex: 0 0 33%;
 }
 .article-card {
-  overflow: hidden;
-  border-radius: 8px;
+  /* overflow: hidden; */
+  /* border-radius: 8px; */
   width: 350px;
   height: 350px;
   margin-bottom: 20px;
