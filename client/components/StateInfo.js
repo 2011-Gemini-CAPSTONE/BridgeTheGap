@@ -1,21 +1,25 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import {drawGraph, initChart} from './charts/BarChart'
 
 const StateInfo = props => {
-  console.log('STATE INFO PROPS', props.stateInfo)
   const {setStateInfo, stateUsers} = props
+  console.log(stateUsers)
+
+  useEffect(() => {
+    initChart()
+  }, [])
+
   return (
     <div>
-      {stateUsers.map(stateUser => (
-        <div key={stateUser.id}>
-          <h1>Job Title: {stateUser.jobTitle}</h1>
-          <p>Salary:{stateUser.salary}</p>
-          <p>Gender: {stateUser.gender}</p>
-        </div>
-      ))}
       <button type="button" onClick={() => setStateInfo(false)}>
         {' '}
         Back to Map
       </button>
+      <div id="stateGraph">{drawGraph(stateUsers)}</div>
+      {/* {stateUsers.map((stateUser) => (
+        <div key={stateUser.id}>
+        </div>
+      ))} */}
     </div>
   )
 }
