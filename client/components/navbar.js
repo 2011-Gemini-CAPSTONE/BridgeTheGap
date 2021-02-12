@@ -6,22 +6,23 @@ import {logout} from '../store'
 import '../../public/css/navbar.css'
 import {BsPerson} from 'react-icons/bs'
 
-const Navbar = ({handleClick, isLoggedIn}) => (
+const Navbar = ({handleClick, isLoggedIn, email}) => (
   <div>
     <nav className="navbar">
       {isLoggedIn ? (
-        <div className="navbar-user">
+        <div className="navbar-guest">
           {/* The navbar will show these links after you log in */}
           <div className="navbar-logo">
             <Link to="/">
-              <img src="https://svgshare.com/i/Thp.svg" />
+              <img src="https://i.ibb.co/j6kQMrJ/BTG-Logo-resized.png" />
             </Link>
           </div>
           <div className="navbar-links">
+            <p>Welcome, {email}</p>
             <Link to="/data">See The Data</Link>
-            <Link to="/resources">Resource</Link>
+            <Link to="/resources">Resources</Link>
             <Link to="/about">About</Link>
-            <a href="#" onClick={handleClick}>
+            <a href="/" onClick={handleClick}>
               Logout
             </a>
           </div>
@@ -31,7 +32,7 @@ const Navbar = ({handleClick, isLoggedIn}) => (
           {/* The navbar will show these links before you log in */}
           <div className="navbar-logo">
             <Link to="/">
-              <img src="https://svgshare.com/i/Thp.svg" />
+              <img src="https://i.ibb.co/j6kQMrJ/BTG-Logo-resized.png" />
             </Link>
           </div>
 
@@ -57,7 +58,8 @@ const Navbar = ({handleClick, isLoggedIn}) => (
  */
 const mapState = state => {
   return {
-    isLoggedIn: !!state.user.id
+    isLoggedIn: !!state.user.id,
+    email: state.user.email
   }
 }
 
@@ -76,5 +78,6 @@ export default connect(mapState, mapDispatch)(Navbar)
  */
 Navbar.propTypes = {
   handleClick: PropTypes.func.isRequired,
-  isLoggedIn: PropTypes.bool.isRequired
+  isLoggedIn: PropTypes.bool.isRequired,
+  email: PropTypes.string
 }
