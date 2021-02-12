@@ -32,11 +32,11 @@ const About = () => {
             <p className="movement-lead">
               Widespread adoption of proactive pay equity laws, which require
               employers to regularly examine compensation practices, assess
-              gender pay gaps, and take action to eliminate them, have been
-              historically crippled by lack of data points. <hr />Your
-              contribution of wage, gender and geographic information will see
-              to it that the next generation of women and gender minorities will
-              achieve equal wages.
+              gender pay gaps, and take action to eliminate them, has been
+              historically crippled by lack of data points. <hr />
+              Your contribution of wage, gender and geographic information will
+              see to it that the next generation of women and gender minorities
+              will achieve equal wages.
             </p>
           </div>
         </div>
@@ -48,8 +48,9 @@ const About = () => {
             <p className="care-lead">
               Where money is tight, shorted pay can prevent women and gender
               minorities from putting food on the table, securing safe housing,
-              accessing critical medical care and education. This injustice has
-              impacts that can perpetuate cycles of poverty across generations.
+              and accessing critical medical care and education. This injustice
+              has impacts that can perpetuate cycles of poverty across
+              generations.
             </p>
           </div>
         </div>
