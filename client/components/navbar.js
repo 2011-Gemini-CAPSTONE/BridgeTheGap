@@ -10,18 +10,20 @@ const Navbar = ({handleClick, isLoggedIn, email}) => (
   <div>
     <nav className="navbar">
       {isLoggedIn ? (
-        <div className="navbar-guest">
+        <div className="navbar-user">
           {/* The navbar will show these links after you log in */}
           <div className="navbar-logo">
             <Link to="/">
               <img src="https://i.ibb.co/j6kQMrJ/BTG-Logo-resized.png" />
             </Link>
           </div>
-          <div className="navbar-links">
+          <div className="navbar-user-links">
             <p>Welcome, {email}</p>
             <Link to="/data">See The Data</Link>
             <Link to="/resources">Resources</Link>
-            <Link to="/about">About</Link>
+            <Link className="links-user-about" to="/about">
+              About
+            </Link>
             <a href="/" onClick={handleClick}>
               Logout
             </a>
