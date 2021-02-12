@@ -3,7 +3,6 @@ import articles from '../../articles'
 import ArticleCard from './ArticleCard'
 import Pagination from './Pagination'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import '../../public/css/resources.css'
 
 export const Resources = () => {
   const [posts, setPosts] = useState([])
@@ -27,7 +26,6 @@ export const Resources = () => {
 
   return (
     <div>
-      <h1 className="articleHeader">Articles:</h1>
       <ArticleCard posts={currentPosts} loading={loading} />
       <Pagination
         postsPerPage={postsPerPage}

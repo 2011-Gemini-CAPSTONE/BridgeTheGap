@@ -1,5 +1,5 @@
 import React from 'react'
-import {PaginationItem} from 'reactstrap'
+import '../../public/css/pagination.css'
 
 export const Pagination = ({postsPerPage, totalPosts, paginate}) => {
   const pageNumbers = []

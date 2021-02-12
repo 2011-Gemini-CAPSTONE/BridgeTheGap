@@ -10,6 +10,7 @@ export const ArticleCard = ({posts, loading}) => {
 
   return (
     <div>
+      <h1 className="articleHeader">Articles</h1>
       <div className="article-container">
         {posts.map(article => {
           return (
