@@ -7,7 +7,7 @@ import {
   Signup,
   UserHome,
   GuestHome,
-  Tools,
+  Resources,
   Data,
   About,
   NewMap,
@@ -34,7 +34,7 @@ class Routes extends Component {
         <Route path="/login" component={Login} />
         <Route path="/signup" component={Signup} />
         <Route path="/data" component={Data} />
-        <Route path="/tools" component={Tools} />
+        <Route path="/resources" component={Resources} />
         <Route path="/about" component={About} />
         <Route path="/addsalary" component={AddSalary} />
 

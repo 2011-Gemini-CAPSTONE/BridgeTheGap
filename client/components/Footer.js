@@ -14,6 +14,7 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/qui-van/"
             target="_blank"
+            rel="noreferrer"
             className="linktext"
           >
             LinkedIn
@@ -27,6 +28,7 @@ const Footer = () => {
           <a
             href="https://github.com/van3396"
             target="_blank"
+            rel="noreferrer"
             className="linktext"
           >
             Github
@@ -43,6 +45,7 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/jamesjyon/"
             target="_blank"
+            rel="noreferrer"
             className="linktext"
           >
             LinkedIn
@@ -56,6 +59,7 @@ const Footer = () => {
           <a
             href="https://github.com/jamesyon"
             target="_blank"
+            rel="noreferrer"
             className="linktext"
           >
             Github
@@ -72,6 +76,7 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/sungkyoon/"
             target="_blank"
+            rel="noreferrer"
             className="linktext"
           >
             LinkedIn
@@ -85,6 +90,7 @@ const Footer = () => {
           <a
             href="https://github.com/Sungkyoon"
             target="_blank"
+            rel="noreferrer"
             className="linktext"
           >
             Github
@@ -101,6 +107,7 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/cbluiux/"
             target="_blank"
+            rel="noreferrer"
             className="linktext"
           >
             LinkedIn
@@ -114,6 +121,7 @@ const Footer = () => {
           <a
             href="https://github.com/CubanBeardedLady"
             target="_blank"
+            rel="noreferrer"
             className="linktext"
           >
             Github
