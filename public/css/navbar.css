@@ -27,3 +27,38 @@
   border-right: 2px solid black;
   padding-right: 16px;
 }
+
+.navbar-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: sticky;
+  padding: 0px 128px 0px 128px;
+}
+
+.navbar-user-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-user-links a {
+  color: black;
+  margin: 8px;
+}
+
+.navbar-user-links p {
+  color: black;
+  margin: 8px;
+}
+
+.navbar-user-links a:hover {
+  color: #5e2cba;
+  text-decoration: underline #ffd35a 4px;
+  text-underline-position: under;
+}
+
+.links-user-about {
+  border-right: 2px solid black;
+  padding-right: 16px;
+}
