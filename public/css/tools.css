@@ -6,8 +6,10 @@
   flex: 0 0 33%;
 }
 .article-card {
+  overflow: hidden;
+  border-radius: 8px;
   width: 350px;
-  height: 400px;
+  height: 350px;
   margin-bottom: 20px;
   box-shadow: 2px 5px 5px grey;
 }
@@ -24,16 +26,6 @@
 
 .articleHeader {
   margin-left: 20px;
-}
-
-.card-img-top {
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-}
-
-.card {
-  border-radius: 0px;
-  border: 0px solid;
 }
 
 @media screen and (min-width: 1100px) {
