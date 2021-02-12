@@ -11,10 +11,11 @@ const About = () => {
       <section className="about-hero">
         <h2 className="about-hero-h2">About</h2>
         <p className="about-hero-p">
-          About Bridge the Gap. About Bridge the Gap. About Bridge the Gap.
-          About Bridge the Gap. About Bridge the Gap. About Bridge the Gap.
-          About Bridge the Gap. About Bridge the Gap. About Bridge the Gap.
-          About Bridge the Gap.
+          Bridge the Gap is about more than just collecting data. We empower
+          people. The gender pay gap is still existent in our world today, but
+          there are ways we can help bridge this divide. On average, women and
+          gender minorities armed with pertinent wage information and resources
+          see a compensation increase of 8% to 30% in their total compensation.
         </p>
         <div className="about-hero-vid">
           <ReactPlayer
@@ -29,9 +30,13 @@ const About = () => {
           <div className="movement-box">
             <h2 className="movement-h1">The Movement</h2>
             <p className="movement-lead">
-              The movement goes here. The movement goes here. The movement goes
-              here. The movement goes here. The movement goes here. The movement
-              goes here. The movement goes here. The movement goes here.
+              Widespread adoption of proactive pay equity laws, which require
+              employers to regularly examine compensation practices, assess
+              gender pay gaps, and take action to eliminate them, have been
+              historically crippled by lack of data points. <hr />Your
+              contribution of wage, gender and geographic information will see
+              to it that the next generation of women and gender minorities will
+              achieve equal wages.
             </p>
           </div>
         </div>
@@ -41,10 +46,10 @@ const About = () => {
           <div className="care-box">
             <h2 className="care-h1">Why We Care</h2>
             <p className="care-lead">
-              Why we care. Why we care. Why we care. Why we care. Why we care.
-              Why we care. Why we care. Why we care. Why we care. Why we care.
-              Why we care. Why we care. Why we care. Why we care. Why we care.
-              Why we care.
+              Where money is tight, shorted pay can prevent women and gender
+              minorities from putting food on the table, securing safe housing,
+              accessing critical medical care and education. This injustice has
+              impacts that can perpetuate cycles of poverty across generations.
             </p>
           </div>
         </div>
