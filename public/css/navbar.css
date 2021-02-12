@@ -12,6 +12,11 @@
   margin: 8px;
 }
 
+.navbar-links p {
+  color: black;
+  margin: 8px;
+}
+
 .navbar-links a:hover {
   color: #5e2cba;
   text-decoration: underline #ffd35a 4px;
