@@ -2,6 +2,7 @@ import React from 'react'
 import {Card, CardImg, CardBody, CardTitle, CardText} from 'reactstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../../public/css/articlecard.css'
+import CallMadeIcon from '@material-ui/icons/CallMade'
 
 export const ArticleCard = ({posts, loading}) => {
   if (loading) {
@@ -15,26 +16,25 @@ export const ArticleCard = ({posts, loading}) => {
         {posts.map(article => {
           return (
             <Card className="article-card" key={article.id}>
+              <CardImg
+                top
+                width="360px"
+                height="160px"
+                src={article.url}
+                alt="Card image cap"
+              />
+              <CardBody className="article-body">
+                <CardTitle tag="h4">{article.title}</CardTitle>
+
+                <CardText className="ToolsText">{article.description}</CardText>
+              </CardBody>
               <a
                 href={article.link}
                 target="_blank"
                 rel="noreferrer"
                 className="articleLink"
               >
-                <CardImg
-                  top
-                  width="360px"
-                  height="160px"
-                  src={article.url}
-                  alt="Card image cap"
-                />
-                <CardBody className="article-body">
-                  <CardTitle tag="h4">{article.title}</CardTitle>
-
-                  <CardText className="ToolsText">
-                    {article.description}
-                  </CardText>
-                </CardBody>
+                Read article <CallMadeIcon fontSize="medium" />
               </a>
             </Card>
           )
