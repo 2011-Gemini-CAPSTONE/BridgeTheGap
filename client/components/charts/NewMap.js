@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import {Tooltip} from 'material-ui'
+import stateMap from '../Assets/StatePath'
 import '../../../public/css/map.css'
 
 const USMap = props => {
@@ -11,13 +12,11 @@ const USMap = props => {
   // console.log('outside return' , female)
   // This should only run once due to the [] arg for the dependencies.
   useEffect(() => {
-    ;(async () => {
-      const res = await fetch(
-        'https://willhaley.com/assets/united-states-map-react/states.json'
-      )
-      const data = await res.json()
+    ;(() => {
+      // const res = await fetch('../Assets/StatePath.json')
+      // const data = await res.json()
       // Set the statesData with the data received from fetch().
-      setStatesData(data)
+      setStatesData(stateMap)
     })()
   }, [])
 
@@ -39,11 +38,13 @@ const USMap = props => {
                 stroke="#fff"
                 strokeWidth="1px"
                 d={stateData.shape}
+                onMouseDown={() => console.log('On Click Working!')}
                 onMouseOver={event => {
                   event.target.style.fill = '#083E80'
                   let user = userData.filter(
                     data => data.state === stateData.name
                   )
+                  console.log(user)
                   let femalesFilter = user.filter(f => f.gender === 'Female')
                   let females = femalesFilter.filter(
                     f => f.jobTitle === 'Software Engineer'
@@ -53,7 +54,7 @@ const USMap = props => {
                     .reduce((accu, val) => accu + +val, 0)
                   let femaleAve = femaleTotal / females.length
                   setFemaleSalary(femaleAve)
-                  console.log('user -> ', stateData)
+                  console.log(females)
                   let malesFilter = user.filter(m => m.gender === 'Male')
                   let males = malesFilter.filter(
                     m => m.jobTitle === 'Software Engineer'
@@ -65,9 +66,6 @@ const USMap = props => {
                   setMaleSalary(maleAve)
                   let stateName = stateData.name
                   setState(stateName)
-
-                  console.log('This is female -> ', females)
-                  console.log('This is male -> ', males)
                 }}
                 onMouseOut={event => {
                   event.target.style.fill = '#87BDDC'
@@ -76,7 +74,7 @@ const USMap = props => {
             ))}
           </svg>
         </div>
-        <h7 className="legendHeader">Average Software Engineer Salary</h7>
+        <h6 className="legendHeader">Average Software Engineer Salary</h6>
         <div className="dataBox">
           <div className="stateText">
             <h4>{state}</h4>

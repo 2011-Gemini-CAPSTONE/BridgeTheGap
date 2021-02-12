@@ -69,6 +69,10 @@ const createApp = () => {
 
   // static file-serving middleware
   app.use(express.static(path.join(__dirname, '..', 'public')))
+  //makes a ref to the public folder
+  //file directory doesnt work the same when you deploy it in browser
+  //put the file path as if you are serving it from public
+  //aka url('/images/funwork.png')
 
   // any remaining requests with an extension (.js, .css, etc.) send 404
   app.use((req, res, next) => {

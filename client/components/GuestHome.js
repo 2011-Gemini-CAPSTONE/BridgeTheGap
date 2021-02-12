@@ -5,6 +5,7 @@ import creativity from '../../public/images/creativity.svg'
 import megaphone from '../../public/images/megaphone.svg'
 import team from '../../public/images/team.svg'
 import companies from '../../public/images/companies.svg'
+import {Link} from 'react-router-dom'
 import {
   Jumbotron,
   Button,
@@ -29,9 +30,11 @@ const GuestHome = () => {
               gaps, studies have shown that transparency wins the day.
             </p>
             <p className="jumbo1-btn">
-              <Button color="warning" size="md" block>
-                + Add Your Salary
-              </Button>
+              <Link to="/addsalary">
+                <Button color="warning" size="md" block>
+                  + Add Your Salary
+                </Button>
+              </Link>
             </p>
           </div>
         </div>

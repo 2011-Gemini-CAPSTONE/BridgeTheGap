@@ -14,3 +14,5 @@ export {Resources} from './Resources'
 export {default as NewMap} from './charts/NewMap'
 export {Pagination} from './Pagination'
 export {ArticleCard} from './ArticleCard'
+export {default as AddSalary} from './AddSalary'
+

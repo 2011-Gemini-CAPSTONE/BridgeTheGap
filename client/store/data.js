@@ -46,11 +46,12 @@ export const getData = () => {
   }
 }
 
-export const createData = data => {
-  return async disptach => {
+export const createData = salary => {
+  return async dispatch => {
     try {
-      const res = await axios.post('api/data', data)
-      dispatch(_createData(res.data))
+      console.log('createData running!!!!')
+      const {data} = await axios.post('/api/data', salary)
+      dispatch(_createData(data))
     } catch (err) {
       console.log(err)
     }
@@ -58,7 +59,7 @@ export const createData = data => {
 }
 
 export const deleteData = data => {
-  return async disptach => {
+  return async dispatch => {
     try {
       await axios.delete(`/api/data/${data.id}`)
       dispatch(_deleteData(data))
@@ -71,7 +72,7 @@ export const deleteData = data => {
 export const updateData = (data, dataId) => {
   return async dispatch => {
     const res = await axios.put(`/api/data/${dataId}`, data)
-    dispatch(_updateData(red.data))
+    dispatch(_updateData(res.data))
   }
 }
 /**

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Jumbotron, Container, Button} from 'reactstrap'
+import {Jumbotron} from 'reactstrap'
 import ReactPlayer from 'react-player'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../../public/css/about.css'
@@ -24,7 +24,31 @@ const About = () => {
           />
         </div>
       </section>
-      <section className="about-second" />
+      <Jumbotron className="movement">
+        <div className="movement-img">
+          <div className="movement-box">
+            <h2 className="movement-h1">The Movement</h2>
+            <p className="movement-lead">
+              The movement goes here. The movement goes here. The movement goes
+              here. The movement goes here. The movement goes here. The movement
+              goes here. The movement goes here. The movement goes here.
+            </p>
+          </div>
+        </div>
+      </Jumbotron>
+      <Jumbotron className="care">
+        <div className="care-img">
+          <div className="care-box">
+            <h2 className="care-h1">Why We Care</h2>
+            <p className="care-lead">
+              Why we care. Why we care. Why we care. Why we care. Why we care.
+              Why we care. Why we care. Why we care. Why we care. Why we care.
+              Why we care. Why we care. Why we care. Why we care. Why we care.
+              Why we care.
+            </p>
+          </div>
+        </div>
+      </Jumbotron>
     </>
   )
 }

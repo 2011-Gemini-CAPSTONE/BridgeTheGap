@@ -10,7 +10,8 @@ import {
   Resources,
   Data,
   About,
-  NewMap
+  NewMap,
+  AddSalary
 } from './components'
 
 import {me} from './store'
@@ -35,6 +36,7 @@ class Routes extends Component {
         <Route path="/data" component={Data} />
         <Route path="/resources" component={Resources} />
         <Route path="/about" component={About} />
+        <Route path="/addsalary" component={AddSalary} />
 
         {isLoggedIn && (
           <Switch>
