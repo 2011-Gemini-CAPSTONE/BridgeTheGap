@@ -5,29 +5,23 @@ import * as d3 from 'd3'
 //   height = 600 - margin.top - margin.bottom
 
 const margin = {top: 10, right: 20, bottom: 180, left: 70}
-const width = 1300 - margin.left - margin.right
+const width = 1500 - margin.left - margin.right
 const height = 1000 - margin.top - margin.bottom
-
-export const initChart = () => {
-  // d3.select('#stateGraph')
-  //   .append('svg')
-  //   .attr('width', width + margin.left + margin.right + 70)
-  //   .attr('height', height + margin.top + margin.bottom + 40)
-  //   .append('g')
-  //   .attr(
-  //     'transform',
-  //     'translate(' + margin.left + 400 + ',' + margin.top + ')'
-  //   )
-}
 
 export const drawGraph = data => {
   const male = data.filter(d => d.gender === 'Male')
   const female = data.filter(d => d.gender === 'Female')
+  let jobTitles = []
+  const stateJobTitles = data.map(d => {
+    if (!jobTitles.includes(d.jobTitle)) jobTitles.push(d.jobTitle)
+  })
+  console.log('This is jobTitles -> ', jobTitles)
+  console.log('This is state data -> ', data)
 
   const svg = d3
     .select('#stateGraph')
     .append('svg')
-    .attr('width', 1300)
+    .attr('width', 1500)
     .attr('height', 1000)
 
   const max = d3.max(data, d => Number(d.salary))
