@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import {connect} from 'react-redux'
-import {Link} from 'react-router-dom'
+import {Link, NavLink} from 'react-router-dom'
 import {logout} from '../store'
 import '../../public/css/navbar.css'
 import {BsPerson} from 'react-icons/bs'
@@ -19,11 +19,20 @@ const Navbar = ({handleClick, isLoggedIn, email}) => (
           </div>
           <div className="navbar-user-links">
             <p>Welcome, {email}</p>
-            <Link to="/data">See The Data</Link>
-            <Link to="/resources">Resources</Link>
-            <Link className="links-user-about" to="/about">
+            <NavLink exact to="/data" activeClassName="selected">
+              See The Data
+            </NavLink>
+            <NavLink exact to="/resources" activeClassName="selected">
+              Resources
+            </NavLink>
+            <NavLink
+              className="links-user-about"
+              exact
+              to="/about"
+              activeClassName="selected"
+            >
               About
-            </Link>
+            </NavLink>
             <a href="/" onClick={handleClick}>
               Logout
             </a>
@@ -39,14 +48,28 @@ const Navbar = ({handleClick, isLoggedIn, email}) => (
           </div>
 
           <div className="navbar-links">
-            <Link to="/data"> See The Data </Link>
-            <Link to="/resources">Resources</Link>
-            <Link className="links-about" to="/about">
+            <NavLink exact to="/data" activeClassName="selected">
+              See The Data
+            </NavLink>
+            <NavLink exact to="/resources" activeClassName="selected">
+              Resources
+            </NavLink>
+            <NavLink
+              className="links-about"
+              to="/about"
+              activeClassName="selected"
+            >
               {' '}
               About{' '}
-            </Link>
-            <Link to="/signup"> Sign Up </Link>
-            <Link to="/login"> Log in </Link>
+            </NavLink>
+            <NavLink exact to="/signup" activeClassName="selected">
+              {' '}
+              Sign Up{' '}
+            </NavLink>
+            <NavLink exact to="/login" activeClassName="selected">
+              {' '}
+              Log in{' '}
+            </NavLink>
             <BsPerson />
           </div>
         </div>
