@@ -17,6 +17,8 @@
   margin: 8px;
 }
 
+/* I'm looking for a selected tag inside of the navbar-links and that is why this trumps the navbar-links a style */
+.navbar-links .selected,
 .navbar-links a:hover {
   color: #5e2cba;
   text-decoration: underline #ffd35a 4px;
@@ -51,7 +53,7 @@
   color: black;
   margin: 8px;
 }
-
+.navbar-user-links .selected,
 .navbar-user-links a:hover {
   color: #5e2cba;
   text-decoration: underline #ffd35a 4px;
