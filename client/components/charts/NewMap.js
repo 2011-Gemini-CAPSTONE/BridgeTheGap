@@ -11,7 +11,7 @@ const USMap = props => {
   const [state, setState] = useState('')
   const [stateInfo, setStateInfo] = useState(false)
   const [stateUsers, setStateUsers] = useState([])
-  console.log(stateInfo)
+
   const userData = props.data
 
   const onClick = () => {

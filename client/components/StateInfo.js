@@ -7,6 +7,7 @@ const StateInfo = props => {
 
   useEffect(() => {
     initChart()
+    drawGraph(stateUsers)
   }, [])
 
   return (
@@ -15,7 +16,7 @@ const StateInfo = props => {
         {' '}
         Back to Map
       </button>
-      <div id="stateGraph">{drawGraph(stateUsers)}</div>
+      <div id="stateGraph" />
       {/* {stateUsers.map((stateUser) => (
         <div key={stateUser.id}>
         </div>
