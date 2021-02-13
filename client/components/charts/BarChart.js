@@ -4,53 +4,71 @@ import * as d3 from 'd3'
 //   width = 600 - margin.left - margin.right,
 //   height = 600 - margin.top - margin.bottom
 
-const margin = {top: 20, right: 20, bottom: 100, left: 100}
-const width = 600 - margin.left - margin.right
-const height = 600 - margin.top - margin.bottom
+const margin = {top: 10, right: 20, bottom: 180, left: 70}
+const width = 1300 - margin.left - margin.right
+const height = 1000 - margin.top - margin.bottom
 
 export const initChart = () => {
-  d3
-    .select('#stateGraph')
-    .append('svg')
-    .attr('width', width + margin.left + margin.right + 70)
-    .attr('height', height + margin.top + margin.bottom + 40)
-    .append('g')
-    .attr(
-      'transform',
-      'translate(' + margin.left + 400 + ',' + margin.top + ')'
-    )
+  // d3.select('#stateGraph')
+  //   .append('svg')
+  //   .attr('width', width + margin.left + margin.right + 70)
+  //   .attr('height', height + margin.top + margin.bottom + 40)
+  //   .append('g')
+  //   .attr(
+  //     'transform',
+  //     'translate(' + margin.left + 400 + ',' + margin.top + ')'
+  //   )
 }
 
 export const drawGraph = data => {
-  const svg = d3.select('#stateGraph svg')
-  //   .append('svg')
-  //   .attr('width', 700)
-  //   .attr('height', 700)
+  const male = data.filter(d => d.gender === 'Male')
+  const female = data.filter(d => d.gender === 'Female')
 
+  const svg = d3
+    .select('#stateGraph')
+    .append('svg')
+    .attr('width', 1300)
+    .attr('height', 1000)
+
+  const max = d3.max(data, d => Number(d.salary))
+  const min = d3.min(data, d => Number(d.salary))
+  console.log('min', min, 'max', max)
   // const graph = svg
   //   .append('g')
   //   .attr('width', width)
   //   .attr('height', height)
   //   .attr('transform', `translate(${margin.left},${margin.top})`)
 
-  // const xAxisGroup = svg
-  //   .append('g')
-  //   .attr('transform', `translate(0, ${height})`)
-  // const yAxisGroup = svg.append('g')
+  const xAxisGroup = svg
+    .append('g')
+    .attr('transform', `translate(0, ${height})`)
+  const yAxisGroup = svg.append('g')
 
   // create y axis
   const y = d3
     .scaleLinear()
-    .domain([0, d3.max(data, d => d.salary)])
+    .domain([min, max])
     .range([height, 0])
+  svg
+    .append('g')
+    .attr('transform', 'translate(' + 70 + ')')
+    .attr('fill', 'black')
+    .call(
+      d3.axisLeft(y).ticks(10, '$' + 's')
+      // .tickFormat((d) => '$' + d + ' USD')
+    )
 
   //Create x axis
   const x = d3
     .scaleBand()
     .domain(data.map(job => job.jobTitle))
-    .range([0, width])
+    .range([margin.left, width - margin.right])
     .paddingInner(0.2)
     .paddingOuter(0.2)
+  svg
+    .append('g')
+    .attr('transform', 'translate(' + 70 + ')')
+    .attr('fill', 'black')
 
   const rects = svg.selectAll('rect').data(data)
   // remove exit selection
@@ -77,17 +95,15 @@ export const drawGraph = data => {
     .duration(500)
     .attr('y', d => y(d.salary))
     .attr('height', d => height - y(d.salary))
-  // call axes
-  // const xAxis = d3.axisBottom(x)
-  // const yAxis = d3
-  //   .axisLeft(y)
-  //   .ticks(3)
-  //   .tickFormat((d) => '$' + d + ' USD')
-  // xAxisGroup.call(xAxis)
-  // yAxisGroup.call(yAxis)
-  // xAxisGroup
-  //   .selectAll('text')
-  //   .attr('transform', 'rotate(-40)')
-  //   .attr('text-anchor', 'end')
-  //   .attr('fill', 'blue')
+
+  //call axes
+  const xAxis = d3.axisBottom(x)
+  const yAxis = d3.axisLeft(y)
+  xAxisGroup.call(xAxis)
+  yAxisGroup.call(yAxis)
+  xAxisGroup
+    .selectAll('text')
+    .attr('transform', 'rotate(-40)')
+    .attr('text-anchor', 'end')
+    .attr('fill', 'blue')
 }
