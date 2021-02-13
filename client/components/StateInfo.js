@@ -1,12 +1,10 @@
 import React, {useEffect} from 'react'
-import {drawGraph, initChart} from './charts/BarChart'
+import {drawGraph} from './charts/BarChart'
 
 const StateInfo = props => {
   const {setStateInfo, stateUsers} = props
-  console.log(stateUsers)
 
   useEffect(() => {
-    initChart()
     drawGraph(stateUsers)
   }, [])
 
