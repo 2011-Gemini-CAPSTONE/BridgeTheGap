@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import {connect} from 'react-redux'
 import PropTypes from 'prop-types'
 import {auth} from '../store'
@@ -8,7 +9,16 @@ import '../../public/css/auth.css'
  * COMPONENT
  */
 const AuthForm = props => {
-  const {name, displayName, handleSubmit, error} = props
+  const {
+    name,
+    displayName,
+    signup,
+    signupButton,
+    buttonLink,
+    handleSubmit,
+    error,
+    forgot
+  } = props
 
   return (
     <div className="auth-div">
@@ -24,6 +34,15 @@ const AuthForm = props => {
               <span>{displayName} with Google</span>
             </a>
           </div>
+          <div className="github-btn">
+            <a href="/auth/github">
+              <img
+                className="github-icon"
+                src="https://cdns.iconmonstr.com/wp-content/assets/preview/2012/240/iconmonstr-github-1.png"
+              />
+              <span>{displayName} with Github</span>
+            </a>
+          </div>
           <div className="linkedin-btn">
             <a href="/auth/linkedin">
               <img
@@ -31,15 +50,6 @@ const AuthForm = props => {
                 src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg"
               />
               <span>{displayName} with LinkedIn</span>
-            </a>
-          </div>
-          <div className="github-btn">
-            <a href="/auth/github">
-              <img
-                className="github-icon"
-                src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg"
-              />
-              <span>{displayName} with Github</span>
             </a>
           </div>
         </div>
@@ -65,8 +75,18 @@ const AuthForm = props => {
             </label>
             <input name="password" type="password" placeholder="Password" />
           </div>
+          <div className="authform-forgot">{forgot}</div>
           <div className="authform-submit">
             <button type="submit">{displayName}</button>
+          </div>
+
+          <div className="line" />
+
+          <div className="authform-bottom">
+            <div>{signup}</div>
+            <Link to={buttonLink}>
+              <span>{signupButton}</span>
+            </Link>
           </div>
           {error && error.response && <div> {error.response.data} </div>}
         </form>
@@ -86,6 +106,10 @@ const mapLogin = state => {
   return {
     name: 'login',
     displayName: 'Login',
+    signup: "Don't have an account?",
+    signupButton: 'Sign Up',
+    buttonLink: '/signup',
+    forgot: 'Forgot your password?',
     error: state.user.error
   }
 }
@@ -94,6 +118,9 @@ const mapSignup = state => {
   return {
     name: 'signup',
     displayName: 'Sign Up',
+    signup: 'Already have an account?',
+    signupButton: 'Log In',
+    buttonLink: '/login',
     error: state.user.error
   }
 }
@@ -105,7 +132,11 @@ const mapDispatch = dispatch => {
       const formName = evt.target.name
       const email = evt.target.email.value
       const password = evt.target.password.value
-      dispatch(auth(email, password, formName))
+      if (email === '' || password === '') {
+        alert('Please enter info')
+      } else {
+        dispatch(auth(email, password, formName))
+      }
     }
   }
 }
@@ -119,6 +150,10 @@ export const Signup = connect(mapSignup, mapDispatch)(AuthForm)
 AuthForm.propTypes = {
   name: PropTypes.string.isRequired,
   displayName: PropTypes.string.isRequired,
+  signup: PropTypes.string.isRequired,
+  signupButton: PropTypes.string.isRequired,
+  forgot: PropTypes.string,
+  buttonLink: PropTypes.string.isRequired,
   handleSubmit: PropTypes.func.isRequired,
   error: PropTypes.object
 }

@@ -10,15 +10,16 @@
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 500px;
+  width: 550px;
+  height: 750px;
 }
 
 .google-btn {
   border: 1px solid black;
-  width: 350px;
+  width: 400px;
   height: 40px;
   border-radius: 20px;
-  background-color: white;
+  background-color: #4285f4;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -36,10 +37,10 @@
 
 .linkedin-btn {
   border: 1px solid black;
-  width: 350px;
+  width: 400px;
   height: 40px;
   border-radius: 20px;
-  background-color: white;
+  background-color: #0077b5;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -57,16 +58,16 @@
 
 .github-btn {
   border: 1px solid black;
-  width: 350px;
+  width: 400px;
   height: 40px;
   border-radius: 20px;
-  background-color: white;
+  background-color: #211f1f;
   text-align: center;
   margin-bottom: 10px;
 }
 
 .github-btn span {
-  color: black;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -79,7 +80,6 @@
 .auth-form {
   display: flex;
   flex-direction: column;
-  padding-right: 40px;
 }
 
 .auth-form label {
@@ -87,7 +87,7 @@
 }
 
 .auth-form input {
-  width: 300px;
+  width: 380px;
 }
 
 .line {
@@ -95,10 +95,69 @@
   text-align: center;
   border-bottom: 1px solid gray;
   line-height: 0.1em;
-  margin: 10px 0 20px 0;
+  margin: 20px 0 10px 0;
 }
 
 .line span {
   background: #fff;
   padding: 0 10px;
+}
+
+.authform-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.authform-bottom span {
+  color: #5e2cba;
+  border: 2px solid #ffd35a;
+  margin-top: 20px;
+  padding: 10px 70px;
+  text-decoration: underline white;
+}
+
+.authform-forgot {
+  color: gray;
+  font-size: small;
+  text-decoration: underline gray;
+  margin: 10px;
+  padding-left: 78px;
+}
+
+.authform-email {
+  margin-bottom: 8px;
+  padding-left: 70px;
+}
+
+.authform-password {
+  margin-top: 8px;
+  margin-bottom: 0px;
+  padding-left: 70px;
+}
+
+.authform-submit {
+  width: 450px;
+}
+
+.authform-submit button {
+  border: 2px solid white;
+  background-color: #ffd35a;
+  color: #5e2cba;
+  width: 150px;
+  height: 50px;
+  float: right;
+}
+
+h1 {
+  padding-bottom: 20px;
+}
+
+.auth-form {
+  width: 550px;
+}
+
+.authform-submit .submit-btn {
+  padding-right: 50px;
 }
