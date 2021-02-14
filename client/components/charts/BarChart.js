@@ -16,24 +16,16 @@ export const drawGraph = data => {
     .attr('width', width)
     .attr('height', 700)
 
-  // let teamArr = []
-  // data.map((d) => {
-  //   teamArr.push(d.team)
-  // })
-  // let teamCount = {}
-  // for (let i = 0; i < teamArr.length; i++) {
-  //   if (!teamCount[teamArr[i]]) teamCount[teamArr[i]] = 1
-  //   else teamCount[teamArr[i]]++
-  // }
-  // let teamCountArr = []
-  // for (let key of teamCount) {
-  //   teamCountArr.push(teamCount[key])
-  // }
-  // console.log(teamCountArr)
+  const test = data.reduce((result, entry) => {
+    if (result[entry.team]) result[entry.team]++
+    else result[entry.team] = 1
+    return result
+  }, {})
 
-  console.log(data)
+  const result = Object.keys(test).map(key => ({name: key, value: test[key]}))
+  console.log('result -->', result)
 
-  const max = d3.max(data, d => d.team.length)
+  const max = d3.max(result, d => d.value)
   console.log('This is max ->', max)
 
   const xAxisGroup = svg
@@ -80,18 +72,18 @@ export const drawGraph = data => {
     .attr('fill', '#5e2cba')
     .text('Job Fields')
 
-  const rects = svg.selectAll('rect').data(data)
+  const rects = svg.selectAll('rect').data(result)
   // remove exit selection
   rects.exit().remove()
   // update current shpaes in DOM
   rects
     .attr('width', x.bandwidth)
     .attr('fill', '#ffd35a')
-    .attr('x', d => x(d.team))
+    .attr('x', d => x(d.name))
     .transition()
     .duration(500)
-    .attr('height', d => height - y(d.team.length))
-    .attr('y', d => y(d.team.length))
+    .attr('height', d => height - y(d.value))
+    .attr('y', d => y(d.value))
   // append the enter selection to the DOM
   rects
     .enter()
@@ -99,12 +91,12 @@ export const drawGraph = data => {
     .attr('width', x.bandwidth)
     .attr('height', 0)
     .attr('fill', '#ffd35a')
-    .attr('x', d => x(d.team))
+    .attr('x', d => x(d.name))
     .attr('y', height)
     .transition()
     .duration(500)
-    .attr('y', d => y(d.team.length))
-    .attr('height', d => height - y(d.team.length))
+    .attr('y', d => y(d.value))
+    .attr('height', d => height - y(d.value))
 
   //call axes
   const xAxis = d3.axisBottom(x)

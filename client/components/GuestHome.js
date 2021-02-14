@@ -12,6 +12,7 @@ import {Jumbotron, Button} from 'reactstrap'
 import ReactPlayer from 'react-player'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../../public/css/guesthome.css'
+import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward'
 
 const GuestHome = ({isLoggedIn}) => {
   return (
@@ -35,6 +36,9 @@ const GuestHome = ({isLoggedIn}) => {
                   </Link>
                 </p>
               </div>
+              <div className="scroll">
+                <ArrowDownwardIcon className="downArrow" /> <i>SCROLL DOWN</i>
+              </div>l
             </div>
           </Jumbotron>
           <section className="home-about">
