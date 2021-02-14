@@ -69,7 +69,7 @@ const USMap = props => {
                     .reduce((accu, val) => accu + +val, 0)
                   let femaleAve = femaleTotal / females.length
                   setFemaleSalary(femaleAve)
-                  console.log('This is females -> ', females)
+
                   let males = user
                     .filter(m => m.gender === 'Male')
                     .filter(m => m.jobTitle === 'Software Engineer')
@@ -78,7 +78,7 @@ const USMap = props => {
                     .reduce((accu, val) => accu + +val, 0)
                   let maleAve = maleTotal / males.length
                   setMaleSalary(maleAve)
-                  console.log('This is males -> ', males)
+
                   let stateName = stateData.name
                   setState(stateName)
                 }}

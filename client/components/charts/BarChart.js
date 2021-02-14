@@ -4,6 +4,7 @@ import * as d3 from 'd3'
 //   width = 600 - margin.left - margin.right,
 //   height = 600 - margin.top - margin.bottom
 
+// eslint-disable-next-line max-statements
 export const drawGraph = data => {
   const margin = {top: 10, right: 20, bottom: 180, left: 70}
   const width = 900 - margin.left - margin.right
@@ -15,7 +16,25 @@ export const drawGraph = data => {
     .attr('width', width)
     .attr('height', 700)
 
-  const max = d3.max(data, d => Number(d.team.length))
+  // let teamArr = []
+  // data.map((d) => {
+  //   teamArr.push(d.team)
+  // })
+  // let teamCount = {}
+  // for (let i = 0; i < teamArr.length; i++) {
+  //   if (!teamCount[teamArr[i]]) teamCount[teamArr[i]] = 1
+  //   else teamCount[teamArr[i]]++
+  // }
+  // let teamCountArr = []
+  // for (let key of teamCount) {
+  //   teamCountArr.push(teamCount[key])
+  // }
+  // console.log(teamCountArr)
+
+  console.log(data)
+
+  const max = d3.max(data, d => d.team.length)
+  console.log('This is max ->', max)
 
   const xAxisGroup = svg
     .append('g')
@@ -31,7 +50,16 @@ export const drawGraph = data => {
     .append('g')
     .attr('transform', 'translate(' + 70 + ')')
     .attr('fill', '#5e2cba')
-    .call(d3.axisLeft(y).ticks(10))
+    .call(d3.axisLeft(y).ticks(8))
+  svg
+    .append('text') // text label for the y axis
+    .attr('transform', 'rotate(-90)')
+    .attr('y', 120)
+    .attr('dy', '-5.32em')
+    .attr('x', -10)
+    .style('text-anchor', 'end')
+    .attr('fill', '#5e2cba')
+    .text('Number of jobs in each field')
 
   //Create x axis
   const x = d3
@@ -44,6 +72,13 @@ export const drawGraph = data => {
     .append('g')
     .attr('transform', 'translate(' + 70 + ')')
     .attr('fill', '#5e2cba')
+  svg
+    .append('text') // text label for the x axis
+    .attr('y', 680)
+    .attr('x', 450)
+    .style('text-anchor', 'end')
+    .attr('fill', '#5e2cba')
+    .text('Job Fields')
 
   const rects = svg.selectAll('rect').data(data)
   // remove exit selection
@@ -81,12 +116,4 @@ export const drawGraph = data => {
     .attr('transform', 'rotate(-40)')
     .attr('text-anchor', 'end')
     .attr('fill', '#5e2cba')
-
-  svg
-    .append('text') // text label for the x axis
-    .attr('x', 300)
-    .attr('y', 20)
-    .style('text-anchor', 'start')
-    .attr('fill', '#5e2cba')
-    .text('Number of jobs in each field')
 }
