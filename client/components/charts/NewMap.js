@@ -11,6 +11,7 @@ const USMap = props => {
   const [state, setState] = useState('')
   const [stateInfo, setStateInfo] = useState(false)
   const [stateUsers, setStateUsers] = useState([])
+  const [filterData, setFilterData] = useState('Software Engineer')
 
   const userData = props.data
 
@@ -21,9 +22,6 @@ const USMap = props => {
   // This should only run once due to the [] arg for the dependencies.
   useEffect(() => {
     ;(() => {
-      // const res = await fetch('../Assets/StatePath.json')
-      // const data = await res.json()
-      // Set the statesData with the data received from fetch().
       setStatesData(stateMap)
     })()
   }, [])
@@ -39,6 +37,8 @@ const USMap = props => {
         stateUsers={stateUsers}
         stateInfo={stateInfo}
         setStateInfo={setStateInfo}
+        filterData={filterData}
+        setFilterData={setFilterData}
       />
     </div>
   ) : (

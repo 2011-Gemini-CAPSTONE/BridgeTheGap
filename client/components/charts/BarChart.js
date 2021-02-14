@@ -4,34 +4,18 @@ import * as d3 from 'd3'
 //   width = 600 - margin.left - margin.right,
 //   height = 600 - margin.top - margin.bottom
 
-const margin = {top: 10, right: 20, bottom: 180, left: 70}
-const width = 1500 - margin.left - margin.right
-const height = 1000 - margin.top - margin.bottom
-
 export const drawGraph = data => {
-  const male = data.filter(d => d.gender === 'Male')
-  const female = data.filter(d => d.gender === 'Female')
-  let jobTitles = []
-  const stateJobTitles = data.map(d => {
-    if (!jobTitles.includes(d.jobTitle)) jobTitles.push(d.jobTitle)
-  })
-  console.log('This is jobTitles -> ', jobTitles)
-  console.log('This is state data -> ', data)
+  const margin = {top: 10, right: 20, bottom: 180, left: 70}
+  const width = 900 - margin.left - margin.right
+  const height = 700 - margin.top - margin.bottom
 
   const svg = d3
     .select('#stateGraph')
     .append('svg')
-    .attr('width', 1500)
-    .attr('height', 1000)
+    .attr('width', width)
+    .attr('height', 700)
 
-  const max = d3.max(data, d => Number(d.salary))
-  const min = d3.min(data, d => Number(d.salary))
-  console.log('min', min, 'max', max)
-  // const graph = svg
-  //   .append('g')
-  //   .attr('width', width)
-  //   .attr('height', height)
-  //   .attr('transform', `translate(${margin.left},${margin.top})`)
+  const max = d3.max(data, d => Number(d.team.length))
 
   const xAxisGroup = svg
     .append('g')
@@ -41,28 +25,25 @@ export const drawGraph = data => {
   // create y axis
   const y = d3
     .scaleLinear()
-    .domain([min, max])
+    .domain([0, max])
     .range([height, 0])
   svg
     .append('g')
     .attr('transform', 'translate(' + 70 + ')')
-    .attr('fill', 'black')
-    .call(
-      d3.axisLeft(y).ticks(10, '$' + 's')
-      // .tickFormat((d) => '$' + d + ' USD')
-    )
+    .attr('fill', '#5e2cba')
+    .call(d3.axisLeft(y).ticks(10))
 
   //Create x axis
   const x = d3
     .scaleBand()
-    .domain(data.map(job => job.jobTitle))
+    .domain(data.map(job => job.team))
     .range([margin.left, width - margin.right])
     .paddingInner(0.2)
     .paddingOuter(0.2)
   svg
     .append('g')
     .attr('transform', 'translate(' + 70 + ')')
-    .attr('fill', 'black')
+    .attr('fill', '#5e2cba')
 
   const rects = svg.selectAll('rect').data(data)
   // remove exit selection
@@ -70,25 +51,25 @@ export const drawGraph = data => {
   // update current shpaes in DOM
   rects
     .attr('width', x.bandwidth)
-    .attr('fill', 'orange')
-    .attr('x', d => x(d.jobTitle))
+    .attr('fill', '#ffd35a')
+    .attr('x', d => x(d.team))
     .transition()
     .duration(500)
-    .attr('height', d => height - y(d.salary))
-    .attr('y', d => y(d.salary))
+    .attr('height', d => height - y(d.team.length))
+    .attr('y', d => y(d.team.length))
   // append the enter selection to the DOM
   rects
     .enter()
     .append('rect')
     .attr('width', x.bandwidth)
     .attr('height', 0)
-    .attr('fill', 'orange')
-    .attr('x', d => x(d.jobTitle))
+    .attr('fill', '#ffd35a')
+    .attr('x', d => x(d.team))
     .attr('y', height)
     .transition()
     .duration(500)
-    .attr('y', d => y(d.salary))
-    .attr('height', d => height - y(d.salary))
+    .attr('y', d => y(d.team.length))
+    .attr('height', d => height - y(d.team.length))
 
   //call axes
   const xAxis = d3.axisBottom(x)
@@ -99,5 +80,13 @@ export const drawGraph = data => {
     .selectAll('text')
     .attr('transform', 'rotate(-40)')
     .attr('text-anchor', 'end')
-    .attr('fill', 'blue')
+    .attr('fill', '#5e2cba')
+
+  svg
+    .append('text') // text label for the x axis
+    .attr('x', 300)
+    .attr('y', 20)
+    .style('text-anchor', 'start')
+    .attr('fill', '#5e2cba')
+    .text('Number of jobs in each field')
 }

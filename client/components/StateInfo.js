@@ -9,16 +9,32 @@ const StateInfo = props => {
   }, [])
 
   return (
-    <div>
+    <div className="stateInfo-container">
       <button type="button" onClick={() => setStateInfo(false)}>
         {' '}
         Back to Map
       </button>
-      <div id="stateGraph" />
-      {/* {stateUsers.map((stateUser) => (
-        <div key={stateUser.id}>
+      <div className="stateInfo">
+        <div className="barGraph">
+          <div id="stateGraph" />
         </div>
-      ))} */}
+        {stateUsers.map(stateUser => (
+          <div key={stateUser.id}>
+            <p>
+              {stateUser.city}, {stateUser.state}
+            </p>
+            <p>
+              {Number(stateUser.salary).toLocaleString('en-US', {
+                style: 'currency',
+                currency: 'USD'
+              })}
+            </p>
+            <p>{stateUser.gender}</p>
+            <p>{stateUser.team}</p>
+            <p>{stateUser.jobTitle}</p>
+          </div>
+        ))}
+      </div>
     </div>
   )
 }
