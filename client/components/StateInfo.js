@@ -1,5 +1,7 @@
 import React, {useEffect} from 'react'
 import {drawGraph} from './charts/BarChart'
+import UserTable from './userTable'
+// import '../../../public/css/stateInfo.css'
 
 const StateInfo = props => {
   const {setStateInfo, stateUsers} = props
@@ -18,7 +20,10 @@ const StateInfo = props => {
         <div className="barGraph">
           <div id="stateGraph" />
         </div>
-        {stateUsers.map(stateUser => (
+        <div className="userTable">
+          <UserTable data={stateUsers} />
+        </div>
+        {/* {stateUsers.map((stateUser) => (
           <div key={stateUser.id}>
             <p>
               {stateUser.city}, {stateUser.state}
@@ -26,14 +31,14 @@ const StateInfo = props => {
             <p>
               {Number(stateUser.salary).toLocaleString('en-US', {
                 style: 'currency',
-                currency: 'USD'
+                currency: 'USD',
               })}
             </p>
             <p>{stateUser.gender}</p>
             <p>{stateUser.team}</p>
             <p>{stateUser.jobTitle}</p>
           </div>
-        ))}
+        ))} */}
       </div>
     </div>
   )

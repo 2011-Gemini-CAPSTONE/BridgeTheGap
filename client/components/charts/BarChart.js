@@ -23,10 +23,8 @@ export const drawGraph = data => {
   }, {})
 
   const result = Object.keys(test).map(key => ({name: key, value: test[key]}))
-  console.log('result -->', result)
 
   const max = d3.max(result, d => d.value)
-  console.log('This is max ->', max)
 
   const xAxisGroup = svg
     .append('g')
