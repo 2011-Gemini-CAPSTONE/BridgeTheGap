@@ -135,7 +135,7 @@ const GuestHome = ({isLoggedIn}) => {
                 <p className="jumbo1-btn">
                   <Link to="/signup">
                     <Button color="warning" size="md" block>
-                      + Add Your Salary
+                      Sign Up To Contribute
                     </Button>
                   </Link>
                 </p>
