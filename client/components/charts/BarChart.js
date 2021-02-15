@@ -31,6 +31,11 @@ export const drawGraph = data => {
     .attr('transform', `translate(0, ${height})`)
   const yAxisGroup = svg.append('g')
 
+  const tooltip = d3
+    .select('body')
+    .append('div')
+    .attr('class', 'toolTip')
+
   // create y axis
   const y = d3
     .scaleLinear()
@@ -71,6 +76,7 @@ export const drawGraph = data => {
     .text('Job Fields')
 
   const rects = svg.selectAll('rect').data(result)
+
   // remove exit selection
   rects.exit().remove()
   // update current shpaes in DOM

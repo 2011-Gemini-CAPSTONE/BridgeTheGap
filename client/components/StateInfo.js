@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 import {drawGraph} from './charts/BarChart'
 import UserTable from './userTable'
-// import '../../../public/css/stateInfo.css'
+import '../../public/css/stateInfo.css'
 
 const StateInfo = props => {
   const {setStateInfo, stateUsers} = props
@@ -12,7 +12,11 @@ const StateInfo = props => {
 
   return (
     <div className="stateInfo-container">
-      <button type="button" onClick={() => setStateInfo(false)}>
+      <button
+        className="back-button"
+        type="button"
+        onClick={() => setStateInfo(false)}
+      >
         {' '}
         Back to Map
       </button>

@@ -1,3 +1,15 @@
-.userTable {
+.barGraph {
   margin-left: 20%;
+}
+.userTable {
+  margin-left: 8%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.back-button {
+  border: 2px solid white;
+  background-color: #ffd35a;
+  color: #5e2cba;
+  margin-left: 5%;
 }

@@ -11,6 +11,10 @@ import {
 } from '@material-ui/core'
 import {makeStyles} from '@material-ui/core/styles'
 
+function numberWithCommas(x) {
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')
+}
+
 const columns = [
   {id: 'jobTitle', label: 'Job Title', minWidth: 170},
   {id: 'team', label: 'Job Field', minWidth: 100},
@@ -44,10 +48,12 @@ const columns = [
     minWidth: 170,
     align: 'left',
     format: value =>
-      Number(value).toLocaleString('en-US', {
-        style: 'currency',
-        currency: 'USD'
-      })
+      value
+        .toLocaleString('en-US', {
+          style: 'currency',
+          currency: 'USD'
+        })
+        .replace(/(\.|,)00$/g, '')
   }
 ]
 
@@ -56,12 +62,18 @@ const useStyles = makeStyles({
     width: '90%'
   },
   container: {
-    maxHeight: 440
+    maxHeight: 500
+  },
+  head: {
+    backgroundColor: '#ffd35a',
+    color: '#5e2cba'
   }
 })
 
 export default function UserTable(props) {
   const {data} = props
+
+  // const result = Object.keys(test).map((key) => ({name: key, value: test[key]}))
 
   const rows = data
   console.log(rows)
@@ -86,6 +98,7 @@ export default function UserTable(props) {
             <TableRow>
               {columns.map(column => (
                 <TableCell
+                  className={classes.head}
                   key={column.id}
                   align={column.align}
                   style={{minWidth: column.minWidth}}
@@ -100,14 +113,18 @@ export default function UserTable(props) {
               .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
               .map(row => {
                 return (
-                  <TableRow hover role="checkbox" tabIndex={-1} key={row.code}>
+                  <TableRow
+                    className={classes.row}
+                    hover
+                    role="checkbox"
+                    tabIndex={-1}
+                    key={row.code}
+                  >
                     {columns.map(column => {
                       const value = row[column.id]
                       return (
                         <TableCell key={column.id} align={column.align}>
-                          {column.format && typeof value === 'number'
-                            ? column.format(value)
-                            : value}
+                          {column.format ? column.format(value * 1) : value}
                         </TableCell>
                       )
                     })}
