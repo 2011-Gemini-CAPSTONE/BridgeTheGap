@@ -21,7 +21,7 @@ const About = () => {
           <ReactPlayer
             className="about-video"
             controls
-            url="https://player.vimeo.com/external/348728072.sd.mp4?s=383c48b89915561b7dd476dd07c966e9a68bc587&profile_id=139&oauth2_token_id=57447761"
+            url="https://vimeo.com/512569245"
           />
         </div>
       </section>

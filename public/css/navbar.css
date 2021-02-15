@@ -5,6 +5,7 @@
   width: 100%;
   position: sticky;
   padding: 0px 128px 0px 128px;
+  margin-bottom: 3.5%;
 }
 
 .navbar-links a {
@@ -37,6 +38,7 @@
   width: 100%;
   position: sticky;
   padding: 0px 128px 0px 128px;
+  margin-bottom: 3.5%;
 }
 
 .navbar-user-links {
