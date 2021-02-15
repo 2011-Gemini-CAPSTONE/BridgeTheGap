@@ -22,11 +22,11 @@ const GuestHome = ({isLoggedIn}) => {
           <Jumbotron className="jumbo1">
             <div className="jumbo1-img">
               <div className="welcome-box">
-                <h2 className="jumbo1-h1">Women & Gender Minorities Unite!</h2>
+                <h2 className="jumbo1-h1">Increase Transparency</h2>
                 <p className="jumbo1-lead">
-                  When it comes to effectively combatting bias and closing
-                  earning gaps, studies have shown that transparency wins the
-                  day.
+                  Women and gender minorities must unite to effectively combat
+                  bias and close earning gaps between themselves and men.
+                  Transparency wins the day.
                 </p>
                 <p className="jumbo1-btn">
                   <Link to="/addsalary">
@@ -36,9 +36,6 @@ const GuestHome = ({isLoggedIn}) => {
                   </Link>
                 </p>
               </div>
-              <div className="scroll">
-                <ArrowDownwardIcon className="downArrow" /> <i>SCROLL DOWN</i>
-              </div>l
             </div>
           </Jumbotron>
           <section className="home-about">
@@ -50,67 +47,62 @@ const GuestHome = ({isLoggedIn}) => {
             <div className="about-text">
               <h2 className="about-h1">Bridging the Gap</h2>
               <p className="about-p">
-                About Bridge the Gap. About Bridge the Gap. About Bridge the
-                Gap. About Bridge the Gap. About Bridge the Gap. About Bridge
-                the Gap. About Bridge the Gap. About Bridge the Gap. About
-                Bridge the Gap. About Bridge the Gap.
+                Women in the U.S. who work full-time, year-round are typically
+                paid only 82 cents for every dollar paid to their male
+                counterparts. —— We're here to be a part of change that shifts
+                to equality in pay.
               </p>
               <Link to="/about">
-                <a className="about-link">Learn More →</a>
+                <a className="about-link">Learn how →</a>
               </Link>
             </div>
           </section>
           <section className="home-benefits">
             <div>
-              <h2>Who Should Use Bridge the Gap?</h2>
+              <h2>Who Benefits?</h2>
             </div>
             <div className="benefit-cards">
               <div className="benefit">
                 <img className="benefit-image" src={handshake} />
                 <h4>Entrepeneurs</h4>
                 <p className="benefit-p">
-                  Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
-                  ipsum dolor sit amet, consectetur adipscing elit.
+                  To set the standard in their growing endeavors.
                 </p>
               </div>
               <div className="benefit">
                 <img className="benefit-image" src={briefcase} />
                 <h4>Aspiring Professionals</h4>
                 <p className="benefit-p">
-                  Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
-                  ipsum dolor sit amet, consectetur adipscing elit.
+                  To find resources and compare industry market rates.
                 </p>
               </div>
               <div className="benefit">
                 <img className="benefit-image" src={megaphone} />
                 <h4>Activists</h4>
                 <p className="benefit-p">
-                  Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
-                  ipsum dolor sit amet, consectetur adipscing elit.
+                  To obtain in-depth real-time data and track the gap.
                 </p>
               </div>
               <div className="benefit">
                 <img className="benefit-image" src={companies} />
                 <h4>Business Leaders</h4>
                 <p className="benefit-p">
-                  Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
-                  ipsum dolor sit amet, consectetur adipscing elit.
+                  To stay informed and mindful while hiring and promoting.
                 </p>
               </div>
               <div className="benefit">
                 <img className="benefit-image" src={creativity} />
                 <h4>Creative Thinkers</h4>
                 <p className="benefit-p">
-                  Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
-                  ipsum dolor sit amet, consectetur adipscing elit.
+                  To find inspiration and creative new ways to combat the wage
+                  gap.
                 </p>
               </div>
               <div className="benefit">
                 <img className="benefit-image" src={team} />
                 <h4>Organizations</h4>
                 <p className="benefit-p">
-                  Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
-                  ipsum dolor sit amet, consectetur adipscing elit.
+                  To maintain awareness in order to continue positive change.
                 </p>
               </div>
             </div>
@@ -134,16 +126,16 @@ const GuestHome = ({isLoggedIn}) => {
           <Jumbotron className="jumbo1">
             <div className="jumbo1-img">
               <div className="welcome-box">
-                <h2 className="jumbo1-h1">Women & Gender Minorities Unite!</h2>
+                <h2 className="jumbo1-h1">Increase Transparency</h2>
                 <p className="jumbo1-lead">
-                  When it comes to effectively combatting bias and closing
-                  earning gaps, studies have shown that transparency wins the
-                  day.
+                  Women and gender minorities must unite to effectively combat
+                  bias and close earning gaps between themselves and men.
+                  Transparency wins the day.
                 </p>
                 <p className="jumbo1-btn">
                   <Link to="/signup">
                     <Button color="warning" size="md" block>
-                      Sign Up To Contribute
+                      + Add Your Salary
                     </Button>
                   </Link>
                 </p>
@@ -159,67 +151,62 @@ const GuestHome = ({isLoggedIn}) => {
             <div className="about-text">
               <h2 className="about-h1">Bridging the Gap</h2>
               <p className="about-p">
-                About Bridge the Gap. About Bridge the Gap. About Bridge the
-                Gap. About Bridge the Gap. About Bridge the Gap. About Bridge
-                the Gap. About Bridge the Gap. About Bridge the Gap. About
-                Bridge the Gap. About Bridge the Gap.
+                Women in the U.S. who work full-time, year-round are typically
+                paid only 82 cents for every dollar paid to their male
+                counterparts. —— We're here to be a part of change that shifts
+                to equality in pay.
               </p>
               <Link to="/about">
-                <a className="about-link">Learn More →</a>
+                <a className="about-link">Learn how →</a>
               </Link>
             </div>
           </section>
           <section className="home-benefits">
             <div>
-              <h2>Who Should Use Bridge the Gap?</h2>
+              <h2>Who Benefits?</h2>
             </div>
             <div className="benefit-cards">
               <div className="benefit">
                 <img className="benefit-image" src={handshake} />
                 <h4>Entrepeneurs</h4>
                 <p className="benefit-p">
-                  Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
-                  ipsum dolor sit amet, consectetur adipscing elit.
+                  To set the standard in their growing endeavors.
                 </p>
               </div>
               <div className="benefit">
                 <img className="benefit-image" src={briefcase} />
                 <h4>Aspiring Professionals</h4>
                 <p className="benefit-p">
-                  Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
-                  ipsum dolor sit amet, consectetur adipscing elit.
+                  To find resources and compare industry market rates.
                 </p>
               </div>
               <div className="benefit">
                 <img className="benefit-image" src={megaphone} />
                 <h4>Activists</h4>
                 <p className="benefit-p">
-                  Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
-                  ipsum dolor sit amet, consectetur adipscing elit.
+                  To obtain in-depth real-time data and track the gap.
                 </p>
               </div>
               <div className="benefit">
                 <img className="benefit-image" src={companies} />
                 <h4>Business Leaders</h4>
                 <p className="benefit-p">
-                  Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
-                  ipsum dolor sit amet, consectetur adipscing elit.
+                  To stay informed and mindful while hiring and promoting.
                 </p>
               </div>
               <div className="benefit">
                 <img className="benefit-image" src={creativity} />
                 <h4>Creative Thinkers</h4>
                 <p className="benefit-p">
-                  Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
-                  ipsum dolor sit amet, consectetur adipscing elit.
+                  To find inspiration and creative new ways to combat the wage
+                  gap.
                 </p>
               </div>
               <div className="benefit">
                 <img className="benefit-image" src={team} />
                 <h4>Organizations</h4>
                 <p className="benefit-p">
-                  Lorem ipsum dolor sit amet, consectetur adipscing elit. Lorem
-                  ipsum dolor sit amet, consectetur adipscing elit.
+                  To maintain awareness in order to continue positive change.
                 </p>
               </div>
             </div>

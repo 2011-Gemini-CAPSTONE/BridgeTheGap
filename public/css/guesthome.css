@@ -160,6 +160,7 @@ h6 {
 }
 
 .scroll {
+  display: flex;
   margin-top: 500px;
 }
 
