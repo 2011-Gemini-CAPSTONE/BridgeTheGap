@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react'
-import {Tooltip} from 'material-ui'
 import stateMap from '../Assets/StatePath'
 import '../../../public/css/map.css'
 import StateInfo from '../StateInfo'

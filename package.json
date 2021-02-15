@@ -68,6 +68,7 @@
     "react-redux": "^7.0.1",
     "react-router-dom": "^5.0.0",
     "react-simple-maps": "^2.3.0",
+    "react-table": "^7.6.3",
     "reactstrap": "^8.9.0",
     "redux": "^4.0.1",
     "redux-logger": "^3.0.6",

@@ -6,7 +6,7 @@ import * as d3 from 'd3'
 
 // eslint-disable-next-line max-statements
 export const drawGraph = data => {
-  const margin = {top: 10, right: 20, bottom: 180, left: 70}
+  const margin = {top: 10, right: 20, bottom: 170, left: 70}
   const width = 900 - margin.left - margin.right
   const height = 700 - margin.top - margin.bottom
 
@@ -23,15 +23,18 @@ export const drawGraph = data => {
   }, {})
 
   const result = Object.keys(test).map(key => ({name: key, value: test[key]}))
-  console.log('result -->', result)
-
+  console.log(result)
   const max = d3.max(result, d => d.value)
-  console.log('This is max ->', max)
 
   const xAxisGroup = svg
     .append('g')
     .attr('transform', `translate(0, ${height})`)
   const yAxisGroup = svg.append('g')
+
+  const tooltip = d3
+    .select('body')
+    .append('div')
+    .attr('class', 'toolTip')
 
   // create y axis
   const y = d3
@@ -42,7 +45,7 @@ export const drawGraph = data => {
     .append('g')
     .attr('transform', 'translate(' + 70 + ')')
     .attr('fill', '#5e2cba')
-    .call(d3.axisLeft(y).ticks(8))
+    .call(d3.axisLeft(y).ticks(10))
   svg
     .append('text') // text label for the y axis
     .attr('transform', 'rotate(-90)')
@@ -73,6 +76,7 @@ export const drawGraph = data => {
     .text('Job Fields')
 
   const rects = svg.selectAll('rect').data(result)
+
   // remove exit selection
   rects.exit().remove()
   // update current shpaes in DOM
