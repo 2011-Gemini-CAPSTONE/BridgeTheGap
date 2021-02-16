@@ -4,6 +4,7 @@
   flex-direction: row;
   justify-content: space-around;
   flex: 0 0 33%;
+  margin-bottom: 5%;
 }
 .article-card {
   width: 350px;
@@ -23,7 +24,8 @@
 }
 
 .articleHeader {
-  margin-left: 20px;
+  margin-left: 45%;
+  margin-bottom: 5%;
 }
 
 .card-img-top {

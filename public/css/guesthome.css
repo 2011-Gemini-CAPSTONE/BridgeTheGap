@@ -71,13 +71,15 @@ h6 {
 
 .guest-home-video {
   margin-left: 11%;
-  margin-right: 45px;
+  margin-right: 5%;
+  width: 50%;
 }
 
 .about-p {
   padding-top: 12px;
   overflow-wrap: break-word;
   width: 420px;
+  padding-right: 20%;
 }
 
 .about-link {
