@@ -21,7 +21,7 @@ const About = () => {
           <ReactPlayer
             className="about-video"
             controls
-            url="https://vimeo.com/512569245"
+            url="https://vimeo.com/512761769"
           />
         </div>
       </section>

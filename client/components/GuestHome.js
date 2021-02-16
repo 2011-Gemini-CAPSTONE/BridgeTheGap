@@ -42,7 +42,7 @@ const GuestHome = ({isLoggedIn}) => {
             <ReactPlayer
               className="guest-home-video"
               controls
-              url="https://vimeo.com/512371444"
+              url="https://vimeo.com/512761769"
             />
             <div className="about-text">
               <h2 className="about-h1">Bridging the Gap</h2>
@@ -143,10 +143,9 @@ const GuestHome = ({isLoggedIn}) => {
             </div>
           </Jumbotron>
           <section className="home-about">
-            <ReactPlayer
+            <img
               className="guest-home-video"
-              controls
-              url="https://vimeo.com/512371444"
+              src="https://cloud.fullstackacademy.com/women-start-up-2-1.jpeg?mtime=20190918113046"
             />
             <div className="about-text">
               <h2 className="about-h1">Bridging the Gap</h2>

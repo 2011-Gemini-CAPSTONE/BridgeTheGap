@@ -54,7 +54,7 @@ export const drawGraph = data => {
     .attr('x', -10)
     .style('text-anchor', 'end')
     .attr('fill', '#5e2cba')
-    .text('Number of jobs in each field')
+    .text('Number of jobs reported in each field')
 
   //Create x axis
   const x = d3

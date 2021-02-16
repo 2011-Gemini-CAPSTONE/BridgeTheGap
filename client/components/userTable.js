@@ -62,7 +62,7 @@ const useStyles = makeStyles({
     width: '90%'
   },
   container: {
-    maxHeight: 500
+    maxHeight: 10000
   },
   head: {
     backgroundColor: '#ffd35a',
