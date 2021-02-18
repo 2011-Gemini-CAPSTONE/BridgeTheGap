@@ -129,7 +129,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footerLogo">
-        <img src="https://svgshare.com/i/ThH.svg" />
+        <img src="https://i.ibb.co/jyQ8NPF/BTG-Icon-2.png" />
       </div>
     </div>
   )
