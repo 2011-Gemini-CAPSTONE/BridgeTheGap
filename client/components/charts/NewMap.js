@@ -38,6 +38,7 @@ const USMap = props => {
         setStateInfo={setStateInfo}
         filterData={filterData}
         setFilterData={setFilterData}
+        state={state}
       />
     </div>
   ) : (
@@ -55,10 +56,13 @@ const USMap = props => {
                 d={stateData.shape}
                 onMouseDown={onClick}
                 onMouseOver={event => {
-                  event.target.style.fill = '#083E80'
                   let user = userData.filter(
                     data => data.state === stateData.name
                   )
+                  user.length > 0
+                    ? (event.target.style.fill = '#083E80')
+                    : (event.target.style.fill = '#ff0000')
+
                   setStateUsers(user)
                   let females = user
                     .filter(f => f.gender === 'Female')
