@@ -4,13 +4,13 @@ import UserTable from './userTable'
 import '../../public/css/stateInfo.css'
 
 const StateInfo = props => {
-  const {setStateInfo, stateUsers} = props
-
+  const {setStateInfo, stateUsers, state} = props
+  console.log('state users', state)
   useEffect(() => {
     drawGraph(stateUsers)
   }, [])
 
-  return (
+  return stateUsers.length > 0 ? (
     <div className="stateInfo-container">
       <button
         className="back-button"
@@ -44,6 +44,18 @@ const StateInfo = props => {
           </div>
         ))} */}
       </div>
+    </div>
+  ) : (
+    <div className="noState">
+      <button
+        className="back-button"
+        type="button"
+        onClick={() => setStateInfo(false)}
+      >
+        {' '}
+        Back to Map
+      </button>
+      <h1 className="noState-text"> There is no data for {state}</h1>
     </div>
   )
 }
