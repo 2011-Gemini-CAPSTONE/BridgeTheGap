@@ -15,7 +15,7 @@ const USMap = props => {
   const userData = props.data
 
   const onClick = () => {
-    setStateInfo(true)
+    stateUsers.length > 0 ? setStateInfo(true) : setStateInfo(false)
   }
 
   // This should only run once due to the [] arg for the dependencies.
@@ -101,7 +101,7 @@ const USMap = props => {
             <h4 className="femaleText">
               Female :{' '}
               {isNaN(female)
-                ? 'No Female Data'
+                ? 'No SWE pay reported'
                 : female.toLocaleString('en-US', {
                     style: 'currency',
                     currency: 'USD'
@@ -112,7 +112,7 @@ const USMap = props => {
             <h4 className="maleText">
               Male :{' '}
               {isNaN(male)
-                ? 'No Male Data'
+                ? 'No SWE pay reported'
                 : male.toLocaleString('en-US', {
                     style: 'currency',
                     currency: 'USD'
