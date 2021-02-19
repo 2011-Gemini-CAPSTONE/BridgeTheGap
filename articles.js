@@ -264,6 +264,25 @@ const articles = [
     description: 'The gender wage gap in tech is bad for the economy',
     url:
       'https://cdn.vox-cdn.com/thumbor/lAQHkyxEUL7QEnQtApNC3IWkTxM=/0x0:3000x2000/920x613/filters:focal(1260x760:1740x1240):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/63334333/929396162.jpg.0.jpg'
+  },
+  {
+    id: 29,
+    title: 'The gender wage gap is shrinking among computer programmers',
+    link:
+      'https://techcrunch.com/2019/03/26/the-gender-wage-gap-is-shrinking-among-computer-programmers-but-its-still-quite-large/#:~:text=Glassdoor%20has%20released%20its%20latest,for%20every%20%241%20men%20earn.&text=Across%20the%20U.S.%2C%2079%20percent,U.S.%20Bureau%20of%20Labor%20Statistics.',
+    description:
+      'The wage gap among computer programmers represents the largest pay gap shrink...',
+    url:
+      'https://techcrunch.com/wp-content/uploads/2018/05/programmergirl_preview.jpeg'
+  },
+  {
+    id: 30,
+    title: 'Everything you need to know about pushing for equal pay',
+    link:
+      'https://un-women.medium.com/everything-you-need-to-know-about-pushing-for-equal-pay-c4588f3e7858',
+    description:
+      'Globally, the gender pay gap stands at 16 per cent, meaning women...',
+    url: 'https://miro.medium.com/max/1500/1*kG1IRb3E5g9QZSymV6Fl9g.jpeg'
   }
 ]
 // console.log(articles[0].title)

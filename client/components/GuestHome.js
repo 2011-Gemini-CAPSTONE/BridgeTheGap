@@ -24,9 +24,8 @@ const GuestHome = ({isLoggedIn}) => {
               <div className="welcome-box">
                 <h2 className="jumbo1-h1">Increase Transparency</h2>
                 <p className="jumbo1-lead">
-                  Women and gender minorities must unite to effectively combat
-                  bias and close earning gaps between themselves and men.
-                  Transparency wins the day.
+                  Women and gender minorities are uniting to effectively combat
+                  bias and close earning gaps. Transparency wins the day.
                 </p>
                 <p className="jumbo1-btn">
                   <Link to="/addsalary">
@@ -47,10 +46,10 @@ const GuestHome = ({isLoggedIn}) => {
             <div className="about-text">
               <h2 className="about-h1">Bridging the Gap</h2>
               <p className="about-p">
-                Women in the U.S. who work full-time, year-round are typically
-                paid only 82 cents for every dollar paid to their male
-                counterparts. —— We're here to be a part of change that shifts
-                to equality in pay.
+                Women & gender minorities in the U.S. who work full-time,
+                year-round are typically paid only 52-82 cents for every dollar
+                paid to their male counterparts. —— We're here to be a part of
+                change that shifts to equality in pay.
               </p>
               <Link to="/about">
                 <a className="about-link">Learn how →</a>
@@ -128,9 +127,8 @@ const GuestHome = ({isLoggedIn}) => {
               <div className="welcome-box">
                 <h2 className="jumbo1-h1">Increase Transparency</h2>
                 <p className="jumbo1-lead">
-                  Women and gender minorities must unite to effectively combat
-                  bias and close earning gaps between themselves and men.
-                  Transparency wins the day.
+                  Women and gender minorities are uniting to effectively combat
+                  bias and close earning gaps. Transparency wins the day.
                 </p>
                 <p className="jumbo1-btn">
                   <Link to="/signup">
@@ -150,10 +148,10 @@ const GuestHome = ({isLoggedIn}) => {
             <div className="about-text">
               <h2 className="about-h1">Bridging the Gap</h2>
               <p className="about-p">
-                Women in the U.S. who work full-time, year-round are typically
-                paid only 82 cents for every dollar paid to their male
-                counterparts. —— We're here to be a part of change that shifts
-                to equality in pay.
+                Women & gender minorities in the U.S. who work full-time,
+                year-round are typically paid only 52-82 cents for every dollar
+                paid to their male counterparts. —— We're here to be a part of
+                change that shifts to equality in pay.
               </p>
               <Link to="/about">
                 <a className="about-link">Learn how →</a>
