@@ -10,7 +10,7 @@ const StateInfo = props => {
     drawGraph(stateUsers)
   }, [])
 
-  return stateUsers.length > 0 ? (
+  return (
     <div className="stateInfo-container">
       <button
         className="back-button"
@@ -27,35 +27,7 @@ const StateInfo = props => {
         <div className="userTable">
           <UserTable data={stateUsers} />
         </div>
-        {/* {stateUsers.map((stateUser) => (
-          <div key={stateUser.id}>
-            <p>
-              {stateUser.city}, {stateUser.state}
-            </p>
-            <p>
-              {Number(stateUser.salary).toLocaleString('en-US', {
-                style: 'currency',
-                currency: 'USD',
-              })}
-            </p>
-            <p>{stateUser.gender}</p>
-            <p>{stateUser.team}</p>
-            <p>{stateUser.jobTitle}</p>
-          </div>
-        ))} */}
       </div>
-    </div>
-  ) : (
-    <div className="noState">
-      <button
-        className="back-button"
-        type="button"
-        onClick={() => setStateInfo(false)}
-      >
-        {' '}
-        Back to Map
-      </button>
-      <h1 className="noState-text"> There is no data for {state}</h1>
     </div>
   )
 }
